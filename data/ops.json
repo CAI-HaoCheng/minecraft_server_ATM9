@@ -10,5 +10,11 @@
     "name": "darkhome",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "b437c09e-75f4-49ee-9b3d-15a6e8befa15",
+    "name": "Anchon_Yu",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

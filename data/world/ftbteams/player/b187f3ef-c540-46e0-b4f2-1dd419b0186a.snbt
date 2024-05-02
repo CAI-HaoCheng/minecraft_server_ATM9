@@ -2,13 +2,11 @@
 	id: "b187f3ef-c540-46e0-b4f2-1dd419b0186a"
 	type: "player"
 	player_name: "HiddenMW"
-	ranks: {
-		b187f3ef-c540-46e0-b4f2-1dd419b0186a: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "HiddenMW"
 		"ftbteams:description": ""
-		"ftbteams:color": "#59FF62"
+		"ftbteams:color": "#59FFDC"
 		"ftbteams:free_to_join": 0b
 		"ftbteams:max_msg_history_size": 1000
 		"ftbchunks:allow_explosions": 0b

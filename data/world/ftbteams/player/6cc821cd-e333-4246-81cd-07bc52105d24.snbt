@@ -2,13 +2,11 @@
 	id: "6cc821cd-e333-4246-81cd-07bc52105d24"
 	type: "player"
 	player_name: "darkhome"
-	ranks: {
-		6cc821cd-e333-4246-81cd-07bc52105d24: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "darkhome"
 		"ftbteams:description": ""
-		"ftbteams:color": "#599FFF"
+		"ftbteams:color": "#6059FF"
 		"ftbteams:free_to_join": 0b
 		"ftbteams:max_msg_history_size": 1000
 		"ftbchunks:allow_explosions": 0b
