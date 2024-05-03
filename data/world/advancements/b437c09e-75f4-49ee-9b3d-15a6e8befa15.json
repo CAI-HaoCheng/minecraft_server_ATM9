@@ -5196,12 +5196,17 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-05-01 15:49:25 +0000",
+      "minecraft:skeleton": "2024-05-03 15:10:48 +0000",
       "minecraft:vindicator": "2024-05-01 15:43:29 +0000",
       "minecraft:spider": "2024-05-01 14:58:25 +0000",
+      "minecraft:creeper": "2024-05-03 15:00:42 +0000",
       "minecraft:evoker": "2024-05-01 15:43:25 +0000",
       "minecraft:witch": "2024-05-01 15:51:01 +0000",
+      "minecraft:cave_spider": "2024-05-03 15:17:25 +0000",
+      "minecraft:piglin": "2024-05-03 15:32:43 +0000",
       "minecraft:vex": "2024-05-01 15:45:18 +0000",
-      "minecraft:zombie": "2024-05-01 15:32:12 +0000"
+      "minecraft:zombie": "2024-05-01 15:32:12 +0000",
+      "quark:foxhound": "2024-05-03 15:32:39 +0000"
     },
     "done": false
   },
@@ -6357,6 +6362,7 @@
       "coniferous_forest": "2024-05-01 15:08:23 +0000",
       "spider_nest": "2024-05-01 16:35:03 +0000",
       "redwood_forest": "2024-05-01 15:26:39 +0000",
+      "visceral_heap": "2024-05-03 15:29:26 +0000",
       "dune_beach": "2024-05-01 15:27:28 +0000",
       "seasonal_forest": "2024-05-01 16:30:45 +0000",
       "grassland": "2024-05-01 15:14:50 +0000",
@@ -6380,7 +6386,8 @@
       "minecraft:swamp": "2024-05-01 16:34:44 +0000",
       "minecraft:forest": "2024-05-01 15:37:37 +0000",
       "minecraft:ocean": "2024-05-01 15:15:28 +0000",
-      "minecraft:old_growth_birch_forest": "2024-05-01 15:13:54 +0000"
+      "minecraft:old_growth_birch_forest": "2024-05-01 15:13:54 +0000",
+      "minecraft:deep_dark": "2024-05-03 15:17:43 +0000"
     },
     "done": false
   },
@@ -11039,6 +11046,2318 @@
   "sophisticatedbackpacks:recipes/misc/netherite_backpack": {
     "criteria": {
       "has_diamond_backpack": "2024-05-02 13:16:01 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/invar_nugget": {
+    "criteria": {
+      "has_invar_ingot": "2024-05-03 15:12:05 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/zinc_ingot_from_ore": {
+    "criteria": {
+      "has_item": "2024-05-03 15:10:07 +0000"
+    },
+    "done": true
+  },
+  "wirelesschargers:recipes/misc/basic_wireless_block_charger": {
+    "criteria": {
+      "recipe_condition": "2024-05-03 14:55:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wither_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/invar_knife": {
+    "criteria": {
+      "has_ingots/invar": "2024-05-03 15:12:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/coal_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/plate_lead_hammering": {
+    "criteria": {
+      "has_lead_ingot": "2024-05-03 15:02:31 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/lead_ingot_from_slate_ore": {
+    "criteria": {
+      "has_item": "2024-05-03 15:04:09 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/manasteel_sword": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:56 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/lead_dust": {
+    "criteria": {
+      "has_lead": "2024-05-03 15:04:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-05-03 15:05:42 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_wall_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/invar_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/invar]_ingot": "2024-05-03 15:12:05 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/gold_block_from_smelting": {
+    "criteria": {
+      "has_raw_gold": "2024-05-03 15:01:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
+    "criteria": {
+      "has_iron_block": "2024-05-03 15:15:35 +0000"
+    },
+    "done": true
+  },
+  "xnet:recipes/xnet/connector_upgrade": {
+    "criteria": {
+      "pearl": "2024-05-03 14:55:51 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/obedience_stick": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:55 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_cyan": {
+    "criteria": {
+      "has_fluix_glass_cable": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/lead_knife": {
+    "criteria": {
+      "has_ingots/lead": "2024-05-03 15:02:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/skeleton_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/wirecoil_structure_steel": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/clibano_combustion/lapis_lazuli_from_clibano_combusting": {
+    "criteria": {
+      "has_item": "2024-05-03 15:13:12 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/shovel_steel": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_light_blue": {
+    "criteria": {
+      "has_fluix_glass_cable": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_fish_and_chips": {
+    "criteria": {
+      "has_flour": "2024-05-03 14:41:58 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/building_blocks/crafting/silver_block": {
+    "criteria": {
+      "has_silver_ingot": "2024-05-03 14:55:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/end_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/pump": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:56 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/buttered_toast": {
+    "criteria": {
+      "has_toast": "2024-05-03 14:41:29 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/hoe_steel": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/ice_pendant": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:55 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/osmium_ingot_from_slate_ore": {
+    "criteria": {
+      "has_item": "2024-05-03 15:01:03 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/silver_nugget": {
+    "criteria": {
+      "has_silver_ingot": "2024-05-03 15:06:26 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/bronze_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2024-05-03 15:01:59 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/osmium_ingot_from_slate_ore_blasting": {
+    "criteria": {
+      "has_item": "2024-05-03 15:01:03 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/lapis_dust": {
+    "criteria": {
+      "has_lapis": "2024-05-03 15:13:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/quartz_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/zinc_ingot_from_slate_ore": {
+    "criteria": {
+      "has_item": "2024-05-03 15:10:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dripstone_block": {
+    "criteria": {
+      "has_pointed_dripstone": "2024-05-03 14:53:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/aluminum_dust": {
+    "criteria": {
+      "has_aluminum": "2024-05-03 15:04:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_deepslate_iron_ore": {
+    "criteria": {
+      "has_deepslate_iron_ore": "2024-05-03 15:00:58 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/dripstone_pillar_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/wire_lead": {
+    "criteria": {
+      "has_lead_ingot": "2024-05-03 15:02:31 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/blasting/zinc_ingot_from_ore": {
+    "criteria": {
+      "has_item": "2024-05-03 15:10:07 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/tortilla": {
+    "criteria": {
+      "took_flour": "2024-05-03 14:41:58 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/raw_gold_block": {
+    "criteria": {
+      "has_the_recipe": "2024-05-03 15:01:57 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/root": {
+    "criteria": {
+      "spawner": "2024-05-03 14:57:57 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_slab_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_unstable_intangibility": {
+    "criteria": {
+      "has_magic_scroll": "2024-05-03 15:02:54 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/axe_steel": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/steel_chestplate": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fox_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/magic_lamp_empty": {
+    "criteria": {
+      "has_silver_ingot": "2024-05-03 14:55:53 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/network/cell_dock": {
+    "criteria": {
+      "has_glass_cable": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/redstone_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-05-03 15:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/pumpkin_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "nethersdelight:recipes/misc/soul_compost_from_hoglin_hide": {
+    "criteria": {
+      "has_soil": "2024-05-03 15:33:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_smelting_redstone_ore": {
+    "criteria": {
+      "has_redstone_ore": "2024-05-03 14:52:39 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/iron_tunnel_bore_head": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/silver_block_from_silver_ingot": {
+    "criteria": {
+      "has_silver_ingot": "2024-05-03 15:06:26 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_stairs_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/silver_dust_from_ingot": {
+    "criteria": {
+      "has_silver_ingot": "2024-05-03 14:55:53 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/gold_dust_from_raw": {
+    "criteria": {
+      "has_raw_gold": "2024-05-03 15:01:57 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/gold_block_from_blasting": {
+    "criteria": {
+      "has_raw_gold": "2024-05-03 15:01:57 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/storage_chest": {
+    "criteria": {
+      "has_glass_cable": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/magnet_ring": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:56 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/silver_nugget": {
+    "criteria": {
+      "has_silver_ingot": "2024-05-03 14:55:53 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/explosion_crafting/compressed_iron_ingot": {
+    "criteria": {
+      "tnt": "2024-05-03 15:27:11 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/campfire_cooking/bread": {
+    "criteria": {
+      "has_item": "2024-05-03 14:42:38 +0000"
+    },
+    "done": true
+  },
+  "mekanismtools:better_than_netherite": {
+    "criteria": {
+      "armor": "2024-05-03 15:10:51 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/bronze_block_from_bronze_ingot": {
+    "criteria": {
+      "has_bronze_ingot": "2024-05-03 15:12:21 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/dripstone_block_1x": {
+    "criteria": {
+      "has_dripstone_block": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/clibano_combustion/gold_ingot_from_clibano_combusting": {
+    "criteria": {
+      "has_item": "2024-05-03 15:14:20 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/invar_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/invar]_ingot": "2024-05-03 15:12:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_deepslate_gold_ore": {
+    "criteria": {
+      "has_deepslate_gold_ore": "2024-05-03 15:14:20 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/osmium_ingot_from_ore_blasting": {
+    "criteria": {
+      "has_item": "2024-05-03 15:01:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/chicken_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "deeperdarker:main/root": {
+    "criteria": {
+      "deep_dark": "2024-05-03 15:17:43 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_true_sight": {
+    "criteria": {
+      "has_magic_scroll": "2024-05-03 15:12:11 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/steel_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/steel]_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/nickel_ingot_from_slate_ore": {
+    "criteria": {
+      "has_item": "2024-05-03 15:04:28 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/manasteel_leggings": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:55 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_dripstone_wall_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/sponge_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/silver_dust": {
+    "criteria": {
+      "has_silver": "2024-05-03 15:09:38 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/zinc_ingot_from_slate_ore_blasting": {
+    "criteria": {
+      "has_item": "2024-05-03 15:10:07 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/manasteel_shovel": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/magma_cube_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_blasting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2024-05-03 15:13:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/emerald_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_purple": {
+    "criteria": {
+      "has_fluix_glass_cable": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/nickel_ingot_from_raw": {
+    "criteria": {
+      "has_item": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/amethyst_block": {
+    "criteria": {
+      "has_the_recipe": "2024-05-03 15:05:42 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/lead_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/lead]_ingot": "2024-05-03 15:02:31 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/dough": {
+    "criteria": {
+      "has_item": "2024-05-03 14:41:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/villager_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/steel_shovel": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_brick_stairs_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/tin_ingot_from_slate_ore": {
+    "criteria": {
+      "has_item": "2024-05-03 15:14:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/anvil": {
+    "criteria": {
+      "has_the_recipe": "2024-05-03 15:15:35 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_dripstone_brick_stairs_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/invar_dust_from_ingot": {
+    "criteria": {
+      "has_invar_ingot": "2024-05-03 15:12:05 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_bricks_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/coil_hv": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/wirecoil_steel": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/steel_sword": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/nether_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2024-05-03 15:05:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/snow_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_blasting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2024-05-03 14:51:35 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/silver_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/silver]_ingot": "2024-05-03 14:55:53 +0000"
+    },
+    "done": true
+  },
+  "buildinggadgets2:recipes/misc/gadget_destruction": {
+    "criteria": {
+      "has_ender_pearl": "2024-05-03 14:55:51 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/charged_porter": {
+    "criteria": {
+      "pearl": "2024-05-03 14:55:51 +0000"
+    },
+    "done": true
+  },
+  "chimes:recipes/decorations/glass_bells": {
+    "criteria": {
+      "has_bottle": "2024-05-03 15:12:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_blasting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2024-05-03 15:13:12 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/steel_dust_from_ingot": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/diamond_tunnel_bore_head": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/iron_dust": {
+    "criteria": {
+      "has_iron": "2024-05-03 15:00:53 +0000"
+    },
+    "done": true
+  },
+  "mekanismtools:alternate_armor": {
+    "criteria": {
+      "armor": "2024-05-03 15:10:51 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/dough": {
+    "criteria": {
+      "has_flour": "2024-05-03 14:41:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/cactus_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lapis_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/hempcrete": {
+    "criteria": {
+      "has_item": "2024-05-03 15:25:19 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/travel_belt": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:56 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/dripstone_corner_trim": {
+    "criteria": {
+      "has_dripstone_corner_trim": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_deepslate_iron_ore": {
+    "criteria": {
+      "has_deepslate_iron_ore": "2024-05-03 15:00:58 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/monocle": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:55 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/nickel_ingot_from_raw_blasting": {
+    "criteria": {
+      "has_item": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/egg_roll": {
+    "criteria": {
+      "has_the_recipe": "2024-05-03 14:41:58 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_orange": {
+    "criteria": {
+      "has_fluix_glass_cable": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2024-05-03 14:51:35 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/diamond_dust": {
+    "criteria": {
+      "has_diamond": "2024-05-03 15:13:17 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_fluix_clean": {
+    "criteria": {
+      "has_glass_cable": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/lead_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/lead]_ingot": "2024-05-03 15:02:31 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/plate_silver_hammering": {
+    "criteria": {
+      "has_silver_ingot": "2024-05-03 14:55:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2024-05-03 15:32:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/sextant": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2024-05-03 15:05:42 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_dripstone_slab_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/standard_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/lead_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/lead]_ingot": "2024-05-03 15:02:31 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_blue": {
+    "criteria": {
+      "has_fluix_glass_cable": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/lead_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/lead]_ingot": "2024-05-03 15:02:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/ghast_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_brown": {
+    "criteria": {
+      "has_fluix_glass_cable": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/find_grave_dust": {
+    "criteria": {
+      "from_undead": "2024-05-03 14:55:30 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/steel_block": {
+    "criteria": {
+      "has_steel_block": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2024-05-03 15:01:57 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/manasteel_knife": {
+    "criteria": {
+      "has_ingots/manasteel": "2024-05-03 14:55:56 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/glass_pickaxe": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:55 +0000"
+    },
+    "done": true
+  },
+  "usefulrailroads:recipes/fuel/teleport_rail/ender_pearl": {
+    "criteria": {
+      "has_ingredient": "2024-05-03 14:55:51 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/teleport_pad": {
+    "criteria": {
+      "has_ender_pearl": "2024-05-03 14:55:51 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/misc/tiny_tnt": {
+    "criteria": {
+      "has_gunpowder": "2024-05-03 14:55:54 +0000"
+    },
+    "done": true
+  },
+  "chimes:recipes/decorations/amethyst_chimes": {
+    "criteria": {
+      "has_planks": "2024-05-03 15:05:42 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/compacted_dripstone": {
+    "criteria": {
+      "has_pointed_dripstone": "2024-05-03 14:53:30 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/steel_shears": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/compressing/compressing/steel_plate_from_compressing_steel_ingots": {
+    "criteria": {
+      "has_item": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_dripstone_bricks_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_copper_block": {
+    "criteria": {
+      "has_raw_copper": "2024-05-03 14:51:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_blasting_deepslate_gold_ore": {
+    "criteria": {
+      "has_deepslate_gold_ore": "2024-05-03 15:14:20 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/lens_frame": {
+    "criteria": {
+      "has_silver_ingot": "2024-05-03 14:55:53 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/swap_ring": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:56 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/steel_leggings": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/glass_cable": {
+    "criteria": {
+      "certus": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_dripstone_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "silentgear:repair_from_broken": {
+    "criteria": {
+      "repair": "2024-05-03 14:58:13 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_fletching_table": {
+    "criteria": {
+      "has_flint": "2024-05-03 14:51:35 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_magenta": {
+    "criteria": {
+      "has_fluix_glass_cable": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/connector_structural": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/manasteel_block": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:55 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/silver_dust_from_raw_block": {
+    "criteria": {
+      "has_raw_silver_block": "2024-05-03 15:10:21 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/mining_ring": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:56 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/turbine/basic/bearing": {
+    "criteria": {
+      "has_item": "2024-05-03 15:15:35 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/dripstone_block": {
+    "criteria": {
+      "has_the_recipe": "2024-05-03 14:53:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_smelting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2024-05-03 15:05:00 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/steel_fence": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_dripstone_stairs_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/silver_ingot_from_slate_ore": {
+    "criteria": {
+      "has_item": "2024-05-03 15:09:38 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/steel_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/steel]_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "entangled:recipes/misc/block": {
+    "criteria": {
+      "recipe_condition": "2024-05-03 14:55:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/dragon_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/clibano_combustion/iron_ingot_from_clibano_combusting": {
+    "criteria": {
+      "has_item": "2024-05-03 15:00:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spider_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/gunpart_hammer": {
+    "criteria": {
+      "has_ingot_steel": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/explosion_crafting/wheat_flour": {
+    "criteria": {
+      "tnt": "2024-05-03 15:27:11 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/hemp_fabric": {
+    "criteria": {
+      "has_hemp_fiber": "2024-05-03 15:25:19 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/zinc_dust": {
+    "criteria": {
+      "has_zinc": "2024-05-03 15:10:07 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_nickel_block": {
+    "criteria": {
+      "has_raw_TagKey[minecraft:item / forge:raw_materials/nickel]": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "itemcollectors:recipes/misc/basic_collector": {
+    "criteria": {
+      "recipe_condition": "2024-05-03 14:55:51 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_dripstone_brick_wall_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/slime_ball": {
+    "criteria": {
+      "has_item": "2024-05-03 14:42:38 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/iron_ore_hammer": {
+    "criteria": {
+      "has_iron_block": "2024-05-03 15:15:35 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/invar_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/invar]_ingot": "2024-05-03 15:12:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/bookshelf_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/goggles": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:nether_wastes": "2024-05-03 15:30:58 +0000",
+      "minecraft:basalt_deltas": "2024-05-03 15:30:51 +0000",
+      "minecraft:warped_forest": "2024-05-03 15:28:39 +0000"
+    },
+    "done": false
+  },
+  "handcrafted:recipes/misc/dripstone_pillar_trim": {
+    "criteria": {
+      "has_dripstone_pillar_trim": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/steel_knife": {
+    "criteria": {
+      "has_ingots/steel": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flint_block": {
+    "criteria": {
+      "has_flint": "2024-05-03 14:51:35 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/nickel_dust_from_raw": {
+    "criteria": {
+      "has_raw_nickel": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/doughnut": {
+    "criteria": {
+      "has_flour": "2024-05-03 14:41:58 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/invar_block_from_invar_ingot": {
+    "criteria": {
+      "has_invar_ingot": "2024-05-03 15:12:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/sheep_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/capacitor_lv": {
+    "criteria": {
+      "has_lead_ingot": "2024-05-03 15:02:31 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/steel_axe": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/capacitor_mv": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smoking/bread": {
+    "criteria": {
+      "has_item": "2024-05-03 14:42:38 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/capacitor_hv": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_yellow": {
+    "criteria": {
+      "has_fluix_glass_cable": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/squid_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/component_steel": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/blast_furnace/blasting_steel_block": {
+    "criteria": {
+      "has_iron_block": "2024-05-03 15:15:35 +0000"
+    },
+    "done": true
+  },
+  "croptopia:eatcrafted": {
+    "criteria": {
+      "eat_crafted": "2024-05-03 14:42:45 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/steel_boots": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/soul_sand_1x": {
+    "criteria": {
+      "has_soul_sand": "2024-05-03 15:32:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2024-05-03 14:55:54 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/toggle_bus": {
+    "criteria": {
+      "has_glass_cable": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_dripstone_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/tin_ingot_from_slate_ore_blasting": {
+    "criteria": {
+      "has_item": "2024-05-03 15:14:09 +0000"
+    },
+    "done": true
+  },
+  "artifacts:chest_slayer": {
+    "criteria": {
+      "kill_mimic": "2024-05-03 15:14:49 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/lead_gear": {
+    "criteria": {
+      "has_material": "2024-05-03 15:02:31 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_black": {
+    "criteria": {
+      "has_fluix_glass_cable": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mana_fluxfield": {
+    "criteria": {
+      "has_alt_item": "2024-05-03 14:55:56 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/steel_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/steel]_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/steel_pickaxe": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/creeper_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/osmium_ingot_from_ore": {
+    "criteria": {
+      "has_item": "2024-05-03 15:01:01 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/conversions/manasteel_block_deconstruct": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:56 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/bronze_tunnel_bore_head": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "xnet:recipes/xnet/antenna_base": {
+    "criteria": {
+      "block": "2024-05-03 15:15:35 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/noodles": {
+    "criteria": {
+      "has_flour": "2024-05-03 14:41:58 +0000"
+    },
+    "done": true
+  },
+  "allthetweaks:recipes/misc/ender_pearl_block": {
+    "criteria": {
+      "has_ender_pearl": "2024-05-03 14:55:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/bee_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_dripstone_brick_slab_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/bauble_box": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:55 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/explosion_crafting/compressed_iron_block": {
+    "criteria": {
+      "tnt": "2024-05-03 15:27:11 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/redstone_dust": {
+    "criteria": {
+      "has_redstone": "2024-05-03 14:52:39 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/silver_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/silver]_ingot": "2024-05-03 14:55:53 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/ashes_and_bones": {
+    "criteria": {
+      "coded_trigger": "2024-05-03 15:05:03 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_mercy": {
+    "criteria": {
+      "has_magic_scroll": "2024-05-03 15:08:06 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/osmium_dust": {
+    "criteria": {
+      "has_osmium": "2024-05-03 15:01:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/fletching_table": {
+    "criteria": {
+      "has_flint": "2024-05-03 14:51:35 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/steel_scaffolding_standard": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/manasteel_hoe": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:55 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/knockback_belt": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:56 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/bread": {
+    "criteria": {
+      "has_item": "2024-05-03 14:42:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2024-05-03 15:32:59 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/osmium_dust_from_raw_block": {
+    "criteria": {
+      "has_raw_osmium_block": "2024-05-03 15:09:44 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_osmium_from_block": {
+    "criteria": {
+      "has_item": "2024-05-03 15:09:44 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/crystal_processing_growth_accelerator": {
+    "criteria": {
+      "has_glass_cable": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_smelting_raw_gold": {
+    "criteria": {
+      "has_raw_gold": "2024-05-03 15:01:57 +0000"
+    },
+    "done": true
+  },
+  "croptopia:gather_food": {
+    "criteria": {
+      "toast": "2024-05-03 14:41:29 +0000"
+    },
+    "done": false
+  },
+  "immersiveengineering:recipes/misc/crafting/sawblade": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/pig_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/spatial_io_pylon": {
+    "criteria": {
+      "has_glass_cable": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_blasting_deepslate_redstone_ore": {
+    "criteria": {
+      "has_deepslate_redstone_ore": "2024-05-03 15:05:00 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_preservation": {
+    "criteria": {
+      "has_magic_scroll": "2024-05-03 15:03:27 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/bronze_nugget": {
+    "criteria": {
+      "has_bronze_ingot": "2024-05-03 15:12:21 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/smelting/scoria": {
+    "criteria": {
+      "has_item": "2024-05-03 15:32:59 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-05-03 15:05:42 +0000"
+    },
+    "done": true
+  },
+  "dimstorage:recipes/misc/dim_wall": {
+    "criteria": {
+      "has_ender_pearl": "2024-05-03 14:55:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_golem_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/steel_gear": {
+    "criteria": {
+      "has_material": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "silentgear:repair_kit": {
+    "criteria": {
+      "sturdy_repair_kit": "2024-05-03 14:39:45 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/silver_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/silver]_ingot": "2024-05-03 14:55:53 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_light_gray": {
+    "criteria": {
+      "has_fluix_glass_cable": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/toast_with_jam": {
+    "criteria": {
+      "has_toast": "2024-05-03 14:41:29 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/gold_dust": {
+    "criteria": {
+      "has_gold": "2024-05-03 15:14:20 +0000"
+    },
+    "done": true
+  },
+  "shrink:recipes/tools/shrinking_device": {
+    "criteria": {
+      "has_enderpearls": "2024-05-03 14:55:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/sandstone_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/steel_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/steel]_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/sword_steel": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-05-03 15:28:39 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:spirit_taking": {
+    "criteria": {
+      "builtin": "2024-05-03 15:23:54 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/steel_wallmount": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_red": {
+    "criteria": {
+      "has_fluix_glass_cable": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/manasteel_axe": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:55 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/nickel_dust": {
+    "criteria": {
+      "has_nickel": "2024-05-03 15:04:28 +0000"
+    },
+    "done": true
+  },
+  "silentgear:nether": {
+    "criteria": {
+      "entered_nether": "2024-05-03 15:28:39 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/aluminum_ingot_from_slate_ore": {
+    "criteria": {
+      "has_item": "2024-05-03 15:04:23 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/copper_block_from_blasting": {
+    "criteria": {
+      "has_raw_copper": "2024-05-03 14:51:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/melon_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/nickel_ingot_from_slate_ore_blasting": {
+    "criteria": {
+      "has_item": "2024-05-03 15:04:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-05-03 14:52:31 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/drillhead_steel": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/dodge_ring": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:55 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/blasting/silver_ingot": {
+    "criteria": {
+      "has_silver_ore": "2024-05-03 15:09:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/hay_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/lens_normal": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:55 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/gunpart_drum": {
+    "criteria": {
+      "has_ingot_steel": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_from_blasting_redstone_ore": {
+    "criteria": {
+      "has_redstone_ore": "2024-05-03 14:52:39 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/anvil_cart": {
+    "criteria": {
+      "criterion0": "2024-05-03 15:27:32 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/string": {
+    "criteria": {
+      "has_hemp_fiber": "2024-05-03 15:25:19 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/silver_ingot_from_slate_ore_blasting": {
+    "criteria": {
+      "has_item": "2024-05-03 15:09:38 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/copper_block_from_smelting": {
+    "criteria": {
+      "has_raw_copper": "2024-05-03 14:51:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/enderman_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_knowledge": {
+    "criteria": {
+      "coded_trigger": "2024-05-03 15:23:58 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/manasteel_chestplate": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:55 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_brick_slab_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/aluminum_ingot_from_slate_ore_blasting": {
+    "criteria": {
+      "has_item": "2024-05-03 15:04:23 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/tin_dust": {
+    "criteria": {
+      "has_tin": "2024-05-03 15:14:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wolf_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/manasteel_shears": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:55 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_green": {
+    "criteria": {
+      "has_fluix_glass_cable": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/horse_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/steel_tunnel_bore_head": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/wirecoil_structure_rope": {
+    "criteria": {
+      "has_hemp_fiber": "2024-05-03 15:25:19 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/pickaxe_steel": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mana_distributor": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2024-05-03 15:00:53 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_pink": {
+    "criteria": {
+      "has_fluix_glass_cable": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-05-03 15:28:39 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/stick_steel": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/rockcutter": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/dripstone_block_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "silentgear:kachink1": {
+    "criteria": {
+      "kachink": "2024-05-03 15:01:00 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_zinc_from_block": {
+    "criteria": {
+      "has_item": "2024-05-03 15:10:11 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/silver_knife": {
+    "criteria": {
+      "has_ingots/silver": "2024-05-03 14:55:53 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/lava_pendant": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:55 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/crystal_display": {
+    "criteria": {
+      "has_amethyst_shard": "2024-05-03 15:05:42 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/plate_steel_hammering": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/covered_fluix": {
+    "criteria": {
+      "has_glass_cable": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/cake_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/forest_eye": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/flint_and_steel": {
+    "criteria": {
+      "has_flint": "2024-05-03 14:51:35 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_gray": {
+    "criteria": {
+      "has_fluix_glass_cable": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/steel_helmet": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/zinc_dust_from_raw_block": {
+    "criteria": {
+      "has_raw_zinc_block": "2024-05-03 15:10:11 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_white": {
+    "criteria": {
+      "has_fluix_glass_cable": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/manasteel_pick": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:56 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/lead_dust_from_ingot": {
+    "criteria": {
+      "has_lead_ingot": "2024-05-03 15:02:31 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/world_spike": {
+    "criteria": {
+      "has_ender_pearl": "2024-05-03 14:55:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2024-05-03 15:15:35 +0000"
+    },
+    "done": true
+  },
+  "botania:main/lexicon_use": {
+    "criteria": {
+      "use_lexicon": "2024-05-03 15:02:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli_from_smelting_deepslate_lapis_ore": {
+    "criteria": {
+      "has_deepslate_lapis_ore": "2024-05-03 15:13:12 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/manasteel_helmet": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:56 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_lime": {
+    "criteria": {
+      "has_fluix_glass_cable": "2024-05-03 14:36:37 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/copper_dust_from_raw": {
+    "criteria": {
+      "has_raw_copper": "2024-05-03 14:51:35 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/sweet_crepes": {
+    "criteria": {
+      "took_flour": "2024-05-03 14:41:58 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/raw_copper_block": {
+    "criteria": {
+      "has_the_recipe": "2024-05-03 14:51:35 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_lightning_resistance": {
+    "criteria": {
+      "has_magic_scroll": "2024-05-03 15:03:19 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_dripstone_brick_wall_from_stone_types_dripstone_stonecutting": {
+    "criteria": {
+      "has_stone_types_dripstone": "2024-05-03 15:13:23 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/compressing/compressing/iron_plate_from_compressing_iron_block": {
+    "criteria": {
+      "has_item": "2024-05-03 15:15:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/blaze_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/bat_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/iron_spike_maul": {
+    "criteria": {
+      "has_iron_block": "2024-05-03 15:15:35 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/chilli_relleno": {
+    "criteria": {
+      "has_flour": "2024-05-03 14:41:58 +0000"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/clibano_combustion/gold_ingot_from_clibano_combusting_raw_gold": {
+    "criteria": {
+      "has_item": "2024-05-03 15:01:57 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/dirt_1x": {
+    "criteria": {
+      "has_dirt": "2024-05-03 14:37:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond_from_smelting_deepslate_diamond_ore": {
+    "criteria": {
+      "has_deepslate_diamond_ore": "2024-05-03 15:13:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_gold_block": {
+    "criteria": {
+      "has_raw_gold": "2024-05-03 15:01:57 +0000"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/clibano_combustion/copper_ingot_from_clibano_combusting_raw_copper": {
+    "criteria": {
+      "has_item": "2024-05-03 14:51:35 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/curiosities/cake": {
+    "criteria": {
+      "has_item": "2024-05-03 14:42:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_iron_ore": {
+    "criteria": {
+      "has_iron_ore": "2024-05-03 15:00:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/cow_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/soul_soil_1x": {
+    "criteria": {
+      "has_soul_soil": "2024-05-03 15:33:18 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/wire_steel": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "nethersdelight:recipes/misc/soul_compost_from_warped_roots": {
+    "criteria": {
+      "has_soil": "2024-05-03 15:33:18 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/personal_world_spike": {
+    "criteria": {
+      "has_ender_pearl": "2024-05-03 14:55:51 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/steel_hoe": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-03 15:07:48 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/iron_block_1x": {
+    "criteria": {
+      "has_iron_block": "2024-05-03 15:15:35 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/silver_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/silver]_ingot": "2024-05-03 14:55:53 +0000"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/clibano_combustion/diamond_from_clibano_combusting": {
+    "criteria": {
+      "has_item": "2024-05-03 15:13:17 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/lead_ingot_from_slate_ore_blasting": {
+    "criteria": {
+      "has_item": "2024-05-03 15:04:09 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/raw_silver_ingot_from_block": {
+    "criteria": {
+      "has_raw_silver_block": "2024-05-03 15:10:21 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/manasteel_boots": {
+    "criteria": {
+      "has_item": "2024-05-03 14:55:56 +0000"
+    },
+    "done": true
+  },
+  "wirelesschargers:recipes/misc/basic_wireless_player_charger": {
+    "criteria": {
+      "recipe_condition": "2024-05-03 14:55:51 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_silver_from_block": {
+    "criteria": {
+      "has_item": "2024-05-03 15:10:21 +0000"
+    },
+    "done": true
+  },
+  "silentgear:standard_tools": {
+    "criteria": {
+      "pickaxe": "2024-05-03 14:39:43 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/tools/gold_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/smelting/silver_ingot": {
+    "criteria": {
+      "has_silver_ore": "2024-05-03 15:09:38 +0000"
+    },
+    "done": true
+  },
+  "entangled:recipes/misc/item": {
+    "criteria": {
+      "recipe_condition": "2024-05-03 14:55:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/ocelot_smithing_iron": {
+    "criteria": {
+      "has_iron_tier_upgrade": "2024-05-03 15:06:17 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/silver_gear": {
+    "criteria": {
+      "has_material": "2024-05-03 14:55:53 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/invar_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/invar]_ingot": "2024-05-03 15:12:05 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/stonecutting/riveted_locometal": {
+    "criteria": {
+      "has_item": "2024-05-03 15:15:35 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_reach": {
+    "criteria": {
+      "has_magic_scroll": "2024-05-03 15:02:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2024-05-03 14:55:54 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/invar_gear": {
+    "criteria": {
+      "has_material": "2024-05-03 15:12:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot_from_smelting_raw_copper": {
+    "criteria": {
+      "has_raw_copper": "2024-05-03 14:51:35 +0000"
     },
     "done": true
   },
