@@ -4861,7 +4861,8 @@
       "minecraft:husk": "2024-05-02 06:49:32 +0000",
       "minecraft:zombie": "2024-05-01 14:39:19 +0000",
       "quark:foxhound": "2024-05-03 15:33:00 +0000",
-      "minecraft:drowned": "2024-05-01 15:43:34 +0000"
+      "minecraft:drowned": "2024-05-01 15:43:34 +0000",
+      "minecraft:zombie_villager": "2024-05-05 15:08:45 +0000"
     },
     "done": false
   },
@@ -30128,6 +30129,762 @@
   "tombstone:adventure/easy_opening": {
     "criteria": {
       "coded_trigger": "2024-05-04 16:47:11 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_barred_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/hay_block_1x": {
+    "criteria": {
+      "has_hay_block": "2024-05-05 15:07:45 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/dry_bamboo_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_paper_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/gold_nugget": {
+    "criteria": {
+      "has_zombie_heart": "2024-05-05 15:08:15 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/zombie": {
+    "criteria": {
+      "has_zombie_heart": "2024-05-05 15:08:15 +0000"
+    },
+    "done": true
+  },
+  "evilcraft:cannibal": {
+    "criteria": {
+      "criteria_0": "2024-05-05 14:27:42 +0000"
+    },
+    "done": true
+  },
+  "botania:main/functional_flower": {
+    "criteria": {
+      "flower": "2024-05-05 14:39:29 +0000"
+    },
+    "done": true
+  },
+  "arseng:recipes/misc/portable_source_cell_64k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-05 14:16:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/floating_endoflame": {
+    "criteria": {
+      "has_item": "2024-05-05 14:39:37 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/floating_jaded_amaranthus": {
+    "criteria": {
+      "has_item": "2024-05-05 14:39:29 +0000"
+    },
+    "done": true
+  },
+  "bambooeverything:recipes/misc/dry_bamboo": {
+    "criteria": {
+      "has_bamboo": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/steel_ingot": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-05 14:30:19 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/smelt_rod": {
+    "criteria": {
+      "has_item": "2024-05-05 14:28:20 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_barrel_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/golden_seeds": {
+    "criteria": {
+      "has_item": "2024-05-05 14:39:20 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/wither_aconite_floating": {
+    "criteria": {
+      "criterion0": "2024-05-05 14:39:26 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/hellebore_floating": {
+    "criteria": {
+      "criterion0": "2024-05-05 14:39:26 +0000"
+    },
+    "done": true
+  },
+  "arseng:recipes/misc/portable_source_cell_16k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-05 14:16:59 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/portable_fluid_cell_256k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-05 14:16:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/scorched_seeds": {
+    "criteria": {
+      "has_item": "2024-05-05 14:39:20 +0000"
+    },
+    "done": true
+  },
+  "naturalist:recipes/naturalist/bug_net": {
+    "criteria": {
+      "has_bamboo": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "bambooeverything:recipes/building_blocks/bamboo_ladder": {
+    "criteria": {
+      "has_bamboo": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "appmek:recipes/misc/portable_chemical_storage_cell_1k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-05 14:16:59 +0000"
+    },
+    "done": true
+  },
+  "appmek:recipes/misc/portable_chemical_storage_cell_4k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-05 14:16:59 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/energy_dense_energy_cell": {
+    "criteria": {
+      "has_energy_cell": "2024-05-05 14:16:59 +0000"
+    },
+    "done": true
+  },
+  "chimes:recipes/decorations/bamboo_chimes": {
+    "criteria": {
+      "has_planks": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/green_dye": {
+    "criteria": {
+      "has_cactus": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/dry_seeds": {
+    "criteria": {
+      "has_item": "2024-05-05 14:39:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/carrot_on_a_stick": {
+    "criteria": {
+      "has_carrot": "2024-05-05 15:08:57 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_equip": {
+    "criteria": {
+      "requirement": "2024-05-05 14:47:34 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/zombified_piglin": {
+    "criteria": {
+      "has_zombie_heart": "2024-05-05 15:08:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2024-05-05 15:08:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/chicken_soup": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-05 15:08:57 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_glass_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/wireless_part": {
+    "criteria": {
+      "has_fluix_pearl": "2024-05-05 14:06:27 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/ghast": {
+    "criteria": {
+      "has_catalyzing_gland": "2024-05-05 15:10:11 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/portable_fluid_cell_16k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-05 14:16:59 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/leather_from_scraps": {
+    "criteria": {
+      "has_item": "2024-05-05 15:08:47 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/toolupgrade_shield_flash": {
+    "criteria": {
+      "has_shield": "2024-05-05 14:33:48 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_barn_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/mutated_seeds": {
+    "criteria": {
+      "has_item": "2024-05-05 14:39:20 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/portable/portable_item_cell_256m": {
+    "criteria": {
+      "has_dense_energy_cell": "2024-05-05 14:17:33 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/flute": {
+    "criteria": {
+      "has_bamboo": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/bamboo": {
+    "criteria": {
+      "has_wood": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/wheat": {
+    "criteria": {
+      "has_the_recipe": "2024-05-05 15:07:45 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/exoblaze_floating": {
+    "criteria": {
+      "criterion0": "2024-05-05 14:39:26 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/whistle_tuner": {
+    "criteria": {
+      "has_steel_nugget": "2024-05-05 14:30:19 +0000"
+    },
+    "done": true
+  },
+  "appbot:recipes/misc/portable_mana_storage_cell_4k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-05 14:16:59 +0000"
+    },
+    "done": true
+  },
+  "appbot:recipes/misc/portable_mana_storage_cell_1k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-05 14:16:59 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/portable_fluid_cell_64k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-05 14:16:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_soup": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-05 15:08:57 +0000"
+    },
+    "done": true
+  },
+  "appmek:recipes/misc/portable_chemical_storage_cell_16k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-05 14:16:59 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/fodder": {
+    "criteria": {
+      "has_hay_block": "2024-05-05 15:07:45 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_tropical_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_classic_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_beetroot": {
+    "criteria": {
+      "has_beetroot": "2024-05-05 15:08:58 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/vivid_seeds": {
+    "criteria": {
+      "has_item": "2024-05-05 14:39:20 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/crafting/mega_energy_cell": {
+    "criteria": {
+      "has_dense_energy_cell": "2024-05-05 14:17:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/warped_fungus_on_a_stick": {
+    "criteria": {
+      "has_warped_fungus": "2024-05-05 14:34:28 +0000"
+    },
+    "done": true
+  },
+  "arseng:recipes/misc/portable_source_cell_256k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-05 14:16:59 +0000"
+    },
+    "done": true
+  },
+  "appmek:recipes/misc/portable_chemical_storage_cell_64k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-05 14:16:59 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_beach_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2024-05-05 15:07:45 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_mystic_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/portable_fluid_cell_4k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-05 14:16:59 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/quantum_link": {
+    "criteria": {
+      "has_fluix_pearl": "2024-05-05 14:06:27 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/portable_fluid_cell_1k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-05 14:16:59 +0000"
+    },
+    "done": true
+  },
+  "bambooeverything:recipes/building_blocks/bamboo_torch": {
+    "criteria": {
+      "has_bamboo": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "pylons:recipes/misc/harvester_pylon": {
+    "criteria": {
+      "has_hay_block": "2024-05-05 15:07:45 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_cottage_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_swamp_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/terra_plate": {
+    "criteria": {
+      "has_item": "2024-05-05 14:28:20 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/rotten_flesh": {
+    "criteria": {
+      "has_zombie_heart": "2024-05-05 15:08:15 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/bamboo_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:mythicbotany/all_runes": {
+    "criteria": {
+      "inventory_changed5": "2024-05-05 14:28:20 +0000"
+    },
+    "done": false
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/creeper": {
+    "criteria": {
+      "has_catalyzing_gland": "2024-05-05 15:10:11 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/cobble_rod": {
+    "criteria": {
+      "has_item": "2024-05-05 14:28:20 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/bone_crusher": {
+    "criteria": {
+      "coded_trigger": "2024-05-05 15:07:41 +0000"
+    },
+    "done": true
+  },
+  "appbot:recipes/misc/portable_mana_storage_cell_64k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-05 14:16:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick_from_bamboo_item": {
+    "criteria": {
+      "has_bamboo": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/cactus_extra": {
+    "criteria": {
+      "has_material": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/gunpowder_creeper_gland": {
+    "criteria": {
+      "has_catalyzing_gland": "2024-05-05 15:10:11 +0000"
+    },
+    "done": true
+  },
+  "appbot:recipes/misc/portable_mana_storage_cell_16k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-05 14:16:59 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/toolupgrade_shield_magnet": {
+    "criteria": {
+      "has_shield": "2024-05-05 14:33:48 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/feysythia_floating": {
+    "criteria": {
+      "criterion0": "2024-05-05 14:39:26 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/wireless_access_point": {
+    "criteria": {
+      "has_wireless_receiver": "2024-05-05 14:08:08 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_blossom_trapdoor": {
+    "criteria": {
+      "has_plankss": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/raindeletia_floating": {
+    "criteria": {
+      "criterion0": "2024-05-05 14:39:26 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_noodles": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-05 15:08:57 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/toolupgrade_shield_shock": {
+    "criteria": {
+      "has_shield": "2024-05-05 14:33:48 +0000"
+    },
+    "done": true
+  },
+  "appbot:recipes/misc/portable_mana_storage_cell_256k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-05 14:16:59 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/portable/portable_fluid_cell_256m": {
+    "criteria": {
+      "has_dense_energy_cell": "2024-05-05 14:17:33 +0000"
+    },
+    "done": true
+  },
+  "appmek:recipes/misc/portable_chemical_storage_cell_256k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-05 14:16:59 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/scaffolding": {
+    "criteria": {
+      "has_bamboo": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/lime_floating_flower": {
+    "criteria": {
+      "has_item": "2024-05-05 14:39:11 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/dry_bamboo_bridge": {
+    "criteria": {
+      "has_planks": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "botania:main/runic_altar_pickup": {
+    "criteria": {
+      "rune": "2024-05-05 14:28:20 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/leather_scrap": {
+    "criteria": {
+      "has_item": "2024-05-05 15:08:47 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beetroot_soup": {
+    "criteria": {
+      "has_beetroot": "2024-05-05 15:08:58 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/fire_rod": {
+    "criteria": {
+      "has_item": "2024-05-05 14:28:20 +0000"
+    },
+    "done": true
+  },
+  "appflux:recipes/misc/insulating_resin": {
+    "criteria": {
+      "has_item": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/beetroot_salad": {
+    "criteria": {
+      "has_beetroot": "2024-05-05 15:08:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/ratatouille": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-05 15:08:58 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/portable/portable_item_cell_4m": {
+    "criteria": {
+      "has_dense_energy_cell": "2024-05-05 14:17:33 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/portable/portable_item_cell_1m": {
+    "criteria": {
+      "has_dense_energy_cell": "2024-05-05 14:17:33 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/bamboo_mat": {
+    "criteria": {
+      "has_bamboo": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/aquapanthus_floating": {
+    "criteria": {
+      "criterion0": "2024-05-05 14:39:26 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/petrunia_floating": {
+    "criteria": {
+      "criterion0": "2024-05-05 14:39:26 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/steel_ingot": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:nuggets/steel]_nugget": "2024-05-05 14:30:19 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/portable/portable_fluid_cell_1m": {
+    "criteria": {
+      "has_dense_energy_cell": "2024-05-05 14:17:33 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/portable/portable_item_cell_16m": {
+    "criteria": {
+      "has_dense_energy_cell": "2024-05-05 14:17:33 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/portable/portable_fluid_cell_4m": {
+    "criteria": {
+      "has_dense_energy_cell": "2024-05-05 14:17:33 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/bamboo_bridge": {
+    "criteria": {
+      "has_planks": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/portable/portable_fluid_cell_64m": {
+    "criteria": {
+      "has_dense_energy_cell": "2024-05-05 14:17:33 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/infused_seeds": {
+    "criteria": {
+      "has_item": "2024-05-05 14:39:20 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/ghast_tear": {
+    "criteria": {
+      "has_catalyzing_gland": "2024-05-05 15:10:11 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/bamboo/bamboo_four_panel_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-05 15:08:00 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/wireless_booster": {
+    "criteria": {
+      "has_dusts/ender": "2024-05-05 14:42:23 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/portable/portable_item_cell_64m": {
+    "criteria": {
+      "has_dense_energy_cell": "2024-05-05 14:17:33 +0000"
+    },
+    "done": true
+  },
+  "arseng:recipes/misc/portable_source_cell_4k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-05 14:16:59 +0000"
+    },
+    "done": true
+  },
+  "arseng:recipes/misc/portable_source_cell_1k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-05 14:16:59 +0000"
+    },
+    "done": true
+  },
+  "botania:main/rune_pickup": {
+    "criteria": {
+      "rune": "2024-05-05 14:28:20 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/portable/portable_fluid_cell_16m": {
+    "criteria": {
+      "has_dense_energy_cell": "2024-05-05 14:17:33 +0000"
     },
     "done": true
   },
