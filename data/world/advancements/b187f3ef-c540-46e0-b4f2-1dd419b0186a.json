@@ -16706,81 +16706,9 @@
     },
     "done": true
   },
-  "botania:recipes/misc/conversions/green_petal_block_deconstruct": {
-    "criteria": {
-      "has_item": "2024-05-05 14:35:03 +0000"
-    },
-    "done": true
-  },
-  "botania:main/functional_flower": {
-    "criteria": {
-      "flower": "2024-05-05 14:35:58 +0000"
-    },
-    "done": true
-  },
   "silentgear:recipes/misc/blaze_gold_ingot": {
     "criteria": {
       "has_item": "2024-05-05 14:00:01 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/floating_jaded_amaranthus": {
-    "criteria": {
-      "has_item": "2024-05-05 14:35:58 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/petal_lime_double": {
-    "criteria": {
-      "has_alt_item": "2024-05-05 14:35:00 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/shaped_netherwart_stew": {
-    "criteria": {
-      "has_nether_wart": "2024-05-05 14:19:52 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/smelt_rod": {
-    "criteria": {
-      "has_item": "2024-05-05 14:25:09 +0000"
-    },
-    "done": true
-  },
-  "immersiveengineering:recipes/misc/crafting/lantern": {
-    "criteria": {
-      "has_glowstone": "2024-05-05 14:08:11 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/petal_cyan": {
-    "criteria": {
-      "has_item": "2024-05-05 14:03:45 +0000"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/nether_bricks": {
-    "criteria": {
-      "has_the_recipe": "2024-05-05 14:22:33 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/golden_seeds": {
-    "criteria": {
-      "has_item": "2024-05-05 14:37:59 +0000"
-    },
-    "done": true
-  },
-  "mythicbotany:recipes/misc/wither_aconite_floating": {
-    "criteria": {
-      "criterion0": "2024-05-05 14:40:39 +0000"
-    },
-    "done": true
-  },
-  "nethersdelight:recipes/decorations/blackstone_stove": {
-    "criteria": {
-      "has_nether_brick": "2024-05-05 14:22:33 +0000"
     },
     "done": true
   },
@@ -16790,287 +16718,9 @@
     },
     "done": true
   },
-  "blue_skies:recipes/building_blocks/glowing_blinding_stone": {
-    "criteria": {
-      "has_item": "2024-05-05 14:08:11 +0000"
-    },
-    "done": true
-  },
-  "mythicbotany:recipes/misc/hellebore_floating": {
-    "criteria": {
-      "criterion0": "2024-05-05 14:40:39 +0000"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/glowing_water": {
-    "criteria": {
-      "has_nether_wart": "2024-05-05 14:19:52 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/scorched_seeds": {
-    "criteria": {
-      "has_item": "2024-05-05 14:37:59 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/petal_green": {
-    "criteria": {
-      "has_item": "2024-05-05 14:28:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/nether_wart_block": {
-    "criteria": {
-      "has_nether_wart": "2024-05-05 14:19:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/red_nether_bricks": {
-    "criteria": {
-      "has_nether_wart": "2024-05-05 14:19:52 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/dry_seeds": {
-    "criteria": {
-      "has_item": "2024-05-05 14:37:59 +0000"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/blaze_powder": {
-    "criteria": {
-      "has_the_recipe": "2024-05-05 14:00:16 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/glowstone": {
-    "criteria": {
-      "has_glowstone_dust": "2024-05-05 14:08:11 +0000"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/building_blocks/glowing_nature_stone": {
-    "criteria": {
-      "has_item": "2024-05-05 14:08:11 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/green_petal_block": {
-    "criteria": {
-      "has_item": "2024-05-05 14:35:03 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/mutated_seeds": {
-    "criteria": {
-      "has_item": "2024-05-05 14:37:59 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/green_shiny_flower": {
-    "criteria": {
-      "has_item": "2024-05-05 14:28:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/nether_brick": {
-    "criteria": {
-      "has_netherrack": "2024-05-05 14:20:59 +0000"
-    },
-    "done": true
-  },
-  "mythicbotany:recipes/misc/exoblaze_floating": {
-    "criteria": {
-      "criterion0": "2024-05-05 14:40:39 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/blue_shiny_flower": {
-    "criteria": {
-      "has_item": "2024-05-05 14:39:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/nether_bricks": {
-    "criteria": {
-      "has_nether_brick": "2024-05-05 14:22:33 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/white_shiny_flower": {
-    "criteria": {
-      "has_item": "2024-05-05 14:10:48 +0000"
-    },
-    "done": true
-  },
-  "railcraft:recipes/blast_furnace/blasting_shears": {
-    "criteria": {
-      "has_shears": "2024-05-05 14:27:58 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/dye_green": {
-    "criteria": {
-      "has_item": "2024-05-05 14:35:03 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/misc/tiny_tnt": {
-    "criteria": {
-      "has_gunpowder": "2024-05-05 14:20:07 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/fire_charge": {
     "criteria": {
       "has_blaze_powder": "2024-05-05 14:00:01 +0000"
-    },
-    "done": true
-  },
-  "littlelogistics:recipes/transportation/fishing_barge": {
-    "criteria": {
-      "has_item": "2024-05-05 14:07:39 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/vivid_seeds": {
-    "criteria": {
-      "has_item": "2024-05-05 14:37:59 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/stone_sword_repairing": {
-    "criteria": {
-      "has_stone_sword": "2024-05-05 14:54:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/magenta_dye_from_lilac": {
-    "criteria": {
-      "has_lilac": "2024-05-05 14:39:52 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/petal_lime": {
-    "criteria": {
-      "has_item": "2024-05-05 14:34:52 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/light_gray_floating_flower": {
-    "criteria": {
-      "has_item": "2024-05-05 14:42:11 +0000"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/nether_brick": {
-    "criteria": {
-      "has_the_recipe": "2024-05-05 14:20:59 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/terra_plate": {
-    "criteria": {
-      "has_item": "2024-05-05 14:19:35 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/purple_shiny_flower": {
-    "criteria": {
-      "has_item": "2024-05-05 14:42:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/firework_rocket_simple": {
-    "criteria": {
-      "has_gunpowder": "2024-05-05 14:20:07 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/reinforced_nether_brick_fence": {
-    "criteria": {
-      "has_stick": "2024-05-05 14:22:33 +0000"
-    },
-    "done": true
-  },
-  "mythicbotany:mythicbotany/all_runes": {
-    "criteria": {
-      "inventory_changed12": "2024-05-05 14:29:40 +0000",
-      "inventory_changed14": "2024-05-05 14:19:35 +0000",
-      "inventory_changed5": "2024-05-05 14:25:09 +0000"
-    },
-    "done": false
-  },
-  "botania:recipes/decorations/animated_torch": {
-    "criteria": {
-      "has_alt_item": "2024-05-05 14:08:15 +0000"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/blaze_powder_from_rod": {
-    "criteria": {
-      "has_blaze_rod": "2024-05-05 14:00:16 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/cobble_rod": {
-    "criteria": {
-      "has_alt_item": "2024-05-05 14:19:35 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/dye_lime": {
-    "criteria": {
-      "has_item": "2024-05-05 14:35:00 +0000"
-    },
-    "done": true
-  },
-  "mythicbotany:recipes/misc/mana_infuser": {
-    "criteria": {
-      "criterion3": "2024-05-05 14:29:40 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/water_rod": {
-    "criteria": {
-      "has_item": "2024-05-05 14:19:35 +0000"
-    },
-    "done": true
-  },
-  "railcraft:recipes/misc/signal_lamp": {
-    "criteria": {
-      "has_glowstone_dust": "2024-05-05 14:08:11 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/lime_shiny_flower": {
-    "criteria": {
-      "has_item": "2024-05-05 14:34:52 +0000"
-    },
-    "done": true
-  },
-  "mythicbotany:recipes/misc/feysythia_floating": {
-    "criteria": {
-      "criterion0": "2024-05-05 14:40:39 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/lime_petal_block": {
-    "criteria": {
-      "has_item": "2024-05-05 14:35:00 +0000"
-    },
-    "done": true
-  },
-  "minecolonies:recipes/misc/doublegrass": {
-    "criteria": {
-      "has_grass": "2024-05-05 14:28:02 +0000"
-    },
-    "done": true
-  },
-  "buildinggadgets2:recipes/misc/gadget_cut_paste": {
-    "criteria": {
-      "has_shear": "2024-05-05 14:27:58 +0000"
     },
     "done": true
   },
@@ -17080,39 +16730,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/combat/spectral_arrow": {
+  "botania:recipes/decorations/spark": {
     "criteria": {
-      "has_glowstone_dust": "2024-05-05 14:08:11 +0000"
+      "has_item": "2024-05-05 14:00:01 +0000"
     },
     "done": true
   },
-  "mythicbotany:recipes/misc/raindeletia_floating": {
+  "alchemistry:recipes/dissolver/blaze_powder": {
     "criteria": {
-      "criterion0": "2024-05-05 14:40:39 +0000"
+      "has_the_recipe": "2024-05-05 14:00:16 +0000"
     },
     "done": true
   },
-  "bigreactors:recipes/building_blocks/fluidizer/controller": {
+  "occultism:recipes/crushing/crushing/blaze_powder_from_rod": {
     "criteria": {
-      "has_item2": "2024-05-05 14:08:11 +0000"
-    },
-    "done": true
-  },
-  "sushigocrafting:recipes/misc/seaweed_on_a_stick": {
-    "criteria": {
-      "has_item": "2024-05-05 14:07:39 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/floating_pure_daisy": {
-    "criteria": {
-      "has_item": "2024-05-05 14:10:27 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/conversions/lime_petal_block_deconstruct": {
-    "criteria": {
-      "has_item": "2024-05-05 14:35:00 +0000"
+      "has_blaze_rod": "2024-05-05 14:00:16 +0000"
     },
     "done": true
   },
@@ -17128,93 +16760,9 @@
     },
     "done": true
   },
-  "railcraft:recipes/misc/train_detector": {
-    "criteria": {
-      "has_nether_brick": "2024-05-05 14:22:33 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/fire_rod": {
-    "criteria": {
-      "has_item": "2024-05-05 14:25:09 +0000"
-    },
-    "done": true
-  },
-  "blue_skies:recipes/building_blocks/glowing_poison_stone": {
-    "criteria": {
-      "has_item": "2024-05-05 14:08:11 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/spark": {
-    "criteria": {
-      "has_item": "2024-05-05 14:00:01 +0000"
-    },
-    "done": true
-  },
-  "botania:main/pure_daisy_pickup": {
-    "criteria": {
-      "daisy": "2024-05-05 14:10:27 +0000"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/red_nether_bricks": {
-    "criteria": {
-      "has_the_recipe": "2024-05-05 14:19:52 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/brewing/brewing_stand": {
     "criteria": {
       "has_blaze_rod": "2024-05-05 14:00:16 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/petal_green_double": {
-    "criteria": {
-      "has_alt_item": "2024-05-05 14:35:03 +0000"
-    },
-    "done": true
-  },
-  "mythicbotany:recipes/misc/aquapanthus_floating": {
-    "criteria": {
-      "criterion0": "2024-05-05 14:40:39 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/fishing_rod_repairing": {
-    "criteria": {
-      "has_fishing_rod": "2024-05-05 14:07:39 +0000"
-    },
-    "done": true
-  },
-  "mythicbotany:recipes/misc/petrunia_floating": {
-    "criteria": {
-      "criterion0": "2024-05-05 14:40:39 +0000"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/glowstone": {
-    "criteria": {
-      "has_the_recipe": "2024-05-05 14:08:11 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/cyan_shiny_flower": {
-    "criteria": {
-      "has_item": "2024-05-05 14:03:45 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/petal_blue": {
-    "criteria": {
-      "has_item": "2024-05-05 14:39:49 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/infused_seeds": {
-    "criteria": {
-      "has_item": "2024-05-05 14:37:59 +0000"
     },
     "done": true
   },
@@ -17224,9 +16772,93 @@
     },
     "done": true
   },
-  "allthecompressed:recipes/building_blocks/compress/netherrack_1x": {
+  "minecraft:recipes/brewing/blaze_powder": {
     "criteria": {
-      "has_netherrack": "2024-05-05 14:20:59 +0000"
+      "has_blaze_rod": "2024-05-05 14:00:16 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_cyan": {
+    "criteria": {
+      "has_item": "2024-05-05 14:03:45 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/cyan_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-05-05 14:03:45 +0000"
+    },
+    "done": true
+  },
+  "littlelogistics:recipes/transportation/fishing_barge": {
+    "criteria": {
+      "has_item": "2024-05-05 14:07:39 +0000"
+    },
+    "done": true
+  },
+  "sushigocrafting:recipes/misc/seaweed_on_a_stick": {
+    "criteria": {
+      "has_item": "2024-05-05 14:07:39 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/fishing_rod_repairing": {
+    "criteria": {
+      "has_fishing_rod": "2024-05-05 14:07:39 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/lantern": {
+    "criteria": {
+      "has_glowstone": "2024-05-05 14:08:11 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/glowing_blinding_stone": {
+    "criteria": {
+      "has_item": "2024-05-05 14:08:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/glowstone": {
+    "criteria": {
+      "has_glowstone_dust": "2024-05-05 14:08:11 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/glowing_nature_stone": {
+    "criteria": {
+      "has_item": "2024-05-05 14:08:11 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/signal_lamp": {
+    "criteria": {
+      "has_glowstone_dust": "2024-05-05 14:08:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/spectral_arrow": {
+    "criteria": {
+      "has_glowstone_dust": "2024-05-05 14:08:11 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/fluidizer/controller": {
+    "criteria": {
+      "has_item2": "2024-05-05 14:08:11 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/glowing_poison_stone": {
+    "criteria": {
+      "has_item": "2024-05-05 14:08:11 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/glowstone": {
+    "criteria": {
+      "has_the_recipe": "2024-05-05 14:08:11 +0000"
     },
     "done": true
   },
@@ -17236,9 +16868,101 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/blaze_powder": {
+  "botania:recipes/decorations/animated_torch": {
     "criteria": {
-      "has_blaze_rod": "2024-05-05 14:00:16 +0000"
+      "has_alt_item": "2024-05-05 14:08:15 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/floating_pure_daisy": {
+    "criteria": {
+      "has_item": "2024-05-05 14:10:27 +0000"
+    },
+    "done": true
+  },
+  "botania:main/pure_daisy_pickup": {
+    "criteria": {
+      "daisy": "2024-05-05 14:10:27 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/white_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-05-05 14:10:48 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/terra_plate": {
+    "criteria": {
+      "has_item": "2024-05-05 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:mythicbotany/all_runes": {
+    "criteria": {
+      "inventory_changed12": "2024-05-05 14:29:40 +0000",
+      "inventory_changed14": "2024-05-05 14:19:35 +0000",
+      "inventory_changed5": "2024-05-05 14:25:09 +0000"
+    },
+    "done": false
+  },
+  "botania:recipes/tools/cobble_rod": {
+    "criteria": {
+      "has_alt_item": "2024-05-05 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/water_rod": {
+    "criteria": {
+      "has_item": "2024-05-05 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "botania:main/rune_pickup": {
+    "criteria": {
+      "rune": "2024-05-05 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_netherwart_stew": {
+    "criteria": {
+      "has_nether_wart": "2024-05-05 14:19:52 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/glowing_water": {
+    "criteria": {
+      "has_nether_wart": "2024-05-05 14:19:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2024-05-05 14:19:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2024-05-05 14:19:52 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/red_nether_bricks": {
+    "criteria": {
+      "has_the_recipe": "2024-05-05 14:19:52 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/misc/tiny_tnt": {
+    "criteria": {
+      "has_gunpowder": "2024-05-05 14:20:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2024-05-05 14:20:07 +0000"
     },
     "done": true
   },
@@ -17248,9 +16972,651 @@
     },
     "done": true
   },
-  "botania:main/rune_pickup": {
+  "minecraft:recipes/misc/nether_brick": {
     "criteria": {
-      "rune": "2024-05-05 14:19:35 +0000"
+      "has_netherrack": "2024-05-05 14:20:59 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/nether_brick": {
+    "criteria": {
+      "has_the_recipe": "2024-05-05 14:20:59 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/netherrack_1x": {
+    "criteria": {
+      "has_netherrack": "2024-05-05 14:20:59 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/nether_bricks": {
+    "criteria": {
+      "has_the_recipe": "2024-05-05 14:22:33 +0000"
+    },
+    "done": true
+  },
+  "nethersdelight:recipes/decorations/blackstone_stove": {
+    "criteria": {
+      "has_nether_brick": "2024-05-05 14:22:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_bricks": {
+    "criteria": {
+      "has_nether_brick": "2024-05-05 14:22:33 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/reinforced_nether_brick_fence": {
+    "criteria": {
+      "has_stick": "2024-05-05 14:22:33 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/train_detector": {
+    "criteria": {
+      "has_nether_brick": "2024-05-05 14:22:33 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/smelt_rod": {
+    "criteria": {
+      "has_item": "2024-05-05 14:25:09 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/fire_rod": {
+    "criteria": {
+      "has_item": "2024-05-05 14:25:09 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/blast_furnace/blasting_shears": {
+    "criteria": {
+      "has_shears": "2024-05-05 14:27:58 +0000"
+    },
+    "done": true
+  },
+  "buildinggadgets2:recipes/misc/gadget_cut_paste": {
+    "criteria": {
+      "has_shear": "2024-05-05 14:27:58 +0000"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/misc/doublegrass": {
+    "criteria": {
+      "has_grass": "2024-05-05 14:28:02 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_green": {
+    "criteria": {
+      "has_item": "2024-05-05 14:28:41 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/green_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-05-05 14:28:41 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/mana_infuser": {
+    "criteria": {
+      "criterion3": "2024-05-05 14:29:40 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_lime": {
+    "criteria": {
+      "has_item": "2024-05-05 14:34:52 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/lime_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-05-05 14:34:52 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_lime_double": {
+    "criteria": {
+      "has_alt_item": "2024-05-05 14:35:00 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/dye_lime": {
+    "criteria": {
+      "has_item": "2024-05-05 14:35:00 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/lime_petal_block": {
+    "criteria": {
+      "has_item": "2024-05-05 14:35:00 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/conversions/lime_petal_block_deconstruct": {
+    "criteria": {
+      "has_item": "2024-05-05 14:35:00 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/conversions/green_petal_block_deconstruct": {
+    "criteria": {
+      "has_item": "2024-05-05 14:35:03 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/green_petal_block": {
+    "criteria": {
+      "has_item": "2024-05-05 14:35:03 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/dye_green": {
+    "criteria": {
+      "has_item": "2024-05-05 14:35:03 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_green_double": {
+    "criteria": {
+      "has_alt_item": "2024-05-05 14:35:03 +0000"
+    },
+    "done": true
+  },
+  "botania:main/functional_flower": {
+    "criteria": {
+      "flower": "2024-05-05 14:35:58 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/floating_jaded_amaranthus": {
+    "criteria": {
+      "has_item": "2024-05-05 14:35:58 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/golden_seeds": {
+    "criteria": {
+      "has_item": "2024-05-05 14:37:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/scorched_seeds": {
+    "criteria": {
+      "has_item": "2024-05-05 14:37:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/dry_seeds": {
+    "criteria": {
+      "has_item": "2024-05-05 14:37:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/mutated_seeds": {
+    "criteria": {
+      "has_item": "2024-05-05 14:37:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/vivid_seeds": {
+    "criteria": {
+      "has_item": "2024-05-05 14:37:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/infused_seeds": {
+    "criteria": {
+      "has_item": "2024-05-05 14:37:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/blue_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-05-05 14:39:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_blue": {
+    "criteria": {
+      "has_item": "2024-05-05 14:39:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_lilac": {
+    "criteria": {
+      "has_lilac": "2024-05-05 14:39:52 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/wither_aconite_floating": {
+    "criteria": {
+      "criterion0": "2024-05-05 14:40:39 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/hellebore_floating": {
+    "criteria": {
+      "criterion0": "2024-05-05 14:40:39 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/exoblaze_floating": {
+    "criteria": {
+      "criterion0": "2024-05-05 14:40:39 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/feysythia_floating": {
+    "criteria": {
+      "criterion0": "2024-05-05 14:40:39 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/raindeletia_floating": {
+    "criteria": {
+      "criterion0": "2024-05-05 14:40:39 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/aquapanthus_floating": {
+    "criteria": {
+      "criterion0": "2024-05-05 14:40:39 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/petrunia_floating": {
+    "criteria": {
+      "criterion0": "2024-05-05 14:40:39 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/light_gray_floating_flower": {
+    "criteria": {
+      "has_item": "2024-05-05 14:42:11 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/purple_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-05-05 14:42:30 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/stone_sword_repairing": {
+    "criteria": {
+      "has_stone_sword": "2024-05-05 14:54:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_purple_dye": "2024-05-06 15:22:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-05-06 15:24:27 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/cooked_chicken": {
+    "criteria": {
+      "has_the_recipe": "2024-05-06 15:27:20 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_red2": {
+    "criteria": {
+      "recipe_condition2": "2024-05-06 15:24:27 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/small_purple_industrial_lamp": {
+    "criteria": {
+      "has_small_purple_industrial_lamp": "2024-05-06 15:22:51 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/purple_industrial_lamp": {
+    "criteria": {
+      "has_purple_industrial_lamp": "2024-05-06 15:22:51 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_covered_purple": {
+    "criteria": {
+      "has_dyes/black": "2024-05-06 15:22:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-05-06 15:24:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_candle": {
+    "criteria": {
+      "has_red_dye": "2024-05-06 15:24:27 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_red_picket_fence": {
+    "criteria": {
+      "has_dye": "2024-05-06 15:24:27 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/tinted_borderless_glass_purple2": {
+    "criteria": {
+      "recipe_condition2": "2024-05-06 15:22:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2024-05-06 15:27:20 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_smart_red": {
+    "criteria": {
+      "has_dyes/black": "2024-05-06 15:24:27 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_purple": {
+    "criteria": {
+      "has_dyes/black": "2024-05-06 15:22:51 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candle_holders/candle_holder_purple_dye": {
+    "criteria": {
+      "forge:dyes/purple": "2024-05-06 15:22:51 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_purple_picket_fence": {
+    "criteria": {
+      "has_dye": "2024-05-06 15:22:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2024-05-06 15:27:20 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/chicken_soup": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-06 15:27:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_candle": {
+    "criteria": {
+      "has_purple_dye": "2024-05-06 15:22:51 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/red_industrial_lamp": {
+    "criteria": {
+      "has_red_industrial_lamp": "2024-05-06 15:24:27 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_red_picket_gate": {
+    "criteria": {
+      "has_dye": "2024-05-06 15:24:27 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candle_holders/candle_holder_red_dye": {
+    "criteria": {
+      "forge:dyes/red": "2024-05-06 15:24:27 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/chicken_and_dumplings": {
+    "criteria": {
+      "has_chicken": "2024-05-06 15:27:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-05-06 15:22:51 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/tinted_borderless_glass_red2": {
+    "criteria": {
+      "recipe_condition2": "2024-05-06 15:24:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_grill_cooking": {
+    "criteria": {
+      "has_chicken": "2024-05-06 15:27:20 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_red_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-05-06 15:24:27 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_the_recipe": "2024-05-06 15:24:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/orange_dye_from_red_yellow": {
+    "criteria": {
+      "has_red_dye": "2024-05-06 15:24:27 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_red_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-05-06 15:24:27 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_red_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-05-06 15:24:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-05-06 15:22:51 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_purple2": {
+    "criteria": {
+      "recipe_condition2": "2024-05-06 15:22:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_red_white_dye": {
+    "criteria": {
+      "has_red_dye": "2024-05-06 15:24:27 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/smart_purple": {
+    "criteria": {
+      "has_dyes/black": "2024-05-06 15:22:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-05-06 15:24:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_red_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-05-06 15:24:26 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_purple_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-05-06 15:22:51 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_smart_purple": {
+    "criteria": {
+      "has_dyes/black": "2024-05-06 15:22:51 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_purple_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-05-06 15:22:51 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/smart_red": {
+    "criteria": {
+      "has_dyes/black": "2024-05-06 15:24:27 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_purple_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-05-06 15:22:51 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_red": {
+    "criteria": {
+      "has_dyes/black": "2024-05-06 15:24:27 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_red2": {
+    "criteria": {
+      "recipe_condition2": "2024-05-06 15:24:26 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_purple2": {
+    "criteria": {
+      "recipe_condition2": "2024-05-06 15:22:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_purple_dye": "2024-05-06 15:22:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_red_dye": "2024-05-06 15:24:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2024-05-06 15:27:20 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_purple2": {
+    "criteria": {
+      "recipe_condition2": "2024-05-06 15:22:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-05-06 15:22:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_red_dye": "2024-05-06 15:24:27 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_red2": {
+    "criteria": {
+      "recipe_condition2": "2024-05-06 15:24:27 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_covered_red": {
+    "criteria": {
+      "has_dyes/black": "2024-05-06 15:24:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_red_dye": "2024-05-06 15:24:26 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/fried_chicken": {
+    "criteria": {
+      "has_chicken": "2024-05-06 15:27:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_white_dye": {
+    "criteria": {
+      "has_rose_red": "2024-05-06 15:24:26 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_purple_picket_gate": {
+    "criteria": {
+      "has_dye": "2024-05-06 15:22:51 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/small_red_industrial_lamp": {
+    "criteria": {
+      "has_small_red_industrial_lamp": "2024-05-06 15:24:27 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/chicken_and_rice": {
+    "criteria": {
+      "has_chicken": "2024-05-06 15:27:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_purple_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-05-06 15:22:51 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/chicken_and_noodles": {
+    "criteria": {
+      "has_chicken": "2024-05-06 15:27:20 +0000"
     },
     "done": true
   },
