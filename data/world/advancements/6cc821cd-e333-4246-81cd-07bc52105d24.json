@@ -4856,6 +4856,8 @@
     "criteria": {
       "minecraft:pillager": "2024-05-03 08:47:49 +0000",
       "minecraft:skeleton": "2024-05-01 14:59:23 +0000",
+      "minecraft:ghast": "2024-05-07 14:48:10 +0000",
+      "minecraft:magma_cube": "2024-05-07 14:30:34 +0000",
       "minecraft:spider": "2024-05-01 14:59:46 +0000",
       "minecraft:creeper": "2024-05-02 04:51:10 +0000",
       "minecraft:husk": "2024-05-02 06:49:32 +0000",
@@ -24425,10 +24427,13 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2024-05-07 14:30:18 +0000",
       "minecraft:nether_wastes": "2024-05-03 15:32:38 +0000",
-      "minecraft:warped_forest": "2024-05-02 13:27:48 +0000"
+      "minecraft:soul_sand_valley": "2024-05-07 14:45:33 +0000",
+      "minecraft:warped_forest": "2024-05-02 13:27:48 +0000",
+      "minecraft:basalt_deltas": "2024-05-07 14:40:17 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/misc/nether_brick": {
     "criteria": {
@@ -31072,6 +31077,356 @@
   "farmersdelight:recipes/food/horse_feed": {
     "criteria": {
       "has_golden_carrot": "2024-05-06 15:32:16 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/columns/blackstone_column": {
+    "criteria": {
+      "has_item": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs": {
+    "criteria": {
+      "has_blackstone": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "croptopia:getseeds": {
+    "criteria": {
+      "has_seeds": "2024-05-07 15:21:30 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/bronze_ingot": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:nuggets/bronze]_nugget": "2024-05-07 15:18:16 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/raw_crimson_iron_from_block": {
+    "criteria": {
+      "has_item": "2024-05-07 14:52:51 +0000"
+    },
+    "done": true
+  },
+  "silentgear:crimson_iron": {
+    "criteria": {
+      "get_ore": "2024-05-07 14:52:51 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_blackstone_bridge": {
+    "criteria": {
+      "has_planks": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "nethersdelight:recipes/misc/soul_compost_from_hoglin_hide": {
+    "criteria": {
+      "has_soil": "2024-05-07 15:09:17 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/blackstone_pillar_trim": {
+    "criteria": {
+      "has_blackstone_pillar_trim": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_leggings_repairing": {
+    "criteria": {
+      "has_golden_leggings": "2024-05-07 14:30:06 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/blackstone_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "mcwpaths:recipes/blackstone": {
+    "criteria": {
+      "has_wood": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/blackstone_1x": {
+    "criteria": {
+      "has_blackstone": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/smooth_basalt": {
+    "criteria": {
+      "has_the_recipe": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/columns/blackstone_column_stonecutting": {
+    "criteria": {
+      "has_item": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/return_to_sender": {
+    "criteria": {
+      "killed_ghast": "2024-05-07 14:48:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "nethersdelight:recipes/decorations/blackstone_furnace": {
+    "criteria": {
+      "has_blackstone": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/basalt_1x": {
+    "criteria": {
+      "has_basalt": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/blackstone_lamp": {
+    "criteria": {
+      "has_blackstone": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "croptopia:gather_forest": {
+    "criteria": {
+      "blackbean_seed": "2024-05-07 15:21:30 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/blackstone_corner_trim": {
+    "criteria": {
+      "has_blackstone_corner_trim": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/blackstone_bridge": {
+    "criteria": {
+      "has_planks": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/blackstone_slab": {
+    "criteria": {
+      "has_the_recipe": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/blackstone_chain": {
+    "criteria": {
+      "recipe_condition": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_iron_raw_ore_blasting": {
+    "criteria": {
+      "has_item": "2024-05-07 14:52:51 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/lead_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2024-05-07 15:18:10 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/crimson_iron_dust_from_raw": {
+    "criteria": {
+      "has_raw_crimson_iron": "2024-05-07 14:52:51 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/leather_boots_repairing": {
+    "criteria": {
+      "has_leather_boots": "2024-05-07 15:13:54 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/decorated_blackstone_bricks/twisting_polished_blackstone_bricks": {
+    "criteria": {
+      "has_item": "2024-05-07 14:30:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_sword_repairing": {
+    "criteria": {
+      "has_golden_sword": "2024-05-07 14:30:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone": {
+    "criteria": {
+      "has_blackstone": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "croptopia:gather_swamp": {
+    "criteria": {
+      "currant_seed": "2024-05-07 15:21:30 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/blackstone_wall": {
+    "criteria": {
+      "has_blackstone": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "croptopia:gather_all": {
+    "criteria": {
+      "blackbean_seed": "2024-05-07 15:21:30 +0000",
+      "cabbage_seed": "2024-05-07 15:21:30 +0000",
+      "currant_seed": "2024-05-07 15:21:30 +0000"
+    },
+    "done": false
+  },
+  "alltheores:recipes/misc/lead_ingot": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:nuggets/lead]_nugget": "2024-05-07 15:18:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab": {
+    "criteria": {
+      "has_blackstone": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/soul_soil_1x": {
+    "criteria": {
+      "has_soul_soil": "2024-05-07 15:09:17 +0000"
+    },
+    "done": true
+  },
+  "nethersdelight:recipes/misc/soul_compost_from_warped_roots": {
+    "criteria": {
+      "has_soil": "2024-05-07 15:09:17 +0000"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/basalt_chain": {
+    "criteria": {
+      "recipe_condition": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/raw_crimson_iron_block": {
+    "criteria": {
+      "has_item": "2024-05-07 14:52:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blackstone_slab_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2024-05-07 15:08:59 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_iron_raw_ore_smelting": {
+    "criteria": {
+      "has_item": "2024-05-07 14:52:51 +0000"
+    },
+    "done": true
+  },
+  "croptopia:gather_plains": {
+    "criteria": {
+      "cabbage_seed": "2024-05-07 15:21:30 +0000"
+    },
+    "done": false
+  },
+  "alchemistry:recipes/dissolver/polished_basalt": {
+    "criteria": {
+      "has_the_recipe": "2024-05-07 15:08:59 +0000"
     },
     "done": true
   },
