@@ -4861,6 +4861,7 @@
       "minecraft:spider": "2024-05-01 14:59:46 +0000",
       "minecraft:creeper": "2024-05-02 04:51:10 +0000",
       "minecraft:phantom": "2024-05-08 09:09:11 +0000",
+      "minecraft:wither_skeleton": "2024-05-08 14:43:32 +0000",
       "minecraft:husk": "2024-05-02 06:49:32 +0000",
       "minecraft:cave_spider": "2024-05-08 08:17:19 +0000",
       "minecraft:zombie": "2024-05-01 14:39:19 +0000",
@@ -31432,13 +31433,67 @@
     },
     "done": false
   },
-  "pneumaticcraft:recipes/pressure_chamber/wheat_flour": {
+  "pneumaticcraft:recipes/building_blocks/reinforced_brick_wall_from_bricks_stonecutting": {
     "criteria": {
-      "pressure_chamber_valve": "2024-05-08 07:13:01 +0000"
+      "has_reinforced_stone": "2024-05-08 07:07:51 +0000"
     },
     "done": true
   },
-  "pneumaticcraft:recipes/building_blocks/reinforced_brick_wall_from_bricks_stonecutting": {
+  "pneumaticcraft:recipes/building_blocks/reinforced_brick_pillar_from_bricks_stonecutting": {
+    "criteria": {
+      "has_reinforced_stone": "2024-05-08 07:07:51 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/display_shelf": {
+    "criteria": {
+      "has_reinforced_stone": "2024-05-08 07:07:51 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/display_table_from_shelf": {
+    "criteria": {
+      "has_reinforced_stone": "2024-05-08 07:07:51 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/building_blocks/reinforced_brick_slab_from_bricks_stonecutting": {
+    "criteria": {
+      "has_reinforced_stone": "2024-05-08 07:07:51 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/building_blocks/reinforced_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_reinforced_stone": "2024-05-08 07:07:51 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/building_blocks/reinforced_brick_tile_from_bricks_stonecutting": {
+    "criteria": {
+      "has_reinforced_stone": "2024-05-08 07:07:51 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/building_blocks/reinforced_brick_stairs_from_bricks_stonecutting": {
+    "criteria": {
+      "has_reinforced_stone": "2024-05-08 07:07:51 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/building_blocks/reinforced_stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_reinforced_stone": "2024-05-08 07:07:51 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/display_table": {
+    "criteria": {
+      "has_reinforced_stone": "2024-05-08 07:07:51 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/building_blocks/reinforced_bricks_from_tile_stonecutting": {
     "criteria": {
       "has_reinforced_stone": "2024-05-08 07:07:51 +0000"
     },
@@ -31450,27 +31505,57 @@
     },
     "done": true
   },
-  "pneumaticcraft:recipes/building_blocks/compressed_bricks_from_tile_stonecutting": {
-    "criteria": {
-      "has_compressed_stone": "2024-05-08 07:54:59 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/building_blocks/reinforced_brick_pillar_from_bricks_stonecutting": {
-    "criteria": {
-      "has_reinforced_stone": "2024-05-08 07:07:51 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:pressure_chamber": {
-    "criteria": {
-      "0": "2024-05-08 07:14:00 +0000"
-    },
-    "done": true
-  },
   "pneumaticcraft:recipes/misc/air_cannon": {
     "criteria": {
       "has_pressure_tube": "2024-05-08 07:08:18 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:pressure_tube": {
+    "criteria": {
+      "0": "2024-05-08 07:08:18 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/tube_junction": {
+    "criteria": {
+      "has_pressure_tube": "2024-05-08 07:08:18 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/air_compressor": {
+    "criteria": {
+      "has_pressure_tube": "2024-05-08 07:08:18 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/charging_station": {
+    "criteria": {
+      "has_pressure_tube": "2024-05-08 07:08:18 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/air_grate_module": {
+    "criteria": {
+      "has_pressure_tube": "2024-05-08 07:08:18 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:air_compressor": {
+    "criteria": {
+      "0": "2024-05-08 07:09:11 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/spawner_core_shell": {
+    "criteria": {
+      "has_pressure_chamber_glass": "2024-05-08 07:12:53 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/pressure_chamber/wheat_flour": {
+    "criteria": {
+      "pressure_chamber_valve": "2024-05-08 07:13:01 +0000"
     },
     "done": true
   },
@@ -31480,105 +31565,9 @@
     },
     "done": true
   },
-  "pneumaticcraft:vortex_tube": {
-    "criteria": {
-      "0": "2024-05-08 07:40:24 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:refinery": {
-    "criteria": {
-      "0": "2024-05-08 07:37:12 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/golden_pickaxe_repairing": {
-    "criteria": {
-      "has_golden_pickaxe": "2024-05-08 08:01:41 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/logistics_frame_storage": {
-    "criteria": {
-      "has_logistics_core": "2024-05-08 07:54:59 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:speed_upgrade": {
-    "criteria": {
-      "0": "2024-05-08 07:26:51 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/fluid_mixer": {
-    "criteria": {
-      "has_small_tank": "2024-05-08 07:36:36 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/pneumaticcraft_fuels/biodiesel": {
-    "criteria": {
-      "liquid_compressor": "2024-05-08 09:19:25 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/crime_in_town": {
-    "criteria": {
-      "coded_trigger": "2024-05-08 09:50:25 +0000"
-    },
-    "done": true
-  },
-  "immersiveengineering:tools/craft_buzzsaw": {
-    "criteria": {
-      "has_item": "2024-05-08 09:48:12 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/building_blocks/compressed_brick_wall_from_bricks_stonecutting": {
-    "criteria": {
-      "has_compressed_stone": "2024-05-08 07:54:59 +0000"
-    },
-    "done": true
-  },
   "pneumaticcraft:recipes/pressure_chamber/turbine_blade": {
     "criteria": {
       "pressure_chamber_valve": "2024-05-08 07:13:01 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/building_blocks/compressed_brick_slab_from_bricks_stonecutting": {
-    "criteria": {
-      "has_compressed_stone": "2024-05-08 07:54:58 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/logistics_frame_default_storage": {
-    "criteria": {
-      "has_logistics_core": "2024-05-08 07:54:59 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/pneumaticcraft_fuels/ethanol": {
-    "criteria": {
-      "liquid_compressor": "2024-05-08 09:19:25 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/logistics_frame_requester": {
-    "criteria": {
-      "has_logistics_core": "2024-05-08 07:54:59 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/building_blocks/compressed_stone_slab_from_stone_stonecutting": {
-    "criteria": {
-      "has_compressed_stone": "2024-05-08 07:54:58 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/logistics_frame_active_provider": {
-    "criteria": {
-      "has_logistics_core": "2024-05-08 07:54:59 +0000"
     },
     "done": true
   },
@@ -31594,51 +31583,9 @@
     },
     "done": true
   },
-  "pneumaticcraft:recipes/pneumaticcraft_fuels/crude_oil": {
-    "criteria": {
-      "liquid_compressor": "2024-05-08 09:19:25 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:pressure_tube": {
-    "criteria": {
-      "0": "2024-05-08 07:08:18 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/spawner_extractor": {
-    "criteria": {
-      "has_spawner_agitator": "2024-05-08 07:55:00 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/pneumaticcraft_fuels/diesel": {
-    "criteria": {
-      "liquid_compressor": "2024-05-08 09:19:25 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/logistics_frame_passive_provider": {
-    "criteria": {
-      "has_logistics_core": "2024-05-08 07:54:59 +0000"
-    },
-    "done": true
-  },
   "pneumaticcraft:recipes/pressure_chamber/milk_to_slime_balls": {
     "criteria": {
       "pressure_chamber_valve": "2024-05-08 07:13:01 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/pneumaticcraft_fuels/gasoline": {
-    "criteria": {
-      "liquid_compressor": "2024-05-08 09:19:25 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/display_shelf": {
-    "criteria": {
-      "has_reinforced_stone": "2024-05-08 07:07:51 +0000"
     },
     "done": true
   },
@@ -31648,39 +31595,81 @@
     },
     "done": true
   },
-  "apotheosis:affix/mythic_gem": {
-    "criteria": {
-      "gem": "2024-05-08 08:03:27 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/building_blocks/compressed_brick_tile_from_bricks_stonecutting": {
-    "criteria": {
-      "has_compressed_stone": "2024-05-08 07:54:58 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/display_table_from_shelf": {
-    "criteria": {
-      "has_reinforced_stone": "2024-05-08 07:07:51 +0000"
-    },
-    "done": true
-  },
-  "immersiveengineering:recipes/misc/crafting/chemthrower": {
-    "criteria": {
-      "has_wooden_grip": "2024-05-08 09:44:49 +0000"
-    },
-    "done": true
-  },
-  "immersiveengineering:recipes/misc/crafting/revolver": {
-    "criteria": {
-      "has_wooden_grip": "2024-05-08 09:44:49 +0000"
-    },
-    "done": true
-  },
   "pneumaticcraft:recipes/pressure_chamber/coal_to_diamond": {
     "criteria": {
       "pressure_chamber_valve": "2024-05-08 07:13:01 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/pressure_chamber/solar_wafer": {
+    "criteria": {
+      "pressure_chamber_valve": "2024-05-08 07:13:01 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/pressure_chamber/etching_acid": {
+    "criteria": {
+      "pressure_chamber_valve": "2024-05-08 07:13:01 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/pressure_chamber/empty_pcb": {
+    "criteria": {
+      "pressure_chamber_valve": "2024-05-08 07:13:01 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/pressure_chamber/compressed_iron_ingot": {
+    "criteria": {
+      "pressure_chamber_valve": "2024-05-08 07:13:01 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/pressure_chamber/blue_ice": {
+    "criteria": {
+      "pressure_chamber_valve": "2024-05-08 07:13:01 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/pressure_chamber/packed_ice": {
+    "criteria": {
+      "pressure_chamber_valve": "2024-05-08 07:13:01 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/pressure_chamber/compressed_stone": {
+    "criteria": {
+      "pressure_chamber_valve": "2024-05-08 07:13:01 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:pressure_chamber": {
+    "criteria": {
+      "0": "2024-05-08 07:14:00 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/pressure_gauge_module": {
+    "criteria": {
+      "has_pressure_gauge": "2024-05-08 07:21:16 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/safety_tube_module": {
+    "criteria": {
+      "has_pressure_gauge": "2024-05-08 07:21:16 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:speed_upgrade": {
+    "criteria": {
+      "0": "2024-05-08 07:26:51 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/fluid_mixer": {
+    "criteria": {
+      "has_small_tank": "2024-05-08 07:36:36 +0000"
     },
     "done": true
   },
@@ -31702,165 +31691,33 @@
     },
     "done": true
   },
-  "pneumaticcraft:recipes/building_blocks/reinforced_brick_slab_from_bricks_stonecutting": {
+  "pneumaticcraft:refinery": {
     "criteria": {
-      "has_reinforced_stone": "2024-05-08 07:07:51 +0000"
+      "0": "2024-05-08 07:37:12 +0000"
     },
     "done": true
   },
-  "pneumaticcraft:recipes/building_blocks/reinforced_bricks_from_stone_stonecutting": {
+  "pneumaticcraft:vortex_tube": {
     "criteria": {
-      "has_reinforced_stone": "2024-05-08 07:07:51 +0000"
+      "0": "2024-05-08 07:40:24 +0000"
     },
     "done": true
   },
-  "botania:recipes/tools/virus_nullodermal": {
+  "pneumaticcraft:recipes/building_blocks/compressed_brick_slab_from_bricks_stonecutting": {
     "criteria": {
-      "has_alt_item": "2024-05-08 07:58:18 +0000"
+      "has_compressed_stone": "2024-05-08 07:54:58 +0000"
     },
     "done": true
   },
-  "pneumaticcraft:recipes/building_blocks/compressed_brick_stairs_from_bricks_stonecutting": {
+  "pneumaticcraft:recipes/building_blocks/compressed_stone_slab_from_stone_stonecutting": {
     "criteria": {
-      "has_compressed_stone": "2024-05-08 07:54:59 +0000"
+      "has_compressed_stone": "2024-05-08 07:54:58 +0000"
     },
     "done": true
   },
-  "pneumaticcraft:recipes/misc/spawner_core_shell": {
+  "pneumaticcraft:recipes/building_blocks/compressed_brick_tile_from_bricks_stonecutting": {
     "criteria": {
-      "has_pressure_chamber_glass": "2024-05-08 07:12:53 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/tube_junction": {
-    "criteria": {
-      "has_pressure_tube": "2024-05-08 07:08:18 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/remote": {
-    "criteria": {
-      "has_transistor": "2024-05-08 07:55:00 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/building_blocks/compressed_bricks_from_stone_stonecutting": {
-    "criteria": {
-      "has_compressed_stone": "2024-05-08 07:54:59 +0000"
-    },
-    "done": true
-  },
-  "apotheosis:affix/rare_gem": {
-    "criteria": {
-      "gem": "2024-05-08 08:15:58 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/pneumaticcraft_fuels/lpg": {
-    "criteria": {
-      "liquid_compressor": "2024-05-08 09:19:25 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:air_compressor": {
-    "criteria": {
-      "0": "2024-05-08 07:09:11 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/pressure_chamber/solar_wafer": {
-    "criteria": {
-      "pressure_chamber_valve": "2024-05-08 07:13:01 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/air_compressor": {
-    "criteria": {
-      "has_pressure_tube": "2024-05-08 07:08:18 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/pneumaticcraft_fuels/kerosene": {
-    "criteria": {
-      "liquid_compressor": "2024-05-08 09:19:25 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/charging_station": {
-    "criteria": {
-      "has_pressure_tube": "2024-05-08 07:08:18 +0000"
-    },
-    "done": true
-  },
-  "immersiveengineering:recipes/misc/crafting/toolupgrade_buzzsaw_spareblades": {
-    "criteria": {
-      "has_buzzsaw": "2024-05-08 09:48:12 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/pressure_chamber/etching_acid": {
-    "criteria": {
-      "pressure_chamber_valve": "2024-05-08 07:13:01 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/air_grate_module": {
-    "criteria": {
-      "has_pressure_tube": "2024-05-08 07:08:18 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/building_blocks/reinforced_brick_tile_from_bricks_stonecutting": {
-    "criteria": {
-      "has_reinforced_stone": "2024-05-08 07:07:51 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/building_blocks/reinforced_brick_stairs_from_bricks_stonecutting": {
-    "criteria": {
-      "has_reinforced_stone": "2024-05-08 07:07:51 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/classify_filter": {
-    "criteria": {
-      "has_logistics_core": "2024-05-08 07:54:59 +0000"
-    },
-    "done": true
-  },
-  "immersiveengineering:recipes/misc/crafting/skyhook": {
-    "criteria": {
-      "has_wooden_grip": "2024-05-08 09:44:49 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/copper_ingot": {
-    "criteria": {
-      "has_copper_nugget": "2024-05-08 09:44:44 +0000"
-    },
-    "done": true
-  },
-  "deeperdarker:main/kill_all_sculk_mobs": {
-    "criteria": {
-      "phantom": "2024-05-08 09:09:11 +0000"
-    },
-    "done": false
-  },
-  "pneumaticcraft:recipes/pressure_chamber/empty_pcb": {
-    "criteria": {
-      "pressure_chamber_valve": "2024-05-08 07:13:01 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/building_blocks/reinforced_stone_slab_from_stone_stonecutting": {
-    "criteria": {
-      "has_reinforced_stone": "2024-05-08 07:07:51 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/display_table": {
-    "criteria": {
-      "has_reinforced_stone": "2024-05-08 07:07:51 +0000"
+      "has_compressed_stone": "2024-05-08 07:54:58 +0000"
     },
     "done": true
   },
@@ -31870,39 +31727,63 @@
     },
     "done": true
   },
-  "pneumaticcraft:recipes/misc/pressure_gauge_module": {
+  "pneumaticcraft:recipes/building_blocks/compressed_bricks_from_tile_stonecutting": {
     "criteria": {
-      "has_pressure_gauge": "2024-05-08 07:21:16 +0000"
+      "has_compressed_stone": "2024-05-08 07:54:59 +0000"
     },
     "done": true
   },
-  "pneumaticcraft:recipes/building_blocks/reinforced_bricks_from_tile_stonecutting": {
+  "pneumaticcraft:recipes/misc/logistics_frame_storage": {
     "criteria": {
-      "has_reinforced_stone": "2024-05-08 07:07:51 +0000"
+      "has_logistics_core": "2024-05-08 07:54:59 +0000"
     },
     "done": true
   },
-  "pneumaticcraft:recipes/pressure_chamber/compressed_iron_ingot": {
+  "pneumaticcraft:recipes/building_blocks/compressed_brick_wall_from_bricks_stonecutting": {
     "criteria": {
-      "pressure_chamber_valve": "2024-05-08 07:13:01 +0000"
+      "has_compressed_stone": "2024-05-08 07:54:59 +0000"
     },
     "done": true
   },
-  "pneumaticcraft:recipes/pressure_chamber/blue_ice": {
+  "pneumaticcraft:recipes/misc/logistics_frame_default_storage": {
     "criteria": {
-      "pressure_chamber_valve": "2024-05-08 07:13:01 +0000"
+      "has_logistics_core": "2024-05-08 07:54:59 +0000"
     },
     "done": true
   },
-  "handcrafted:recipes/misc/phantom_trophy": {
+  "pneumaticcraft:recipes/misc/logistics_frame_requester": {
     "criteria": {
-      "has_phantom_trophy": "2024-05-08 09:54:15 +0000"
+      "has_logistics_core": "2024-05-08 07:54:59 +0000"
     },
     "done": true
   },
-  "pneumaticcraft:recipes/pressure_chamber/packed_ice": {
+  "pneumaticcraft:recipes/misc/logistics_frame_active_provider": {
     "criteria": {
-      "pressure_chamber_valve": "2024-05-08 07:13:01 +0000"
+      "has_logistics_core": "2024-05-08 07:54:59 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/logistics_frame_passive_provider": {
+    "criteria": {
+      "has_logistics_core": "2024-05-08 07:54:59 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/building_blocks/compressed_brick_stairs_from_bricks_stonecutting": {
+    "criteria": {
+      "has_compressed_stone": "2024-05-08 07:54:59 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/building_blocks/compressed_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_compressed_stone": "2024-05-08 07:54:59 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/classify_filter": {
+    "criteria": {
+      "has_logistics_core": "2024-05-08 07:54:59 +0000"
     },
     "done": true
   },
@@ -31912,21 +31793,604 @@
     },
     "done": true
   },
-  "pneumaticcraft:recipes/pressure_chamber/compressed_stone": {
+  "pneumaticcraft:recipes/misc/spawner_extractor": {
     "criteria": {
-      "pressure_chamber_valve": "2024-05-08 07:13:01 +0000"
+      "has_spawner_agitator": "2024-05-08 07:55:00 +0000"
     },
     "done": true
   },
-  "pneumaticcraft:recipes/misc/safety_tube_module": {
+  "pneumaticcraft:recipes/misc/remote": {
     "criteria": {
-      "has_pressure_gauge": "2024-05-08 07:21:16 +0000"
+      "has_transistor": "2024-05-08 07:55:00 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/virus_nullodermal": {
+    "criteria": {
+      "has_alt_item": "2024-05-08 07:58:18 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/golden_pickaxe_repairing": {
+    "criteria": {
+      "has_golden_pickaxe": "2024-05-08 08:01:41 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/mythic_gem": {
+    "criteria": {
+      "gem": "2024-05-08 08:03:27 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/rare_gem": {
+    "criteria": {
+      "gem": "2024-05-08 08:15:58 +0000"
+    },
+    "done": true
+  },
+  "deeperdarker:main/kill_all_sculk_mobs": {
+    "criteria": {
+      "phantom": "2024-05-08 09:09:11 +0000"
+    },
+    "done": false
+  },
+  "pneumaticcraft:recipes/pneumaticcraft_fuels/biodiesel": {
+    "criteria": {
+      "liquid_compressor": "2024-05-08 09:19:25 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/pneumaticcraft_fuels/ethanol": {
+    "criteria": {
+      "liquid_compressor": "2024-05-08 09:19:25 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/pneumaticcraft_fuels/crude_oil": {
+    "criteria": {
+      "liquid_compressor": "2024-05-08 09:19:25 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/pneumaticcraft_fuels/diesel": {
+    "criteria": {
+      "liquid_compressor": "2024-05-08 09:19:25 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/pneumaticcraft_fuels/gasoline": {
+    "criteria": {
+      "liquid_compressor": "2024-05-08 09:19:25 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/pneumaticcraft_fuels/lpg": {
+    "criteria": {
+      "liquid_compressor": "2024-05-08 09:19:25 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/pneumaticcraft_fuels/kerosene": {
+    "criteria": {
+      "liquid_compressor": "2024-05-08 09:19:25 +0000"
     },
     "done": true
   },
   "pneumaticcraft:liquid_compressor": {
     "criteria": {
       "0": "2024-05-08 09:19:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot": {
+    "criteria": {
+      "has_copper_nugget": "2024-05-08 09:44:44 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/chemthrower": {
+    "criteria": {
+      "has_wooden_grip": "2024-05-08 09:44:49 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/revolver": {
+    "criteria": {
+      "has_wooden_grip": "2024-05-08 09:44:49 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/skyhook": {
+    "criteria": {
+      "has_wooden_grip": "2024-05-08 09:44:49 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:tools/craft_buzzsaw": {
+    "criteria": {
+      "has_item": "2024-05-08 09:48:12 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/toolupgrade_buzzsaw_spareblades": {
+    "criteria": {
+      "has_buzzsaw": "2024-05-08 09:48:12 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/crime_in_town": {
+    "criteria": {
+      "coded_trigger": "2024-05-08 09:50:25 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/phantom_trophy": {
+    "criteria": {
+      "has_phantom_trophy": "2024-05-08 09:54:15 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_rice": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/blood_pendant": {
+    "criteria": {
+      "has_item": "2024-05-08 14:37:35 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/vegetable_oil_from_crops": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_barred_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_classic_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_paper_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/cherry": {
+    "criteria": {
+      "has_wood": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/get_wither_skull": {
+    "criteria": {
+      "wither_skull": "2024-05-08 14:37:35 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/lubricant_from_biodiesel": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/incense_stick": {
+    "criteria": {
+      "has_item": "2024-05-08 14:37:35 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/lpg": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/kerosene": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_mystic_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_tropical_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_beach_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/compressed_iron_drill_bit": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/cherry_logs_to_stairs": {
+    "criteria": {
+      "has_log": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/cherry_logs_to_boats": {
+    "criteria": {
+      "has_log": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/alfsteel_pylon": {
+    "criteria": {
+      "criterion2": "2024-05-08 14:37:35 +0000"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/cherry": {
+    "criteria": {
+      "has_planks": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/plastic_from_lpg": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_glass_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/ethanol_from_potato": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:tp_plant": {
+    "criteria": {
+      "0": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/ethanol_from_sugar": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_swamp_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-08 15:14:41 +0000",
+      "has_the_recipe": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_orig_recipe": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/spawner_core": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/chips": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/diamond_drill_bit": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_red_mushroom": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2024-05-08 14:37:35 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_stew": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/salmon_tempura": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/iron_drill_bit": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/cherry_logs_to_slabs": {
+    "criteria": {
+      "has_log": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "in_better_fortress": "2024-05-08 14:42:16 +0000"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/cherry": {
+    "criteria": {
+      "has_wood": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/cherry_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/ethanol_from_sweet_berries": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/ethanol_from_melon": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_14": {
+    "criteria": {
+      "has_item": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_15": {
+    "criteria": {
+      "has_item": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_10": {
+    "criteria": {
+      "has_item": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_11": {
+    "criteria": {
+      "has_item": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_12": {
+    "criteria": {
+      "has_item": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_13": {
+    "criteria": {
+      "has_item": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/ethanol_from_poisonous_potato": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/upgrade_matrix": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/cherry_logs_to_trapdoors": {
+    "criteria": {
+      "has_log": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/ethanol_from_apple": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_barn_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_four_panel_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/yeast_culture": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/lubricant_from_diesel": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_cottage_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/vegetable_oil_from_seeds": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_0": {
+    "criteria": {
+      "has_item": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_1": {
+    "criteria": {
+      "has_item": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_2": {
+    "criteria": {
+      "has_item": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_3": {
+    "criteria": {
+      "has_item": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_4": {
+    "criteria": {
+      "has_item": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_5": {
+    "criteria": {
+      "has_item": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_6": {
+    "criteria": {
+      "has_item": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_7": {
+    "criteria": {
+      "has_item": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_8": {
+    "criteria": {
+      "has_item": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mushroom_9": {
+    "criteria": {
+      "has_item": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/reinforced_pressure_tube": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_barrel_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/gasoline": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/cherry_logs_to_pressure_plates": {
+    "criteria": {
+      "has_log": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/plastic_from_biodiesel": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/cherry_logs_to_doors": {
+    "criteria": {
+      "has_log": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:root": {
+    "criteria": {
+      "in_tf": "2024-05-08 15:47:38 +0000"
     },
     "done": true
   },

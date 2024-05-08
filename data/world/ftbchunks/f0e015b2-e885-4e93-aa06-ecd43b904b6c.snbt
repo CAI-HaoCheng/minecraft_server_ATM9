@@ -1,7 +1,7 @@
 {
 	max_claim_chunks: 500
 	max_force_load_chunks: 25
-	last_login_time: 1715150922596L
+	last_login_time: 1715178576567L
 	chunks: {
 		"minecraft:overworld": [
 			{ x: -20, z: 36, time: 1714622907570L, force_loaded: 1714622916225L }
@@ -18,6 +18,7 @@
 			{ x: -19, z: 37, time: 1714637262904L, force_loaded: 1714750718167L }
 			{ x: -18, z: 36, time: 1714750727453L, force_loaded: 1714750730754L }
 		]
+		"minecraft:the_nether": [{ x: 8, z: -44, time: 1715179452557L, force_loaded: 1715179452943L }]
 	}
 	member_data: {
 		b187f3ef-c540-46e0-b4f2-1dd419b0186a: {
