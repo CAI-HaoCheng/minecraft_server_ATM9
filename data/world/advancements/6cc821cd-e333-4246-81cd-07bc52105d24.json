@@ -4855,12 +4855,14 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:pillager": "2024-05-03 08:47:49 +0000",
+      "minecraft:blaze": "2024-05-09 08:50:05 +0000",
       "minecraft:skeleton": "2024-05-01 14:59:23 +0000",
       "minecraft:ghast": "2024-05-07 14:48:10 +0000",
       "minecraft:magma_cube": "2024-05-07 14:30:34 +0000",
       "minecraft:spider": "2024-05-01 14:59:46 +0000",
       "minecraft:creeper": "2024-05-02 04:51:10 +0000",
       "minecraft:phantom": "2024-05-08 09:09:11 +0000",
+      "minecraft:zombified_piglin": "2024-05-09 08:50:24 +0000",
       "minecraft:wither_skeleton": "2024-05-08 14:43:32 +0000",
       "minecraft:husk": "2024-05-02 06:49:32 +0000",
       "minecraft:cave_spider": "2024-05-08 08:17:19 +0000",
@@ -31115,9 +31117,10 @@
   },
   "silentgear:crimson_iron": {
     "criteria": {
-      "get_ore": "2024-05-07 14:52:51 +0000"
+      "get_ore": "2024-05-07 14:52:51 +0000",
+      "get_ingot": "2024-05-09 08:51:08 +0000"
     },
-    "done": false
+    "done": true
   },
   "silentgear:recipes/misc/crimson_iron_raw_ore_blasting": {
     "criteria": {
@@ -31409,7 +31412,8 @@
   },
   "croptopia:gather_forest": {
     "criteria": {
-      "blackbean_seed": "2024-05-07 15:21:30 +0000"
+      "blackbean_seed": "2024-05-07 15:21:30 +0000",
+      "tea_seed": "2024-05-09 08:26:18 +0000"
     },
     "done": false
   },
@@ -31422,6 +31426,7 @@
   "croptopia:gather_all": {
     "criteria": {
       "blackbean_seed": "2024-05-07 15:21:30 +0000",
+      "tea_seed": "2024-05-09 08:26:18 +0000",
       "cabbage_seed": "2024-05-07 15:21:30 +0000",
       "currant_seed": "2024-05-07 15:21:30 +0000"
     },
@@ -31931,27 +31936,45 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/mushroom_rice": {
-    "criteria": {
-      "has_any_ingredient": "2024-05-08 15:48:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cherry_planks": {
-    "criteria": {
-      "has_log": "2024-05-08 15:14:41 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/tools/blood_pendant": {
     "criteria": {
       "has_item": "2024-05-08 14:37:35 +0000"
     },
     "done": true
   },
-  "pneumaticcraft:recipes/thermo_plant/vegetable_oil_from_crops": {
+  "minecraft:nether/get_wither_skull": {
     "criteria": {
-      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+      "wither_skull": "2024-05-08 14:37:35 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/incense_stick": {
+    "criteria": {
+      "has_item": "2024-05-08 14:37:35 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/alfsteel_pylon": {
+    "criteria": {
+      "criterion2": "2024-05-08 14:37:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/skull_banner_pattern": {
+    "criteria": {
+      "has_wither_skeleton_skull": "2024-05-08 14:37:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "in_better_fortress": "2024-05-08 14:42:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_planks": {
+    "criteria": {
+      "has_log": "2024-05-08 15:14:41 +0000"
     },
     "done": true
   },
@@ -31979,36 +32002,6 @@
     },
     "done": true
   },
-  "minecraft:nether/get_wither_skull": {
-    "criteria": {
-      "wither_skull": "2024-05-08 14:37:35 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/thermo_plant/lubricant_from_biodiesel": {
-    "criteria": {
-      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/incense_stick": {
-    "criteria": {
-      "has_item": "2024-05-08 14:37:35 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/thermo_plant/lpg": {
-    "criteria": {
-      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/thermo_plant/kerosene": {
-    "criteria": {
-      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
-    },
-    "done": true
-  },
   "mcwtrpdoors:recipes/cherry/cherry_mystic_trapdoor": {
     "criteria": {
       "has_logs": "2024-05-08 15:14:41 +0000"
@@ -32027,12 +32020,6 @@
     },
     "done": true
   },
-  "pneumaticcraft:recipes/thermo_plant/compressed_iron_drill_bit": {
-    "criteria": {
-      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
-    },
-    "done": true
-  },
   "utilitarian:recipes/misc/utility/cherry_logs_to_stairs": {
     "criteria": {
       "has_log": "2024-05-08 15:14:41 +0000"
@@ -32045,27 +32032,124 @@
     },
     "done": true
   },
-  "mythicbotany:recipes/misc/alfsteel_pylon": {
-    "criteria": {
-      "criterion2": "2024-05-08 14:37:35 +0000"
-    },
-    "done": true
-  },
   "mcwroofs:recipes/cherry": {
     "criteria": {
       "has_planks": "2024-05-08 15:14:41 +0000"
     },
     "done": true
   },
-  "pneumaticcraft:recipes/thermo_plant/plastic_from_lpg": {
+  "mcwtrpdoors:recipes/cherry/cherry_glass_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_swamp_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-08 15:14:41 +0000",
+      "has_the_recipe": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/cherry_logs_to_slabs": {
+    "criteria": {
+      "has_log": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/cherry": {
+    "criteria": {
+      "has_wood": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/cherry_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/cherry_logs_to_trapdoors": {
+    "criteria": {
+      "has_log": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_barn_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cherry_wood": {
+    "criteria": {
+      "has_log": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_four_panel_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_cottage_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/cherry/cherry_barrel_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/cherry_logs_to_pressure_plates": {
+    "criteria": {
+      "has_log": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/cherry_logs_to_doors": {
+    "criteria": {
+      "has_log": "2024-05-08 15:14:41 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/vegetable_oil_from_crops": {
     "criteria": {
       "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
     },
     "done": true
   },
-  "mcwtrpdoors:recipes/cherry/cherry_glass_trapdoor": {
+  "pneumaticcraft:recipes/thermo_plant/lubricant_from_biodiesel": {
     "criteria": {
-      "has_logs": "2024-05-08 15:14:41 +0000"
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/lpg": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/kerosene": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/compressed_iron_drill_bit": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/plastic_from_lpg": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
     },
     "done": true
   },
@@ -32087,19 +32171,6 @@
     },
     "done": true
   },
-  "mcwtrpdoors:recipes/cherry/cherry_swamp_trapdoor": {
-    "criteria": {
-      "has_logs": "2024-05-08 15:14:41 +0000",
-      "has_the_recipe": "2024-05-08 15:14:41 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/food/mushroom_stew": {
-    "criteria": {
-      "has_orig_recipe": "2024-05-08 15:48:24 +0000"
-    },
-    "done": true
-  },
   "pneumaticcraft:recipes/thermo_plant/spawner_core": {
     "criteria": {
       "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
@@ -32118,24 +32189,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/mushroom_stew": {
-    "criteria": {
-      "has_red_mushroom": "2024-05-08 15:48:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/skull_banner_pattern": {
-    "criteria": {
-      "has_wither_skeleton_skull": "2024-05-08 14:37:35 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/mushroom_stew": {
-    "criteria": {
-      "has_any_ingredient": "2024-05-08 15:48:24 +0000"
-    },
-    "done": true
-  },
   "pneumaticcraft:recipes/thermo_plant/salmon_tempura": {
     "criteria": {
       "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
@@ -32148,36 +32201,6 @@
     },
     "done": true
   },
-  "utilitarian:recipes/misc/utility/cherry_logs_to_slabs": {
-    "criteria": {
-      "has_log": "2024-05-08 15:14:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/find_fortress": {
-    "criteria": {
-      "in_better_fortress": "2024-05-08 14:42:16 +0000"
-    },
-    "done": true
-  },
-  "mcwdoors:recipes/cherry": {
-    "criteria": {
-      "has_wood": "2024-05-08 15:14:41 +0000"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/cherry_bridge_pier": {
-    "criteria": {
-      "has_planks": "2024-05-08 15:14:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/bowl": {
-    "criteria": {
-      "has_red_mushroom": "2024-05-08 15:48:24 +0000"
-    },
-    "done": true
-  },
   "pneumaticcraft:recipes/thermo_plant/ethanol_from_sweet_berries": {
     "criteria": {
       "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
@@ -32187,6 +32210,96 @@
   "pneumaticcraft:recipes/thermo_plant/ethanol_from_melon": {
     "criteria": {
       "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/ethanol_from_poisonous_potato": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/upgrade_matrix": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/ethanol_from_apple": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/yeast_culture": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/lubricant_from_diesel": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/vegetable_oil_from_seeds": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/reinforced_pressure_tube": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/gasoline": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/thermo_plant/plastic_from_biodiesel": {
+    "criteria": {
+      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:root": {
+    "criteria": {
+      "in_tf": "2024-05-08 15:47:38 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_rice": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_orig_recipe": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_red_mushroom": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/mushroom_stew": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-08 15:48:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bowl": {
+    "criteria": {
+      "has_red_mushroom": "2024-05-08 15:48:24 +0000"
     },
     "done": true
   },
@@ -32223,72 +32336,6 @@
   "botania:recipes/decorations/mushroom_13": {
     "criteria": {
       "has_item": "2024-05-08 15:48:24 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/thermo_plant/ethanol_from_poisonous_potato": {
-    "criteria": {
-      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/thermo_plant/upgrade_matrix": {
-    "criteria": {
-      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
-    },
-    "done": true
-  },
-  "utilitarian:recipes/misc/utility/cherry_logs_to_trapdoors": {
-    "criteria": {
-      "has_log": "2024-05-08 15:14:41 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/thermo_plant/ethanol_from_apple": {
-    "criteria": {
-      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/cherry/cherry_barn_trapdoor": {
-    "criteria": {
-      "has_logs": "2024-05-08 15:14:41 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/cherry_wood": {
-    "criteria": {
-      "has_log": "2024-05-08 15:14:41 +0000"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/cherry/cherry_four_panel_trapdoor": {
-    "criteria": {
-      "has_logs": "2024-05-08 15:14:41 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/thermo_plant/yeast_culture": {
-    "criteria": {
-      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/thermo_plant/lubricant_from_diesel": {
-    "criteria": {
-      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/cherry/cherry_cottage_trapdoor": {
-    "criteria": {
-      "has_logs": "2024-05-08 15:14:41 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/thermo_plant/vegetable_oil_from_seeds": {
-    "criteria": {
-      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
     },
     "done": true
   },
@@ -32352,45 +32399,495 @@
     },
     "done": true
   },
-  "pneumaticcraft:recipes/thermo_plant/reinforced_pressure_tube": {
+  "pneumaticcraft:recipes/fluid_mixer/mix_obsidian": {
     "criteria": {
-      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+      "fluid_mixer": "2024-05-09 08:06:12 +0000"
     },
     "done": true
   },
-  "mcwtrpdoors:recipes/cherry/cherry_barrel_trapdoor": {
+  "occultism:recipes/crushing/crushing/crimson_iron_dust_from_ingot": {
     "criteria": {
-      "has_logs": "2024-05-08 15:14:41 +0000"
+      "has_crimson_iron_ingot": "2024-05-09 08:51:08 +0000"
     },
     "done": true
   },
-  "pneumaticcraft:recipes/thermo_plant/gasoline": {
+  "cfm:recipes/decorations/acacia_table": {
     "criteria": {
-      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+      "has_log": "2024-05-09 08:37:48 +0000"
     },
     "done": true
   },
-  "utilitarian:recipes/misc/utility/cherry_logs_to_pressure_plates": {
+  "pneumaticcraft:recipes/fluid_mixer/biodiesel": {
     "criteria": {
-      "has_log": "2024-05-08 15:14:41 +0000"
+      "fluid_mixer": "2024-05-09 08:06:12 +0000"
     },
     "done": true
   },
-  "pneumaticcraft:recipes/thermo_plant/plastic_from_biodiesel": {
+  "cfm:recipes/decorations/stripped_acacia_bedside_cabinet": {
     "criteria": {
-      "thermopneumatic_processing_plant": "2024-05-08 15:46:49 +0000"
+      "has_planks": "2024-05-09 08:37:47 +0000"
     },
     "done": true
   },
-  "utilitarian:recipes/misc/utility/cherry_logs_to_doors": {
+  "cfm:recipes/decorations/acacia_bedside_cabinet": {
     "criteria": {
-      "has_log": "2024-05-08 15:14:41 +0000"
+      "has_log": "2024-05-09 08:37:47 +0000"
     },
     "done": true
   },
-  "twilightforest:root": {
+  "mcwtrpdoors:recipes/acacia/acacia_classic_trapdoor": {
     "criteria": {
-      "in_tf": "2024-05-08 15:47:38 +0000"
+      "has_logs": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_iron_dust_blasting": {
+    "criteria": {
+      "has_item": "2024-05-09 08:51:08 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_desk": {
+    "criteria": {
+      "has_planks": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/vacuum_trap": {
+    "criteria": {
+      "has_turbine_rotor": "2024-05-09 08:03:22 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_iron_nugget": {
+    "criteria": {
+      "has_item": "2024-05-09 08:51:08 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_upgraded_fence": {
+    "criteria": {
+      "has_log": "2024-05-09 08:37:47 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/fluid_pump": {
+    "criteria": {
+      "has_fluid_pipe": "2024-05-09 08:23:45 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_coffee_table": {
+    "criteria": {
+      "has_planks": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_blinds": {
+    "criteria": {
+      "has_log": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:yeast_culture": {
+    "criteria": {
+      "0": "2024-05-09 07:51:53 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/salvager": {
+    "criteria": {
+      "has_item": "2024-05-09 08:51:08 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_desk_cabinet": {
+    "criteria": {
+      "has_log": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_crate": {
+    "criteria": {
+      "has_planks": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/harvesting_drone": {
+    "criteria": {
+      "has_turbine_rotor": "2024-05-09 08:03:22 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/golden_shovel_repairing": {
+    "criteria": {
+      "has_golden_shovel": "2024-05-09 08:54:17 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/print_tropical": {
+    "criteria": {
+      "has_logs": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_coffee_table": {
+    "criteria": {
+      "has_log": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_four_panel_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-09 08:37:47 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/tea_seed": {
+    "criteria": {
+      "has_the_recipe": "2024-05-09 08:26:17 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_mystic_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-09 08:37:47 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/collector_drone": {
+    "criteria": {
+      "has_turbine_rotor": "2024-05-09 08:03:22 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/flow_detector_module": {
+    "criteria": {
+      "has_turbine_blade": "2024-05-09 08:03:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_ranch_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_kitchen_counter": {
+    "criteria": {
+      "has_log": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/acacia_logs_to_pressure_plates": {
+    "criteria": {
+      "has_log": "2024-05-09 08:37:47 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:programming_puzzle": {
+    "criteria": {
+      "0": "2024-05-09 08:51:07 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/logistics_drone": {
+    "criteria": {
+      "has_turbine_rotor": "2024-05-09 08:03:22 +0000"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/acacia": {
+    "criteria": {
+      "has_planks": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_table": {
+    "criteria": {
+      "has_planks": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_iron_dust": {
+    "criteria": {
+      "has_item": "2024-05-09 08:51:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2024-05-09 08:37:47 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/vacuum_pump": {
+    "criteria": {
+      "has_turbine_rotor": "2024-05-09 08:03:22 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_chair": {
+    "criteria": {
+      "has_log": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/acacia": {
+    "criteria": {
+      "has_wood": "2024-05-09 08:37:47 +0000"
+    },
+    "done": true
+  },
+  "silentgear:nether_plants": {
+    "criteria": {
+      "sapling": "2024-05-09 08:51:12 +0000"
+    },
+    "done": false
+  },
+  "silentgear:recipes/misc/crimson_iron_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-05-09 08:51:08 +0000"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/acacia": {
+    "criteria": {
+      "has_wood": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/electrostatic_compressor": {
+    "criteria": {
+      "has_turbine_rotor": "2024-05-09 08:03:22 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_barn_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_beach_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_park_bench": {
+    "criteria": {
+      "has_log": "2024-05-09 08:37:47 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/compressed_iron_ingot_from_block": {
+    "criteria": {
+      "has_compressed_iron_block": "2024-05-09 08:04:47 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/acacia_log_1x": {
+    "criteria": {
+      "has_acacia_log": "2024-05-09 08:37:47 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_iron_block": {
+    "criteria": {
+      "has_item": "2024-05-09 08:51:08 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_glass_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-09 08:37:47 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/acacia_logs_to_stairs": {
+    "criteria": {
+      "has_log": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/acacia_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-05-09 08:37:47 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_desk": {
+    "criteria": {
+      "has_log": "2024-05-09 08:37:47 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_barred_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-09 08:37:47 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_cabinet": {
+    "criteria": {
+      "has_log": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/bandage": {
+    "criteria": {
+      "has_glycerol": "2024-05-09 08:34:49 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:machine_vandal": {
+    "criteria": {
+      "0": "2024-05-09 07:58:39 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_desk_cabinet": {
+    "criteria": {
+      "has_planks": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/acacia_logs_to_doors": {
+    "criteria": {
+      "has_log": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_iron_ingot_from_nugget": {
+    "criteria": {
+      "has_item": "2024-05-09 08:51:08 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_bark_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/guard_drone": {
+    "criteria": {
+      "has_turbine_rotor": "2024-05-09 08:03:22 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_park_bench": {
+    "criteria": {
+      "has_log": "2024-05-09 08:37:47 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_kitchen_counter": {
+    "criteria": {
+      "has_log": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/ash_bricks": {
+    "criteria": {
+      "has_ash_brick": "2024-05-09 08:01:22 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_chair": {
+    "criteria": {
+      "has_planks": "2024-05-09 08:37:47 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_cabinet": {
+    "criteria": {
+      "has_log": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/acacia_logs_to_boats": {
+    "criteria": {
+      "has_log": "2024-05-09 08:37:47 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_paper_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-09 08:37:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2024-05-09 08:37:47 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_swamp_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:tools/upgrade_buzzsaw": {
+    "criteria": {
+      "code_trigger": "2024-05-09 08:32:30 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_cottage_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/fluid_sorter": {
+    "criteria": {
+      "has_fluid_pipe": "2024-05-09 08:23:45 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/turbine_rotor": {
+    "criteria": {
+      "has_turbine_blade": "2024-05-09 08:03:16 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_crate": {
+    "criteria": {
+      "has_log": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/acacia_logs_to_trapdoors": {
+    "criteria": {
+      "has_log": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_ingot": {
+    "criteria": {
+      "has_item": "2024-05-09 08:51:08 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_barrel_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-05-09 08:37:47 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/acacia_logs_to_slabs": {
+    "criteria": {
+      "has_log": "2024-05-09 08:37:48 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_iron_dust_smelting": {
+    "criteria": {
+      "has_item": "2024-05-09 08:51:08 +0000"
     },
     "done": true
   },
