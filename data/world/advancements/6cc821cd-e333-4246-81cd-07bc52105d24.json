@@ -33315,12 +33315,6 @@
     },
     "done": true
   },
-  "alchemistry:recipes/dissolver/cooked_chicken": {
-    "criteria": {
-      "has_the_recipe": "2024-05-10 04:22:38 +0000"
-    },
-    "done": true
-  },
   "croptopia:recipes/misc/cinnamon_roll": {
     "criteria": {
       "has_frying_pan": "2024-05-10 03:07:21 +0000"
@@ -33333,111 +33327,9 @@
     },
     "done": true
   },
-  "ad_astra:recipes/misc/gray_flag": {
-    "criteria": {
-      "has_gray_flag": "2024-05-10 06:43:08 +0000"
-    },
-    "done": true
-  },
-  "evilcraft:evil_source": {
-    "criteria": {
-      "criteria_0": "2024-05-10 07:56:46 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/fortuitous_militia": {
-    "criteria": {
-      "coded_trigger": "2024-05-10 05:47:44 +0000"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/glowstone_1x": {
-    "criteria": {
-      "has_glowstone": "2024-05-10 06:35:48 +0000"
-    },
-    "done": true
-  },
-  "mcwlights:recipes/glowstone_slab": {
-    "criteria": {
-      "has_wood": "2024-05-10 06:35:48 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken": {
-    "criteria": {
-      "has_chicken": "2024-05-10 04:22:38 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_deepslate_wall": {
-    "criteria": {
-      "has_polished_cut_deepslate": "2024-05-10 03:25:19 +0000"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/sulfur_dust": {
-    "criteria": {
-      "has_sulfur": "2024-05-10 04:21:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
-    "criteria": {
-      "has_chicken": "2024-05-10 04:22:38 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_carpet": {
-    "criteria": {
-      "has_gray_wool": "2024-05-10 06:43:08 +0000"
-    },
-    "done": true
-  },
-  "mcwlights:recipes/lamps_ceilings": {
-    "criteria": {
-      "has_the_recipe": "2024-05-10 06:35:48 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_deepslate_stairs": {
-    "criteria": {
-      "has_polished_cut_deepslate": "2024-05-10 03:25:19 +0000"
-    },
-    "done": true
-  },
-  "comforts:sleeping_bag_gray": {
-    "criteria": {
-      "has_gray_wool": "2024-05-10 06:43:08 +0000"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/clear_glass_white2": {
-    "criteria": {
-      "recipe_condition1": "2024-05-10 03:32:22 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/chicken_and_dumplings": {
-    "criteria": {
-      "has_chicken": "2024-05-10 04:22:38 +0000"
-    },
-    "done": true
-  },
   "croptopia:recipes/grilled_cheese": {
     "criteria": {
       "has_frying_pan": "2024-05-10 03:07:21 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_bed": {
-    "criteria": {
-      "has_gray_wool": "2024-05-10 06:43:08 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken_from_grill_cooking": {
-    "criteria": {
-      "has_chicken": "2024-05-10 04:22:38 +0000"
     },
     "done": true
   },
@@ -33447,81 +33339,15 @@
     },
     "done": true
   },
-  "handcrafted:recipes/misc/gray_sheet": {
-    "criteria": {
-      "has_gray_sheet": "2024-05-10 06:43:08 +0000"
-    },
-    "done": true
-  },
   "croptopia:recipes/misc/the_big_breakfast": {
     "criteria": {
       "has_frying_pan": "2024-05-10 03:07:21 +0000"
     },
     "done": true
   },
-  "connectedglass:recipes/misc/borderless_glass_pane3": {
-    "criteria": {
-      "recipe_condition": "2024-05-10 03:32:17 +0000"
-    },
-    "done": true
-  },
   "croptopia:recipes/fajitas": {
     "criteria": {
       "has_frying_pan": "2024-05-10 03:07:21 +0000"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/gray_cushion": {
-    "criteria": {
-      "has_gray_cushion": "2024-05-10 06:43:08 +0000"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/clear_glass_white_pane2": {
-    "criteria": {
-      "recipe_condition1": "2024-05-10 03:32:30 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/gray_sofa": {
-    "criteria": {
-      "has_wool": "2024-05-10 06:43:08 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/redstone_lamp": {
-    "criteria": {
-      "has_glowstone": "2024-05-10 06:35:48 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/gray_banner": {
-    "criteria": {
-      "has_gray_wool": "2024-05-10 06:43:08 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/charging_module": {
-    "criteria": {
-      "has_charging_station": "2024-05-10 09:10:59 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_deepslate_slab": {
-    "criteria": {
-      "has_polished_cut_deepslate": "2024-05-10 03:25:19 +0000"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/scratched_glass_pane1": {
-    "criteria": {
-      "recipe_condition": "2024-05-10 03:32:30 +0000"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/grass_block_1x": {
-    "criteria": {
-      "has_grass_block": "2024-05-10 07:17:08 +0000"
     },
     "done": true
   },
@@ -33549,54 +33375,6 @@
     },
     "done": true
   },
-  "comforts:hammock_gray": {
-    "criteria": {
-      "has_gray_wool": "2024-05-10 06:43:08 +0000"
-    },
-    "done": true
-  },
-  "eidolon:recipes/building_blocks/mossy_smooth_stone_bricks": {
-    "criteria": {
-      "has_item": "2024-05-10 03:12:00 +0000"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/borderless_glass_white2": {
-    "criteria": {
-      "recipe_condition1": "2024-05-10 03:32:17 +0000"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/scratched_glass1": {
-    "criteria": {
-      "recipe_condition": "2024-05-10 03:32:22 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_chicken_from_smoking": {
-    "criteria": {
-      "has_chicken": "2024-05-10 04:22:38 +0000"
-    },
-    "done": true
-  },
-  "eidolon:recipes/building_blocks/smooth_stone_arch_stonecutter_0": {
-    "criteria": {
-      "has_journal": "2024-05-10 03:12:00 +0000"
-    },
-    "done": true
-  },
-  "deepresonance:recipes/deepresonance/lens": {
-    "criteria": {
-      "has_pane": "2024-05-10 03:32:30 +0000"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/clear_glass_pane3": {
-    "criteria": {
-      "recipe_condition": "2024-05-10 03:32:22 +0000"
-    },
-    "done": true
-  },
   "croptopia:recipes/misc/sunny_side_eggs": {
     "criteria": {
       "has_frying_pan": "2024-05-10 03:07:21 +0000"
@@ -33621,6 +33399,132 @@
     },
     "done": true
   },
+  "eidolon:recipes/building_blocks/mossy_smooth_stone_bricks": {
+    "criteria": {
+      "has_item": "2024-05-10 03:12:00 +0000"
+    },
+    "done": true
+  },
+  "eidolon:recipes/building_blocks/smooth_stone_arch_stonecutter_0": {
+    "criteria": {
+      "has_journal": "2024-05-10 03:12:00 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_deepslate_wall": {
+    "criteria": {
+      "has_polished_cut_deepslate": "2024-05-10 03:25:19 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_deepslate_stairs": {
+    "criteria": {
+      "has_polished_cut_deepslate": "2024-05-10 03:25:19 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_deepslate_slab": {
+    "criteria": {
+      "has_polished_cut_deepslate": "2024-05-10 03:25:19 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_pane3": {
+    "criteria": {
+      "recipe_condition": "2024-05-10 03:32:17 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_white2": {
+    "criteria": {
+      "recipe_condition1": "2024-05-10 03:32:17 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass1": {
+    "criteria": {
+      "recipe_condition": "2024-05-10 03:32:17 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_white2": {
+    "criteria": {
+      "recipe_condition1": "2024-05-10 03:32:22 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass1": {
+    "criteria": {
+      "recipe_condition": "2024-05-10 03:32:22 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_pane3": {
+    "criteria": {
+      "recipe_condition": "2024-05-10 03:32:22 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_white_pane2": {
+    "criteria": {
+      "recipe_condition1": "2024-05-10 03:32:30 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_pane1": {
+    "criteria": {
+      "recipe_condition": "2024-05-10 03:32:30 +0000"
+    },
+    "done": true
+  },
+  "deepresonance:recipes/deepresonance/lens": {
+    "criteria": {
+      "has_pane": "2024-05-10 03:32:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/sulfur_dust": {
+    "criteria": {
+      "has_sulfur": "2024-05-10 04:21:22 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/cooked_chicken": {
+    "criteria": {
+      "has_the_recipe": "2024-05-10 04:22:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2024-05-10 04:22:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2024-05-10 04:22:38 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/chicken_and_dumplings": {
+    "criteria": {
+      "has_chicken": "2024-05-10 04:22:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_grill_cooking": {
+    "criteria": {
+      "has_chicken": "2024-05-10 04:22:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2024-05-10 04:22:38 +0000"
+    },
+    "done": true
+  },
   "croptopia:recipes/chicken_and_rice": {
     "criteria": {
       "has_chicken": "2024-05-10 04:22:38 +0000"
@@ -33633,9 +33537,267 @@
     },
     "done": true
   },
-  "connectedglass:recipes/misc/clear_glass1": {
+  "tombstone:adventure/fortuitous_militia": {
     "criteria": {
-      "recipe_condition": "2024-05-10 03:32:17 +0000"
+      "coded_trigger": "2024-05-10 05:47:44 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/glowstone_1x": {
+    "criteria": {
+      "has_glowstone": "2024-05-10 06:35:48 +0000"
+    },
+    "done": true
+  },
+  "mcwlights:recipes/glowstone_slab": {
+    "criteria": {
+      "has_wood": "2024-05-10 06:35:48 +0000"
+    },
+    "done": true
+  },
+  "mcwlights:recipes/lamps_ceilings": {
+    "criteria": {
+      "has_the_recipe": "2024-05-10 06:35:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2024-05-10 06:35:48 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/gray_flag": {
+    "criteria": {
+      "has_gray_flag": "2024-05-10 06:43:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2024-05-10 06:43:08 +0000"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_gray": {
+    "criteria": {
+      "has_gray_wool": "2024-05-10 06:43:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2024-05-10 06:43:08 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/gray_sheet": {
+    "criteria": {
+      "has_gray_sheet": "2024-05-10 06:43:08 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/gray_cushion": {
+    "criteria": {
+      "has_gray_cushion": "2024-05-10 06:43:08 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/gray_sofa": {
+    "criteria": {
+      "has_wool": "2024-05-10 06:43:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2024-05-10 06:43:08 +0000"
+    },
+    "done": true
+  },
+  "comforts:hammock_gray": {
+    "criteria": {
+      "has_gray_wool": "2024-05-10 06:43:08 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/grass_block_1x": {
+    "criteria": {
+      "has_grass_block": "2024-05-10 07:17:08 +0000"
+    },
+    "done": true
+  },
+  "evilcraft:evil_source": {
+    "criteria": {
+      "criteria_0": "2024-05-10 07:56:46 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/charging_module": {
+    "criteria": {
+      "has_charging_station": "2024-05-10 09:10:59 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/aether_gold_nugget_from_smelting": {
+    "criteria": {
+      "has_golden_gloves": "2024-05-10 14:43:05 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_helmet_repairing": {
+    "criteria": {
+      "has_golden_helmet": "2024-05-10 14:42:59 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_gloves_repairing": {
+    "criteria": {
+      "has_golden_gloves": "2024-05-10 14:43:05 +0000"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/misc/sawdust_to_paper_water_bottle": {
+    "criteria": {
+      "has_sawdust": "2024-05-10 14:16:31 +0000"
+    },
+    "done": true
+  },
+  "tombstone:recipes/from_dark_marble": {
+    "criteria": {
+      "has_ingredient": "2024-05-10 14:52:24 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_grave_marble": {
+    "criteria": {
+      "has_grave_marble": "2024-05-10 14:52:24 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/aether_gold_nugget_from_blasting": {
+    "criteria": {
+      "has_golden_gloves": "2024-05-10 14:43:05 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/iron_to_diamond_tier_upgrade": {
+    "criteria": {
+      "has_iron_to_gold_tier_upgrade": "2024-05-10 14:04:45 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/epic": {
+    "criteria": {
+      "sword": "2024-05-10 14:15:36 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/squid_ink_pasta": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-10 14:00:39 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/sawdust": {
+    "criteria": {
+      "has_sawdust": "2024-05-10 14:16:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2024-05-10 14:00:39 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_sword_repairing": {
+    "criteria": {
+      "has_diamond_sword": "2024-05-10 14:42:57 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/blast_furnace/blasting_iron_horse_armor": {
+    "criteria": {
+      "has_iron_horse_armor": "2024-05-10 14:45:38 +0000"
+    },
+    "done": true
+  },
+  "productivebees:husbandry/advanced_beehive": {
+    "criteria": {
+      "get_hive": "2024-05-10 14:26:57 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/chainmail_leggings_repairing": {
+    "criteria": {
+      "has_chainmail_leggings": "2024-05-10 14:45:36 +0000"
+    },
+    "done": true
+  },
+  "productivetrees:recipes/misc/sawdust_to_paper": {
+    "criteria": {
+      "has_sawdust": "2024-05-10 14:16:31 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/frozen/cutting/ice_sword": {
+    "criteria": {
+      "has_diamond_sword": "2024-05-10 14:42:57 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/sulfur_dust_from_gem": {
+    "criteria": {
+      "has_sulfur_gem": "2024-05-10 13:51:14 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/magnet_upgrade": {
+    "criteria": {
+      "has_pickup_upgrade": "2024-05-10 14:09:12 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/netherite_backpack": {
+    "criteria": {
+      "has_diamond_backpack": "2024-05-10 14:10:18 +0000"
+    },
+    "done": true
+  },
+  "minecolonies:recipes/misc/doublegrass": {
+    "criteria": {
+      "has_grass": "2024-05-10 14:11:09 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/paper_from_sawdust": {
+    "criteria": {
+      "has_sawdust": "2024-05-10 14:16:31 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/diamond_shovel_repairing": {
+    "criteria": {
+      "has_diamond_shovel": "2024-05-10 13:11:12 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/diamond_axe_repairing": {
+    "criteria": {
+      "has_diamond_axe": "2024-05-10 14:15:36 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_pickup_upgrade": {
+    "criteria": {
+      "has_pickup_upgrade": "2024-05-10 14:09:12 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/stone_gear_upgrade": {
+    "criteria": {
+      "has_ingredient": "2024-05-10 14:52:08 +0000"
     },
     "done": true
   },
