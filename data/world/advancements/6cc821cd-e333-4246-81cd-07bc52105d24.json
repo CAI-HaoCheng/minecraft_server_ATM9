@@ -12376,6 +12376,7 @@
   "croptopia:gather_food": {
     "criteria": {
       "sea_lettuce": "2024-05-01 15:41:33 +0000",
+      "hamburger": "2024-05-10 03:07:26 +0000",
       "cooked_shrimp": "2024-05-01 15:44:50 +0000",
       "anchovy": "2024-05-01 15:50:25 +0000",
       "clam": "2024-05-01 15:45:25 +0000",
@@ -32891,51 +32892,99 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_drill_smithing": {
+  "mekanism:logistical_sorter": {
     "criteria": {
-      "has_netherite_ingot": "2024-05-09 14:02:03 +0000"
+      "logistical_sorter": "2024-05-09 13:18:42 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/combat/netherite_knife_smithing": {
+  "sliceanddice:recipes/misc/sprinkler": {
     "criteria": {
-      "has_netherite_ingot": "2024-05-09 14:02:03 +0000"
+      "has_pipe": "2024-05-09 13:23:51 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/pasta_with_meatballs": {
+  "create:mechanical_pump_0": {
     "criteria": {
-      "has_any_ingredient": "2024-05-09 14:59:18 +0000"
+      "0": "2024-05-09 13:26:01 +0000"
     },
     "done": true
   },
-  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_wall": {
+  "create_enchantment_industry:a_shower_experience": {
     "criteria": {
-      "has_smooth_stone_bricks": "2024-05-09 14:07:19 +0000"
+      "builtin": "2024-05-09 13:26:15 +0000"
     },
     "done": true
   },
-  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_wall_from_smooth_stone_brick_stonecutting": {
+  "mekanism:atomic_alloy": {
     "criteria": {
-      "has_smooth_stone_bricks": "2024-05-09 14:07:19 +0000"
+      "alloy_atomic": "2024-05-09 13:28:54 +0000"
     },
     "done": true
   },
-  "alchemistry:recipes/dissolver/cooked_beef": {
+  "mekanism:teleportation_core": {
     "criteria": {
-      "has_the_recipe": "2024-05-09 14:59:18 +0000"
+      "teleportation_core": "2024-05-09 13:29:02 +0000"
     },
     "done": true
   },
-  "create:recipes/building_blocks/polished_cut_deepslate_slab_recycling": {
+  "delightful:recipes/knives/refined_obsidian_knife": {
     "criteria": {
-      "has_polished_cut_deepslate_slab": "2024-05-09 14:29:45 +0000"
+      "has_ingots/refined_obsidian": "2024-05-09 13:32:31 +0000"
     },
     "done": true
   },
-  "croptopia:recipes/burrito": {
+  "mekanism:personal_storage": {
     "criteria": {
-      "has_the_recipe": "2024-05-09 14:59:18 +0000"
+      "storage": "2024-05-09 13:34:32 +0000"
+    },
+    "done": true
+  },
+  "mekanism:digital_miner": {
+    "criteria": {
+      "digital_miner": "2024-05-09 13:34:53 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_output": {
+    "criteria": {
+      "has_base_tier_wooden_storage": "2024-05-09 13:38:01 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/iron_chest": {
+    "criteria": {
+      "has_chest": "2024-05-09 13:38:01 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/controller": {
+    "criteria": {
+      "has_base_tier_wooden_storage": "2024-05-09 13:38:01 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/shulker_from_chest": {
+    "criteria": {
+      "has_chest": "2024-05-09 13:38:01 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_input": {
+    "criteria": {
+      "has_base_tier_wooden_storage": "2024-05-09 13:38:01 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/copper_chest": {
+    "criteria": {
+      "has_chest": "2024-05-09 13:38:01 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_io": {
+    "criteria": {
+      "has_base_tier_wooden_storage": "2024-05-09 13:38:01 +0000"
     },
     "done": true
   },
@@ -32948,63 +32997,21 @@
     },
     "done": false
   },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2024-05-09 13:58:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/netherite_axe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2024-05-09 14:02:02 +0000"
     },
     "done": true
   },
-  "delightful:recipes/knives/refined_obsidian_knife": {
-    "criteria": {
-      "has_ingots/refined_obsidian": "2024-05-09 13:32:31 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/stuffed_poblanos": {
-    "criteria": {
-      "has_beef": "2024-05-09 14:59:18 +0000"
-    },
-    "done": true
-  },
-  "eidolon:recipes/building_blocks/smooth_stone_masonry_stair": {
-    "criteria": {
-      "has_journal": "2024-05-09 14:09:29 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/small_deepslate_brick_wall": {
-    "criteria": {
-      "has_small_deepslate_bricks": "2024-05-09 14:23:56 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/netherite_pickaxe_smithing": {
     "criteria": {
       "has_netherite_ingot": "2024-05-09 14:02:02 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/beef_jerky": {
-    "criteria": {
-      "has_beef": "2024-05-09 14:59:18 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/storage_output": {
-    "criteria": {
-      "has_base_tier_wooden_storage": "2024-05-09 13:38:01 +0000"
-    },
-    "done": true
-  },
-  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_slab_from_smooth_stone_brick_stonecutting": {
-    "criteria": {
-      "has_smooth_stone_bricks": "2024-05-09 14:07:19 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/iron_chest": {
-    "criteria": {
-      "has_chest": "2024-05-09 13:38:01 +0000"
     },
     "done": true
   },
@@ -33020,69 +33027,63 @@
     },
     "done": true
   },
-  "croptopia:recipes/food/beef_jerky": {
-    "criteria": {
-      "has_the_recipe": "2024-05-09 14:59:18 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/shaped_beef_stew": {
-    "criteria": {
-      "has_beef": "2024-05-09 14:59:18 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/controller": {
-    "criteria": {
-      "has_base_tier_wooden_storage": "2024-05-09 13:38:01 +0000"
-    },
-    "done": true
-  },
-  "create:mechanical_pump_0": {
-    "criteria": {
-      "0": "2024-05-09 13:26:01 +0000"
-    },
-    "done": true
-  },
-  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_stairs_from_smooth_stone_brick_stonecutting": {
-    "criteria": {
-      "has_smooth_stone_bricks": "2024-05-09 14:07:19 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/shulker_from_chest": {
-    "criteria": {
-      "has_chest": "2024-05-09 13:38:01 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/combat/netherite_sword_smithing": {
     "criteria": {
       "has_netherite_ingot": "2024-05-09 14:02:02 +0000"
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_deepslate_slab_recycling": {
+  "aether:recipes/combat/netherite_gloves_smithing": {
     "criteria": {
-      "has_cut_deepslate_slab": "2024-05-09 14:29:02 +0000"
+      "has_netherite_ingot": "2024-05-09 14:02:02 +0000"
     },
     "done": true
   },
-  "mekanism:personal_storage": {
+  "alchemistry:recipes/dissolver/netherite_block": {
     "criteria": {
-      "storage": "2024-05-09 13:34:32 +0000"
+      "has_the_recipe": "2024-05-09 14:02:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_leggings_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-05-09 14:02:02 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/netherite_dust_from_ingot": {
+    "criteria": {
+      "has_netherite_ingot": "2024-05-09 14:02:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/netherite_block": {
+    "criteria": {
+      "has_netherite_ingot": "2024-05-09 14:02:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_hoe_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-05-09 14:02:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_drill_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-05-09 14:02:03 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/netherite_knife_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-05-09 14:02:03 +0000"
     },
     "done": true
   },
   "minecraft:recipes/combat/netherite_chestplate_smithing": {
     "criteria": {
       "has_netherite_ingot": "2024-05-09 14:02:03 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/netherite_gloves_smithing": {
-    "criteria": {
-      "has_netherite_ingot": "2024-05-09 14:02:02 +0000"
     },
     "done": true
   },
@@ -33110,57 +33111,69 @@
     },
     "done": true
   },
-  "sliceanddice:recipes/misc/sprinkler": {
-    "criteria": {
-      "has_pipe": "2024-05-09 13:23:51 +0000"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/netherite_block": {
-    "criteria": {
-      "has_the_recipe": "2024-05-09 14:02:02 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_beef_from_smoking": {
-    "criteria": {
-      "has_beef": "2024-05-09 14:59:18 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/storage_input": {
-    "criteria": {
-      "has_base_tier_wooden_storage": "2024-05-09 13:38:01 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/small_deepslate_brick_stairs": {
-    "criteria": {
-      "has_small_deepslate_bricks": "2024-05-09 14:23:56 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/hamburger": {
-    "criteria": {
-      "has_beef": "2024-05-09 14:59:18 +0000"
-    },
-    "done": true
-  },
   "supplementaries:recipes/safe": {
     "criteria": {
       "has_netherite_ingot": "2024-05-09 14:02:03 +0000"
     },
     "done": true
   },
-  "sophisticatedstorage:recipes/misc/copper_chest": {
+  "additionallanterns:recipes/misc/netherite_chain": {
     "criteria": {
-      "has_chest": "2024-05-09 13:38:01 +0000"
+      "recipe_condition": "2024-05-09 14:02:03 +0000"
     },
     "done": true
   },
-  "mekanism:logistical_sorter": {
+  "rsinfinitybooster:recipes/misc/infinity_card": {
     "criteria": {
-      "logistical_sorter": "2024-05-09 13:18:42 +0000"
+      "has_item": "2024-05-09 14:02:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/netherite_boots_smithing": {
+    "criteria": {
+      "has_netherite_ingot": "2024-05-09 14:02:03 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_wall": {
+    "criteria": {
+      "has_smooth_stone_bricks": "2024-05-09 14:07:19 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_wall_from_smooth_stone_brick_stonecutting": {
+    "criteria": {
+      "has_smooth_stone_bricks": "2024-05-09 14:07:19 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_slab_from_smooth_stone_brick_stonecutting": {
+    "criteria": {
+      "has_smooth_stone_bricks": "2024-05-09 14:07:19 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_stairs_from_smooth_stone_brick_stonecutting": {
+    "criteria": {
+      "has_smooth_stone_bricks": "2024-05-09 14:07:19 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_stairs": {
+    "criteria": {
+      "has_smooth_stone_bricks": "2024-05-09 14:07:19 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_slab": {
+    "criteria": {
+      "has_smooth_stone_bricks": "2024-05-09 14:07:19 +0000"
+    },
+    "done": true
+  },
+  "eidolon:recipes/building_blocks/smooth_stone_masonry_stair": {
+    "criteria": {
+      "has_journal": "2024-05-09 14:09:29 +0000"
     },
     "done": true
   },
@@ -33176,27 +33189,99 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_beef_from_grill_cooking": {
+  "eidolon:recipes/decorations/smooth_stone_masonry_slab": {
+    "criteria": {
+      "has_journal": "2024-05-09 14:09:29 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_deepslate_brick_wall": {
+    "criteria": {
+      "has_small_deepslate_bricks": "2024-05-09 14:23:56 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_deepslate_brick_stairs": {
+    "criteria": {
+      "has_small_deepslate_bricks": "2024-05-09 14:23:56 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_deepslate_brick_slab": {
+    "criteria": {
+      "has_small_deepslate_bricks": "2024-05-09 14:23:56 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_deepslate_slab_recycling": {
+    "criteria": {
+      "has_cut_deepslate_slab": "2024-05-09 14:29:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_deepslate_slab_recycling": {
+    "criteria": {
+      "has_polished_cut_deepslate_slab": "2024-05-09 14:29:45 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pasta_with_meatballs": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-09 14:59:18 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/cooked_beef": {
+    "criteria": {
+      "has_the_recipe": "2024-05-09 14:59:18 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/burrito": {
+    "criteria": {
+      "has_the_recipe": "2024-05-09 14:59:18 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/stuffed_poblanos": {
     "criteria": {
       "has_beef": "2024-05-09 14:59:18 +0000"
     },
     "done": true
   },
-  "mekanism:atomic_alloy": {
+  "croptopia:recipes/beef_jerky": {
     "criteria": {
-      "alloy_atomic": "2024-05-09 13:28:54 +0000"
+      "has_beef": "2024-05-09 14:59:18 +0000"
     },
     "done": true
   },
-  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_stairs": {
+  "croptopia:recipes/food/beef_jerky": {
     "criteria": {
-      "has_smooth_stone_bricks": "2024-05-09 14:07:19 +0000"
+      "has_the_recipe": "2024-05-09 14:59:18 +0000"
     },
     "done": true
   },
-  "additionallanterns:recipes/misc/netherite_chain": {
+  "croptopia:recipes/shaped_beef_stew": {
     "criteria": {
-      "recipe_condition": "2024-05-09 14:02:03 +0000"
+      "has_beef": "2024-05-09 14:59:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2024-05-09 14:59:18 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/hamburger": {
+    "criteria": {
+      "has_beef": "2024-05-09 14:59:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_grill_cooking": {
+    "criteria": {
+      "has_beef": "2024-05-09 14:59:18 +0000"
     },
     "done": true
   },
@@ -33212,75 +33297,9 @@
     },
     "done": true
   },
-  "minecraft:husbandry/breed_an_animal": {
-    "criteria": {
-      "bred": "2024-05-09 13:58:12 +0000"
-    },
-    "done": true
-  },
-  "mekanism:teleportation_core": {
-    "criteria": {
-      "teleportation_core": "2024-05-09 13:29:02 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/netherite_leggings_smithing": {
-    "criteria": {
-      "has_netherite_ingot": "2024-05-09 14:02:02 +0000"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/netherite_dust_from_ingot": {
-    "criteria": {
-      "has_netherite_ingot": "2024-05-09 14:02:02 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/netherite_block": {
-    "criteria": {
-      "has_netherite_ingot": "2024-05-09 14:02:02 +0000"
-    },
-    "done": true
-  },
-  "eidolon:recipes/decorations/smooth_stone_masonry_slab": {
-    "criteria": {
-      "has_journal": "2024-05-09 14:09:29 +0000"
-    },
-    "done": true
-  },
-  "create_enchantment_industry:a_shower_experience": {
-    "criteria": {
-      "builtin": "2024-05-09 13:26:15 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/small_deepslate_brick_slab": {
-    "criteria": {
-      "has_small_deepslate_bricks": "2024-05-09 14:23:56 +0000"
-    },
-    "done": true
-  },
-  "rsinfinitybooster:recipes/misc/infinity_card": {
-    "criteria": {
-      "has_item": "2024-05-09 14:02:03 +0000"
-    },
-    "done": true
-  },
-  "twigs:recipes/smooth_stone_bricks/smooth_stone_brick_slab": {
-    "criteria": {
-      "has_smooth_stone_bricks": "2024-05-09 14:07:19 +0000"
-    },
-    "done": true
-  },
   "croptopia:recipes/food/pork_jerky": {
     "criteria": {
       "has_the_recipe": "2024-05-09 14:59:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/combat/netherite_boots_smithing": {
-    "criteria": {
-      "has_netherite_ingot": "2024-05-09 14:02:03 +0000"
     },
     "done": true
   },
@@ -33290,21 +33309,333 @@
     },
     "done": true
   },
-  "mekanism:digital_miner": {
+  "croptopia:recipes/shaped_beef_wellington": {
     "criteria": {
-      "digital_miner": "2024-05-09 13:34:53 +0000"
+      "has_frying_pan": "2024-05-10 03:07:21 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/netherite_hoe_smithing": {
+  "alchemistry:recipes/dissolver/cooked_chicken": {
     "criteria": {
-      "has_netherite_ingot": "2024-05-09 14:02:02 +0000"
+      "has_the_recipe": "2024-05-10 04:22:38 +0000"
     },
     "done": true
   },
-  "sophisticatedstorage:recipes/misc/storage_io": {
+  "croptopia:recipes/misc/cinnamon_roll": {
     "criteria": {
-      "has_base_tier_wooden_storage": "2024-05-09 13:38:01 +0000"
+      "has_frying_pan": "2024-05-10 03:07:21 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/baked_crepes": {
+    "criteria": {
+      "has_frying_pan": "2024-05-10 03:07:21 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/gray_flag": {
+    "criteria": {
+      "has_gray_flag": "2024-05-10 06:43:08 +0000"
+    },
+    "done": true
+  },
+  "evilcraft:evil_source": {
+    "criteria": {
+      "criteria_0": "2024-05-10 07:56:46 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/fortuitous_militia": {
+    "criteria": {
+      "coded_trigger": "2024-05-10 05:47:44 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/glowstone_1x": {
+    "criteria": {
+      "has_glowstone": "2024-05-10 06:35:48 +0000"
+    },
+    "done": true
+  },
+  "mcwlights:recipes/glowstone_slab": {
+    "criteria": {
+      "has_wood": "2024-05-10 06:35:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2024-05-10 04:22:38 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_deepslate_wall": {
+    "criteria": {
+      "has_polished_cut_deepslate": "2024-05-10 03:25:19 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/sulfur_dust": {
+    "criteria": {
+      "has_sulfur": "2024-05-10 04:21:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2024-05-10 04:22:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2024-05-10 06:43:08 +0000"
+    },
+    "done": true
+  },
+  "mcwlights:recipes/lamps_ceilings": {
+    "criteria": {
+      "has_the_recipe": "2024-05-10 06:35:48 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_deepslate_stairs": {
+    "criteria": {
+      "has_polished_cut_deepslate": "2024-05-10 03:25:19 +0000"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_gray": {
+    "criteria": {
+      "has_gray_wool": "2024-05-10 06:43:08 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_white2": {
+    "criteria": {
+      "recipe_condition1": "2024-05-10 03:32:22 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/chicken_and_dumplings": {
+    "criteria": {
+      "has_chicken": "2024-05-10 04:22:38 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/grilled_cheese": {
+    "criteria": {
+      "has_frying_pan": "2024-05-10 03:07:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2024-05-10 06:43:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_grill_cooking": {
+    "criteria": {
+      "has_chicken": "2024-05-10 04:22:38 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/hashed_brown": {
+    "criteria": {
+      "has_frying_pan": "2024-05-10 03:07:21 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/gray_sheet": {
+    "criteria": {
+      "has_gray_sheet": "2024-05-10 06:43:08 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/the_big_breakfast": {
+    "criteria": {
+      "has_frying_pan": "2024-05-10 03:07:21 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_pane3": {
+    "criteria": {
+      "recipe_condition": "2024-05-10 03:32:17 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/fajitas": {
+    "criteria": {
+      "has_frying_pan": "2024-05-10 03:07:21 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/gray_cushion": {
+    "criteria": {
+      "has_gray_cushion": "2024-05-10 06:43:08 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_white_pane2": {
+    "criteria": {
+      "recipe_condition1": "2024-05-10 03:32:30 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/gray_sofa": {
+    "criteria": {
+      "has_wool": "2024-05-10 06:43:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone_lamp": {
+    "criteria": {
+      "has_glowstone": "2024-05-10 06:35:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2024-05-10 06:43:08 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/charging_module": {
+    "criteria": {
+      "has_charging_station": "2024-05-10 09:10:59 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_deepslate_slab": {
+    "criteria": {
+      "has_polished_cut_deepslate": "2024-05-10 03:25:19 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_pane1": {
+    "criteria": {
+      "recipe_condition": "2024-05-10 03:32:30 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/grass_block_1x": {
+    "criteria": {
+      "has_grass_block": "2024-05-10 07:17:08 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/croque_madame": {
+    "criteria": {
+      "has_frying_pan": "2024-05-10 03:07:21 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/croque_monsieur": {
+    "criteria": {
+      "has_frying_pan": "2024-05-10 03:07:21 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/quiche": {
+    "criteria": {
+      "has_frying_pan": "2024-05-10 03:07:21 +0000"
+    },
+    "done": true
+  },
+  "croptopia:frying_pan": {
+    "criteria": {
+      "frying_pan": "2024-05-10 03:07:21 +0000"
+    },
+    "done": true
+  },
+  "comforts:hammock_gray": {
+    "criteria": {
+      "has_gray_wool": "2024-05-10 06:43:08 +0000"
+    },
+    "done": true
+  },
+  "eidolon:recipes/building_blocks/mossy_smooth_stone_bricks": {
+    "criteria": {
+      "has_item": "2024-05-10 03:12:00 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_white2": {
+    "criteria": {
+      "recipe_condition1": "2024-05-10 03:32:17 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass1": {
+    "criteria": {
+      "recipe_condition": "2024-05-10 03:32:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2024-05-10 04:22:38 +0000"
+    },
+    "done": true
+  },
+  "eidolon:recipes/building_blocks/smooth_stone_arch_stonecutter_0": {
+    "criteria": {
+      "has_journal": "2024-05-10 03:12:00 +0000"
+    },
+    "done": true
+  },
+  "deepresonance:recipes/deepresonance/lens": {
+    "criteria": {
+      "has_pane": "2024-05-10 03:32:30 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass_pane3": {
+    "criteria": {
+      "recipe_condition": "2024-05-10 03:32:22 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/sunny_side_eggs": {
+    "criteria": {
+      "has_frying_pan": "2024-05-10 03:07:21 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/pizza": {
+    "criteria": {
+      "has_frying_pan": "2024-05-10 03:07:21 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/dauphine_potatoes": {
+    "criteria": {
+      "has_frying_pan": "2024-05-10 03:07:21 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/fried_chicken": {
+    "criteria": {
+      "has_frying_pan": "2024-05-10 03:07:21 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/chicken_and_rice": {
+    "criteria": {
+      "has_chicken": "2024-05-10 04:22:38 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/chicken_and_noodles": {
+    "criteria": {
+      "has_chicken": "2024-05-10 04:22:38 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/clear_glass1": {
+    "criteria": {
+      "recipe_condition": "2024-05-10 03:32:17 +0000"
     },
     "done": true
   },
