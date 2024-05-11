@@ -285,13 +285,16 @@
     "criteria": {
       "shrubland": "2024-05-02 13:22:56 +0000",
       "rocky_shrubland": "2024-05-02 14:24:59 +0000",
+      "erupting_inferno": "2024-05-11 15:12:06 +0000",
       "highland": "2024-05-01 14:32:49 +0000",
       "crystalline_chasm": "2024-05-08 14:20:56 +0000",
       "field": "2024-05-04 14:03:26 +0000",
       "coniferous_forest": "2024-05-01 14:30:13 +0000",
       "spider_nest": "2024-05-02 14:01:32 +0000",
+      "visceral_heap": "2024-05-11 15:40:25 +0000",
       "dune_beach": "2024-05-03 13:57:28 +0000",
       "seasonal_forest": "2024-05-01 14:33:56 +0000",
+      "undergrowth": "2024-05-11 15:23:31 +0000",
       "ominous_woods": "2024-05-03 14:03:15 +0000"
     },
     "done": false
@@ -2250,7 +2253,8 @@
   "lootr:social": {
     "criteria": {
       "opened_barrel": "2024-05-02 14:31:59 +0000",
-      "opened_chest": "2024-05-01 14:36:20 +0000"
+      "opened_chest": "2024-05-01 14:36:20 +0000",
+      "opened_cart": "2024-05-11 15:24:31 +0000"
     },
     "done": false
   },
@@ -7533,6 +7537,7 @@
       "minecraft:wither_skeleton": "2024-05-05 14:54:35 +0000",
       "minecraft:husk": "2024-05-04 16:02:08 +0000",
       "minecraft:cave_spider": "2024-05-02 14:30:13 +0000",
+      "minecraft:piglin": "2024-05-11 15:22:17 +0000",
       "minecraft:zombie": "2024-05-02 14:16:16 +0000",
       "quark:foxhound": "2024-05-08 14:19:09 +0000"
     },
@@ -10272,12 +10277,13 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
+      "minecraft:crimson_forest": "2024-05-11 15:23:07 +0000",
       "minecraft:nether_wastes": "2024-05-08 14:15:21 +0000",
       "minecraft:soul_sand_valley": "2024-05-08 14:12:49 +0000",
       "minecraft:warped_forest": "2024-05-02 14:34:48 +0000",
       "minecraft:basalt_deltas": "2024-05-08 14:11:47 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/misc/diamond_from_blasting_diamond_ore": {
     "criteria": {
@@ -24672,6 +24678,48 @@
       "has_golden_boots": "2024-05-10 16:00:53 +0000"
     },
     "done": true
+  },
+  "aether:recipes/tools/stone_axe_repairing": {
+    "criteria": {
+      "has_stone_axe": "2024-05-11 13:17:17 +0000"
+    },
+    "done": true
+  },
+  "lootr:1cart": {
+    "criteria": {
+      "opened_cart": "2024-05-11 15:24:31 +0000"
+    },
+    "done": true
+  },
+  "mahoutsukai:emrys": {
+    "criteria": {
+      "emrys": "2024-05-11 14:30:04 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:find_soul_black_smith": {
+    "criteria": {
+      "blacksmith": "2024-05-11 15:12:27 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:pyramids": {
+    "criteria": {
+      "in_pyramid_nether": "2024-05-11 15:38:05 +0000"
+    },
+    "done": false
+  },
+  "aether:recipes/combat/diamond_chestplate_repairing": {
+    "criteria": {
+      "has_diamond_chestplate": "2024-05-11 15:04:26 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:mineshafts": {
+    "criteria": {
+      "in_mineshaft_nether": "2024-05-11 15:24:24 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }

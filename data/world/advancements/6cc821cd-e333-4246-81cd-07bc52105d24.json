@@ -34684,5 +34684,233 @@
     },
     "done": true
   },
+  "create:recipes/building_blocks/polished_cut_scorchia_stairs_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2024-05-11 13:19:52 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scorchia_bricks_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2024-05-11 13:19:52 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/platinum_ingot_from_slate_ore": {
+    "criteria": {
+      "has_item": "2024-05-11 13:40:57 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/scorchia_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2024-05-11 13:19:52 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/uranium_dust": {
+    "criteria": {
+      "has_uranium": "2024-05-11 13:41:13 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scorchia_brick_stairs_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2024-05-11 13:19:52 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/scorchia_pillar_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2024-05-11 13:19:52 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scorchia_bricks_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2024-05-11 13:19:52 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/master/stella_arcanum": {
+    "criteria": {
+      "has_stella_arcanum_ore": "2024-05-11 13:41:13 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scorchia_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2024-05-11 13:19:52 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/gold_shulker_from_gold_chest": {
+    "criteria": {
+      "has_gold_chest": "2024-05-11 13:41:28 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/spark_upgrade_dispersive": {
+    "criteria": {
+      "has_alt_item": "2024-05-11 14:09:02 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/uranium_ingot_from_slate_ore_blasting": {
+    "criteria": {
+      "has_item": "2024-05-11 13:41:13 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/platinum_ingot_from_slate_ore_blasting": {
+    "criteria": {
+      "has_item": "2024-05-11 13:40:57 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scorchia_stairs_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2024-05-11 13:19:52 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/spark_upgrade_dominant": {
+    "criteria": {
+      "has_alt_item": "2024-05-11 14:09:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scorchia_brick_slab_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2024-05-11 13:19:52 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/spark_upgrade_isolated": {
+    "criteria": {
+      "has_alt_item": "2024-05-11 14:09:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scorchia_slab_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2024-05-11 13:19:52 +0000"
+    },
+    "done": true
+  },
+  "botania:main/spark_craft": {
+    "criteria": {
+      "spark": "2024-05-11 14:09:02 +0000"
+    },
+    "done": true
+  },
+  "mekanism:heat_transport": {
+    "criteria": {
+      "basic_thermodynamic_conductor": "2024-05-11 14:55:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_blasting_deepslate_coal_ore": {
+    "criteria": {
+      "has_deepslate_coal_ore": "2024-05-11 13:41:19 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/platinum_dust": {
+    "criteria": {
+      "has_platinum": "2024-05-11 13:40:57 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/fluorite_dust": {
+    "criteria": {
+      "has_fluorite": "2024-05-11 13:41:13 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scorchia_brick_slab_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2024-05-11 13:19:52 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scorchia_wall_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2024-05-11 13:19:52 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scorchia_brick_wall_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2024-05-11 13:19:52 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/spark_upgrade_recessive": {
+    "criteria": {
+      "has_alt_item": "2024-05-11 14:09:02 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_scorchia_slab_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2024-05-11 13:19:52 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scorchia_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2024-05-11 13:19:52 +0000"
+    },
+    "done": true
+  },
+  "deepresonance:recipes/deepresonance/resonating_plate": {
+    "criteria": {
+      "has_ore": "2024-05-11 13:41:13 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scorchia_brick_wall_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2024-05-11 13:19:52 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_scorchia_brick_stairs_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2024-05-11 13:19:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal_from_smelting_deepslate_coal_ore": {
+    "criteria": {
+      "has_deepslate_coal_ore": "2024-05-11 13:41:19 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/diamond_chest": {
+    "criteria": {
+      "has_gold_chest": "2024-05-11 13:41:28 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/uranium_ingot_from_slate_ore": {
+    "criteria": {
+      "has_item": "2024-05-11 13:41:13 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_scorchia_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2024-05-11 13:19:52 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_scorchia_wall_from_stone_types_scorchia_stonecutting": {
+    "criteria": {
+      "has_stone_types_scorchia": "2024-05-11 13:19:52 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
