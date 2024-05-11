@@ -19313,33 +19313,81 @@
     },
     "done": true
   },
-  "minecraft:recipes/brewing/magma_cream": {
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
     "criteria": {
-      "has_blaze_powder": "2024-05-10 15:26:39 +0000"
+      "has_golden_horse_armor": "2024-05-10 14:56:54 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
-      "has_mossy_stone_bricks": "2024-05-10 15:16:48 +0000"
+      "has_golden_horse_armor": "2024-05-10 14:56:54 +0000"
     },
     "done": true
   },
-  "mcwbridges:recipes/balustrade_mossy_cobblestone_bridge": {
+  "mekanismtools:loved_by_piglins": {
     "criteria": {
-      "has_planks": "2024-05-10 15:17:28 +0000"
+      "armor": "2024-05-10 14:59:54 +0000"
     },
     "done": true
   },
-  "mcwpaths:recipes/mossy_cobblestone": {
+  "minecraft:recipes/decorations/glow_item_frame": {
     "criteria": {
-      "has_wood": "2024-05-10 15:17:28 +0000"
+      "has_glow_ink_sac": "2024-05-10 15:01:15 +0000"
     },
     "done": true
   },
-  "silentgear:recipes/misc/blaze_gold_ingot": {
+  "croptopia:recipes/food/cooked_calamari_from_smoking_glowing_calamari": {
     "criteria": {
-      "has_item": "2024-05-10 15:26:39 +0000"
+      "has_glowing_calamari": "2024-05-10 15:01:16 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/cooked_calamari_from_glowing_calamari": {
+    "criteria": {
+      "has_glowing_calamari": "2024-05-10 15:01:16 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_sword_repairing": {
+    "criteria": {
+      "has_diamond_sword": "2024-05-10 15:02:04 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/frozen/cutting/ice_sword": {
+    "criteria": {
+      "has_diamond_sword": "2024-05-10 15:02:04 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/chainmail_leggings_repairing": {
+    "criteria": {
+      "has_chainmail_leggings": "2024-05-10 15:03:33 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_leggings_repairing": {
+    "criteria": {
+      "has_diamond_leggings": "2024-05-10 15:08:35 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_feather_fall": {
+    "criteria": {
+      "has_magic_scroll": "2024-05-10 15:12:50 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_helmet_repairing": {
+    "criteria": {
+      "has_diamond_helmet": "2024-05-10 15:15:21 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/blast_furnace/blasting_iron_door": {
+    "criteria": {
+      "has_iron_door": "2024-05-10 15:15:45 +0000"
     },
     "done": true
   },
@@ -19361,6 +19409,186 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2024-05-10 15:16:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-05-10 15:16:40 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/quartz_pillar": {
+    "criteria": {
+      "has_the_recipe": "2024-05-10 15:16:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-05-10 15:16:40 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/columns/quartz_column": {
+    "criteria": {
+      "has_item": "2024-05-10 15:16:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2024-05-10 15:16:40 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/quartz_pillar_trim": {
+    "criteria": {
+      "has_quartz_pillar_trim": "2024-05-10 15:16:40 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/quartz_slab": {
+    "criteria": {
+      "has_the_recipe": "2024-05-10 15:16:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks": {
+    "criteria": {
+      "has_quartz_block": "2024-05-10 15:16:40 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/quartz_block_1x": {
+    "criteria": {
+      "has_quartz_block": "2024-05-10 15:16:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-05-10 15:16:40 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbase:recipes/rftoolsbase/tablet": {
+    "criteria": {
+      "quartz": "2024-05-10 15:16:40 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/smooth_quartz": {
+    "criteria": {
+      "has_the_recipe": "2024-05-10 15:16:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz": {
+    "criteria": {
+      "has_quartz_block": "2024-05-10 15:16:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2024-05-10 15:16:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-05-10 15:16:40 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/quartz_bricks": {
+    "criteria": {
+      "has_the_recipe": "2024-05-10 15:16:40 +0000"
+    },
+    "done": true
+  },
+  "laserio:recipes/misc/logic_chip_raw": {
+    "criteria": {
+      "has_quartz": "2024-05-10 15:16:40 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/chiseled_quartz_block": {
+    "criteria": {
+      "has_the_recipe": "2024-05-10 15:16:40 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/quartz_corner_trim": {
+    "criteria": {
+      "has_quartz_corner_trim": "2024-05-10 15:16:40 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/columns/quartz_column_stonecutting": {
+    "criteria": {
+      "has_item": "2024-05-10 15:16:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-05-10 15:16:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-05-10 15:16:48 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_mossy_stone_bricks_bridge": {
+    "criteria": {
+      "has_planks": "2024-05-10 15:16:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-05-10 15:16:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-05-10 15:16:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-05-10 15:16:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
+    "criteria": {
+      "has_mossy_stone_bricks": "2024-05-10 15:16:48 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_mossy_cobblestone_bridge": {
+    "criteria": {
+      "has_planks": "2024-05-10 15:17:28 +0000"
+    },
+    "done": true
+  },
+  "mcwpaths:recipes/mossy_cobblestone": {
+    "criteria": {
+      "has_wood": "2024-05-10 15:17:28 +0000"
+    },
+    "done": true
+  },
   "twigs:recipes/cobblestone_bricks/mossy_cobblestone_brick_stairs_from_mossy_cobblestone_stonecutting": {
     "criteria": {
       "has_item": "2024-05-10 15:17:28 +0000"
@@ -19379,69 +19607,15 @@
     },
     "done": true
   },
-  "tombstone:adventure/use_aquatic_life": {
-    "criteria": {
-      "has_magic_scroll": "2024-05-10 15:35:48 +0000"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/misc/reactor_casing": {
-    "criteria": {
-      "has_item": "2024-05-10 15:26:39 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_slab": {
-    "criteria": {
-      "has_quartz_block": "2024-05-10 15:16:40 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_stone_brick_slab": {
-    "criteria": {
-      "has_mossy_stone_bricks": "2024-05-10 15:16:48 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/mossy_cobblestone_stairs": {
     "criteria": {
       "has_mossy_cobblestone": "2024-05-10 15:17:28 +0000"
     },
     "done": true
   },
-  "aether:recipes/combat/diamond_leggings_repairing": {
-    "criteria": {
-      "has_diamond_leggings": "2024-05-10 15:08:35 +0000"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/fortune_coin": {
-    "criteria": {
-      "has_nebulous_heart": "2024-05-10 15:49:50 +0000"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/balustrade_mossy_stone_bricks_bridge": {
-    "criteria": {
-      "has_planks": "2024-05-10 15:16:48 +0000"
-    },
-    "done": true
-  },
   "mcwbridges:recipes/mossy_stone_bridge_pier": {
     "criteria": {
       "has_planks": "2024-05-10 15:17:28 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/mossy_stone_brick_wall_from_mossy_stone_brick_stonecutting": {
-    "criteria": {
-      "has_mossy_stone_bricks": "2024-05-10 15:16:48 +0000"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/angelic_feather": {
-    "criteria": {
-      "has_nebulous_heart": "2024-05-10 15:49:50 +0000"
     },
     "done": true
   },
@@ -19469,18 +19643,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
-    "criteria": {
-      "has_quartz_block": "2024-05-10 15:16:40 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs": {
-    "criteria": {
-      "has_mossy_stone_bricks": "2024-05-10 15:16:48 +0000"
-    },
-    "done": true
-  },
   "mcwbridges:recipes/mossy_cobblestone_bridge_stair": {
     "criteria": {
       "has_planks": "2024-05-10 15:17:28 +0000"
@@ -19505,75 +19667,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_nugget_from_blasting": {
-    "criteria": {
-      "has_golden_horse_armor": "2024-05-10 14:56:54 +0000"
-    },
-    "done": true
-  },
-  "ars_nouveau:warp_scroll": {
-    "criteria": {
-      "has_warp_scroll": "2024-05-10 15:25:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/fire_charge": {
-    "criteria": {
-      "has_blaze_powder": "2024-05-10 15:26:39 +0000"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/magicbane": {
-    "criteria": {
-      "has_nebulous_heart": "2024-05-10 15:49:50 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/mossy_cobblestone_slab_from_mossy_cobblestone_stonecutting": {
     "criteria": {
       "has_mossy_cobblestone": "2024-05-10 15:17:28 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/diamond_sword_repairing": {
-    "criteria": {
-      "has_diamond_sword": "2024-05-10 15:02:04 +0000"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/quartz_pillar": {
-    "criteria": {
-      "has_the_recipe": "2024-05-10 15:16:40 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/food/cooked_calamari_from_smoking_glowing_calamari": {
-    "criteria": {
-      "has_glowing_calamari": "2024-05-10 15:01:16 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
-    "criteria": {
-      "has_quartz_block": "2024-05-10 15:16:40 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/chainmail_leggings_repairing": {
-    "criteria": {
-      "has_chainmail_leggings": "2024-05-10 15:03:33 +0000"
-    },
-    "done": true
-  },
-  "twigs:recipes/columns/quartz_column": {
-    "criteria": {
-      "has_item": "2024-05-10 15:16:40 +0000"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/alkahestry_altar": {
-    "criteria": {
-      "has_nebulous_heart": "2024-05-10 15:49:50 +0000"
     },
     "done": true
   },
@@ -19583,81 +19679,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/quartz_stairs": {
-    "criteria": {
-      "has_quartz_block": "2024-05-10 15:16:40 +0000"
-    },
-    "done": true
-  },
-  "handcrafted:recipes/misc/quartz_pillar_trim": {
-    "criteria": {
-      "has_quartz_pillar_trim": "2024-05-10 15:16:40 +0000"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/crimson_cloth": {
-    "criteria": {
-      "has_nebulous_heart": "2024-05-10 15:49:50 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/use_feather_fall": {
-    "criteria": {
-      "has_magic_scroll": "2024-05-10 15:12:50 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/diamond_helmet_repairing": {
-    "criteria": {
-      "has_diamond_helmet": "2024-05-10 15:15:21 +0000"
-    },
-    "done": true
-  },
   "railcraft:recipes/misc/mob_detector": {
     "criteria": {
       "has_mossy_cobblestone": "2024-05-10 15:17:28 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/gold_nugget_from_smelting": {
-    "criteria": {
-      "has_golden_horse_armor": "2024-05-10 14:56:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/glow_item_frame": {
-    "criteria": {
-      "has_glow_ink_sac": "2024-05-10 15:01:15 +0000"
-    },
-    "done": true
-  },
-  "twilightdelight:recipes/frozen/cutting/ice_sword": {
-    "criteria": {
-      "has_diamond_sword": "2024-05-10 15:02:04 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/food/cooked_calamari_from_glowing_calamari": {
-    "criteria": {
-      "has_glowing_calamari": "2024-05-10 15:01:16 +0000"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/quartz_slab": {
-    "criteria": {
-      "has_the_recipe": "2024-05-10 15:16:40 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/quartz_bricks": {
-    "criteria": {
-      "has_quartz_block": "2024-05-10 15:16:40 +0000"
-    },
-    "done": true
-  },
-  "railcraft:recipes/blast_furnace/blasting_iron_door": {
-    "criteria": {
-      "has_iron_door": "2024-05-10 15:15:45 +0000"
     },
     "done": true
   },
@@ -19667,45 +19691,27 @@
     },
     "done": true
   },
-  "allthecompressed:recipes/building_blocks/compress/quartz_block_1x": {
+  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
     "criteria": {
-      "has_quartz_block": "2024-05-10 15:16:40 +0000"
+      "has_mossy_cobblestone": "2024-05-10 15:17:28 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/ender_eye": {
+  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
     "criteria": {
-      "has_blaze_powder": "2024-05-10 15:26:39 +0000"
+      "has_mossy_cobblestone": "2024-05-10 15:17:28 +0000"
     },
     "done": true
   },
-  "reliquary:recipes/misc/uncrafting/ender_pearl": {
+  "mcwbridges:recipes/mossy_cobblestone_bridge": {
     "criteria": {
-      "has_nebulous_heart": "2024-05-10 15:49:50 +0000"
+      "has_planks": "2024-05-10 15:17:28 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+  "twigs:recipes/cobblestone_bricks/mossy_cobblestone_bricks_cobblestone": {
     "criteria": {
-      "has_quartz_block": "2024-05-10 15:16:40 +0000"
-    },
-    "done": true
-  },
-  "rftoolsbase:recipes/rftoolsbase/tablet": {
-    "criteria": {
-      "quartz": "2024-05-10 15:16:40 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_stone_brick_stairs_from_mossy_stone_brick_stonecutting": {
-    "criteria": {
-      "has_mossy_stone_bricks": "2024-05-10 15:16:48 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_stone_brick_slab_from_mossy_stone_brick_stonecutting": {
-    "criteria": {
-      "has_mossy_stone_bricks": "2024-05-10 15:16:48 +0000"
+      "has_item": "2024-05-10 15:17:28 +0000"
     },
     "done": true
   },
@@ -19715,27 +19721,93 @@
     },
     "done": true
   },
-  "reliquary:recipes/misc/mob_charm_fragments/enderman": {
+  "ars_nouveau:warp_scroll": {
+    "criteria": {
+      "has_warp_scroll": "2024-05-10 15:25:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2024-05-10 15:26:39 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/blaze_gold_ingot": {
+    "criteria": {
+      "has_item": "2024-05-10 15:26:39 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/misc/reactor_casing": {
+    "criteria": {
+      "has_item": "2024-05-10 15:26:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2024-05-10 15:26:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2024-05-10 15:26:39 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/spark": {
+    "criteria": {
+      "has_item": "2024-05-10 15:26:39 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_aquatic_life": {
+    "criteria": {
+      "has_magic_scroll": "2024-05-10 15:35:48 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/fortune_coin": {
     "criteria": {
       "has_nebulous_heart": "2024-05-10 15:49:50 +0000"
     },
     "done": true
   },
-  "alchemistry:recipes/dissolver/smooth_quartz": {
+  "reliquary:recipes/misc/angelic_feather": {
     "criteria": {
-      "has_the_recipe": "2024-05-10 15:16:40 +0000"
+      "has_nebulous_heart": "2024-05-10 15:49:50 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/smooth_quartz": {
+  "reliquary:recipes/misc/magicbane": {
     "criteria": {
-      "has_quartz_block": "2024-05-10 15:16:40 +0000"
+      "has_nebulous_heart": "2024-05-10 15:49:50 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+  "reliquary:recipes/misc/alkahestry_altar": {
     "criteria": {
-      "has_quartz_block": "2024-05-10 15:16:40 +0000"
+      "has_nebulous_heart": "2024-05-10 15:49:50 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/crimson_cloth": {
+    "criteria": {
+      "has_nebulous_heart": "2024-05-10 15:49:50 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/ender_pearl": {
+    "criteria": {
+      "has_nebulous_heart": "2024-05-10 15:49:50 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/enderman": {
+    "criteria": {
+      "has_nebulous_heart": "2024-05-10 15:49:50 +0000"
     },
     "done": true
   },
@@ -19751,81 +19823,399 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_stairs_from_mossy_cobblestone_stonecutting": {
-    "criteria": {
-      "has_mossy_cobblestone": "2024-05-10 15:17:28 +0000"
-    },
-    "done": true
-  },
   "reliquary:recipes/misc/void_tear": {
     "criteria": {
       "has_nebulous_heart": "2024-05-10 15:49:50 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_slab": {
+  "aether:recipes/combat/diamond_boots_repairing": {
     "criteria": {
-      "has_mossy_cobblestone": "2024-05-10 15:17:28 +0000"
+      "has_diamond_boots": "2024-05-11 09:09:29 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+  "allthecompressed:recipes/building_blocks/compress/obsidian_1x": {
     "criteria": {
-      "has_quartz_block": "2024-05-10 15:16:40 +0000"
+      "has_obsidian": "2024-05-11 09:19:20 +0000"
     },
     "done": true
   },
-  "alchemistry:recipes/dissolver/quartz_bricks": {
+  "minecraft:recipes/decorations/enchanting_table": {
     "criteria": {
-      "has_the_recipe": "2024-05-10 15:16:40 +0000"
+      "has_obsidian": "2024-05-11 09:19:20 +0000"
     },
     "done": true
   },
-  "botania:recipes/decorations/spark": {
+  "occultism:recipes/crushing/crushing/obsidian_dust": {
     "criteria": {
-      "has_item": "2024-05-10 15:26:39 +0000"
+      "has_obsidian": "2024-05-11 09:19:20 +0000"
     },
     "done": true
   },
-  "mcwbridges:recipes/mossy_cobblestone_bridge": {
+  "forbidden_arcanus:recipes/tools/obsidian_skull": {
     "criteria": {
-      "has_planks": "2024-05-10 15:17:28 +0000"
+      "has_obsidian": "2024-05-11 09:19:20 +0000"
     },
     "done": true
   },
-  "laserio:recipes/misc/logic_chip_raw": {
+  "utilitarian:recipes/misc/tps_meter": {
     "criteria": {
-      "has_quartz": "2024-05-10 15:16:40 +0000"
+      "has_obsidian": "2024-05-11 09:19:20 +0000"
     },
     "done": true
   },
-  "alchemistry:recipes/dissolver/chiseled_quartz_block": {
+  "additionallanterns:recipes/misc/obsidian_chain": {
     "criteria": {
-      "has_the_recipe": "2024-05-10 15:16:40 +0000"
+      "recipe_condition": "2024-05-11 09:19:20 +0000"
     },
     "done": true
   },
-  "mekanismtools:loved_by_piglins": {
+  "minecraft:story/form_obsidian": {
     "criteria": {
-      "armor": "2024-05-10 14:59:54 +0000"
+      "obsidian": "2024-05-11 09:19:20 +0000"
     },
     "done": true
   },
-  "twigs:recipes/cobblestone_bricks/mossy_cobblestone_bricks_cobblestone": {
+  "ars_nouveau:apprentice_spell_book": {
     "criteria": {
-      "has_item": "2024-05-10 15:17:28 +0000"
+      "has_apprentice_spell_book": "2024-05-11 09:19:30 +0000"
     },
     "done": true
   },
-  "handcrafted:recipes/misc/quartz_corner_trim": {
+  "apotheosis:enchanting/enchanting_stats": {
     "criteria": {
-      "has_quartz_corner_trim": "2024-05-10 15:16:40 +0000"
+      "enchanted_item": "2024-05-11 09:30:04 +0000"
     },
     "done": true
   },
-  "twigs:recipes/columns/quartz_column_stonecutting": {
+  "apotheosis:enchanting/30ench": {
     "criteria": {
-      "has_item": "2024-05-10 15:16:40 +0000"
+      "enchanted_item": "2024-05-11 09:30:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2024-05-11 09:30:04 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:imbuement_chamber": {
+    "criteria": {
+      "has_imbuement_chamber": "2024-05-11 09:40:07 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_output": {
+    "criteria": {
+      "has_base_tier_wooden_storage": "2024-05-11 09:42:05 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/iron_chest": {
+    "criteria": {
+      "has_chest": "2024-05-11 09:42:05 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/controller": {
+    "criteria": {
+      "has_base_tier_wooden_storage": "2024-05-11 09:42:05 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/shulker_from_chest": {
+    "criteria": {
+      "has_chest": "2024-05-11 09:42:05 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_input": {
+    "criteria": {
+      "has_base_tier_wooden_storage": "2024-05-11 09:42:05 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/copper_chest": {
+    "criteria": {
+      "has_chest": "2024-05-11 09:42:05 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_io": {
+    "criteria": {
+      "has_base_tier_wooden_storage": "2024-05-11 09:42:05 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/turbine/reinforced/activetap_fe": {
+    "criteria": {
+      "has_item2": "2024-05-11 09:44:59 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/redstone_block_1x": {
+    "criteria": {
+      "has_redstone_block": "2024-05-11 09:44:59 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/redstone": {
+    "criteria": {
+      "has_the_recipe": "2024-05-11 09:44:59 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/block_pocket_manager": {
+    "criteria": {
+      "has_redstone_block": "2024-05-11 09:44:59 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/turbine/basic/activetap_fe": {
+    "criteria": {
+      "has_item2": "2024-05-11 09:44:59 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/reinforced/activetap_fe": {
+    "criteria": {
+      "has_item2": "2024-05-11 09:44:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/redstone": {
+    "criteria": {
+      "has_redstone_block": "2024-05-11 09:44:59 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/basic/activetap_fe": {
+    "criteria": {
+      "has_item2": "2024-05-11 09:44:59 +0000"
+    },
+    "done": true
+  },
+  "advancedperipherals:recipes/redstone/peripheral_casing": {
+    "criteria": {
+      "has_item": "2024-05-11 09:44:59 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:basic_spell_turret": {
+    "criteria": {
+      "has_basic_spell_turret": "2024-05-11 09:45:09 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_sixty_from_inv": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_five_inv_from_base": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_thirty_from_inv": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_five_inv": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_ten_inv_from_base": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_three_hundred_from_prev": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_thirty_inv": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_three_hundred_inv_from_prev": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_ten_inv": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_three_hundred": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_thirty_inv_from_base": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_thirty": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_three_hundred_inv": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_five": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_five_from_inv": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_ten_inv_from_prev": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_ten": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_ten_from_prev": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_thirty_from_prev": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_three_hundred_inv_from_base": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_three_hundred_from_inv": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_sixty_inv_from_base": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_sixty_from_prev": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/switch_track_lever": {
+    "criteria": {
+      "has_lever": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_sixty": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_sixty_inv_from_prev": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_sixty_inv": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_thirty_inv_from_prev": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_ten_from_inv": {
+    "criteria": {
+      "has_ingredient": "2024-05-11 09:49:33 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/blast_furnace/blasting_iron_hoe": {
+    "criteria": {
+      "has_iron_hoe": "2024-05-11 09:56:43 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/iron_hoe_repairing": {
+    "criteria": {
+      "has_iron_hoe": "2024-05-11 09:56:43 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/computer_advanced": {
+    "criteria": {
+      "has_components": "2024-05-11 12:38:11 +0000"
+    },
+    "done": true
+  },
+  "mekanism:digital_miner": {
+    "criteria": {
+      "digital_miner": "2024-05-11 12:43:28 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/gold_shulker_from_gold_chest": {
+    "criteria": {
+      "has_gold_chest": "2024-05-11 12:44:36 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/diamond_chest": {
+    "criteria": {
+      "has_gold_chest": "2024-05-11 12:44:36 +0000"
     },
     "done": true
   },
