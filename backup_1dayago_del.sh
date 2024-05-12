@@ -7,4 +7,4 @@ target_dir="/home/atmmc/minecraft_server_ATM9/data/simplebackups"
 one_day_ago=$(date -d "1 day ago" +"%Y-%m-%d")
 
 # 在目標目錄中搜尋一天前的.zip檔案並刪除它們
-find "$target_dir" -name "*.zip" -type f -mtime +0 -exec rm {} \;
+sudo find "$target_dir" -name "*.zip" -type f -mtime +0 -exec rm {} \;
