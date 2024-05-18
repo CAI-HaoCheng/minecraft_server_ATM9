@@ -12378,6 +12378,7 @@
       "sea_lettuce": "2024-05-01 15:41:33 +0000",
       "hamburger": "2024-05-10 03:07:26 +0000",
       "cooked_shrimp": "2024-05-01 15:44:50 +0000",
+      "fish_and_chips": "2024-05-14 14:01:51 +0000",
       "anchovy": "2024-05-01 15:50:25 +0000",
       "clam": "2024-05-01 15:45:25 +0000",
       "toast": "2024-05-01 15:44:30 +0000",
@@ -31430,6 +31431,7 @@
     "criteria": {
       "blackbean_seed": "2024-05-07 15:21:30 +0000",
       "tea_seed": "2024-05-09 08:26:18 +0000",
+      "pepper_seed": "2024-05-14 13:44:24 +0000",
       "cabbage_seed": "2024-05-07 15:21:30 +0000",
       "currant_seed": "2024-05-07 15:21:30 +0000"
     },
@@ -31437,6 +31439,7 @@
   },
   "croptopia:gather_plains": {
     "criteria": {
+      "pepper_seed": "2024-05-14 13:44:24 +0000",
       "cabbage_seed": "2024-05-07 15:21:30 +0000"
     },
     "done": false
@@ -35040,15 +35043,45 @@
     },
     "done": true
   },
-  "aether:recipes/tools/diamond_pickaxe_repairing": {
+  "botania:recipes/tools/virus_necrodermal": {
     "criteria": {
-      "has_diamond_pickaxe": "2024-05-12 12:49:08 +0000"
+      "has_alt_item": "2024-05-12 12:48:58 +0000"
     },
     "done": true
   },
   "deeperdarker:recipes/misc/reinforced_echo_shard": {
     "criteria": {
       "has_warden_carapace": "2024-05-12 12:48:59 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/cooked_calamari_from_smoking_glowing_calamari": {
+    "criteria": {
+      "has_glowing_calamari": "2024-05-12 12:49:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_glow_ink_sac": "2024-05-12 12:49:07 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/cooked_calamari_from_glowing_calamari": {
+    "criteria": {
+      "has_glowing_calamari": "2024-05-12 12:49:07 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/diamond_pickaxe_repairing": {
+    "criteria": {
+      "has_diamond_pickaxe": "2024-05-12 12:49:08 +0000"
+    },
+    "done": true
+  },
+  "quarryplus:recipes/solid_fuel_quarry": {
+    "criteria": {
+      "has_diamond_pickaxe": "2024-05-12 12:49:08 +0000"
     },
     "done": true
   },
@@ -35064,33 +35097,99 @@
     },
     "done": true
   },
-  "croptopia:recipes/food/cooked_calamari_from_smoking_glowing_calamari": {
+  "apotheosis:enchanting/seashelf": {
     "criteria": {
-      "has_glowing_calamari": "2024-05-12 12:49:07 +0000"
+      "seashelf": "2024-05-14 13:39:28 +0000"
     },
     "done": true
   },
-  "botania:recipes/tools/virus_necrodermal": {
+  "apotheosis:enchanting/hellshelf": {
     "criteria": {
-      "has_alt_item": "2024-05-12 12:48:58 +0000"
+      "hellshelf": "2024-05-14 13:39:28 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/glow_item_frame": {
+  "botania:recipes/decorations/prism": {
     "criteria": {
-      "has_glow_ink_sac": "2024-05-12 12:49:07 +0000"
+      "has_item": "2024-05-14 13:39:28 +0000"
     },
     "done": true
   },
-  "quarryplus:recipes/solid_fuel_quarry": {
+  "securitycraft:recipes/misc/crystal_quartz_item": {
     "criteria": {
-      "has_diamond_pickaxe": "2024-05-12 12:49:08 +0000"
+      "has_prismarine_crystals": "2024-05-14 13:39:28 +0000"
     },
     "done": true
   },
-  "croptopia:recipes/food/cooked_calamari_from_glowing_calamari": {
+  "minecraft:recipes/building_blocks/sea_lantern": {
     "criteria": {
-      "has_glowing_calamari": "2024-05-12 12:49:07 +0000"
+      "has_prismarine_crystals": "2024-05-14 13:39:28 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/blasting_salt": {
+    "criteria": {
+      "has_water": "2024-05-14 13:43:40 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/salt_from_water_bottle": {
+    "criteria": {
+      "has_water_bottle": "2024-05-14 13:43:40 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/salt_from_smoking_water_bottle": {
+    "criteria": {
+      "has_water_bottle": "2024-05-14 13:43:40 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/crema": {
+    "criteria": {
+      "has_salt": "2024-05-14 14:01:52 +0000"
+    },
+    "done": true
+  },
+  "croptopia:salt": {
+    "criteria": {
+      "salt": "2024-05-14 14:01:52 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/dead_bush": {
+    "criteria": {
+      "has_salts": "2024-05-14 14:01:52 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/pepper_seed": {
+    "criteria": {
+      "has_pepper": "2024-05-14 14:01:52 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/cheese": {
+    "criteria": {
+      "has_salt": "2024-05-14 14:01:52 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/butter": {
+    "criteria": {
+      "has_salt": "2024-05-14 14:01:52 +0000"
+    },
+    "done": true
+  },
+  "create:crusher_maxed_0000": {
+    "criteria": {
+      "0": "2024-05-17 14:36:21 +0000"
+    },
+    "done": true
+  },
+  "croptopia:eatbig": {
+    "criteria": {
+      "eat_big": "2024-05-17 14:39:04 +0000"
     },
     "done": true
   },

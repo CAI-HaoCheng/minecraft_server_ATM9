@@ -23,5 +23,7 @@
 		"ftbchunks:location_mode": "allies"
 	}
 	message_history: [ ]
-	extra: { }
+	extra: {
+		BypassFTBChunksProtection: false
+	}
 }

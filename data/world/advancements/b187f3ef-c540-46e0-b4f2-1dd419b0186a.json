@@ -7452,6 +7452,7 @@
   },
   "croptopia:gather_food": {
     "criteria": {
+      "fish_and_chips": "2024-05-17 14:53:24 +0000",
       "toast": "2024-05-02 13:52:55 +0000",
       "glowing_calamari": "2024-05-10 15:09:07 +0000"
     },
@@ -24766,6 +24767,132 @@
   "occultism:recipes/crushing/crushing/aluminum_dust": {
     "criteria": {
       "has_aluminum": "2024-05-12 14:26:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_carpet": {
+    "criteria": {
+      "has_red_wool": "2024-05-17 15:01:46 +0000"
+    },
+    "done": true
+  },
+  "comforts:hammock_red": {
+    "criteria": {
+      "has_red_wool": "2024-05-17 15:01:46 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/smelting/gold_ingot_from_dust": {
+    "criteria": {
+      "has_gold_dust": "2024-05-17 15:30:14 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/electrum_mix": {
+    "criteria": {
+      "has_gold_dust": "2024-05-17 15:30:14 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/blasting/gold_ingot_from_dust": {
+    "criteria": {
+      "has_gold_dust": "2024-05-17 15:30:14 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/red_flag": {
+    "criteria": {
+      "has_red_flag": "2024-05-17 15:01:46 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/gold_ingot_from_dust_blasting": {
+    "criteria": {
+      "has_item": "2024-05-17 15:30:14 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_aluminum_from_block": {
+    "criteria": {
+      "has_item": "2024-05-17 14:58:26 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/gold_ingot_from_dust": {
+    "criteria": {
+      "has_item": "2024-05-17 15:30:14 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/red_cushion": {
+    "criteria": {
+      "has_red_cushion": "2024-05-17 15:01:46 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/red_cape": {
+    "criteria": {
+      "has_red_wool": "2024-05-17 15:01:46 +0000"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_red": {
+    "criteria": {
+      "has_red_wool": "2024-05-17 15:01:46 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/socket": {
+    "criteria": {
+      "socket": "2024-05-17 14:32:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_bed": {
+    "criteria": {
+      "has_red_wool": "2024-05-17 15:01:46 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_sword_repairing": {
+    "criteria": {
+      "has_golden_sword": "2024-05-17 15:06:45 +0000"
+    },
+    "done": true
+  },
+  "mahoutsukai:sword_in_the_lake": {
+    "criteria": {
+      "sword_in_the_lake": "2024-05-17 14:35:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_banner": {
+    "criteria": {
+      "has_red_wool": "2024-05-17 15:01:46 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/red_sheet": {
+    "criteria": {
+      "has_red_sheet": "2024-05-17 15:01:46 +0000"
+    },
+    "done": true
+  },
+  "croptopia:eatbig": {
+    "criteria": {
+      "eat_big": "2024-05-17 15:03:50 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/aluminum_dust_from_raw_block": {
+    "criteria": {
+      "has_raw_aluminum_block": "2024-05-17 14:58:26 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/red_sofa": {
+    "criteria": {
+      "has_wool": "2024-05-17 15:01:46 +0000"
     },
     "done": true
   },
