@@ -5206,6 +5206,7 @@
       "minecraft:skeleton": "2024-05-03 15:10:48 +0000",
       "minecraft:ghast": "2024-05-14 15:12:36 +0000",
       "minecraft:vindicator": "2024-05-01 15:43:29 +0000",
+      "minecraft:magma_cube": "2024-05-19 14:48:36 +0000",
       "minecraft:spider": "2024-05-01 14:58:25 +0000",
       "minecraft:piglin_brute": "2024-05-14 15:05:57 +0000",
       "minecraft:creeper": "2024-05-03 15:00:42 +0000",
@@ -5214,10 +5215,13 @@
       "minecraft:zombified_piglin": "2024-05-14 15:08:02 +0000",
       "minecraft:witch": "2024-05-01 15:51:01 +0000",
       "minecraft:wither_skeleton": "2024-05-08 14:41:14 +0000",
+      "minecraft:husk": "2024-05-19 02:33:25 +0000",
       "minecraft:cave_spider": "2024-05-03 15:17:25 +0000",
+      "quark:wraith": "2024-05-19 14:54:33 +0000",
       "minecraft:piglin": "2024-05-03 15:32:43 +0000",
       "minecraft:enderman": "2024-05-10 15:11:51 +0000",
       "minecraft:stray": "2024-05-10 15:05:34 +0000",
+      "minecraft:silverfish": "2024-05-19 13:43:03 +0000",
       "minecraft:vex": "2024-05-01 15:45:18 +0000",
       "minecraft:zombie": "2024-05-01 15:32:12 +0000",
       "quark:foxhound": "2024-05-03 15:32:39 +0000",
@@ -6376,6 +6380,7 @@
       "crystalline_chasm": "2024-05-11 15:14:05 +0000",
       "field": "2024-05-01 16:33:02 +0000",
       "orchard": "2024-05-01 15:26:32 +0000",
+      "lavender_forest": "2024-05-18 15:05:11 +0000",
       "coniferous_forest": "2024-05-01 15:08:23 +0000",
       "spider_nest": "2024-05-01 16:35:03 +0000",
       "redwood_forest": "2024-05-01 15:26:39 +0000",
@@ -6396,9 +6401,11 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:taiga": "2024-05-01 16:44:54 +0000",
+      "minecraft:deep_ocean": "2024-05-19 14:20:25 +0000",
       "minecraft:cherry_grove": "2024-05-01 16:27:54 +0000",
       "minecraft:beach": "2024-05-01 15:14:51 +0000",
       "minecraft:river": "2024-05-01 15:10:24 +0000",
+      "minecraft:lukewarm_ocean": "2024-05-19 14:25:01 +0000",
       "minecraft:dripstone_caves": "2024-05-01 16:34:53 +0000",
       "minecraft:swamp": "2024-05-01 16:34:44 +0000",
       "minecraft:cold_ocean": "2024-05-15 14:06:59 +0000",
@@ -11243,12 +11250,16 @@
       "cheese": "2024-05-17 16:27:56 +0000",
       "nutty_cookie": "2024-05-15 14:55:24 +0000",
       "doughnut": "2024-05-17 16:32:01 +0000",
+      "buttered_toast": "2024-05-18 14:19:43 +0000",
       "fish_and_chips": "2024-05-15 14:55:07 +0000",
       "grilled_cheese": "2024-05-17 16:32:27 +0000",
       "mashed_potatoes": "2024-05-17 16:29:52 +0000",
+      "roasted_nuts": "2024-05-19 11:29:55 +0000",
       "tortilla": "2024-05-15 14:58:19 +0000",
       "toast": "2024-05-03 14:41:29 +0000",
       "calamari": "2024-05-04 14:34:37 +0000",
+      "grape_jam": "2024-05-18 14:20:12 +0000",
+      "toast_with_jam": "2024-05-18 14:20:15 +0000",
       "butter": "2024-05-17 16:27:49 +0000",
       "glowing_calamari": "2024-05-10 15:01:16 +0000"
     },
@@ -25442,15 +25453,75 @@
     },
     "done": true
   },
-  "ae2:recipes/misc/network/parts/import_bus": {
+  "ae2:recipes/misc/blasting/silicon_from_certus_quartz_dust": {
     "criteria": {
-      "has_annihilation_core": "2024-05-17 15:06:45 +0000"
+      "has_certus_quartz_dust": "2024-05-17 14:36:58 +0000"
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/secret_birch_sign_item": {
+  "ae2:recipes/misc/network/parts/quartz_fiber_part": {
     "criteria": {
-      "has_sign": "2024-05-17 14:42:53 +0000"
+      "has_dusts/quartz": "2024-05-17 14:36:58 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/decorative/quartz_glass": {
+    "criteria": {
+      "has_quartz_dust": "2024-05-17 14:36:58 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/smelting/silicon_from_certus_quartz_dust": {
+    "criteria": {
+      "has_certus_quartz_dust": "2024-05-17 14:36:58 +0000"
+    },
+    "done": true
+  },
+  "productivebees:husbandry/advanced_beehive": {
+    "criteria": {
+      "get_hive": "2024-05-17 14:37:23 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/misctools_entropy_manipulator": {
+    "criteria": {
+      "has_engineering_processor": "2024-05-17 14:39:15 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/tunnels_me": {
+    "criteria": {
+      "has_engineering_processor": "2024-05-17 14:39:15 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cells/spatial_components": {
+    "criteria": {
+      "has_engineering_processor": "2024-05-17 14:39:15 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/spatial_io_port": {
+    "criteria": {
+      "has_engineering_processor": "2024-05-17 14:39:15 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/storage_drive": {
+    "criteria": {
+      "has_engineering_processor": "2024-05-17 14:39:15 +0000"
+    },
+    "done": true
+  },
+  "merequester:recipes/requester": {
+    "criteria": {
+      "has_item": "2024-05-17 14:39:15 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/controller": {
+    "criteria": {
+      "has_engineering_processor": "2024-05-17 14:39:15 +0000"
     },
     "done": true
   },
@@ -25466,123 +25537,9 @@
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/secret_acacia_sign_item": {
-    "criteria": {
-      "has_sign": "2024-05-17 14:42:53 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/parts/monitors_storage": {
-    "criteria": {
-      "has_illuminated_panel": "2024-05-17 15:09:16 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/sign_post_oak": {
-    "criteria": {
-      "has_oak_sign": "2024-05-17 14:42:53 +0000"
-    },
-    "done": true
-  },
-  "croptopia:getseeds": {
-    "criteria": {
-      "has_seeds": "2024-05-17 16:35:11 +0000"
-    },
-    "done": true
-  },
   "ae2:recipes/misc/network/blocks/energy_energy_acceptor": {
     "criteria": {
       "has_crystals/fluix": "2024-05-17 14:40:10 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/chipped/carpenters_table_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/misctools_entropy_manipulator": {
-    "criteria": {
-      "has_engineering_processor": "2024-05-17 14:39:15 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_sign_item": {
-    "criteria": {
-      "has_sign": "2024-05-17 14:42:53 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/parts/annihilation_plane_alt": {
-    "criteria": {
-      "has_annihilation_core": "2024-05-17 15:06:45 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/void_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_warped_sign_item": {
-    "criteria": {
-      "has_sign": "2024-05-17 14:42:53 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/chocolate_pie": {
-    "criteria": {
-      "has_pie_crust": "2024-05-17 16:30:54 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cells/view_cell_storage": {
-    "criteria": {
-      "has_terminal": "2024-05-17 15:09:29 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/chipped/tinkering_table_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/parts/formation_plane_alt": {
-    "criteria": {
-      "has_formation_core": "2024-05-17 15:08:58 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/parts/tunnels_me": {
-    "criteria": {
-      "has_engineering_processor": "2024-05-17 14:39:15 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cells/view_cell": {
-    "criteria": {
-      "has_terminal": "2024-05-17 15:09:29 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/filter_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cells/spatial_components": {
-    "criteria": {
-      "has_engineering_processor": "2024-05-17 14:39:15 +0000"
-    },
-    "done": true
-  },
-  "apotheosis:enchanting/upgrade_hellshelf": {
-    "criteria": {
-      "blazing": "2024-05-17 15:37:24 +0000"
     },
     "done": true
   },
@@ -25592,189 +25549,9 @@
     },
     "done": true
   },
-  "croptopia:recipes/misc/grape_jam": {
-    "criteria": {
-      "has_grape": "2024-05-17 16:34:28 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/blocks/interfaces_interface": {
-    "criteria": {
-      "has_annihilation_core": "2024-05-17 15:06:45 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/glow_berry_custard": {
-    "criteria": {
-      "has_any_ingredient": "2024-05-17 16:06:54 +0000"
-    },
-    "done": true
-  },
   "ae2:recipes/misc/network/cables/glass_fluix": {
     "criteria": {
       "has_crystals/fluix": "2024-05-17 14:40:10 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/wine": {
-    "criteria": {
-      "has_grapes": "2024-05-17 16:34:28 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/ravioli": {
-    "criteria": {
-      "has_cheese": "2024-05-17 16:27:56 +0000"
-    },
-    "done": true
-  },
-  "croptopia:mortar_and_pestle": {
-    "criteria": {
-      "mortar_and_pestle": "2024-05-17 16:29:30 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/chocolate": {
-    "criteria": {
-      "has_butter": "2024-05-17 16:27:49 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/block_cutter/slabs/fluix_slab": {
-    "criteria": {
-      "has_fluix_block": "2024-05-17 14:50:42 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/blocks/interfaces_interface_part": {
-    "criteria": {
-      "has_interface": "2024-05-17 15:23:13 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/shaped_bacon": {
-    "criteria": {
-      "has_knife": "2024-05-17 16:21:57 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/chipped/alchemy_bench_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/basic_to_gold_tier_upgrade": {
-    "criteria": {
-      "has_basic_to_iron_tier_upgrade": "2024-05-17 16:58:24 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/misc/mashed_potatoes": {
-    "criteria": {
-      "has_milk": "2024-05-17 16:06:54 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_bamboo_sign_item": {
-    "criteria": {
-      "has_sign": "2024-05-17 14:42:53 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/paprika": {
-    "criteria": {
-      "has_mortar_and_pestle": "2024-05-17 16:29:30 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/snow_block": {
-    "criteria": {
-      "has_snowball": "2024-05-17 16:13:38 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/parts/panels_monitor": {
-    "criteria": {
-      "has_semi_dark_monitor": "2024-05-17 15:09:16 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_cherry_hanging_sign": {
-    "criteria": {
-      "has_sign": "2024-05-17 14:42:53 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/stack_upgrade_tier_1": {
-    "criteria": {
-      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/stack_upgrade_tier_2": {
-    "criteria": {
-      "has_upgrade_base": "2024-05-17 16:59:21 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/compacting_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/smoking_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/hot_cocoa": {
-    "criteria": {
-      "has_any_ingredient": "2024-05-17 16:06:54 +0000"
-    },
-    "done": true
-  },
-  "croptopia:food_press": {
-    "criteria": {
-      "food_press": "2024-05-17 16:27:43 +0000"
-    },
-    "done": true
-  },
-  "industrialforegoing:recipes/misc/plastic": {
-    "criteria": {
-      "has_plastic": "2024-05-17 16:03:34 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/shaped/stairs/fluix_block": {
-    "criteria": {
-      "has_fluix_block": "2024-05-17 14:50:42 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/compression_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
-    },
-    "done": true
-  },
-  "croptopia:knife": {
-    "criteria": {
-      "knife": "2024-05-17 16:21:57 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/blocks/pattern_providers_interface": {
-    "criteria": {
-      "has_annihilation_core": "2024-05-17 15:06:45 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/block_cutter/stairs/fluix_stairs": {
-    "criteria": {
-      "has_fluix_block": "2024-05-17 14:50:42 +0000"
     },
     "done": true
   },
@@ -25784,21 +25561,99 @@
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/secret_mangrove_hanging_sign": {
+  "ae2:recipes/misc/tools/fluix_axe": {
+    "criteria": {
+      "has_crystals/fluix": "2024-05-17 14:40:10 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/fluix": {
+    "criteria": {
+      "certus": "2024-05-17 14:40:10 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/fluix_hoe": {
+    "criteria": {
+      "has_crystals/fluix": "2024-05-17 14:40:10 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/crystal_processing_charger": {
+    "criteria": {
+      "has_crystals/fluix": "2024-05-17 14:40:10 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/inscribers": {
+    "criteria": {
+      "has_crystals/fluix": "2024-05-17 14:40:10 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/fluix_upgrade_smithing_template": {
+    "criteria": {
+      "has_fluix_crystal": "2024-05-17 14:40:10 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/fluix_pickaxe": {
+    "criteria": {
+      "has_crystals/fluix": "2024-05-17 14:40:10 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/fluix_shovel": {
+    "criteria": {
+      "has_crystals/fluix": "2024-05-17 14:40:10 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_birch_sign_item": {
     "criteria": {
       "has_sign": "2024-05-17 14:42:53 +0000"
     },
     "done": true
   },
-  "sophisticatedstorage:recipes/misc/iron_to_diamond_tier_upgrade": {
+  "securitycraft:recipes/building_blocks/secret_acacia_sign_item": {
     "criteria": {
-      "has_iron_to_gold_tier_upgrade": "2024-05-17 16:58:43 +0000"
+      "has_sign": "2024-05-17 14:42:53 +0000"
     },
     "done": true
   },
-  "ae2:recipes/misc/tools/fluix_axe": {
+  "supplementaries:recipes/sign_post_oak": {
     "criteria": {
-      "has_crystals/fluix": "2024-05-17 14:40:10 +0000"
+      "has_oak_sign": "2024-05-17 14:42:53 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_sign_item": {
+    "criteria": {
+      "has_sign": "2024-05-17 14:42:53 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_warped_sign_item": {
+    "criteria": {
+      "has_sign": "2024-05-17 14:42:53 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_bamboo_sign_item": {
+    "criteria": {
+      "has_sign": "2024-05-17 14:42:53 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_cherry_hanging_sign": {
+    "criteria": {
+      "has_sign": "2024-05-17 14:42:53 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_mangrove_hanging_sign": {
+    "criteria": {
+      "has_sign": "2024-05-17 14:42:53 +0000"
     },
     "done": true
   },
@@ -25808,15 +25663,111 @@
     },
     "done": true
   },
-  "ae2:main/storage_cell": {
+  "securitycraft:recipes/building_blocks/secret_cherry_sign_item": {
     "criteria": {
-      "c1k": "2024-05-17 15:10:20 +0000"
+      "has_sign": "2024-05-17 14:42:53 +0000"
     },
     "done": true
   },
-  "croptopia:recipes/misc/grape_juice": {
+  "securitycraft:recipes/building_blocks/secret_crimson_hanging_sign": {
     "criteria": {
-      "has_grape": "2024-05-17 16:34:28 +0000"
+      "has_sign": "2024-05-17 14:42:53 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_spruce_sign_item": {
+    "criteria": {
+      "has_sign": "2024-05-17 14:42:53 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_bamboo_hanging_sign": {
+    "criteria": {
+      "has_sign": "2024-05-17 14:42:53 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_birch_hanging_sign": {
+    "criteria": {
+      "has_sign": "2024-05-17 14:42:53 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_jungle_sign_item": {
+    "criteria": {
+      "has_sign": "2024-05-17 14:42:53 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_jungle_hanging_sign": {
+    "criteria": {
+      "has_sign": "2024-05-17 14:42:53 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_oak_hanging_sign": {
+    "criteria": {
+      "has_sign": "2024-05-17 14:42:53 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_spruce_hanging_sign": {
+    "criteria": {
+      "has_sign": "2024-05-17 14:42:53 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_warped_hanging_sign": {
+    "criteria": {
+      "has_sign": "2024-05-17 14:42:53 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_dark_oak_hanging_sign": {
+    "criteria": {
+      "has_sign": "2024-05-17 14:42:53 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_mangrove_sign_item": {
+    "criteria": {
+      "has_sign": "2024-05-17 14:42:53 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_acacia_hanging_sign": {
+    "criteria": {
+      "has_sign": "2024-05-17 14:42:53 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/secret_crimson_sign_item": {
+    "criteria": {
+      "has_sign": "2024-05-17 14:42:53 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/io_port": {
+    "criteria": {
+      "has_drive": "2024-05-17 14:45:09 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/block_cutter/slabs/fluix_slab": {
+    "criteria": {
+      "has_fluix_block": "2024-05-17 14:50:42 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/shaped/stairs/fluix_block": {
+    "criteria": {
+      "has_fluix_block": "2024-05-17 14:50:42 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/block_cutter/stairs/fluix_stairs": {
+    "criteria": {
+      "has_fluix_block": "2024-05-17 14:50:42 +0000"
     },
     "done": true
   },
@@ -25826,21 +25777,99 @@
     },
     "done": true
   },
-  "croptopia:recipes/crema": {
+  "ae2:recipes/misc/block_cutter/walls/fluix_wall": {
     "criteria": {
-      "has_milk": "2024-05-17 16:06:54 +0000"
+      "has_fluix_block": "2024-05-17 14:50:42 +0000"
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/secret_cherry_sign_item": {
+  "delightful:recipes/knives/smithing/fluix_knife": {
     "criteria": {
-      "has_sign": "2024-05-17 14:42:53 +0000"
+      "has_fluix_block": "2024-05-17 14:50:42 +0000"
     },
     "done": true
   },
-  "megacells:recipes/misc/network/mega_interface": {
+  "ae2:recipes/misc/network/crystal_resonance_generator": {
     "criteria": {
-      "has_interface": "2024-05-17 15:23:13 +0000"
+      "has_fluix_block": "2024-05-17 14:50:42 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/shaped/walls/fluix_block": {
+    "criteria": {
+      "has_fluix_block": "2024-05-17 14:50:42 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/shaped/slabs/fluix_block": {
+    "criteria": {
+      "has_fluix_block": "2024-05-17 14:50:42 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/growth_accelerator": {
+    "criteria": {
+      "certus": "2024-05-17 14:50:50 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/lapis_lazuli": {
+    "criteria": {
+      "has_the_recipe": "2024-05-17 15:03:58 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/lapis_block_1x": {
+    "criteria": {
+      "has_lapis_block": "2024-05-17 15:03:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2024-05-17 15:03:58 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/import_bus": {
+    "criteria": {
+      "has_annihilation_core": "2024-05-17 15:06:45 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/annihilation_plane_alt": {
+    "criteria": {
+      "has_annihilation_core": "2024-05-17 15:06:45 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/interfaces_interface": {
+    "criteria": {
+      "has_annihilation_core": "2024-05-17 15:06:45 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/pattern_providers_interface": {
+    "criteria": {
+      "has_annihilation_core": "2024-05-17 15:06:45 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/annihilation_plane_alt2": {
+    "criteria": {
+      "has_annihilation_core": "2024-05-17 15:06:45 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/crafting/molecular_assembler": {
+    "criteria": {
+      "has_annihilation_core": "2024-05-17 15:06:45 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/formation_plane_alt": {
+    "criteria": {
+      "has_formation_core": "2024-05-17 15:08:58 +0000"
     },
     "done": true
   },
@@ -25850,9 +25879,339 @@
     },
     "done": true
   },
+  "ae2:recipes/misc/network/parts/export_bus": {
+    "criteria": {
+      "has_formation_core": "2024-05-17 15:08:58 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/matter_cannon": {
+    "criteria": {
+      "has_formation_core": "2024-05-17 15:08:58 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/network_color_applicator": {
+    "criteria": {
+      "has_formation_core": "2024-05-17 15:08:58 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/monitors_storage": {
+    "criteria": {
+      "has_illuminated_panel": "2024-05-17 15:09:16 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/panels_monitor": {
+    "criteria": {
+      "has_semi_dark_monitor": "2024-05-17 15:09:16 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cells/view_cell_storage": {
+    "criteria": {
+      "has_terminal": "2024-05-17 15:09:29 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cells/view_cell": {
+    "criteria": {
+      "has_terminal": "2024-05-17 15:09:29 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/wireless_terminal": {
+    "criteria": {
+      "has_terminal": "2024-05-17 15:09:29 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/storage_cell": {
+    "criteria": {
+      "c1k": "2024-05-17 15:10:20 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/interfaces_interface_part": {
+    "criteria": {
+      "has_interface": "2024-05-17 15:23:13 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/network/mega_interface": {
+    "criteria": {
+      "has_interface": "2024-05-17 15:23:13 +0000"
+    },
+    "done": true
+  },
+  "appbot:recipes/misc/fluix_mana_pool": {
+    "criteria": {
+      "has_interface": "2024-05-17 15:23:13 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/storage_bus": {
+    "criteria": {
+      "has_interface": "2024-05-17 15:23:13 +0000"
+    },
+    "done": true
+  },
+  "expatternprovider:recipes/misc/precise_storage_bus": {
+    "criteria": {
+      "has_item": "2024-05-17 15:23:25 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/storage_bus": {
+    "criteria": {
+      "part": "2024-05-17 15:23:25 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/upgrade_hellshelf": {
+    "criteria": {
+      "blazing": "2024-05-17 15:37:24 +0000"
+    },
+    "done": true
+  },
+  "industrialforegoing:recipes/misc/plastic": {
+    "criteria": {
+      "has_plastic": "2024-05-17 16:03:34 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/glow_berry_custard": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-17 16:06:54 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/mashed_potatoes": {
+    "criteria": {
+      "has_milk": "2024-05-17 16:06:54 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/hot_cocoa": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-17 16:06:54 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/crema": {
+    "criteria": {
+      "has_milk": "2024-05-17 16:06:54 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/churros": {
+    "criteria": {
+      "has_milk": "2024-05-17 16:06:54 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/cheese": {
+    "criteria": {
+      "has_milk": "2024-05-17 16:06:54 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/oatmeal": {
+    "criteria": {
+      "has_milk": "2024-05-17 16:06:54 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_milk_bottle": {
+    "criteria": {
+      "has_milk": "2024-05-17 16:06:54 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/butter": {
+    "criteria": {
+      "has_milk": "2024-05-17 16:06:54 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/milk_bottle": {
+    "criteria": {
+      "has_milk_bucket": "2024-05-17 16:06:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2024-05-17 16:13:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2024-05-17 16:13:38 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/snow_block": {
+    "criteria": {
+      "has_the_recipe": "2024-05-17 16:13:38 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/snow": {
+    "criteria": {
+      "has_the_recipe": "2024-05-17 16:13:38 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_black1": {
+    "criteria": {
+      "recipe_condition": "2024-05-17 16:14:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2024-05-17 16:14:28 +0000"
+    },
+    "done": true
+  },
+  "mekanism:energy_transport": {
+    "criteria": {
+      "basic_universal_cable": "2024-05-17 16:19:55 +0000"
+    },
+    "done": true
+  },
+  "croptopia:pot": {
+    "criteria": {
+      "cooking_pot": "2024-05-17 16:21:48 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_bacon": {
+    "criteria": {
+      "has_knife": "2024-05-17 16:21:57 +0000"
+    },
+    "done": true
+  },
+  "croptopia:knife": {
+    "criteria": {
+      "knife": "2024-05-17 16:21:57 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/tables/oak_table_slab": {
+    "criteria": {
+      "has_bamboo": "2024-05-17 16:22:47 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/oak_banister": {
+    "criteria": {
+      "has_item": "2024-05-17 16:22:47 +0000"
+    },
+    "done": true
+  },
+  "xnet:recipes/xnet/antenna_dish": {
+    "criteria": {
+      "trapdoor": "2024-05-17 16:23:44 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/blast_furnace/blasting_iron_trapdoor": {
+    "criteria": {
+      "has_iron_trapdoor": "2024-05-17 16:23:44 +0000"
+    },
+    "done": true
+  },
+  "croptopia:food_press": {
+    "criteria": {
+      "food_press": "2024-05-17 16:27:43 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/macaron": {
+    "criteria": {
+      "has_food_press": "2024-05-17 16:27:43 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/ground_pork": {
+    "criteria": {
+      "has_food_press": "2024-05-17 16:27:43 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_peanut_butter": {
+    "criteria": {
+      "has_food_press": "2024-05-17 16:27:43 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/olive_oil": {
+    "criteria": {
+      "has_food_press": "2024-05-17 16:27:43 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/chocolate": {
+    "criteria": {
+      "has_butter": "2024-05-17 16:27:49 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/ravioli": {
+    "criteria": {
+      "has_cheese": "2024-05-17 16:27:56 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/food/cheeseburger": {
+    "criteria": {
+      "has_cheese": "2024-05-17 16:27:56 +0000"
+    },
+    "done": true
+  },
   "croptopia:salt": {
     "criteria": {
       "salt": "2024-05-17 16:28:39 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/dead_bush": {
+    "criteria": {
+      "has_salts": "2024-05-17 16:28:39 +0000"
+    },
+    "done": true
+  },
+  "croptopia:mortar_and_pestle": {
+    "criteria": {
+      "mortar_and_pestle": "2024-05-17 16:29:30 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/paprika": {
+    "criteria": {
+      "has_mortar_and_pestle": "2024-05-17 16:29:30 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/protein_bar": {
+    "criteria": {
+      "has_caramel": "2024-05-17 16:30:19 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/rum": {
+    "criteria": {
+      "has_molasses": "2024-05-17 16:30:20 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/chocolate_pie": {
+    "criteria": {
+      "has_pie_crust": "2024-05-17 16:30:54 +0000"
     },
     "done": true
   },
@@ -25865,180 +26224,6 @@
   "farmersdelight:recipes/food/sweet_berry_cheesecake": {
     "criteria": {
       "has_pie_crust": "2024-05-17 16:30:54 +0000"
-    },
-    "done": true
-  },
-  "twigs:recipes/tables/oak_table_slab": {
-    "criteria": {
-      "has_bamboo": "2024-05-17 16:22:47 +0000"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/borderless_glass_black1": {
-    "criteria": {
-      "recipe_condition": "2024-05-17 16:14:28 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/snow": {
-    "criteria": {
-      "has_snowball": "2024-05-17 16:13:38 +0000"
-    },
-    "done": true
-  },
-  "croptopia:pot": {
-    "criteria": {
-      "cooking_pot": "2024-05-17 16:21:48 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/block_cutter/walls/fluix_wall": {
-    "criteria": {
-      "has_fluix_block": "2024-05-17 14:50:42 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_crimson_hanging_sign": {
-    "criteria": {
-      "has_sign": "2024-05-17 14:42:53 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/protein_bar": {
-    "criteria": {
-      "has_caramel": "2024-05-17 16:30:19 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/chipped/mason_table_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_spruce_sign_item": {
-    "criteria": {
-      "has_sign": "2024-05-17 14:42:53 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/misc/macaron": {
-    "criteria": {
-      "has_food_press": "2024-05-17 16:27:43 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/blocks/spatial_io_port": {
-    "criteria": {
-      "has_engineering_processor": "2024-05-17 14:39:15 +0000"
-    },
-    "done": true
-  },
-  "delightful:recipes/knives/smithing/fluix_knife": {
-    "criteria": {
-      "has_fluix_block": "2024-05-17 14:50:42 +0000"
-    },
-    "done": true
-  },
-  "productivebees:husbandry/advanced_beehive": {
-    "criteria": {
-      "get_hive": "2024-05-17 14:37:23 +0000"
-    },
-    "done": true
-  },
-  "ae2:main/fluix": {
-    "criteria": {
-      "certus": "2024-05-17 14:40:10 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/campfire_raisins": {
-    "criteria": {
-      "has_grapes": "2024-05-17 16:34:28 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/pickup_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/fluix_hoe": {
-    "criteria": {
-      "has_crystals/fluix": "2024-05-17 14:40:10 +0000"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/decorations/wood/oak_banister": {
-    "criteria": {
-      "has_item": "2024-05-17 16:22:47 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/blocks/crystal_processing_charger": {
-    "criteria": {
-      "has_crystals/fluix": "2024-05-17 14:40:10 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_bamboo_hanging_sign": {
-    "criteria": {
-      "has_sign": "2024-05-17 14:42:53 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/chipped/loom_table_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/misc/ground_pork": {
-    "criteria": {
-      "has_food_press": "2024-05-17 16:27:43 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/blocks/inscribers": {
-    "criteria": {
-      "has_crystals/fluix": "2024-05-17 14:40:10 +0000"
-    },
-    "done": true
-  },
-  "appbot:recipes/misc/fluix_mana_pool": {
-    "criteria": {
-      "has_interface": "2024-05-17 15:23:13 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_birch_hanging_sign": {
-    "criteria": {
-      "has_sign": "2024-05-17 14:42:53 +0000"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/snow_block": {
-    "criteria": {
-      "has_the_recipe": "2024-05-17 16:13:38 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/jukebox_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/fluix_upgrade_smithing_template": {
-    "criteria": {
-      "has_fluix_crystal": "2024-05-17 14:40:10 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/food/raisins_from_grape": {
-    "criteria": {
-      "has_grape": "2024-05-17 16:34:28 +0000"
     },
     "done": true
   },
@@ -26055,57 +26240,9 @@
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/secret_jungle_sign_item": {
+  "delightful:recipes/food/pumpkin_pie": {
     "criteria": {
-      "has_sign": "2024-05-17 14:42:53 +0000"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/snow": {
-    "criteria": {
-      "has_the_recipe": "2024-05-17 16:13:38 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/shaped_peanut_butter": {
-    "criteria": {
-      "has_food_press": "2024-05-17 16:27:43 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/misc/grape_seed": {
-    "criteria": {
-      "has_grape": "2024-05-17 16:34:28 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/olive_oil": {
-    "criteria": {
-      "has_food_press": "2024-05-17 16:27:43 +0000"
-    },
-    "done": true
-  },
-  "xnet:recipes/xnet/antenna_dish": {
-    "criteria": {
-      "trapdoor": "2024-05-17 16:23:44 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/crystal_resonance_generator": {
-    "criteria": {
-      "has_fluix_block": "2024-05-17 14:50:42 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_jungle_hanging_sign": {
-    "criteria": {
-      "has_sign": "2024-05-17 14:42:53 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/parts/export_bus": {
-    "criteria": {
-      "has_formation_core": "2024-05-17 15:08:58 +0000"
+      "has_pie_crust": "2024-05-17 16:30:54 +0000"
     },
     "done": true
   },
@@ -26115,87 +26252,177 @@
     },
     "done": true
   },
-  "ae2:recipes/misc/network/blocks/storage_drive": {
+  "farmersdelight:recipes/food/bread_from_smelting": {
     "criteria": {
-      "has_engineering_processor": "2024-05-17 14:39:15 +0000"
+      "has_dough": "2024-05-17 16:31:28 +0000"
     },
     "done": true
   },
-  "ae2:recipes/misc/shaped/walls/fluix_block": {
+  "croptopia:recipes/chicken_and_noodles": {
     "criteria": {
-      "has_fluix_block": "2024-05-17 14:50:42 +0000"
+      "has_noodles": "2024-05-17 16:31:40 +0000"
     },
     "done": true
   },
-  "croptopia:recipes/misc/dead_bush": {
+  "croptopia:recipes/misc/grape_jam": {
     "criteria": {
-      "has_salts": "2024-05-17 16:28:39 +0000"
+      "has_grape": "2024-05-17 16:34:28 +0000"
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/secret_oak_hanging_sign": {
+  "croptopia:recipes/wine": {
     "criteria": {
-      "has_sign": "2024-05-17 14:42:53 +0000"
+      "has_grapes": "2024-05-17 16:34:28 +0000"
     },
     "done": true
   },
-  "croptopia:recipes/churros": {
+  "croptopia:recipes/misc/grape_juice": {
     "criteria": {
-      "has_milk": "2024-05-17 16:06:54 +0000"
+      "has_grape": "2024-05-17 16:34:28 +0000"
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/secret_spruce_hanging_sign": {
+  "croptopia:recipes/campfire_raisins": {
     "criteria": {
-      "has_sign": "2024-05-17 14:42:53 +0000"
+      "has_grapes": "2024-05-17 16:34:28 +0000"
     },
     "done": true
   },
-  "ae2:recipes/misc/blasting/silicon_from_certus_quartz_dust": {
+  "croptopia:recipes/food/raisins_from_grape": {
     "criteria": {
-      "has_certus_quartz_dust": "2024-05-17 14:36:58 +0000"
+      "has_grape": "2024-05-17 16:34:28 +0000"
     },
     "done": true
   },
-  "ae2:recipes/misc/network/wireless_terminal": {
+  "croptopia:recipes/misc/grape_seed": {
     "criteria": {
-      "has_terminal": "2024-05-17 15:09:29 +0000"
+      "has_grape": "2024-05-17 16:34:28 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/raisins_from_smoking_grape": {
+    "criteria": {
+      "has_grape": "2024-05-17 16:34:28 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/pepper_seed": {
+    "criteria": {
+      "has_pepper": "2024-05-17 16:34:37 +0000"
+    },
+    "done": true
+  },
+  "croptopia:getseeds": {
+    "criteria": {
+      "has_seeds": "2024-05-17 16:35:11 +0000"
+    },
+    "done": true
+  },
+  "croptopia:gather_all": {
+    "criteria": {
+      "pepper_seed": "2024-05-17 16:35:11 +0000"
+    },
+    "done": false
+  },
+  "croptopia:gather_plains": {
+    "criteria": {
+      "pepper_seed": "2024-05-17 16:35:11 +0000"
+    },
+    "done": false
+  },
+  "sophisticatedstorage:recipes/misc/basic_to_gold_tier_upgrade": {
+    "criteria": {
+      "has_basic_to_iron_tier_upgrade": "2024-05-17 16:58:24 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/iron_to_diamond_tier_upgrade": {
+    "criteria": {
+      "has_iron_to_gold_tier_upgrade": "2024-05-17 16:58:43 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/chipped/carpenters_table_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/void_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/chipped/tinkering_table_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/filter_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/chipped/alchemy_bench_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/stack_upgrade_tier_1": {
+    "criteria": {
+      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/compacting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/smoking_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/compression_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/chipped/mason_table_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/pickup_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/chipped/loom_table_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/jukebox_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-05-17 16:59:19 +0000"
     },
     "done": true
   },
   "sophisticatedstorage:recipes/misc/smelting_upgrade": {
     "criteria": {
       "has_upgrade_base": "2024-05-17 16:59:19 +0000"
-    },
-    "done": true
-  },
-  "delightful:recipes/food/pumpkin_pie": {
-    "criteria": {
-      "has_pie_crust": "2024-05-17 16:30:54 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_warped_hanging_sign": {
-    "criteria": {
-      "has_sign": "2024-05-17 14:42:53 +0000"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/lapis_lazuli": {
-    "criteria": {
-      "has_the_recipe": "2024-05-17 15:03:58 +0000"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/lapis_block_1x": {
-    "criteria": {
-      "has_lapis_block": "2024-05-17 15:03:58 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_dark_oak_hanging_sign": {
-    "criteria": {
-      "has_sign": "2024-05-17 14:42:53 +0000"
     },
     "done": true
   },
@@ -26217,45 +26444,9 @@
     },
     "done": true
   },
-  "merequester:recipes/requester": {
-    "criteria": {
-      "has_item": "2024-05-17 14:39:15 +0000"
-    },
-    "done": true
-  },
   "sophisticatedstorage:recipes/misc/hopper_upgrade": {
     "criteria": {
       "has_upgrade_base": "2024-05-17 16:59:19 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/misc/pepper_seed": {
-    "criteria": {
-      "has_pepper": "2024-05-17 16:34:37 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/building_blocks/secret_mangrove_sign_item": {
-    "criteria": {
-      "has_sign": "2024-05-17 14:42:53 +0000"
-    },
-    "done": true
-  },
-  "railcraft:recipes/blast_furnace/blasting_iron_trapdoor": {
-    "criteria": {
-      "has_iron_trapdoor": "2024-05-17 16:23:44 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/shaped/slabs/fluix_block": {
-    "criteria": {
-      "has_fluix_block": "2024-05-17 14:50:42 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/cheese": {
-    "criteria": {
-      "has_milk": "2024-05-17 16:06:54 +0000"
     },
     "done": true
   },
@@ -26265,87 +26456,9 @@
     },
     "done": true
   },
-  "delightful:recipes/food/cheeseburger": {
-    "criteria": {
-      "has_cheese": "2024-05-17 16:27:56 +0000"
-    },
-    "done": true
-  },
   "sophisticatedstorage:recipes/misc/chipped/botanist_workbench_upgrade": {
     "criteria": {
       "has_upgrade_base": "2024-05-17 16:59:19 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/oatmeal": {
-    "criteria": {
-      "has_milk": "2024-05-17 16:06:54 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/parts/quartz_fiber_part": {
-    "criteria": {
-      "has_dusts/quartz": "2024-05-17 14:36:58 +0000"
-    },
-    "done": true
-  },
-  "mekanism:energy_transport": {
-    "criteria": {
-      "basic_universal_cable": "2024-05-17 16:19:55 +0000"
-    },
-    "done": true
-  },
-  "expatternprovider:recipes/misc/precise_storage_bus": {
-    "criteria": {
-      "has_item": "2024-05-17 15:23:25 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/shaped_milk_bottle": {
-    "criteria": {
-      "has_milk": "2024-05-17 16:06:54 +0000"
-    },
-    "done": true
-  },
-  "croptopia:gather_all": {
-    "criteria": {
-      "pepper_seed": "2024-05-17 16:35:11 +0000"
-    },
-    "done": false
-  },
-  "securitycraft:recipes/building_blocks/secret_acacia_hanging_sign": {
-    "criteria": {
-      "has_sign": "2024-05-17 14:42:53 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/matter_cannon": {
-    "criteria": {
-      "has_formation_core": "2024-05-17 15:08:58 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/decorative/quartz_glass": {
-    "criteria": {
-      "has_quartz_dust": "2024-05-17 14:36:58 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/blocks/controller": {
-    "criteria": {
-      "has_engineering_processor": "2024-05-17 14:39:15 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/network_color_applicator": {
-    "criteria": {
-      "has_formation_core": "2024-05-17 15:08:58 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/tools/fluix_pickaxe": {
-    "criteria": {
-      "has_crystals/fluix": "2024-05-17 14:40:10 +0000"
     },
     "done": true
   },
@@ -26355,27 +26468,9 @@
     },
     "done": true
   },
-  "croptopia:recipes/butter": {
+  "sophisticatedstorage:recipes/misc/stack_upgrade_tier_2": {
     "criteria": {
-      "has_milk": "2024-05-17 16:06:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/black_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2024-05-17 16:14:28 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/food/raisins_from_smoking_grape": {
-    "criteria": {
-      "has_grape": "2024-05-17 16:34:28 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/parts/annihilation_plane_alt2": {
-    "criteria": {
-      "has_annihilation_core": "2024-05-17 15:06:45 +0000"
+      "has_upgrade_base": "2024-05-17 16:59:21 +0000"
     },
     "done": true
   },
@@ -26385,87 +26480,948 @@
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/secret_crimson_sign_item": {
+  "minecraft:recipes/misc/map": {
     "criteria": {
-      "has_sign": "2024-05-17 14:42:53 +0000"
+      "has_compass": "2024-05-18 14:09:01 +0000"
     },
     "done": true
   },
-  "ae2:recipes/misc/tools/fluix_shovel": {
+  "structurecompass:recipes/tools/structure_compass": {
     "criteria": {
-      "has_crystals/fluix": "2024-05-17 14:40:10 +0000"
+      "has_compass": "2024-05-18 14:09:01 +0000"
     },
     "done": true
   },
-  "ae2:main/storage_bus": {
+  "croptopia:recipes/shaped_toast_sandwich": {
     "criteria": {
-      "part": "2024-05-17 15:23:25 +0000"
+      "has_toast": "2024-05-18 14:19:43 +0000"
     },
     "done": true
   },
-  "ae2:main/growth_accelerator": {
+  "croptopia:recipes/chicken_and_dumplings": {
     "criteria": {
-      "certus": "2024-05-17 14:50:50 +0000"
+      "has_dough": "2024-05-18 14:20:04 +0000"
     },
     "done": true
   },
-  "ae2:recipes/misc/network/crafting/molecular_assembler": {
+  "croptopia:recipes/cheese_pizza": {
     "criteria": {
-      "has_annihilation_core": "2024-05-17 15:06:45 +0000"
+      "has_dough": "2024-05-18 14:20:04 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/food/milk_bottle": {
+  "croptopia:recipes/peanut_butter_and_jam": {
     "criteria": {
-      "has_milk_bucket": "2024-05-17 16:06:54 +0000"
+      "has_jam": "2024-05-18 14:20:12 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/food/bread_from_smelting": {
+  "croptopia:recipes/rum_raisin_ice_cream": {
     "criteria": {
-      "has_dough": "2024-05-17 16:31:28 +0000"
+      "has_rum": "2024-05-18 14:20:21 +0000"
     },
     "done": true
   },
-  "ae2:recipes/misc/network/parts/storage_bus": {
+  "botania:recipes/tools/dirt_rod": {
     "criteria": {
-      "has_interface": "2024-05-17 15:23:13 +0000"
+      "has_item": "2024-05-18 14:35:02 +0000"
     },
     "done": true
   },
-  "croptopia:recipes/rum": {
+  "botania:recipes/decorations/terra_plate": {
     "criteria": {
-      "has_molasses": "2024-05-17 16:30:20 +0000"
+      "has_item": "2024-05-18 14:35:02 +0000"
     },
     "done": true
   },
-  "ae2:recipes/misc/smelting/silicon_from_certus_quartz_dust": {
+  "mythicbotany:mythicbotany/all_runes": {
     "criteria": {
-      "has_certus_quartz_dust": "2024-05-17 14:36:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/lapis_lazuli": {
-    "criteria": {
-      "has_lapis_block": "2024-05-17 15:03:58 +0000"
-    },
-    "done": true
-  },
-  "croptopia:gather_plains": {
-    "criteria": {
-      "pepper_seed": "2024-05-17 16:35:11 +0000"
+      "inventory_changed3": "2024-05-18 14:35:02 +0000"
     },
     "done": false
   },
-  "croptopia:recipes/chicken_and_noodles": {
+  "botania:recipes/tools/temperance_stone": {
     "criteria": {
-      "has_noodles": "2024-05-17 16:31:40 +0000"
+      "has_item": "2024-05-18 14:35:02 +0000"
     },
     "done": true
   },
-  "ae2:recipes/misc/network/blocks/io_port": {
+  "botania:main/runic_altar_pickup": {
     "criteria": {
-      "has_drive": "2024-05-17 14:45:09 +0000"
+      "rune": "2024-05-18 14:35:02 +0000"
+    },
+    "done": true
+  },
+  "botania:main/rune_pickup": {
+    "criteria": {
+      "rune": "2024-05-18 14:35:02 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/golden_pickaxe_repairing": {
+    "criteria": {
+      "has_golden_pickaxe": "2024-05-18 14:35:11 +0000"
+    },
+    "done": true
+  },
+  "botania:main/bauble_wear": {
+    "criteria": {
+      "code_triggered": "2024-05-18 14:35:58 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/white_pavement": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:19 +0000"
+    },
+    "done": true
+  },
+  "aiotbotania:recipes/tools/livingrock_axe": {
+    "criteria": {
+      "has_material": "2024-05-18 14:38:19 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/livingrock_wall": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:19 +0000"
+    },
+    "done": true
+  },
+  "aiotbotania:recipes/tools/livingrock_shovel": {
+    "criteria": {
+      "has_material": "2024-05-18 14:38:19 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/slab_recombine/livingrock": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:19 +0000"
+    },
+    "done": true
+  },
+  "aiotbotania:recipes/tools/livingrock_hoe": {
+    "criteria": {
+      "has_material": "2024-05-18 14:38:19 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mana_pool": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:19 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/red_pavement": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:19 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/black_pavement": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:19 +0000"
+    },
+    "done": true
+  },
+  "aiotbotania:recipes/tools/livingrock_pickaxe": {
+    "criteria": {
+      "has_material": "2024-05-18 14:38:19 +0000"
+    },
+    "done": true
+  },
+  "aiotbotania:recipes/tools/livingrock_sword": {
+    "criteria": {
+      "has_material": "2024-05-18 14:38:19 +0000"
+    },
+    "done": true
+  },
+  "aiotbotania:recipes/tools/livingrock_shears": {
+    "criteria": {
+      "has_material": "2024-05-18 14:38:19 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mana_void": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:19 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/polished_livingrock": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:19 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/diluted_pool": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:19 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/blue_pavement": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:19 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/livingrock_slab": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:19 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/yellow_pavement": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:19 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/green_pavement": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:19 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/livingrock_stairs": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:19 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mana_detector": {
+    "criteria": {
+      "has_alt_item": "2024-05-18 14:38:19 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/redstone/apothecary_livingrock": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:19 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/conversions/manadiamond_block_deconstruct": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:36 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/mana_tablet_alt": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:36 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/mana_gun": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:36 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/goddess_charm": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:36 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/mana_diamond_block": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:36 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/avatar": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:36 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/divining_rod": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:36 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/third_eye": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:36 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/runic_altar_alt": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:36 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/mana_pylon": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:36 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/auto_crafting_halo": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:36 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/mana_mirror": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:46 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/mana_ring": {
+    "criteria": {
+      "has_item": "2024-05-18 14:38:46 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/misc/smelt_catalyst": {
+    "criteria": {
+      "has_undergarden:catalyst": "2024-05-18 14:43:30 +0000"
+    },
+    "done": true
+  },
+  "undergarden:undergarden/catalyst": {
+    "criteria": {
+      "has_catalyst": "2024-05-18 14:43:30 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/misc/blast_catalyst": {
+    "criteria": {
+      "has_undergarden:catalyst": "2024-05-18 14:43:30 +0000"
+    },
+    "done": true
+  },
+  "mekanism:basic_control_circuit": {
+    "criteria": {
+      "basic_control_circuit": "2024-05-18 14:44:26 +0000"
+    },
+    "done": true
+  },
+  "mekanism:installer": {
+    "criteria": {
+      "installer": "2024-05-18 14:44:38 +0000"
+    },
+    "done": true
+  },
+  "mekanism:advanced_control_circuit": {
+    "criteria": {
+      "advanced_control_circuit": "2024-05-18 14:45:00 +0000"
+    },
+    "done": true
+  },
+  "undergarden:undergarden/enter_undergarden": {
+    "criteria": {
+      "enter_undergarden": "2024-05-18 14:49:18 +0000"
+    },
+    "done": true
+  },
+  "undergarden:undergarden/all_undergarden_biomes": {
+    "criteria": {
+      "undergarden:forgotten_field": "2024-05-18 14:49:19 +0000"
+    },
+    "done": false
+  },
+  "repurposed_structures:mansions": {
+    "criteria": {
+      "in_mansion_oak": "2024-05-18 15:12:27 +0000"
+    },
+    "done": false
+  },
+  "aether:recipes/tools/diamond_hoe_repairing": {
+    "criteria": {
+      "has_diamond_hoe": "2024-05-18 15:12:52 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/leather": {
+    "criteria": {
+      "has_the_recipe": "2024-05-18 15:13:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather": {
+    "criteria": {
+      "has_rabbit_hide": "2024-05-18 15:13:33 +0000"
+    },
+    "done": true
+  },
+  "croptopia:gather_drinks": {
+    "criteria": {
+      "rum": "2024-05-18 15:14:03 +0000",
+      "apple_juice": "2024-05-19 11:26:01 +0000",
+      "fruit_smoothie": "2024-05-19 11:25:42 +0000",
+      "orange_juice": "2024-05-19 11:29:25 +0000"
+    },
+    "done": false
+  },
+  "croptopia:getdrinks": {
+    "criteria": {
+      "has_drink": "2024-05-18 15:14:03 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/cokebrick_to_slab": {
+    "criteria": {
+      "has_cokebrick": "2024-05-19 01:55:29 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/cokebrick_from_slab": {
+    "criteria": {
+      "has_cokebrick": "2024-05-19 01:55:29 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/alloybrick_to_slab": {
+    "criteria": {
+      "has_alloybrick": "2024-05-19 01:55:33 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/alloybrick_from_slab": {
+    "criteria": {
+      "has_alloybrick": "2024-05-19 01:55:33 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/survey_tools": {
+    "criteria": {
+      "has_hammer": "2024-05-19 01:56:17 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_hammer": {
+    "criteria": {
+      "has_item": "2024-05-19 01:56:17 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/mb_cokeoven": {
+    "criteria": {
+      "form_multiblock": "2024-05-19 01:56:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coal": {
+    "criteria": {
+      "has_coal_block": "2024-05-19 01:58:14 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/coke_oven/coal_coke_block": {
+    "criteria": {
+      "has_coal_block": "2024-05-19 01:58:14 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/misc/blasting/graphite_from_coalblock": {
+    "criteria": {
+      "has_item": "2024-05-19 01:58:14 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/coal": {
+    "criteria": {
+      "has_the_recipe": "2024-05-19 01:58:14 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/coal_block_1x": {
+    "criteria": {
+      "has_coal_block": "2024-05-19 01:58:14 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/misc/smelting/graphite_from_coalblock": {
+    "criteria": {
+      "has_item": "2024-05-19 01:58:14 +0000"
+    },
+    "done": true
+  },
+  "usefulrailroads:recipes/fuel/track_builder/coal_blocks": {
+    "criteria": {
+      "has_ingredient": "2024-05-19 01:58:14 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/campfire/marshmallow_stick": {
+    "criteria": {
+      "has_marshmallow_stick": "2024-05-19 02:01:10 +0000"
+    },
+    "done": true
+  },
+  "mekanism:logistical_sorter": {
+    "criteria": {
+      "logistical_sorter": "2024-05-19 02:12:43 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/grass_block_1x": {
+    "criteria": {
+      "has_grass_block": "2024-05-19 02:37:00 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/cake_from_milk_bottle": {
+    "criteria": {
+      "has_milk_bottle": "2024-05-19 11:25:51 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/misc/milk_bucket_from_bottles": {
+    "criteria": {
+      "has_milk_bottle": "2024-05-19 11:25:51 +0000"
+    },
+    "done": true
+  },
+  "croptopia:gather_tree_plains": {
+    "criteria": {
+      "orange_sapling": "2024-05-19 11:27:17 +0000"
+    },
+    "done": false
+  },
+  "croptopia:getsapling": {
+    "criteria": {
+      "has_sapling": "2024-05-19 11:27:17 +0000"
+    },
+    "done": true
+  },
+  "croptopia:gather_tree_all": {
+    "criteria": {
+      "orange_sapling": "2024-05-19 11:27:17 +0000",
+      "lime_sapling": "2024-05-19 11:27:36 +0000",
+      "pear_sapling": "2024-05-19 11:27:27 +0000",
+      "mango_sapling": "2024-05-19 11:27:31 +0000"
+    },
+    "done": false
+  },
+  "croptopia:gather_tree_forest": {
+    "criteria": {
+      "pear_sapling": "2024-05-19 11:27:27 +0000",
+      "orange_sapling": "2024-05-19 11:27:17 +0000",
+      "lime_sapling": "2024-05-19 11:27:36 +0000"
+    },
+    "done": false
+  },
+  "croptopia:gather_tree_jungle": {
+    "criteria": {
+      "mango_sapling": "2024-05-19 11:27:31 +0000"
+    },
+    "done": false
+  },
+  "croptopia:recipes/misc/orange_juice": {
+    "criteria": {
+      "has_orange": "2024-05-19 11:28:45 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/orange_sapling": {
+    "criteria": {
+      "has_orange": "2024-05-19 11:28:45 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/pear_sapling": {
+    "criteria": {
+      "has_pear": "2024-05-19 11:28:49 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/lime_sapling": {
+    "criteria": {
+      "has_lime": "2024-05-19 11:28:55 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/salsa": {
+    "criteria": {
+      "has_lime": "2024-05-19 11:28:55 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/limeade": {
+    "criteria": {
+      "has_lime": "2024-05-19 11:28:55 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/mango_ice_cream": {
+    "criteria": {
+      "has_mango": "2024-05-19 11:29:02 +0000",
+      "has_the_recipe": "2024-05-19 11:29:02 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/mango_sapling": {
+    "criteria": {
+      "has_mango": "2024-05-19 11:29:02 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/mango_ice_cream": {
+    "criteria": {
+      "has_mango": "2024-05-19 11:29:02 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/diamond_spike_maul": {
+    "criteria": {
+      "has_diamond_block": "2024-05-19 11:33:05 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/diamond": {
+    "criteria": {
+      "has_the_recipe": "2024-05-19 11:33:05 +0000"
+    },
+    "done": true
+  },
+  "constructionwand:recipes/misc/core_destruction": {
+    "criteria": {
+      "has_item": "2024-05-19 11:33:05 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/diamond_block_1x": {
+    "criteria": {
+      "has_diamond_block": "2024-05-19 11:33:05 +0000"
+    },
+    "done": true
+  },
+  "pylons:recipes/misc/expulsion_pylon": {
+    "criteria": {
+      "has_diamond_block": "2024-05-19 11:33:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/diamond": {
+    "criteria": {
+      "has_diamond_block": "2024-05-19 11:33:05 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/building_blocks/silent_oak_pressure_plate": {
+    "criteria": {
+      "has_ingredient": "2024-05-19 11:48:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2024-05-19 12:00:11 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/blue_ice": {
+    "criteria": {
+      "has_the_recipe": "2024-05-19 12:00:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_ice_from_freezing": {
+    "criteria": {
+      "has_packed_ice": "2024-05-19 12:00:11 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_tin_from_block": {
+    "criteria": {
+      "has_item": "2024-05-19 13:54:54 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/tin_dust_from_raw_block": {
+    "criteria": {
+      "has_raw_tin_block": "2024-05-19 13:54:54 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/tin_dust_from_raw": {
+    "criteria": {
+      "has_raw_tin": "2024-05-19 13:57:33 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_tin_block": {
+    "criteria": {
+      "has_raw_TagKey[minecraft:item / forge:raw_materials/tin]": "2024-05-19 13:57:33 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/tin_ingot_from_raw": {
+    "criteria": {
+      "has_item": "2024-05-19 13:57:33 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/tin_ingot_from_raw_blasting": {
+    "criteria": {
+      "has_item": "2024-05-19 13:57:33 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/wireless_part": {
+    "criteria": {
+      "has_fluix_pearl": "2024-05-19 14:41:32 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/quantum_link": {
+    "criteria": {
+      "has_fluix_pearl": "2024-05-19 14:41:32 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/wireless_access_point": {
+    "criteria": {
+      "has_wireless_receiver": "2024-05-19 14:41:35 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/wireless_crafting_terminal": {
+    "criteria": {
+      "has_wireless_receiver": "2024-05-19 14:41:35 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/io_condenser": {
+    "criteria": {
+      "has_dusts/fluix": "2024-05-19 14:42:42 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/portable_fluid_cell_256k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-19 14:42:57 +0000"
+    },
+    "done": true
+  },
+  "appmek:recipes/misc/portable_chemical_storage_cell_1k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-19 14:42:57 +0000"
+    },
+    "done": true
+  },
+  "appmek:recipes/misc/portable_chemical_storage_cell_4k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-19 14:42:57 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/energy_dense_energy_cell": {
+    "criteria": {
+      "has_energy_cell": "2024-05-19 14:42:57 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/portable_fluid_cell_16k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-19 14:42:57 +0000"
+    },
+    "done": true
+  },
+  "appbot:recipes/misc/portable_mana_storage_cell_4k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-19 14:42:57 +0000"
+    },
+    "done": true
+  },
+  "appbot:recipes/misc/portable_mana_storage_cell_1k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-19 14:42:57 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/portable_fluid_cell_64k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-19 14:42:57 +0000"
+    },
+    "done": true
+  },
+  "appmek:recipes/misc/portable_chemical_storage_cell_16k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-19 14:42:57 +0000"
+    },
+    "done": true
+  },
+  "appmek:recipes/misc/portable_chemical_storage_cell_64k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-19 14:42:57 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/portable_fluid_cell_4k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-19 14:42:57 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/tools/portable_fluid_cell_1k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-19 14:42:57 +0000"
+    },
+    "done": true
+  },
+  "appbot:recipes/misc/portable_mana_storage_cell_64k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-19 14:42:57 +0000"
+    },
+    "done": true
+  },
+  "appbot:recipes/misc/portable_mana_storage_cell_16k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-19 14:42:57 +0000"
+    },
+    "done": true
+  },
+  "appbot:recipes/misc/portable_mana_storage_cell_256k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-19 14:42:57 +0000"
+    },
+    "done": true
+  },
+  "appmek:recipes/misc/portable_chemical_storage_cell_256k": {
+    "criteria": {
+      "has_energy_cell": "2024-05-19 14:42:57 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/portable/portable_item_cell_256m": {
+    "criteria": {
+      "has_dense_energy_cell": "2024-05-19 14:43:09 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/crafting/mega_energy_cell": {
+    "criteria": {
+      "has_dense_energy_cell": "2024-05-19 14:43:09 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/portable/portable_fluid_cell_256m": {
+    "criteria": {
+      "has_dense_energy_cell": "2024-05-19 14:43:09 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/portable/portable_item_cell_4m": {
+    "criteria": {
+      "has_dense_energy_cell": "2024-05-19 14:43:09 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/portable/portable_item_cell_1m": {
+    "criteria": {
+      "has_dense_energy_cell": "2024-05-19 14:43:09 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/portable/portable_fluid_cell_1m": {
+    "criteria": {
+      "has_dense_energy_cell": "2024-05-19 14:43:09 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/portable/portable_item_cell_16m": {
+    "criteria": {
+      "has_dense_energy_cell": "2024-05-19 14:43:09 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/portable/portable_fluid_cell_4m": {
+    "criteria": {
+      "has_dense_energy_cell": "2024-05-19 14:43:09 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/portable/portable_fluid_cell_64m": {
+    "criteria": {
+      "has_dense_energy_cell": "2024-05-19 14:43:09 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/portable/portable_item_cell_64m": {
+    "criteria": {
+      "has_dense_energy_cell": "2024-05-19 14:43:09 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/portable/portable_fluid_cell_16m": {
+    "criteria": {
+      "has_dense_energy_cell": "2024-05-19 14:43:09 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/stonecutting/mars_cobblestone_stairs_from_mars_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mars_cobblestone_stairs": "2024-05-19 14:44:11 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/stonecutting/mars_cobblestone_slab_from_mars_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mars_cobblestone_slab": "2024-05-19 14:44:11 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/smelting/mars_stone_from_smelting_mars_cobblestone": {
+    "criteria": {
+      "has_mars_stone": "2024-05-19 14:44:11 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/mars_cobblestone_stairs": {
+    "criteria": {
+      "has_mars_cobblestone_stairs": "2024-05-19 14:44:11 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/polished_mars_stone": {
+    "criteria": {
+      "has_polished_mars_stone": "2024-05-19 14:44:11 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/mars_cobblestone_slab": {
+    "criteria": {
+      "has_mars_cobblestone_slab": "2024-05-19 14:44:11 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:pyramids": {
+    "criteria": {
+      "in_pyramid_nether": "2024-05-19 14:49:09 +0000"
+    },
+    "done": false
+  },
+  "apotheosis:affix/random": {
+    "criteria": {
+      "sword": "2024-05-19 14:50:17 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/golden_nether_banana": {
+    "criteria": {
+      "has_item": "2024-05-19 14:50:34 +0000"
+    },
+    "done": true
+  },
+  "silentgear:nether_plants": {
+    "criteria": {
+      "banana": "2024-05-19 14:50:34 +0000"
+    },
+    "done": false
+  },
+  "silentgear:recipes/misc/glittery_dust": {
+    "criteria": {
+      "has_item": "2024-05-19 14:50:34 +0000"
     },
     "done": true
   },

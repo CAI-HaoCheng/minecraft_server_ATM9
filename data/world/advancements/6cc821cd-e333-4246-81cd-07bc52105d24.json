@@ -4858,9 +4858,11 @@
       "minecraft:blaze": "2024-05-09 08:50:05 +0000",
       "minecraft:skeleton": "2024-05-01 14:59:23 +0000",
       "minecraft:ghast": "2024-05-07 14:48:10 +0000",
+      "minecraft:vindicator": "2024-05-18 15:10:31 +0000",
       "minecraft:magma_cube": "2024-05-07 14:30:34 +0000",
       "minecraft:spider": "2024-05-01 14:59:46 +0000",
       "minecraft:creeper": "2024-05-02 04:51:10 +0000",
+      "minecraft:evoker": "2024-05-18 15:14:50 +0000",
       "minecraft:phantom": "2024-05-08 09:09:11 +0000",
       "minecraft:zombified_piglin": "2024-05-09 08:50:24 +0000",
       "minecraft:wither_skeleton": "2024-05-08 14:43:32 +0000",
@@ -12381,8 +12383,10 @@
       "fish_and_chips": "2024-05-14 14:01:51 +0000",
       "anchovy": "2024-05-01 15:50:25 +0000",
       "clam": "2024-05-01 15:45:25 +0000",
+      "scrambled_eggs": "2024-05-19 13:56:01 +0000",
       "toast": "2024-05-01 15:44:30 +0000",
       "cooked_tuna": "2024-05-01 15:49:08 +0000",
+      "vanilla_ice_cream": "2024-05-18 14:48:28 +0000",
       "tuna": "2024-05-01 15:49:08 +0000",
       "glowing_calamari": "2024-05-12 12:49:07 +0000",
       "oyster": "2024-05-01 15:44:50 +0000",
@@ -30377,7 +30381,8 @@
   "mythicbotany:mythicbotany/all_runes": {
     "criteria": {
       "inventory_changed5": "2024-05-05 14:28:20 +0000",
-      "inventory_changed3": "2024-05-11 09:22:49 +0000"
+      "inventory_changed3": "2024-05-11 09:22:49 +0000",
+      "inventory_changed9": "2024-05-19 13:56:01 +0000"
     },
     "done": false
   },
@@ -35190,6 +35195,210 @@
   "croptopia:eatbig": {
     "criteria": {
       "eat_big": "2024-05-17 14:39:04 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/soap/map": {
+    "criteria": {
+      "has_filled_map": "2024-05-18 14:15:19 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/chocolate_milkshake": {
+    "criteria": {
+      "has_vanilla_ice_cream": "2024-05-18 14:48:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2024-05-18 14:48:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2024-05-18 14:48:30 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/snow_block": {
+    "criteria": {
+      "has_the_recipe": "2024-05-18 14:48:30 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/snow": {
+    "criteria": {
+      "has_the_recipe": "2024-05-18 14:48:30 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/upgrade_hellshelf": {
+    "criteria": {
+      "blazing": "2024-05-18 14:48:31 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:mansions": {
+    "criteria": {
+      "in_mansion_oak": "2024-05-18 15:10:01 +0000"
+    },
+    "done": false
+  },
+  "voidtotem:recipes/combat/totem_of_void_undying": {
+    "criteria": {
+      "has_totem": "2024-05-18 15:14:51 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/network_registry": {
+    "criteria": {
+      "has_capacitor": "2024-05-18 15:19:21 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/network_data_storage": {
+    "criteria": {
+      "has_capacitor": "2024-05-18 15:19:21 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/network_node": {
+    "criteria": {
+      "has_capacitor": "2024-05-18 15:19:21 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/network_api": {
+    "criteria": {
+      "has_capacitor": "2024-05-18 15:19:21 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/network_io_port": {
+    "criteria": {
+      "has_capacitor": "2024-05-18 15:19:21 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/diagnostic_subroutine": {
+    "criteria": {
+      "has_capacitor": "2024-05-18 15:19:22 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/floodlight": {
+    "criteria": {
+      "has_light_bulb": "2024-05-18 15:28:35 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/cloche": {
+    "criteria": {
+      "has_light_bulb": "2024-05-18 15:28:35 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/electric_lantern": {
+    "criteria": {
+      "has_light_bulb": "2024-05-18 15:28:35 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/terrasteel_helmet": {
+    "criteria": {
+      "has_prev_tier": "2024-05-19 14:10:05 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/terrasteel_leggings": {
+    "criteria": {
+      "has_prev_tier": "2024-05-19 14:10:05 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/leather_helmet_repairing": {
+    "criteria": {
+      "has_leather_helmet": "2024-05-19 14:18:48 +0000"
+    },
+    "done": true
+  },
+  "create:diving_suit": {
+    "criteria": {
+      "0": "2024-05-19 14:07:14 +0000"
+    },
+    "done": true
+  },
+  "create:backtank": {
+    "criteria": {
+      "0": "2024-05-19 13:59:35 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_diving_helmet": {
+    "criteria": {
+      "has_item": "2024-05-19 14:06:17 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/aura_ring": {
+    "criteria": {
+      "has_item": "2024-05-19 13:56:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/armor_stand": {
+    "criteria": {
+      "has_stone_slab": "2024-05-19 14:17:46 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/enchanting_stats": {
+    "criteria": {
+      "enchanted_item": "2024-05-19 14:14:11 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/terrasteel_boots": {
+    "criteria": {
+      "has_prev_tier": "2024-05-19 14:10:05 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/combat/terrasteel_chestplate": {
+    "criteria": {
+      "has_prev_tier": "2024-05-19 14:10:05 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_diving_boots": {
+    "criteria": {
+      "has_item": "2024-05-19 14:06:21 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/30ench": {
+    "criteria": {
+      "enchanted_item": "2024-05-19 14:14:11 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_backtank": {
+    "criteria": {
+      "has_item": "2024-05-19 13:59:08 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/linked_controller": {
+    "criteria": {
+      "has_item": "2024-05-19 13:31:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2024-05-19 14:14:11 +0000"
     },
     "done": true
   },
