@@ -11,7 +11,7 @@ services:
       - "36676:25565"
     environment:
       TYPE: AUTO_CURSEFORGE
-      CF_API_KEY: "$$2a$$10$$/qDCVc6cQUJ0hJ/e1FKuN.de.8xjLAn8rq8pgkFDDf0aIEykJlFDq"
+      CF_API_KEY: "$$2a$$10$$UY8j7gjiMGGUvVceUMK6serUkOwF.8jYEVfFbt9v02HkzQ0bp/uvm"
       CF_PAGE_URL: "https://www.curseforge.com/minecraft/modpacks/all-the-mods-9/files/5289491"
       DEBUG: "true"
       INIT_MEMORY: "4G"
