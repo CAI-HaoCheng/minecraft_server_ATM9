@@ -4487,12 +4487,14 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2024-05-03 05:15:17 +0000",
+      "cooked_mutton": "2024-05-21 16:28:36 +0000",
       "sweet_berries": "2024-05-01 15:30:58 +0000",
       "cooked_beef": "2024-05-01 14:37:24 +0000",
       "baked_potato": "2024-05-02 13:07:24 +0000",
       "apple": "2024-05-01 15:17:01 +0000",
       "cooked_cod": "2024-05-01 15:52:09 +0000",
       "bread": "2024-05-01 15:26:06 +0000",
+      "golden_apple": "2024-05-21 16:35:57 +0000",
       "melon_slice": "2024-05-01 15:21:03 +0000",
       "cooked_chicken": "2024-05-02 14:34:20 +0000"
     },
@@ -31848,7 +31850,8 @@
   },
   "deeperdarker:main/kill_all_sculk_mobs": {
     "criteria": {
-      "phantom": "2024-05-08 09:09:11 +0000"
+      "phantom": "2024-05-08 09:09:11 +0000",
+      "warden": "2024-05-21 16:37:17 +0000"
     },
     "done": false
   },
@@ -36177,7 +36180,79 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/mixed_salad": {
+    "criteria": {
+      "has_bowl": "2024-05-21 08:11:00 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/nether_salad": {
+    "criteria": {
+      "has_bowl": "2024-05-21 08:11:00 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/mortar_and_pestle": {
+    "criteria": {
+      "has_bowl": "2024-05-21 08:11:00 +0000"
+    },
+    "done": true
+  },
+  "undergarden:undergarden/enter_undergarden": {
+    "criteria": {
+      "enter_undergarden": "2024-05-21 08:16:39 +0000"
+    },
+    "done": true
+  },
+  "undergarden:undergarden/all_undergarden_biomes": {
+    "criteria": {
+      "undergarden:forgotten_field": "2024-05-21 08:16:39 +0000"
+    },
+    "done": false
+  },
+  "aether:enter_aether": {
+    "criteria": {
+      "enter_aether": "2024-05-21 08:16:58 +0000"
+    },
+    "done": true
+  },
+  "aether:the_aether": {
+    "criteria": {
+      "the_aether": "2024-05-21 08:16:58 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_leggings_repairing": {
+    "criteria": {
+      "has_diamond_leggings": "2024-05-21 08:26:45 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_boots_repairing": {
+    "criteria": {
+      "has_diamond_boots": "2024-05-21 08:26:47 +0000"
+    },
+    "done": true
+  },
   "supplementaries:recipes/netherite_trapdoor": {
+    "criteria": {
+      "has_netherite_scrap": "2024-05-21 08:27:34 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/netherite_door": {
+    "criteria": {
+      "has_netherite_scrap": "2024-05-21 08:27:34 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/netherite_ingot": {
+    "criteria": {
+      "has_the_recipe": "2024-05-21 08:27:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
     "criteria": {
       "has_netherite_scrap": "2024-05-21 08:27:34 +0000"
     },
@@ -36195,15 +36270,69 @@
     },
     "done": true
   },
-  "croptopia:gather_tree_plains": {
+  "pneumaticcraft:recipes/misc/aerial_interface": {
     "criteria": {
-      "apple_sapling": "2024-05-21 09:53:39 +0000"
+      "has_advanced_pressure_tube": "2024-05-21 08:31:56 +0000"
     },
-    "done": false
+    "done": true
   },
-  "supplementaries:recipes/netherite_door": {
+  "pneumaticcraft:recipes/misc/large_tank": {
     "criteria": {
-      "has_netherite_scrap": "2024-05-21 08:27:34 +0000"
+      "has_advanced_pressure_tube": "2024-05-21 08:31:56 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/advanced_air_compressor": {
+    "criteria": {
+      "has_advanced_pressure_tube": "2024-05-21 08:31:56 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:advanced_pressure_tube": {
+    "criteria": {
+      "0": "2024-05-21 08:31:56 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/reinforced_air_canister": {
+    "criteria": {
+      "has_advanced_pressure_tube": "2024-05-21 08:31:56 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/scuba_upgrade": {
+    "criteria": {
+      "has_pneumatic_helmet": "2024-05-21 09:06:50 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/night_vision_upgrade": {
+    "criteria": {
+      "has_pneumatic_helmet": "2024-05-21 09:06:50 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/jumping_upgrade_4": {
+    "criteria": {
+      "has_pneumatic_leggings": "2024-05-21 09:36:09 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/jumping_upgrade_3": {
+    "criteria": {
+      "has_pneumatic_leggings": "2024-05-21 09:36:09 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/jumping_upgrade_2": {
+    "criteria": {
+      "has_pneumatic_leggings": "2024-05-21 09:36:09 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/jumping_upgrade_1": {
+    "criteria": {
+      "has_pneumatic_leggings": "2024-05-21 09:36:09 +0000"
     },
     "done": true
   },
@@ -36237,111 +36366,21 @@
     },
     "done": true
   },
-  "aether:recipes/combat/diamond_leggings_repairing": {
+  "pneumaticcraft:pneumatic_armor": {
     "criteria": {
-      "has_diamond_leggings": "2024-05-21 08:26:45 +0000"
+      "0": "2024-05-21 09:52:37 +0000"
     },
     "done": true
   },
-  "alchemistry:recipes/dissolver/netherite_ingot": {
+  "croptopia:gather_tree_plains": {
     "criteria": {
-      "has_the_recipe": "2024-05-21 08:27:34 +0000"
+      "apple_sapling": "2024-05-21 09:53:39 +0000"
     },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/scuba_upgrade": {
-    "criteria": {
-      "has_pneumatic_helmet": "2024-05-21 09:06:50 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/aerial_interface": {
-    "criteria": {
-      "has_advanced_pressure_tube": "2024-05-21 08:31:56 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/large_tank": {
-    "criteria": {
-      "has_advanced_pressure_tube": "2024-05-21 08:31:56 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/jumping_upgrade_4": {
-    "criteria": {
-      "has_pneumatic_leggings": "2024-05-21 09:36:09 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/jumping_upgrade_3": {
-    "criteria": {
-      "has_pneumatic_leggings": "2024-05-21 09:36:09 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/jumping_upgrade_2": {
-    "criteria": {
-      "has_pneumatic_leggings": "2024-05-21 09:36:09 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/jumping_upgrade_1": {
-    "criteria": {
-      "has_pneumatic_leggings": "2024-05-21 09:36:09 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/diamond_boots_repairing": {
-    "criteria": {
-      "has_diamond_boots": "2024-05-21 08:26:47 +0000"
-    },
-    "done": true
-  },
-  "undergarden:undergarden/enter_undergarden": {
-    "criteria": {
-      "enter_undergarden": "2024-05-21 08:16:39 +0000"
-    },
-    "done": true
+    "done": false
   },
   "croptopia:getsapling": {
     "criteria": {
       "has_sapling": "2024-05-21 09:53:39 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/night_vision_upgrade": {
-    "criteria": {
-      "has_pneumatic_helmet": "2024-05-21 09:06:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_ingot": {
-    "criteria": {
-      "has_netherite_scrap": "2024-05-21 08:27:34 +0000"
-    },
-    "done": true
-  },
-  "undergarden:undergarden/all_undergarden_biomes": {
-    "criteria": {
-      "undergarden:forgotten_field": "2024-05-21 08:16:39 +0000"
-    },
-    "done": false
-  },
-  "farmersdelight:recipes/food/mixed_salad": {
-    "criteria": {
-      "has_bowl": "2024-05-21 08:11:00 +0000"
-    },
-    "done": true
-  },
-  "aether:enter_aether": {
-    "criteria": {
-      "enter_aether": "2024-05-21 08:16:58 +0000"
-    },
-    "done": true
-  },
-  "pneumaticcraft:recipes/misc/advanced_air_compressor": {
-    "criteria": {
-      "has_advanced_pressure_tube": "2024-05-21 08:31:56 +0000"
     },
     "done": true
   },
@@ -36351,39 +36390,647 @@
     },
     "done": false
   },
-  "farmersdelight:recipes/food/nether_salad": {
+  "aether:recipes/food/skyroot_milk_bucket_moa_egg_cake": {
     "criteria": {
-      "has_bowl": "2024-05-21 08:11:00 +0000"
+      "has_moa_egg": "2024-05-21 15:51:19 +0000"
     },
     "done": true
   },
-  "pneumaticcraft:advanced_pressure_tube": {
+  "undergarden:undergarden/kill_rotling": {
     "criteria": {
-      "0": "2024-05-21 08:31:56 +0000"
+      "kill_rotling": "2024-05-21 16:04:28 +0000"
     },
     "done": true
   },
-  "pneumaticcraft:recipes/misc/reinforced_air_canister": {
+  "pneumaticcraft:recipes/misc/gun_ammo_weighted": {
     "criteria": {
-      "has_advanced_pressure_tube": "2024-05-21 08:31:56 +0000"
+      "has_gun_ammo": "2024-05-21 16:09:01 +0000"
     },
     "done": true
   },
-  "aether:the_aether": {
+  "undergarden:recipes/building_blocks/depthrock_tiles_stonecutting": {
     "criteria": {
-      "the_aether": "2024-05-21 08:16:58 +0000"
+      "has_undergarden:depthrock": "2024-05-21 16:01:05 +0000"
     },
     "done": true
   },
-  "croptopia:recipes/misc/mortar_and_pestle": {
+  "undergarden:recipes/building_blocks/shiverstone_bricks": {
     "criteria": {
-      "has_bowl": "2024-05-21 08:11:00 +0000"
+      "has_shiverstone": "2024-05-21 16:01:02 +0000"
     },
     "done": true
   },
-  "pneumaticcraft:pneumatic_armor": {
+  "undergarden:recipes/redstone/depthrock_pressure_plate": {
     "criteria": {
-      "0": "2024-05-21 09:52:37 +0000"
+      "has_depthrock": "2024-05-21 16:01:05 +0000"
+    },
+    "done": true
+  },
+  "undergarden:undergarden/kill_scintling": {
+    "criteria": {
+      "kill_scintling": "2024-05-21 16:02:27 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/roasted_mutton_chops": {
+    "criteria": {
+      "has_mutton": "2024-05-21 13:43:09 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/gun_ammo_explosive": {
+    "criteria": {
+      "has_gun_ammo": "2024-05-21 16:09:01 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/uranium_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2024-05-21 13:58:31 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/ancient_stone_slabs": {
+    "criteria": {
+      "has_TagKey[minecraft:block / allthemodium:ancient_stone]_block": "2024-05-21 13:37:32 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/uranium_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/uranium]_ingot": "2024-05-21 13:58:31 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/uranium_block_1x": {
+    "criteria": {
+      "has_uranium_block": "2024-05-21 13:57:34 +0000"
+    },
+    "done": true
+  },
+  "deeperdarker:main/kill_warden": {
+    "criteria": {
+      "warden": "2024-05-21 16:37:17 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/upgrade_seashelf": {
+    "criteria": {
+      "heart": "2024-05-21 16:06:35 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/shiverstone_stairs": {
+    "criteria": {
+      "has_shiverstone": "2024-05-21 16:01:02 +0000"
+    },
+    "done": true
+  },
+  "aether:obtain_egg": {
+    "criteria": {
+      "moa_egg": "2024-05-21 15:51:19 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/glow_berry_custard": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-21 16:17:47 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:minigun": {
+    "criteria": {
+      "0": "2024-05-21 15:49:12 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/shepherds_pie_block": {
+    "criteria": {
+      "has_cooked_mutton": "2024-05-21 13:43:09 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/boomgourd": {
+    "criteria": {
+      "has_gloomgourd": "2024-05-21 16:02:45 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/basic/fuelrod_ingots_uranium": {
+    "criteria": {
+      "has_item": "2024-05-21 13:58:31 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/misc/shard_to_crystal": {
+    "criteria": {
+      "has_shard": "2024-05-21 16:01:50 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/depthrock_tile_stairs_stonecutting": {
+    "criteria": {
+      "has_undergarden:depthrock": "2024-05-21 16:01:05 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:oil_bucket": {
+    "criteria": {
+      "0": "2024-05-21 14:23:47 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/mashed_potatoes": {
+    "criteria": {
+      "has_milk": "2024-05-21 16:17:47 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/skeleton": {
+    "criteria": {
+      "has_rib_bone": "2024-05-21 16:26:32 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/shiverstone_slab": {
+    "criteria": {
+      "has_shiverstone": "2024-05-21 16:01:02 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/depthrock_bricks_stonecutting": {
+    "criteria": {
+      "has_undergarden:depthrock": "2024-05-21 16:01:05 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/depthrock_pebble_stonecutting": {
+    "criteria": {
+      "has_undergarden:depthrock": "2024-05-21 16:01:05 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/uranium_dust_from_ingot": {
+    "criteria": {
+      "has_uranium_ingot": "2024-05-21 13:58:31 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/uranium_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/uranium]_ingot": "2024-05-21 13:58:31 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/hot_cocoa": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-21 16:17:47 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/depthrock_slab_stonecutting": {
+    "criteria": {
+      "has_undergarden:depthrock": "2024-05-21 16:01:05 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/incubation/white_moa_incubation": {
+    "criteria": {
+      "has_white_moa_egg": "2024-05-21 15:51:19 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/basic/controller_ingots_uranium": {
+    "criteria": {
+      "has_item2": "2024-05-21 13:58:31 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/depthrock_stairs_stonecutting": {
+    "criteria": {
+      "has_undergarden:depthrock": "2024-05-21 16:01:05 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/food/moa_egg_cake": {
+    "criteria": {
+      "has_moa_egg": "2024-05-21 15:51:19 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/shiverstone_slab_stonecutting": {
+    "criteria": {
+      "has_undergarden:shiverstone": "2024-05-21 16:01:02 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/chiseled_shiverstone_bricks_stonecutting": {
+    "criteria": {
+      "has_undergarden:shiverstone": "2024-05-21 16:01:02 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/gun_ammo": {
+    "criteria": {
+      "has_minigun": "2024-05-21 15:49:12 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/ancient_smooth_stone_from_ancient_stone_blasting": {
+    "criteria": {
+      "has_item": "2024-05-21 13:37:32 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/goo_block": {
+    "criteria": {
+      "has_goo_ball": "2024-05-21 16:03:32 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/redstone/depthrock_button": {
+    "criteria": {
+      "has_depthrock": "2024-05-21 16:01:05 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/redstone/sticky_piston_from_goo_ball": {
+    "criteria": {
+      "has_goo_ball": "2024-05-21 16:03:32 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/depthrock_slab": {
+    "criteria": {
+      "has_depthrock": "2024-05-21 16:01:05 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/depthrock_brick_slab_stonecutting": {
+    "criteria": {
+      "has_undergarden:depthrock": "2024-05-21 16:01:05 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/decorations/stonecutter_from_shiverstone": {
+    "criteria": {
+      "has_shiverstone": "2024-05-21 16:01:02 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/depthrock_tile_slab_stonecutting": {
+    "criteria": {
+      "has_undergarden:depthrock": "2024-05-21 16:01:05 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/shiverstone_brick_stairs_stonecutting": {
+    "criteria": {
+      "has_undergarden:shiverstone": "2024-05-21 16:01:02 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/polished_depthrock_stonecutting": {
+    "criteria": {
+      "has_undergarden:depthrock": "2024-05-21 16:01:05 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/incubation/blue_moa_incubation": {
+    "criteria": {
+      "has_blue_moa_egg": "2024-05-21 15:56:12 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/polished_depthrock": {
+    "criteria": {
+      "has_depthrock": "2024-05-21 16:01:05 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/decorations/depthrock_wall": {
+    "criteria": {
+      "has_depthrock": "2024-05-21 16:01:05 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/polished_depthrock_wall_stonecutting": {
+    "criteria": {
+      "has_undergarden:depthrock": "2024-05-21 16:01:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2024-05-21 16:13:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blue_ice": {
+    "criteria": {
+      "has_packed_ice": "2024-05-21 13:45:14 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/ancient_stone_wall": {
+    "criteria": {
+      "has_TagKey[minecraft:block / allthemodium:ancient_stone]_block": "2024-05-21 13:37:32 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/ancient_smooth_stone_from_ancient_stone_smelting": {
+    "criteria": {
+      "has_item": "2024-05-21 13:37:32 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/ancient_stone_stairs": {
+    "criteria": {
+      "has_TagKey[minecraft:block / allthemodium:ancient_stone]_block": "2024-05-21 13:37:32 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/redstone/shiverstone_pressure_plate": {
+    "criteria": {
+      "has_shiverstone": "2024-05-21 16:01:02 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/gun_ammo_incendiary": {
+    "criteria": {
+      "has_gun_ammo": "2024-05-21 16:09:01 +0000"
+    },
+    "done": true
+  },
+  "undergarden:undergarden/kill_all_rotspawn": {
+    "criteria": {
+      "kill_rotling": "2024-05-21 16:04:28 +0000",
+      "kill_rotbeast": "2024-05-21 16:01:47 +0000",
+      "kill_rotwalker": "2024-05-21 16:02:05 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/mutton_wrap": {
+    "criteria": {
+      "has_mutton": "2024-05-21 13:43:09 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/churros": {
+    "criteria": {
+      "has_milk": "2024-05-21 16:17:47 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/redstone/shiverstone_button": {
+    "criteria": {
+      "has_shiverstone": "2024-05-21 16:01:02 +0000"
+    },
+    "done": true
+  },
+  "lost_aether_content:platinum_dungeon": {
+    "criteria": {
+      "kill_boss": "2024-05-21 15:53:21 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/gun_ammo_ap": {
+    "criteria": {
+      "has_gun_ammo": "2024-05-21 16:09:01 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/poison_dart_shooter": {
+    "criteria": {
+      "has_aechor_petal": "2024-05-21 15:54:50 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/deepshelf": {
+    "criteria": {
+      "deepshelf": "2024-05-21 16:14:00 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/shiverstone_brick_wall_stonecutting": {
+    "criteria": {
+      "has_undergarden:shiverstone": "2024-05-21 16:01:02 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/ancient_stone_bricks": {
+    "criteria": {
+      "has_TagKey[minecraft:block / allthemodium:ancient_stone]_block": "2024-05-21 13:37:32 +0000"
+    },
+    "done": true
+  },
+  "lost_aether_content:recipes/incubation/brown_moa_incubation": {
+    "criteria": {
+      "has_brown_moa_egg": "2024-05-21 15:55:19 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/polished_depthrock_slab_stonecutting": {
+    "criteria": {
+      "has_undergarden:depthrock": "2024-05-21 16:01:05 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pumpkin_soup": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-21 16:17:47 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/plate_uranium_hammering": {
+    "criteria": {
+      "has_uranium_ingot": "2024-05-21 13:58:31 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/decorations/stonecutter_from_depthrock": {
+    "criteria": {
+      "has_depthrock": "2024-05-21 16:01:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_mob_near_sculk_catalyst": {
+    "criteria": {
+      "kill_mob_near_sculk_catalyst": "2024-05-21 16:40:12 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/ancient_mossy_stone_from_vinecrafting": {
+    "criteria": {
+      "has_item": "2024-05-21 13:37:32 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/misc/undergarden_lead": {
+    "criteria": {
+      "has_goo_ball": "2024-05-21 16:03:32 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/uranium_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/uranium]_ingot": "2024-05-21 13:58:31 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/polished_depthrock_stairs_stonecutting": {
+    "criteria": {
+      "has_undergarden:depthrock": "2024-05-21 16:01:05 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/gun_ammo_freezing": {
+    "criteria": {
+      "has_gun_ammo": "2024-05-21 16:09:01 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/shiverstone_wall_stonecutting": {
+    "criteria": {
+      "has_undergarden:shiverstone": "2024-05-21 16:01:02 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/oatmeal": {
+    "criteria": {
+      "has_milk": "2024-05-21 16:17:47 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/shiverstone_stairs_stonecutting": {
+    "criteria": {
+      "has_undergarden:shiverstone": "2024-05-21 16:01:02 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_milk_bottle": {
+    "criteria": {
+      "has_milk": "2024-05-21 16:17:47 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/chiseled_depthrock_bricks_stonecutting": {
+    "criteria": {
+      "has_undergarden:depthrock": "2024-05-21 16:01:05 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/shiverstone_bricks_stonecutting": {
+    "criteria": {
+      "has_undergarden:shiverstone": "2024-05-21 16:01:02 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/shiverstone_brick_slab_stonecutting": {
+    "criteria": {
+      "has_undergarden:shiverstone": "2024-05-21 16:01:02 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/blue_ice": {
+    "criteria": {
+      "has_the_recipe": "2024-05-21 13:45:14 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/depthrock_brick_wall_stonecutting": {
+    "criteria": {
+      "has_undergarden:depthrock": "2024-05-21 16:01:05 +0000"
+    },
+    "done": true
+  },
+  "lootr:100loot": {
+    "criteria": {
+      "loot_stat": "2024-05-21 16:41:50 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/misc/gloomgourd_seeds": {
+    "criteria": {
+      "has_gloomgourd": "2024-05-21 16:02:45 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/uranium_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/uranium]_ingot": "2024-05-21 13:58:31 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/ancient_stone_1x": {
+    "criteria": {
+      "has_ancient_stone": "2024-05-21 13:37:32 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/uranium_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-05-21 13:57:34 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/reinforced/controller_ingots_uranium": {
+    "criteria": {
+      "has_item2": "2024-05-21 13:58:31 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/bone": {
+    "criteria": {
+      "has_rib_bone": "2024-05-21 16:26:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_ice_from_freezing": {
+    "criteria": {
+      "has_packed_ice": "2024-05-21 13:45:14 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/depthrock_wall_stonecutting": {
+    "criteria": {
+      "has_undergarden:depthrock": "2024-05-21 16:01:05 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/milk_bottle": {
+    "criteria": {
+      "has_milk_bucket": "2024-05-21 16:17:47 +0000"
+    },
+    "done": true
+  },
+  "aether:obtain_petal": {
+    "criteria": {
+      "aechor_petal": "2024-05-21 15:54:50 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/food/gloomgourd_pie": {
+    "criteria": {
+      "has_gloomgourd": "2024-05-21 16:02:45 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/decorations/shiverstone_wall": {
+    "criteria": {
+      "has_shiverstone": "2024-05-21 16:01:02 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/depthrock_stairs": {
+    "criteria": {
+      "has_depthrock": "2024-05-21 16:01:05 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/building_blocks/depthrock_brick_stairs_stonecutting": {
+    "criteria": {
+      "has_undergarden:depthrock": "2024-05-21 16:01:05 +0000"
     },
     "done": true
   },
