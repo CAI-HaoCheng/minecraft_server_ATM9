@@ -12387,6 +12387,7 @@
       "toast": "2024-05-01 15:44:30 +0000",
       "cooked_tuna": "2024-05-01 15:49:08 +0000",
       "vanilla_ice_cream": "2024-05-18 14:48:28 +0000",
+      "calamari": "2024-05-21 07:51:43 +0000",
       "tuna": "2024-05-01 15:49:08 +0000",
       "glowing_calamari": "2024-05-12 12:49:07 +0000",
       "oyster": "2024-05-01 15:44:50 +0000",
@@ -35399,6 +35400,990 @@
   "aether:recipes/combat/leather_helmet_repairing": {
     "criteria": {
       "has_leather_helmet": "2024-05-19 14:18:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:lpg_bucket": {
+    "criteria": {
+      "0": "2024-05-21 06:42:59 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/plastic_brick_magenta": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/pneumatic_door": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/plastic_brick_yellow": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/plastic_brick_brown": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/printed_circuit_board": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/pneumatic_cylinder": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/jackhammer": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/smooth_plastic_brick_blue": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/amadron_tablet": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/smooth_plastic_brick_light_gray": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/plastic_brick_blue": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/building_blocks/plastic_sheet_from_smooth_brick": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/plastic_brick_black": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/elevator_caller": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/gps_tool": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:plastic": {
+    "criteria": {
+      "0": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/plastic_brick_purple": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/plastic_brick_red": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/pneumatic_door_base": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/plastic_brick_orange": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/elevator_base_2": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/elevator_base_1": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/plastic_brick_pink": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/plastic_brick_light_gray": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/gps_area_tool": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/sentry_turret": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/plastic_brick_gray": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/smooth_plastic_brick_orange": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/memory_stick": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/smooth_plastic_brick_red": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/plastic_brick_lime": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/smooth_plastic_brick_lime": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/smooth_plastic_brick_green": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/smooth_plastic_brick_white": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/smooth_plastic_brick_purple": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/gps_tool_from_gps_area_tool": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/smooth_plastic_brick_cyan": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/smooth_plastic_brick_light_blue": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/universal_sensor": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/plastic_brick_light_blue": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/plastic_sheet_from_brick": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/plastic_brick_cyan": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/smooth_plastic_brick_pink": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/smooth_plastic_brick_gray": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/smooth_plastic_brick_black": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/plastic_brick_green": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/plastic_brick_white": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/smooth_plastic_brick_brown": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/smooth_plastic_brick_yellow": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/smooth_plastic_brick_magenta": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/medium_tank": {
+    "criteria": {
+      "has_plastic": "2024-05-21 06:43:54 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/amadron/kerosene_to_emerald": {
+    "criteria": {
+      "amadron_tablet": "2024-05-21 06:47:25 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/amadron/gasoline_to_emerald": {
+    "criteria": {
+      "amadron_tablet": "2024-05-21 06:47:25 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/amadron/assembly_program_drill": {
+    "criteria": {
+      "amadron_tablet": "2024-05-21 06:47:25 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/amadron/emerald_to_oil": {
+    "criteria": {
+      "amadron_tablet": "2024-05-21 06:47:25 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/amadron/oil_to_emerald": {
+    "criteria": {
+      "amadron_tablet": "2024-05-21 06:47:25 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/amadron/lubricant_to_emerald": {
+    "criteria": {
+      "amadron_tablet": "2024-05-21 06:47:25 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/amadron/emerald_to_lubricant": {
+    "criteria": {
+      "amadron_tablet": "2024-05-21 06:47:25 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:amadron_tablet": {
+    "criteria": {
+      "0": "2024-05-21 06:47:25 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/amadron/assembly_program_laser": {
+    "criteria": {
+      "amadron_tablet": "2024-05-21 06:47:25 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/amadron/diesel_to_emerald": {
+    "criteria": {
+      "amadron_tablet": "2024-05-21 06:47:25 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/amadron/assembly_program_drill_laser": {
+    "criteria": {
+      "amadron_tablet": "2024-05-21 06:47:25 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/amadron/pcb_blueprint": {
+    "criteria": {
+      "amadron_tablet": "2024-05-21 06:47:25 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/amadron/lpg_to_emerald": {
+    "criteria": {
+      "amadron_tablet": "2024-05-21 06:47:25 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/chainmail_chestplate_repairing": {
+    "criteria": {
+      "has_chainmail_chestplate": "2024-05-21 06:53:43 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/etching_tank": {
+    "criteria": {
+      "has_etching_acid_bucket": "2024-05-21 06:56:46 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:etchacid_bucket": {
+    "criteria": {
+      "0": "2024-05-21 06:56:46 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:empty_pcb": {
+    "criteria": {
+      "0": "2024-05-21 07:08:49 +0000"
+    },
+    "done": true
+  },
+  "sfm:recipes/redstone/network_tool": {
+    "criteria": {
+      "has_redstone_lamp": "2024-05-21 07:09:32 +0000"
+    },
+    "done": true
+  },
+  "mcwlights:recipes/redstone_slab": {
+    "criteria": {
+      "has_wood": "2024-05-21 07:09:32 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:pcb_blueprint": {
+    "criteria": {
+      "0": "2024-05-21 07:10:53 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/uv_light_box": {
+    "criteria": {
+      "has_pcb_blueprint": "2024-05-21 07:10:53 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:uv_light_box": {
+    "criteria": {
+      "0": "2024-05-21 07:11:03 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:unassembled_pcb": {
+    "criteria": {
+      "0": "2024-05-21 07:16:32 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/security_station": {
+    "criteria": {
+      "has_printed_circuit_board": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/solar_compressor": {
+    "criteria": {
+      "has_printed_circuit_board": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/flux_compressor": {
+    "criteria": {
+      "has_printed_circuit_board": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/pneumatic_chestplate": {
+    "criteria": {
+      "has_printed_circuit_board": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/pneumatic_helmet": {
+    "criteria": {
+      "has_printed_circuit_board": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/assembly_controller": {
+    "criteria": {
+      "has_printed_circuit_board": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/assembly_io_unit_export": {
+    "criteria": {
+      "has_printed_circuit_board": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/assembly_io_unit_import": {
+    "criteria": {
+      "has_printed_circuit_board": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/programmer": {
+    "criteria": {
+      "has_printed_circuit_board": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/pneumatic_leggings": {
+    "criteria": {
+      "has_printed_circuit_board": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/micromissiles": {
+    "criteria": {
+      "has_printed_circuit_board": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/pneumatic_dynamo": {
+    "criteria": {
+      "has_printed_circuit_board": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/module_expansion_card": {
+    "criteria": {
+      "has_printed_circuit_board": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/assembly_io_unit_import_from_export": {
+    "criteria": {
+      "has_printed_circuit_board": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/assembly_laser": {
+    "criteria": {
+      "has_printed_circuit_board": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/programming_puzzle": {
+    "criteria": {
+      "has_printed_circuit_board": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/assembly_io_unit_export_from_import": {
+    "criteria": {
+      "has_printed_circuit_board": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/assembly_drill": {
+    "criteria": {
+      "has_printed_circuit_board": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/programmable_controller": {
+    "criteria": {
+      "has_printed_circuit_board": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/pneumatic_boots": {
+    "criteria": {
+      "has_printed_circuit_board": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/assembly_program_drill_laser": {
+    "criteria": {
+      "has_printed_circuit_board": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:printed_circuit_board": {
+    "criteria": {
+      "0": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/drone": {
+    "criteria": {
+      "has_printed_circuit_board": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/assembly_platform": {
+    "criteria": {
+      "has_printed_circuit_board": "2024-05-21 07:16:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/assembly/solar_cell": {
+    "criteria": {
+      "assembly_controller": "2024-05-21 07:23:51 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:assembly_controller": {
+    "criteria": {
+      "0": "2024-05-21 07:23:51 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/assembly/red_dye": {
+    "criteria": {
+      "assembly_controller": "2024-05-21 07:23:51 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/assembly/pressure_chamber_valve": {
+    "criteria": {
+      "assembly_controller": "2024-05-21 07:23:51 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/assembly/advanced_pressure_tube": {
+    "criteria": {
+      "assembly_controller": "2024-05-21 07:23:51 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/assembly/netherite_drill_bit": {
+    "criteria": {
+      "assembly_controller": "2024-05-21 07:23:51 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/assembly/unassembled_pcb": {
+    "criteria": {
+      "assembly_controller": "2024-05-21 07:23:51 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/assembly/aphorism_tile": {
+    "criteria": {
+      "assembly_controller": "2024-05-21 07:23:51 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/rhyolite/rhyolite_slab": {
+    "criteria": {
+      "has_item": "2024-05-21 07:36:08 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/rhyolite/rhyolite_slab_stonecutting": {
+    "criteria": {
+      "has_item": "2024-05-21 07:36:08 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/rhyolite/rhyolite_stairs_stonecutting": {
+    "criteria": {
+      "has_item": "2024-05-21 07:36:08 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/rhyolite/polished_rhyolite_bricks_from_rhyolite_stonecutting": {
+    "criteria": {
+      "has_item": "2024-05-21 07:36:08 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/rhyolite/polished_rhyolite_stonecutting": {
+    "criteria": {
+      "has_item": "2024-05-21 07:36:08 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/rhyolite/rhyolite_wall": {
+    "criteria": {
+      "has_item": "2024-05-21 07:36:08 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/rhyolite/polished_rhyolite": {
+    "criteria": {
+      "has_item": "2024-05-21 07:36:08 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/rhyolite/rhyolite_stairs": {
+    "criteria": {
+      "has_item": "2024-05-21 07:36:08 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/rhyolite/rhyolite_wall_stonecutting": {
+    "criteria": {
+      "has_item": "2024-05-21 07:36:08 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_tin_from_block": {
+    "criteria": {
+      "has_item": "2024-05-21 07:36:24 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/tin_dust_from_raw_block": {
+    "criteria": {
+      "has_raw_tin_block": "2024-05-21 07:36:24 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_red1": {
+    "criteria": {
+      "recipe_condition": "2024-05-21 07:42:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/red_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2024-05-21 07:42:37 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/fried_calamari": {
+    "criteria": {
+      "has_calamari": "2024-05-21 07:51:43 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/cooked_calamari_from_calamari": {
+    "criteria": {
+      "has_calamari": "2024-05-21 07:51:43 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/cooked_calamari_from_smoking_calamari": {
+    "criteria": {
+      "has_calamari": "2024-05-21 07:51:43 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/stonecutting/mars_cobblestone_stairs_from_mars_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mars_cobblestone_stairs": "2024-05-21 07:53:09 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/stonecutting/mars_cobblestone_slab_from_mars_cobblestone_stonecutting": {
+    "criteria": {
+      "has_mars_cobblestone_slab": "2024-05-21 07:53:09 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/smelting/mars_stone_from_smelting_mars_cobblestone": {
+    "criteria": {
+      "has_mars_stone": "2024-05-21 07:53:09 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/mars_cobblestone_stairs": {
+    "criteria": {
+      "has_mars_cobblestone_stairs": "2024-05-21 07:53:09 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/polished_mars_stone": {
+    "criteria": {
+      "has_polished_mars_stone": "2024-05-21 07:53:09 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/mars_cobblestone_slab": {
+    "criteria": {
+      "has_mars_cobblestone_slab": "2024-05-21 07:53:09 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/netherite_trapdoor": {
+    "criteria": {
+      "has_netherite_scrap": "2024-05-21 08:27:34 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/advanced_liquid_compressor": {
+    "criteria": {
+      "has_advanced_pressure_tube": "2024-05-21 08:31:56 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/huge_tank": {
+    "criteria": {
+      "has_advanced_pressure_tube": "2024-05-21 08:31:56 +0000"
+    },
+    "done": true
+  },
+  "croptopia:gather_tree_plains": {
+    "criteria": {
+      "apple_sapling": "2024-05-21 09:53:39 +0000"
+    },
+    "done": false
+  },
+  "supplementaries:recipes/netherite_door": {
+    "criteria": {
+      "has_netherite_scrap": "2024-05-21 08:27:34 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/jet_boots_upgrade_1": {
+    "criteria": {
+      "has_pneumatic_boots": "2024-05-21 09:45:03 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/jet_boots_upgrade_3": {
+    "criteria": {
+      "has_pneumatic_boots": "2024-05-21 09:45:03 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/jet_boots_upgrade_2": {
+    "criteria": {
+      "has_pneumatic_boots": "2024-05-21 09:45:03 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/jet_boots_upgrade_5": {
+    "criteria": {
+      "has_pneumatic_boots": "2024-05-21 09:45:03 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/jet_boots_upgrade_4": {
+    "criteria": {
+      "has_pneumatic_boots": "2024-05-21 09:45:03 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_leggings_repairing": {
+    "criteria": {
+      "has_diamond_leggings": "2024-05-21 08:26:45 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/netherite_ingot": {
+    "criteria": {
+      "has_the_recipe": "2024-05-21 08:27:34 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/scuba_upgrade": {
+    "criteria": {
+      "has_pneumatic_helmet": "2024-05-21 09:06:50 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/aerial_interface": {
+    "criteria": {
+      "has_advanced_pressure_tube": "2024-05-21 08:31:56 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/large_tank": {
+    "criteria": {
+      "has_advanced_pressure_tube": "2024-05-21 08:31:56 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/jumping_upgrade_4": {
+    "criteria": {
+      "has_pneumatic_leggings": "2024-05-21 09:36:09 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/jumping_upgrade_3": {
+    "criteria": {
+      "has_pneumatic_leggings": "2024-05-21 09:36:09 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/jumping_upgrade_2": {
+    "criteria": {
+      "has_pneumatic_leggings": "2024-05-21 09:36:09 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/jumping_upgrade_1": {
+    "criteria": {
+      "has_pneumatic_leggings": "2024-05-21 09:36:09 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/diamond_boots_repairing": {
+    "criteria": {
+      "has_diamond_boots": "2024-05-21 08:26:47 +0000"
+    },
+    "done": true
+  },
+  "undergarden:undergarden/enter_undergarden": {
+    "criteria": {
+      "enter_undergarden": "2024-05-21 08:16:39 +0000"
+    },
+    "done": true
+  },
+  "croptopia:getsapling": {
+    "criteria": {
+      "has_sapling": "2024-05-21 09:53:39 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/night_vision_upgrade": {
+    "criteria": {
+      "has_pneumatic_helmet": "2024-05-21 09:06:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2024-05-21 08:27:34 +0000"
+    },
+    "done": true
+  },
+  "undergarden:undergarden/all_undergarden_biomes": {
+    "criteria": {
+      "undergarden:forgotten_field": "2024-05-21 08:16:39 +0000"
+    },
+    "done": false
+  },
+  "farmersdelight:recipes/food/mixed_salad": {
+    "criteria": {
+      "has_bowl": "2024-05-21 08:11:00 +0000"
+    },
+    "done": true
+  },
+  "aether:enter_aether": {
+    "criteria": {
+      "enter_aether": "2024-05-21 08:16:58 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/advanced_air_compressor": {
+    "criteria": {
+      "has_advanced_pressure_tube": "2024-05-21 08:31:56 +0000"
+    },
+    "done": true
+  },
+  "croptopia:gather_tree_all": {
+    "criteria": {
+      "apple_sapling": "2024-05-21 09:53:39 +0000"
+    },
+    "done": false
+  },
+  "farmersdelight:recipes/food/nether_salad": {
+    "criteria": {
+      "has_bowl": "2024-05-21 08:11:00 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:advanced_pressure_tube": {
+    "criteria": {
+      "0": "2024-05-21 08:31:56 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/reinforced_air_canister": {
+    "criteria": {
+      "has_advanced_pressure_tube": "2024-05-21 08:31:56 +0000"
+    },
+    "done": true
+  },
+  "aether:the_aether": {
+    "criteria": {
+      "the_aether": "2024-05-21 08:16:58 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/mortar_and_pestle": {
+    "criteria": {
+      "has_bowl": "2024-05-21 08:11:00 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:pneumatic_armor": {
+    "criteria": {
+      "0": "2024-05-21 09:52:37 +0000"
     },
     "done": true
   },
