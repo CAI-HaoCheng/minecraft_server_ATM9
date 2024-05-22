@@ -1,7 +1,7 @@
 {
 	max_claim_chunks: 1000
 	max_force_load_chunks: 125
-	last_login_time: 1716298690893L
+	last_login_time: 1716385735512L
 	chunks: {
 		"minecraft:overworld": [
 			{ x: -17, z: 41, time: 1715784439989L }
@@ -71,6 +71,12 @@
 			max_force_loaded_chunks: 25
 			max_claimed_chunks: 500
 			offline_force_loader: 0b
+		}
+	}
+	prevented_access: {
+		9e2faded-eeee-4ec2-c314-dad129ae971d: {
+			name: "Plough"
+			when: 1716393604572L
 		}
 	}
 }
