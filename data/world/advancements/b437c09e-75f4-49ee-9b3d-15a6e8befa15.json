@@ -29898,105 +29898,9 @@
     },
     "done": true
   },
-  "littlelogistics:recipes/transportation/locomotive_dock_rail": {
-    "criteria": {
-      "has_item": "2024-05-22 15:49:50 +0000"
-    },
-    "done": true
-  },
-  "forbidden_arcanus:recipes/misc/dark_nether_star": {
-    "criteria": {
-      "has_nether_star": "2024-05-22 15:40:12 +0000"
-    },
-    "done": true
-  },
-  "littlelogistics:recipes/transportation/car_dock_rail": {
-    "criteria": {
-      "has_item": "2024-05-22 15:49:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/beacon": {
-    "criteria": {
-      "has_nether_star": "2024-05-22 15:40:12 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/detector_rail": {
-    "criteria": {
-      "has_rail": "2024-05-22 15:49:50 +0000"
-    },
-    "done": true
-  },
   "aether:obtain_egg": {
     "criteria": {
       "moa_egg": "2024-05-22 14:29:14 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/enchant_voodoo_poppet": {
-    "criteria": {
-      "has_enchanted_voodoo_poppet": "2024-05-22 15:40:12 +0000"
-    },
-    "done": true
-  },
-  "allthetweaks:recipes/misc/nether_star_block": {
-    "criteria": {
-      "has_nether_star": "2024-05-22 15:40:12 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/stonecutting/stone_tile_stairs_from_bricks": {
-    "criteria": {
-      "has_stone_tile": "2024-05-22 14:43:59 +0000"
-    },
-    "done": true
-  },
-  "littlelogistics:recipes/transportation/automatic_switch_rail": {
-    "criteria": {
-      "has_item": "2024-05-22 15:49:51 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_deepslate_wall": {
-    "criteria": {
-      "has_polished_cut_deepslate": "2024-05-22 14:42:16 +0000"
-    },
-    "done": true
-  },
-  "railcraft:recipes/misc/diamond_crowbar": {
-    "criteria": {
-      "has_rail": "2024-05-22 15:49:50 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/stone_tile_stairs": {
-    "criteria": {
-      "has_stone_tile": "2024-05-22 14:43:59 +0000"
-    },
-    "done": true
-  },
-  "littlelogistics:recipes/transportation/switch_rail": {
-    "criteria": {
-      "has_item": "2024-05-22 15:49:51 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/polished_cut_deepslate_stairs": {
-    "criteria": {
-      "has_polished_cut_deepslate": "2024-05-22 14:42:16 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/tools/codebreaker": {
-    "criteria": {
-      "has_nether_star": "2024-05-22 15:40:12 +0000"
-    },
-    "done": true
-  },
-  "railcraft:recipes/misc/standard_rail_from_rail": {
-    "criteria": {
-      "has_rail": "2024-05-22 15:49:50 +0000"
     },
     "done": true
   },
@@ -30006,57 +29910,21 @@
     },
     "done": true
   },
-  "railcraft:tracks/regular_track": {
+  "lost_aether_content:recipes/incubation/brown_moa_incubation": {
     "criteria": {
-      "inv_changed": "2024-05-22 15:49:51 +0000"
+      "has_brown_moa_egg": "2024-05-22 14:29:14 +0000"
     },
     "done": true
   },
-  "littlelogistics:recipes/transportation/tee_junction_rail": {
+  "create:recipes/building_blocks/polished_cut_deepslate_wall": {
     "criteria": {
-      "has_item": "2024-05-22 15:49:50 +0000"
+      "has_polished_cut_deepslate": "2024-05-22 14:42:16 +0000"
     },
     "done": true
   },
-  "constructionwand:recipes/tools/infinity_wand": {
+  "create:recipes/building_blocks/polished_cut_deepslate_stairs": {
     "criteria": {
-      "has_item": "2024-05-22 15:40:12 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/strong_undead": {
-    "criteria": {
-      "coded_trigger": "2024-05-22 15:40:12 +0000"
-    },
-    "done": true
-  },
-  "utilitix:recipes/misc/piston_controller_rail": {
-    "criteria": {
-      "criterion1": "2024-05-22 15:49:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
-    "criteria": {
-      "has_yellow_terracotta": "2024-05-22 16:14:23 +0000"
-    },
-    "done": true
-  },
-  "aquaculture:recipes/aquaculture/nether_star_hook": {
-    "criteria": {
-      "has_items": "2024-05-22 15:40:12 +0000"
-    },
-    "done": true
-  },
-  "littlelogistics:recipes/transportation/automatic_tee_junction_rail": {
-    "criteria": {
-      "has_item": "2024-05-22 15:49:50 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/powered_rail": {
-    "criteria": {
-      "has_rail": "2024-05-22 15:49:51 +0000"
+      "has_polished_cut_deepslate": "2024-05-22 14:42:16 +0000"
     },
     "done": true
   },
@@ -30066,27 +29934,15 @@
     },
     "done": true
   },
-  "create:wrench_goggles": {
+  "supplementaries:recipes/stonecutting/stone_tile_stairs_from_bricks": {
     "criteria": {
-      "0": "2024-05-22 15:49:50 +0000"
-    },
-    "done": false
-  },
-  "alchemistry:recipes/dissolver/yellow_glazed_terracotta": {
-    "criteria": {
-      "has_the_recipe": "2024-05-22 16:14:23 +0000"
+      "has_stone_tile": "2024-05-22 14:43:59 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/activator_rail": {
+  "supplementaries:recipes/stone_tile_stairs": {
     "criteria": {
-      "has_rail": "2024-05-22 15:49:51 +0000"
-    },
-    "done": true
-  },
-  "railcraft:recipes/misc/iron_crowbar": {
-    "criteria": {
-      "has_rail": "2024-05-22 15:49:50 +0000"
+      "has_stone_tile": "2024-05-22 14:43:59 +0000"
     },
     "done": true
   },
@@ -30096,39 +29952,9 @@
     },
     "done": true
   },
-  "lost_aether_content:recipes/incubation/brown_moa_incubation": {
-    "criteria": {
-      "has_brown_moa_egg": "2024-05-22 14:29:14 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/create_voodoo_poppet": {
-    "criteria": {
-      "has_voodoo_poppet": "2024-05-22 15:40:12 +0000"
-    },
-    "done": true
-  },
-  "railcraft:recipes/misc/steel_crowbar": {
-    "criteria": {
-      "has_rail": "2024-05-22 15:49:50 +0000"
-    },
-    "done": true
-  },
   "supplementaries:recipes/stone_tile_slab": {
     "criteria": {
       "has_stone_tile": "2024-05-22 14:43:59 +0000"
-    },
-    "done": true
-  },
-  "utilitix:recipes/misc/crossing_rail": {
-    "criteria": {
-      "criterion0": "2024-05-22 15:49:50 +0000"
-    },
-    "done": true
-  },
-  "littlelogistics:recipes/transportation/junction_rail": {
-    "criteria": {
-      "has_item": "2024-05-22 15:49:50 +0000"
     },
     "done": true
   },
@@ -30144,15 +29970,693 @@
     },
     "done": true
   },
+  "ars_elemental:lesser_earth_focus": {
+    "criteria": {
+      "has_lesser_earth_focus": "2024-05-22 15:35:09 +0000"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/dark_nether_star": {
+    "criteria": {
+      "has_nether_star": "2024-05-22 15:40:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2024-05-22 15:40:12 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/enchant_voodoo_poppet": {
+    "criteria": {
+      "has_enchanted_voodoo_poppet": "2024-05-22 15:40:12 +0000"
+    },
+    "done": true
+  },
+  "allthetweaks:recipes/misc/nether_star_block": {
+    "criteria": {
+      "has_nether_star": "2024-05-22 15:40:12 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/tools/codebreaker": {
+    "criteria": {
+      "has_nether_star": "2024-05-22 15:40:12 +0000"
+    },
+    "done": true
+  },
+  "constructionwand:recipes/tools/infinity_wand": {
+    "criteria": {
+      "has_item": "2024-05-22 15:40:12 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/strong_undead": {
+    "criteria": {
+      "coded_trigger": "2024-05-22 15:40:12 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/aquaculture/nether_star_hook": {
+    "criteria": {
+      "has_items": "2024-05-22 15:40:12 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_voodoo_poppet": {
+    "criteria": {
+      "has_voodoo_poppet": "2024-05-22 15:40:12 +0000"
+    },
+    "done": true
+  },
+  "littlelogistics:recipes/transportation/locomotive_dock_rail": {
+    "criteria": {
+      "has_item": "2024-05-22 15:49:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/detector_rail": {
+    "criteria": {
+      "has_rail": "2024-05-22 15:49:50 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/diamond_crowbar": {
+    "criteria": {
+      "has_rail": "2024-05-22 15:49:50 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/standard_rail_from_rail": {
+    "criteria": {
+      "has_rail": "2024-05-22 15:49:50 +0000"
+    },
+    "done": true
+  },
+  "littlelogistics:recipes/transportation/tee_junction_rail": {
+    "criteria": {
+      "has_item": "2024-05-22 15:49:50 +0000"
+    },
+    "done": true
+  },
+  "littlelogistics:recipes/transportation/automatic_tee_junction_rail": {
+    "criteria": {
+      "has_item": "2024-05-22 15:49:50 +0000"
+    },
+    "done": true
+  },
+  "create:wrench_goggles": {
+    "criteria": {
+      "0": "2024-05-22 15:49:50 +0000"
+    },
+    "done": false
+  },
+  "railcraft:recipes/misc/iron_crowbar": {
+    "criteria": {
+      "has_rail": "2024-05-22 15:49:50 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/steel_crowbar": {
+    "criteria": {
+      "has_rail": "2024-05-22 15:49:50 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/crossing_rail": {
+    "criteria": {
+      "criterion0": "2024-05-22 15:49:50 +0000"
+    },
+    "done": true
+  },
+  "littlelogistics:recipes/transportation/junction_rail": {
+    "criteria": {
+      "has_item": "2024-05-22 15:49:50 +0000"
+    },
+    "done": true
+  },
   "botania:recipes/transportation/ghost_rail": {
     "criteria": {
       "has_item": "2024-05-22 15:49:50 +0000"
     },
     "done": true
   },
-  "ars_elemental:lesser_earth_focus": {
+  "littlelogistics:recipes/transportation/car_dock_rail": {
     "criteria": {
-      "has_lesser_earth_focus": "2024-05-22 15:35:09 +0000"
+      "has_item": "2024-05-22 15:49:51 +0000"
+    },
+    "done": true
+  },
+  "littlelogistics:recipes/transportation/automatic_switch_rail": {
+    "criteria": {
+      "has_item": "2024-05-22 15:49:51 +0000"
+    },
+    "done": true
+  },
+  "littlelogistics:recipes/transportation/switch_rail": {
+    "criteria": {
+      "has_item": "2024-05-22 15:49:51 +0000"
+    },
+    "done": true
+  },
+  "railcraft:tracks/regular_track": {
+    "criteria": {
+      "inv_changed": "2024-05-22 15:49:51 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/piston_controller_rail": {
+    "criteria": {
+      "criterion1": "2024-05-22 15:49:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/powered_rail": {
+    "criteria": {
+      "has_rail": "2024-05-22 15:49:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/activator_rail": {
+    "criteria": {
+      "has_rail": "2024-05-22 15:49:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
+    "criteria": {
+      "has_yellow_terracotta": "2024-05-22 16:14:23 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/yellow_glazed_terracotta": {
+    "criteria": {
+      "has_the_recipe": "2024-05-22 16:14:23 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/tin_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/tin]_ingot": "2024-05-23 14:06:12 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/bow_repairing": {
+    "criteria": {
+      "has_bow": "2024-05-23 14:06:13 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/brass_knife": {
+    "criteria": {
+      "has_ingots/brass": "2024-05-23 13:25:58 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/network_registry": {
+    "criteria": {
+      "has_capacitor": "2024-05-23 14:05:23 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/brass_hand": {
+    "criteria": {
+      "has_item": "2024-05-23 13:25:58 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:archmage_spell_book": {
+    "criteria": {
+      "has_archmage_spell_book": "2024-05-23 15:05:52 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/redstone/reinforced_dispenser": {
+    "criteria": {
+      "has_bow": "2024-05-23 14:06:13 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/spider_eye": {
+    "criteria": {
+      "has_chelicerae": "2024-05-23 13:25:15 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/brass_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/brass]_ingot": "2024-05-23 13:25:58 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/tin_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/tin]_ingot": "2024-05-23 14:06:12 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/iron_backpack_from_copper": {
+    "criteria": {
+      "has_copper_backpack": "2024-05-23 14:05:23 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/brass_scaffolding_from_ingots_brass_stonecutting": {
+    "criteria": {
+      "has_ingots_brass": "2024-05-23 13:25:58 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/tin_knife": {
+    "criteria": {
+      "has_ingots/tin": "2024-05-23 14:06:12 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/redstone": {
+    "criteria": {
+      "has_witch_hat": "2024-05-23 13:26:48 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/skeleton": {
+    "criteria": {
+      "has_rib_bone": "2024-05-23 13:25:46 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/zinc_gear": {
+    "criteria": {
+      "has_material": "2024-05-23 13:25:43 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/brass_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/brass]_ingot": "2024-05-23 13:25:58 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/flywheel": {
+    "criteria": {
+      "has_item": "2024-05-23 13:25:58 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/brass_ladder_from_ingots_brass_stonecutting": {
+    "criteria": {
+      "has_ingots_brass": "2024-05-23 13:25:58 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/zinc_knife": {
+    "criteria": {
+      "has_ingots/zinc": "2024-05-23 13:25:43 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:wilden_tribute": {
+    "criteria": {
+      "has_wilden_tribute": "2024-05-23 14:45:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2024-05-23 14:52:18 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/arcana50": {
+    "criteria": {
+      "enchanted_item": "2024-05-23 12:06:57 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/sugar": {
+    "criteria": {
+      "has_witch_hat": "2024-05-23 13:26:48 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/diagnostic_subroutine": {
+    "criteria": {
+      "has_capacitor": "2024-05-23 14:05:23 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/curiosities/peculiar_bell": {
+    "criteria": {
+      "has_item": "2024-05-23 13:25:58 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/network_data_storage": {
+    "criteria": {
+      "has_capacitor": "2024-05-23 14:05:23 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/nickel_nugget": {
+    "criteria": {
+      "has_nickel_ingot": "2024-05-23 13:25:46 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/blast_furnace/blasting_iron_horse_armor": {
+    "criteria": {
+      "has_iron_horse_armor": "2024-05-23 14:06:13 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/witch": {
+    "criteria": {
+      "has_witch_hat": "2024-05-23 13:26:48 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/brass_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/brass]_ingot": "2024-05-23 13:25:58 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/frozen/cutting/ice_bow": {
+    "criteria": {
+      "has_bow": "2024-05-23 14:06:13 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/network_node": {
+    "criteria": {
+      "has_capacitor": "2024-05-23 14:05:23 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/elevator_pulley": {
+    "criteria": {
+      "has_item": "2024-05-23 13:25:58 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/brass_tunnel": {
+    "criteria": {
+      "has_item": "2024-05-23 13:25:58 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/zinc_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/zinc]_ingot": "2024-05-23 13:25:43 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/cave_spider": {
+    "criteria": {
+      "has_chelicerae": "2024-05-23 13:25:15 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_orange": {
+    "criteria": {
+      "has_item": "2024-05-23 14:20:40 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/tin_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/tin]_ingot": "2024-05-23 14:06:12 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/zinc_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/zinc]_ingot": "2024-05-23 13:25:43 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/brass_dust_from_ingot": {
+    "criteria": {
+      "has_brass_ingot": "2024-05-23 13:25:58 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/lead_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2024-05-23 14:06:03 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/bushing_gear_brass": {
+    "criteria": {
+      "has_material": "2024-05-23 13:25:58 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/glowstone_dust": {
+    "criteria": {
+      "has_witch_hat": "2024-05-23 13:26:48 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/sapphire_dust_from_gem": {
+    "criteria": {
+      "has_sapphire_gem": "2024-05-23 14:06:13 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/coke_to_coal_coke": {
+    "criteria": {
+      "has_coke": "2024-05-23 14:01:00 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/rose_quartz_lamp": {
+    "criteria": {
+      "has_item": "2024-05-23 13:25:43 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/network_api": {
+    "criteria": {
+      "has_capacitor": "2024-05-23 14:05:23 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/zinc_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/zinc]_ingot": "2024-05-23 13:25:43 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/gunpowder_witch_hat": {
+    "criteria": {
+      "has_witch_hat": "2024-05-23 13:26:48 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/tin_dust_from_ingot": {
+    "criteria": {
+      "has_tin_ingot": "2024-05-23 14:06:12 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/arcana100": {
+    "criteria": {
+      "enchanted_item": "2024-05-23 12:06:57 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/zinc_dust_from_ingot": {
+    "criteria": {
+      "has_zinc_ingot": "2024-05-23 13:25:43 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/sapphire_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:gems/sapphire]_ingot": "2024-05-23 14:06:13 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/tin_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/tin]_ingot": "2024-05-23 14:06:12 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/brass_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/brass]_ingot": "2024-05-23 13:25:58 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/decorations/brass_bars_from_ingots_brass_stonecutting": {
+    "criteria": {
+      "has_ingots_brass": "2024-05-23 13:25:58 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:recipes/misc/network_io_port": {
+    "criteria": {
+      "has_capacitor": "2024-05-23 14:05:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2024-05-23 14:14:40 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/placard": {
+    "criteria": {
+      "has_item": "2024-05-23 13:25:58 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/nickel_block_from_nickel_ingot": {
+    "criteria": {
+      "has_nickel_ingot": "2024-05-23 13:25:46 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/tin_gear": {
+    "criteria": {
+      "has_material": "2024-05-23 14:06:12 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/logistics/brass_funnel": {
+    "criteria": {
+      "has_item": "2024-05-23 13:25:58 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/brass_gear": {
+    "criteria": {
+      "has_material": "2024-05-23 13:25:58 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/copycat_panel_from_ingots_zinc_stonecutting": {
+    "criteria": {
+      "has_ingots_zinc": "2024-05-23 13:25:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2024-05-23 14:06:13 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/string": {
+    "criteria": {
+      "has_chelicerae": "2024-05-23 13:25:15 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/safety_net": {
+    "criteria": {
+      "has_rope": "2024-05-23 14:05:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2024-05-23 15:14:54 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_familiar_receptacle": {
+    "criteria": {
+      "has_familiar_receptacle": "2024-05-23 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/copycat_step_from_ingots_zinc_stonecutting": {
+    "criteria": {
+      "has_ingots_zinc": "2024-05-23 13:25:43 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/andesite_alloy_from_zinc": {
+    "criteria": {
+      "has_item": "2024-05-23 13:25:43 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/coal_coke_to_coke": {
+    "criteria": {
+      "has_coal_coke": "2024-05-23 14:01:00 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/stick": {
+    "criteria": {
+      "has_witch_hat": "2024-05-23 13:26:48 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/glass_bottle": {
+    "criteria": {
+      "has_witch_hat": "2024-05-23 13:26:48 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/orange_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-05-23 14:20:40 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/zinc_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/zinc]_ingot": "2024-05-23 13:25:43 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/bone": {
+    "criteria": {
+      "has_rib_bone": "2024-05-23 13:25:46 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/decorations/shard_o_lantern": {
+    "criteria": {
+      "has_shard_torch": "2024-05-23 14:55:37 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/attribute_filter": {
+    "criteria": {
+      "has_item": "2024-05-23 13:25:58 +0000"
+    },
+    "done": true
+  },
+  "undergarden:undergarden/shard_torch": {
+    "criteria": {
+      "has_shard_torch": "2024-05-23 14:55:37 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/charge_terminal": {
+    "criteria": {
+      "has_brass_ingot": "2024-05-23 13:25:58 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_magic_tablet": {
+    "criteria": {
+      "has_magic_tablet": "2024-05-23 13:25:15 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/spider": {
+    "criteria": {
+      "has_chelicerae": "2024-05-23 13:25:15 +0000"
     },
     "done": true
   },

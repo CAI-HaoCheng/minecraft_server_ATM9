@@ -95,18 +95,22 @@
       "rocky_shrubland": "2024-05-01 15:16:03 +0000",
       "erupting_inferno": "2024-05-04 13:50:11 +0000",
       "highland": "2024-05-01 14:35:03 +0000",
+      "clover_patch": "2024-05-23 12:01:30 +0000",
       "mystic_grove": "2024-05-03 09:15:59 +0000",
       "crystalline_chasm": "2024-05-04 13:53:42 +0000",
       "orchard": "2024-05-01 15:26:39 +0000",
       "field": "2024-05-03 08:13:40 +0000",
+      "lavender_forest": "2024-05-23 12:08:43 +0000",
       "coniferous_forest": "2024-05-01 14:30:52 +0000",
       "spider_nest": "2024-05-02 06:30:20 +0000",
       "forested_field": "2024-05-03 08:33:35 +0000",
       "redwood_forest": "2024-05-01 15:26:45 +0000",
       "visceral_heap": "2024-05-02 13:28:58 +0000",
       "dune_beach": "2024-05-01 15:27:34 +0000",
+      "lavender_field": "2024-05-23 12:07:34 +0000",
       "fir_clearing": "2024-05-01 14:33:48 +0000",
       "grassland": "2024-05-01 15:19:31 +0000",
+      "prairie": "2024-05-23 12:07:44 +0000",
       "ominous_woods": "2024-05-03 08:35:18 +0000"
     },
     "done": false
@@ -4864,9 +4868,11 @@
       "minecraft:magma_cube": "2024-05-07 14:30:34 +0000",
       "minecraft:spider": "2024-05-01 14:59:46 +0000",
       "minecraft:creeper": "2024-05-02 04:51:10 +0000",
+      "minecraft:wither": "2024-05-23 14:53:34 +0000",
       "minecraft:evoker": "2024-05-18 15:14:50 +0000",
       "minecraft:phantom": "2024-05-08 09:09:11 +0000",
       "minecraft:zombified_piglin": "2024-05-09 08:50:24 +0000",
+      "minecraft:witch": "2024-05-23 12:14:01 +0000",
       "minecraft:wither_skeleton": "2024-05-08 14:43:32 +0000",
       "minecraft:husk": "2024-05-02 06:49:32 +0000",
       "minecraft:cave_spider": "2024-05-08 08:17:19 +0000",
@@ -37034,15 +37040,33 @@
     },
     "done": true
   },
-  "railcraft:recipes/misc/diamond_spike_maul": {
+  "pneumaticcraft:flight": {
     "criteria": {
-      "has_diamond_block": "2024-05-22 15:55:10 +0000"
+      "0": "2024-05-22 15:21:07 +0000"
     },
     "done": true
   },
-  "pneumaticcraft:aerial_interface": {
+  "pneumaticcraft:fly_into_wall": {
     "criteria": {
-      "0": "2024-05-22 15:44:18 +0000"
+      "0": "2024-05-22 15:29:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2024-05-22 15:37:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye_from_wither_rose": {
+    "criteria": {
+      "has_wither_rose": "2024-05-22 15:38:02 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/chain_death": {
+    "criteria": {
+      "coded_trigger": "2024-05-22 15:38:40 +0000"
     },
     "done": true
   },
@@ -37058,39 +37082,39 @@
     },
     "done": true
   },
-  "pneumaticcraft:fly_into_wall": {
-    "criteria": {
-      "0": "2024-05-22 15:29:48 +0000"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/diamond": {
-    "criteria": {
-      "has_the_recipe": "2024-05-22 15:55:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/shoot_arrow": {
-    "criteria": {
-      "shot_arrow": "2024-05-22 16:20:50 +0000"
-    },
-    "done": true
-  },
   "securitycraft:recipes/tools/codebreaker": {
     "criteria": {
       "has_nether_star": "2024-05-22 15:42:23 +0000"
     },
     "done": true
   },
-  "minecraft:nether/summon_wither": {
-    "criteria": {
-      "summoned": "2024-05-22 15:37:04 +0000"
-    },
-    "done": true
-  },
   "constructionwand:recipes/tools/infinity_wand": {
     "criteria": {
       "has_item": "2024-05-22 15:42:23 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/aquaculture/nether_star_hook": {
+    "criteria": {
+      "has_items": "2024-05-22 15:42:23 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:aerial_interface": {
+    "criteria": {
+      "0": "2024-05-22 15:44:18 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/diamond_spike_maul": {
+    "criteria": {
+      "has_diamond_block": "2024-05-22 15:55:10 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/diamond": {
+    "criteria": {
+      "has_the_recipe": "2024-05-22 15:55:10 +0000"
     },
     "done": true
   },
@@ -37106,36 +37130,6 @@
     },
     "done": true
   },
-  "aquaculture:recipes/aquaculture/nether_star_hook": {
-    "criteria": {
-      "has_items": "2024-05-22 15:42:23 +0000"
-    },
-    "done": true
-  },
-  "tombstone:adventure/chain_death": {
-    "criteria": {
-      "coded_trigger": "2024-05-22 15:38:40 +0000"
-    },
-    "done": true
-  },
-  "repurposed_structures:outposts": {
-    "criteria": {
-      "in_outpost_oak": "2024-05-22 16:13:13 +0000"
-    },
-    "done": false
-  },
-  "pneumaticcraft:flight": {
-    "criteria": {
-      "0": "2024-05-22 15:21:07 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/black_dye_from_wither_rose": {
-    "criteria": {
-      "has_wither_rose": "2024-05-22 15:38:02 +0000"
-    },
-    "done": true
-  },
   "pylons:recipes/misc/expulsion_pylon": {
     "criteria": {
       "has_diamond_block": "2024-05-22 15:55:10 +0000"
@@ -37145,6 +37139,630 @@
   "minecraft:recipes/misc/diamond": {
     "criteria": {
       "has_diamond_block": "2024-05-22 15:55:10 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:outposts": {
+    "criteria": {
+      "in_outpost_oak": "2024-05-22 16:13:13 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-05-22 16:20:50 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candle_holders/candle_holder_white_dye": {
+    "criteria": {
+      "forge:dyes/white": "2024-05-23 14:23:55 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_plate": {
+    "criteria": {
+      "has_white_plate": "2024-05-23 14:23:55 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/black_cushion": {
+    "criteria": {
+      "has_black_cushion": "2024-05-23 14:20:24 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_crockery_combo": {
+    "criteria": {
+      "has_white_crockery_combo": "2024-05-23 14:23:55 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_bowl": {
+    "criteria": {
+      "has_white_bowl": "2024-05-23 14:23:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-05-23 14:23:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-05-23 14:23:55 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_white2": {
+    "criteria": {
+      "recipe_condition2": "2024-05-23 14:23:55 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/fine_silk_cloth": {
+    "criteria": {
+      "has_item": "2024-05-23 13:23:43 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/enchant_voodoo_poppet": {
+    "criteria": {
+      "has_enchanted_voodoo_poppet": "2024-05-23 13:24:25 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/small_white_industrial_lamp": {
+    "criteria": {
+      "has_small_white_industrial_lamp": "2024-05-23 14:23:55 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/nickel_ingot": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:nuggets/nickel]_nugget": "2024-05-23 14:08:37 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/white_cup": {
+    "criteria": {
+      "has_white_cup": "2024-05-23 14:23:55 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/bronze_block_from_bronze_ingot": {
+    "criteria": {
+      "has_bronze_ingot": "2024-05-23 13:24:25 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_true_sight": {
+    "criteria": {
+      "has_magic_scroll": "2024-05-23 15:17:23 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/fortune_coin": {
+    "criteria": {
+      "has_nebulous_heart": "2024-05-23 12:03:56 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/black_sofa": {
+    "criteria": {
+      "has_wool": "2024-05-23 14:20:24 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/ruby_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:gems/ruby]_ingot": "2024-05-23 13:24:25 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/ink_root": {
+    "criteria": {
+      "requirement": "2024-05-23 13:24:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_white_dye": "2024-05-23 14:23:55 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/redstone": {
+    "criteria": {
+      "has_witch_hat": "2024-05-23 13:23:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-05-23 14:23:55 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/roasted_pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin_seed": "2024-05-23 13:24:25 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/angelic_feather": {
+    "criteria": {
+      "has_nebulous_heart": "2024-05-23 12:03:56 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/white_industrial_lamp": {
+    "criteria": {
+      "has_white_industrial_lamp": "2024-05-23 14:23:55 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/sugar": {
+    "criteria": {
+      "has_witch_hat": "2024-05-23 13:23:41 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/tinted_borderless_glass_white2": {
+    "criteria": {
+      "recipe_condition2": "2024-05-23 14:23:55 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/light_blue_cushion": {
+    "criteria": {
+      "has_light_blue_cushion": "2024-05-23 14:19:44 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "tomato_seeds": "2024-05-23 13:24:43 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/strong_undead": {
+    "criteria": {
+      "coded_trigger": "2024-05-23 14:53:34 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/nickel_nugget": {
+    "criteria": {
+      "has_nickel_ingot": "2024-05-23 13:40:49 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:adventure/way_sign": {
+    "criteria": {
+      "bastion": "2024-05-23 12:01:35 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/magicbane": {
+    "criteria": {
+      "has_nebulous_heart": "2024-05-23 12:03:56 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/smart_white": {
+    "criteria": {
+      "has_fluix_smart_cable": "2024-05-23 12:26:16 +0000"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_black": {
+    "criteria": {
+      "has_black_wool": "2024-05-23 14:20:24 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/witch": {
+    "criteria": {
+      "has_witch_hat": "2024-05-23 13:23:41 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/zinc_block_from_compacting": {
+    "criteria": {
+      "has_item": "2024-05-23 14:05:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_azure_bluet": {
+    "criteria": {
+      "has_azure_bluet": "2024-05-23 14:01:47 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/brass_nugget_from_decompacting": {
+    "criteria": {
+      "has_item": "2024-05-23 13:24:44 +0000"
+    },
+    "done": true
+  },
+  "comforts:hammock_black": {
+    "criteria": {
+      "has_black_wool": "2024-05-23 14:20:24 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_smart_white": {
+    "criteria": {
+      "has_dyes/black": "2024-05-23 14:23:55 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/alkahestry_altar": {
+    "criteria": {
+      "has_nebulous_heart": "2024-05-23 12:03:56 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/cold_parachute": {
+    "criteria": {
+      "has_cold_aercloud": "2024-05-23 14:24:09 +0000"
+    },
+    "done": true
+  },
+  "create:brass": {
+    "criteria": {
+      "0": "2024-05-23 13:24:44 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/charge_meter": {
+    "criteria": {
+      "has_brass_ingot": "2024-05-23 13:25:49 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_white_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-05-23 14:23:55 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/storage_lead_to_ingot_lead": {
+    "criteria": {
+      "has_storage_lead": "2024-05-23 14:06:00 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/crimson_cloth": {
+    "criteria": {
+      "has_nebulous_heart": "2024-05-23 12:03:56 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_feather_fall": {
+    "criteria": {
+      "has_magic_scroll": "2024-05-23 15:17:09 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/smart_fluix_clean": {
+    "criteria": {
+      "has_smart_cable": "2024-05-23 12:26:16 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/light_blue_flag": {
+    "criteria": {
+      "has_light_blue_flag": "2024-05-23 14:19:44 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/glowstone_dust": {
+    "criteria": {
+      "has_witch_hat": "2024-05-23 13:23:41 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/zinc_nugget_from_decompacting": {
+    "criteria": {
+      "has_item": "2024-05-23 14:05:51 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_magic_scroll": {
+    "criteria": {
+      "has_magic_scroll": "2024-05-23 13:24:42 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_mercy": {
+    "criteria": {
+      "has_magic_scroll": "2024-05-23 15:17:04 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/blast_furnace/blasting_steel_axe": {
+    "criteria": {
+      "has_steel_axe": "2024-05-23 13:25:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2024-05-23 14:20:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_white_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-05-23 14:23:55 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/fine_silk": {
+    "criteria": {
+      "has_item": "2024-05-23 13:23:43 +0000"
+    },
+    "done": true
+  },
+  "mekanism:materials": {
+    "criteria": {
+      "material": "2024-05-23 13:26:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_carpet": {
+    "criteria": {
+      "has_light_blue_wool": "2024-05-23 14:19:44 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/ender_pearl": {
+    "criteria": {
+      "has_nebulous_heart": "2024-05-23 12:03:56 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/bronze_nugget": {
+    "criteria": {
+      "has_bronze_ingot": "2024-05-23 13:24:25 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/gunpowder_witch_hat": {
+    "criteria": {
+      "has_witch_hat": "2024-05-23 13:23:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_candle": {
+    "criteria": {
+      "has_white_dye": "2024-05-23 14:23:55 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_voodoo_poppet": {
+    "criteria": {
+      "has_voodoo_poppet": "2024-05-23 13:24:25 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/enderman": {
+    "criteria": {
+      "has_nebulous_heart": "2024-05-23 12:03:56 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/brass_block_from_brass_ingot": {
+    "criteria": {
+      "has_brass_ingot": "2024-05-23 13:25:49 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/wraith_node": {
+    "criteria": {
+      "has_nebulous_heart": "2024-05-23 12:03:56 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/ender_staff": {
+    "criteria": {
+      "has_nebulous_heart": "2024-05-23 12:03:56 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/black_sheet": {
+    "criteria": {
+      "has_black_sheet": "2024-05-23 14:20:24 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/misc/magenta_dye_from_wildflower": {
+    "criteria": {
+      "has_flower": "2024-05-23 14:01:45 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/nickel_block_from_nickel_ingot": {
+    "criteria": {
+      "has_nickel_ingot": "2024-05-23 13:40:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_bed": {
+    "criteria": {
+      "has_light_blue_wool": "2024-05-23 14:19:44 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/void_tear": {
+    "criteria": {
+      "has_nebulous_heart": "2024-05-23 12:03:56 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_smart_from_smart": {
+    "criteria": {
+      "has_fluix_smart_cable": "2024-05-23 12:26:16 +0000"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_light_blue": {
+    "criteria": {
+      "has_light_blue_wool": "2024-05-23 14:19:44 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/ingot_lead_to_storage_lead": {
+    "criteria": {
+      "has_ingot_lead": "2024-05-23 14:06:00 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/safety_net": {
+    "criteria": {
+      "has_rope": "2024-05-23 13:24:41 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_familiar_receptacle": {
+    "criteria": {
+      "has_familiar_receptacle": "2024-05-23 15:15:16 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/light_blue_sheet": {
+    "criteria": {
+      "has_light_blue_sheet": "2024-05-23 14:19:44 +0000"
+    },
+    "done": true
+  },
+  "comforts:hammock_light_blue": {
+    "criteria": {
+      "has_light_blue_wool": "2024-05-23 14:19:44 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/stick": {
+    "criteria": {
+      "has_witch_hat": "2024-05-23 13:23:41 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/glass_bottle": {
+    "criteria": {
+      "has_witch_hat": "2024-05-23 13:23:41 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_lightning_resistance": {
+    "criteria": {
+      "has_magic_scroll": "2024-05-23 15:17:28 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/blue_aercloud_freezing": {
+    "criteria": {
+      "has_cold_aercloud": "2024-05-23 14:24:09 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/mutual_aid": {
+    "criteria": {
+      "coded_trigger": "2024-05-23 15:17:04 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/decorations/shard_o_lantern": {
+    "criteria": {
+      "has_shard_torch": "2024-05-23 12:41:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2024-05-23 14:20:24 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/materials/brass_block_from_compacting": {
+    "criteria": {
+      "has_item": "2024-05-23 13:24:44 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_white_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-05-23 14:23:55 +0000"
+    },
+    "done": true
+  },
+  "undergarden:undergarden/shard_torch": {
+    "criteria": {
+      "has_shard_torch": "2024-05-23 12:41:32 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/brass_nugget": {
+    "criteria": {
+      "has_brass_ingot": "2024-05-23 13:25:49 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/light_blue_sofa": {
+    "criteria": {
+      "has_wool": "2024-05-23 14:19:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2024-05-23 14:20:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_banner": {
+    "criteria": {
+      "has_light_blue_wool": "2024-05-23 14:19:44 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_magic_tablet": {
+    "criteria": {
+      "has_magic_tablet": "2024-05-23 13:24:25 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/golden_aercloud_enchanting": {
+    "criteria": {
+      "has_cold_aercloud": "2024-05-23 14:24:09 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/black_flag": {
+    "criteria": {
+      "has_black_flag": "2024-05-23 14:20:24 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/blue_cape_light_blue_wool": {
+    "criteria": {
+      "has_light_blue_wool": "2024-05-23 14:19:44 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_reach": {
+    "criteria": {
+      "has_magic_scroll": "2024-05-23 15:17:18 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/ruby_dust_from_gem": {
+    "criteria": {
+      "has_ruby_gem": "2024-05-23 13:24:25 +0000"
     },
     "done": true
   },
