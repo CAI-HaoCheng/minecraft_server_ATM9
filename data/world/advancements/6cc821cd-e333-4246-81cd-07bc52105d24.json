@@ -4491,6 +4491,7 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2024-05-03 05:15:17 +0000",
+      "honey_bottle": "2024-05-24 14:25:54 +0000",
       "cooked_mutton": "2024-05-21 16:28:36 +0000",
       "sweet_berries": "2024-05-01 15:30:58 +0000",
       "cooked_beef": "2024-05-01 14:37:24 +0000",
@@ -37766,6 +37767,30 @@
     },
     "done": true
   },
+  "sophisticatedstorage:recipes/misc/spruce_barrel_from_vanilla_barrel": {
+    "criteria": {
+      "has_vanilla_barrel": "2024-05-24 08:27:08 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/fluid_tank": {
+    "criteria": {
+      "has_item": "2024-05-24 08:27:08 +0000"
+    },
+    "done": true
+  },
+  "littlelogistics:recipes/transportation/barrel_barge": {
+    "criteria": {
+      "has_item": "2024-05-24 08:27:08 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/item_vault": {
+    "criteria": {
+      "has_item": "2024-05-24 08:27:08 +0000"
+    },
+    "done": true
+  },
   "securitycraft:recipes/building_blocks/secret_birch_sign_item": {
     "criteria": {
       "has_sign": "2024-05-24 08:35:29 +0000"
@@ -37793,12 +37818,6 @@
   "securitycraft:recipes/building_blocks/secret_warped_sign_item": {
     "criteria": {
       "has_sign": "2024-05-24 08:35:29 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedstorage:recipes/misc/spruce_barrel_from_vanilla_barrel": {
-    "criteria": {
-      "has_vanilla_barrel": "2024-05-24 08:27:08 +0000"
     },
     "done": true
   },
@@ -37844,21 +37863,9 @@
     },
     "done": true
   },
-  "mekanism:cleaning_gauges": {
-    "criteria": {
-      "use_dropper": "2024-05-24 10:03:02 +0000"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/secret_bamboo_hanging_sign": {
     "criteria": {
       "has_sign": "2024-05-24 08:35:29 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/fluid_tank": {
-    "criteria": {
-      "has_item": "2024-05-24 08:27:08 +0000"
     },
     "done": true
   },
@@ -37904,21 +37911,9 @@
     },
     "done": true
   },
-  "littlelogistics:recipes/transportation/barrel_barge": {
-    "criteria": {
-      "has_item": "2024-05-24 08:27:08 +0000"
-    },
-    "done": true
-  },
   "securitycraft:recipes/building_blocks/secret_mangrove_sign_item": {
     "criteria": {
       "has_sign": "2024-05-24 08:35:29 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/item_vault": {
-    "criteria": {
-      "has_item": "2024-05-24 08:27:08 +0000"
     },
     "done": true
   },
@@ -37931,6 +37926,632 @@
   "securitycraft:recipes/building_blocks/secret_crimson_sign_item": {
     "criteria": {
       "has_sign": "2024-05-24 08:35:29 +0000"
+    },
+    "done": true
+  },
+  "mekanism:cleaning_gauges": {
+    "criteria": {
+      "use_dropper": "2024-05-24 10:03:02 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/invar_nugget": {
+    "criteria": {
+      "has_invar_ingot": "2024-05-24 16:42:03 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/tin_ingot": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:nuggets/tin]_nugget": "2024-05-24 16:43:15 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_dust_smelting": {
+    "criteria": {
+      "has_item": "2024-05-24 16:53:27 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_battery_3": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_battery_2": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_battery_1": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/zinc_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-05-24 16:31:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2024-05-24 14:39:48 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/fluorite_dust_from_gem": {
+    "criteria": {
+      "has_fluorite_gem": "2024-05-24 15:31:09 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/silver_nugget": {
+    "criteria": {
+      "has_silver_ingot": "2024-05-24 16:42:45 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/skyroot_axe": {
+    "criteria": {
+      "has_planks": "2024-05-24 14:39:06 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/skyroot_trapdoor": {
+    "criteria": {
+      "has_skyroot_planks": "2024-05-24 14:39:06 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_void_junk": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_crafting_table": {
+    "criteria": {
+      "has_planks": "2024-05-24 14:39:06 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/skyroot_shovel": {
+    "criteria": {
+      "has_planks": "2024-05-24 14:39:06 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_nugget": {
+    "criteria": {
+      "has_item": "2024-05-24 16:53:27 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/silver_block_from_silver_ingot": {
+    "criteria": {
+      "has_silver_ingot": "2024-05-24 16:42:45 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/skyroot_pickaxe": {
+    "criteria": {
+      "has_planks": "2024-05-24 14:39:06 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/pork_and_beans": {
+    "criteria": {
+      "has_pork": "2024-05-24 14:39:48 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/carnitas": {
+    "criteria": {
+      "has_porkchop": "2024-05-24 14:39:48 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/honey_cookie": {
+    "criteria": {
+      "has_honey_bottle": "2024-05-24 14:25:36 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_bacon": {
+    "criteria": {
+      "has_porkchop": "2024-05-24 14:39:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/honeycomb_block": {
+    "criteria": {
+      "has_honeycomb": "2024-05-24 14:25:36 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_size_1": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_size_2": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_size_3": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_pink": {
+    "criteria": {
+      "has_pink_wool": "2024-05-24 14:41:50 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/skyroot_stick": {
+    "criteria": {
+      "has_planks": "2024-05-24 14:39:06 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_dust_blasting": {
+    "criteria": {
+      "has_item": "2024-05-24 16:53:27 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_block": {
+    "criteria": {
+      "has_item": "2024-05-24 16:53:27 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_range_3": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_range_2": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_range_1": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "mekanism:ultimate_control_circuit": {
+    "criteria": {
+      "ultimate_control_circuit": "2024-05-24 15:06:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_grill_cooking": {
+    "criteria": {
+      "has_porkchop": "2024-05-24 14:39:48 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/invar_ingot": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:nuggets/invar]_nugget": "2024-05-24 16:43:19 +0000"
+    },
+    "done": true
+  },
+  "mekanism:chemical_crystallizer": {
+    "criteria": {
+      "chemical_dissolution_chamber": "2024-05-24 15:16:37 +0000",
+      "chemical_crystallizer": "2024-05-24 15:31:20 +0000",
+      "chemical_washer": "2024-05-24 15:19:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_glazed_terracotta": {
+    "criteria": {
+      "has_yellow_terracotta": "2024-05-24 14:37:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2024-05-24 14:39:48 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/skyroot_pressure_plate": {
+    "criteria": {
+      "has_skyroot_planks": "2024-05-24 14:39:06 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/pink_sofa": {
+    "criteria": {
+      "has_wool": "2024-05-24 14:41:50 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_sign": {
+    "criteria": {
+      "has_skyroot_planks": "2024-05-24 14:39:06 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/zinc_block_1x": {
+    "criteria": {
+      "has_zinc_block": "2024-05-24 16:31:28 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/skyroot_door": {
+    "criteria": {
+      "has_skyroot_planks": "2024-05-24 14:39:06 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/skyroot_slab": {
+    "criteria": {
+      "has_skyroot_planks": "2024-05-24 14:39:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_carpet": {
+    "criteria": {
+      "has_pink_wool": "2024-05-24 14:41:50 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_fence": {
+    "criteria": {
+      "has_skyroot_planks": "2024-05-24 14:39:06 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/pink_sheet": {
+    "criteria": {
+      "has_pink_sheet": "2024-05-24 14:41:50 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/invar_block_from_invar_ingot": {
+    "criteria": {
+      "has_invar_ingot": "2024-05-24 16:42:03 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-05-24 16:53:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_bed": {
+    "criteria": {
+      "has_pink_wool": "2024-05-24 14:41:50 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/advanced_detector": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-24 16:46:51 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/mead": {
+    "criteria": {
+      "has_honey": "2024-05-24 14:25:36 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_ingot_from_nugget": {
+    "criteria": {
+      "has_item": "2024-05-24 16:53:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_banner": {
+    "criteria": {
+      "has_pink_wool": "2024-05-24 14:41:50 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/cooked_porkchop": {
+    "criteria": {
+      "has_the_recipe": "2024-05-24 14:39:48 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/skyroot_fence_gate": {
+    "criteria": {
+      "has_skyroot_planks": "2024-05-24 14:39:06 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/tools/mininggadget_fancy": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/skyroot_bucket": {
+    "criteria": {
+      "has_planks": "2024-05-24 14:39:06 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_magnet": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_fortune_1": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_fortune_2": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_fortune_3": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/steel_nugget": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-24 16:46:51 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/pink_cushion": {
+    "criteria": {
+      "has_pink_cushion": "2024-05-24 14:41:50 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/yellow_glazed_terracotta": {
+    "criteria": {
+      "has_the_recipe": "2024-05-24 14:37:57 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/solid_fueled_firebox": {
+    "criteria": {
+      "has_fire_charge": "2024-05-24 14:49:50 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/lapis_lazuli": {
+    "criteria": {
+      "has_the_recipe": "2024-05-24 16:51:34 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/lapis_block_1x": {
+    "criteria": {
+      "has_lapis_block": "2024-05-24 16:51:34 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_dart_shooter": {
+    "criteria": {
+      "has_skyroot_planks": "2024-05-24 14:39:06 +0000"
+    },
+    "done": true
+  },
+  "comforts:hammock_pink": {
+    "criteria": {
+      "has_pink_wool": "2024-05-24 14:41:50 +0000"
+    },
+    "done": true
+  },
+  "silentgear:salvager": {
+    "criteria": {
+      "get_item": "2024-05-24 16:53:54 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/tools/mininggadget_simple": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_silk": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/honey_block": {
+    "criteria": {
+      "has_the_recipe": "2024-05-24 14:25:36 +0000"
+    },
+    "done": true
+  },
+  "silentgear:crimson_steel": {
+    "criteria": {
+      "get_item": "2024-05-24 16:53:27 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/aether/sign_post_skyroot": {
+    "criteria": {
+      "has_planks": "2024-05-24 14:39:06 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_efficiency_2": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_efficiency_1": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_efficiency_4": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_efficiency_3": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_efficiency_5": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/kvasir_mead": {
+    "criteria": {
+      "criterion1": "2024-05-24 14:25:36 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_light_placer": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2024-05-24 14:39:48 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/steel_block_from_steel_ingot": {
+    "criteria": {
+      "has_steel_ingot": "2024-05-24 16:46:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2024-05-24 14:25:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2024-05-24 14:25:36 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_repair_kit": {
+    "criteria": {
+      "has_item": "2024-05-24 16:53:27 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/pink_flag": {
+    "criteria": {
+      "has_pink_flag": "2024-05-24 14:41:50 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/skyroot_knife": {
+    "criteria": {
+      "has_skyroot_tool_crafting": "2024-05-24 14:39:06 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_beehive": {
+    "criteria": {
+      "has_honeycomb": "2024-05-24 14:25:36 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crimson_steel_dust": {
+    "criteria": {
+      "has_item": "2024-05-24 16:53:27 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/skyroot_hoe": {
+    "criteria": {
+      "has_planks": "2024-05-24 14:39:06 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/upgrade_freezing": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/beehive": {
+    "criteria": {
+      "has_honeycomb": "2024-05-24 14:25:36 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/tools/mininggadget": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "mininggadgets:recipes/misc/modificationtable": {
+    "criteria": {
+      "has_upgrade": "2024-05-24 16:51:44 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/skyroot_sword": {
+    "criteria": {
+      "has_planks": "2024-05-24 14:39:06 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/skyroot_stairs": {
+    "criteria": {
+      "has_skyroot_planks": "2024-05-24 14:39:06 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/redstone/skyroot_button": {
+    "criteria": {
+      "has_skyroot_planks": "2024-05-24 14:39:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/lapis_lazuli": {
+    "criteria": {
+      "has_lapis_block": "2024-05-24 16:51:34 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/honeycomb_block": {
+    "criteria": {
+      "has_the_recipe": "2024-05-24 14:25:36 +0000"
     },
     "done": true
   },

@@ -375,6 +375,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:cherry_grove": "2024-05-24 11:35:59 +0000",
       "minecraft:beach": "2024-05-03 13:57:37 +0000",
       "minecraft:river": "2024-05-02 14:25:32 +0000",
       "minecraft:dripstone_caves": "2024-05-03 14:49:35 +0000",
@@ -26225,24 +26226,6 @@
     },
     "done": true
   },
-  "aether:recipes/food/skyroot_milk_bucket_moa_egg_cake": {
-    "criteria": {
-      "has_moa_egg": "2024-05-21 15:56:19 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/fir_chest_boat": {
-    "criteria": {
-      "has_boat": "2024-05-21 14:24:34 +0000"
-    },
-    "done": true
-  },
-  "undergarden:recipes/transportation/grongle_chest_boat": {
-    "criteria": {
-      "has_boat": "2024-05-21 14:24:34 +0000"
-    },
-    "done": true
-  },
   "enderio:recipes/redstone/resetting_lever_sixty_from_inv": {
     "criteria": {
       "has_ingredient": "2024-05-21 13:48:00 +0000"
@@ -26252,36 +26235,6 @@
   "enderio:recipes/redstone/resetting_lever_five_inv_from_base": {
     "criteria": {
       "has_ingredient": "2024-05-21 13:48:00 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/zanite_boots": {
-    "criteria": {
-      "has_zanite": "2024-05-21 15:56:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/dark_oak_chest_boat": {
-    "criteria": {
-      "has_boat": "2024-05-21 14:24:34 +0000"
-    },
-    "done": true
-  },
-  "apotheosis:enchanting/upgrade_seashelf": {
-    "criteria": {
-      "heart": "2024-05-21 16:06:53 +0000"
-    },
-    "done": true
-  },
-  "utilitix:recipes/misc/tiny_charcoal_to_tiny": {
-    "criteria": {
-      "criterion0": "2024-05-21 15:15:28 +0000"
-    },
-    "done": true
-  },
-  "aether:obtain_egg": {
-    "criteria": {
-      "moa_egg": "2024-05-21 15:56:19 +0000"
     },
     "done": true
   },
@@ -26303,33 +26256,9 @@
     },
     "done": true
   },
-  "nethersdelight:recipes/misc/soul_compost_from_hoglin_hide": {
-    "criteria": {
-      "has_soil": "2024-05-21 14:11:06 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/zanite_chestplate": {
-    "criteria": {
-      "has_zanite": "2024-05-21 15:56:20 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/zanite_block": {
-    "criteria": {
-      "has_zanite_gemstone": "2024-05-21 15:56:20 +0000"
-    },
-    "done": true
-  },
   "enderio:recipes/redstone/resetting_lever_three_hundred_from_prev": {
     "criteria": {
       "has_ingredient": "2024-05-21 13:48:00 +0000"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/transportation/time_chest_boat": {
-    "criteria": {
-      "has_boat": "2024-05-21 14:24:34 +0000"
     },
     "done": true
   },
@@ -26339,21 +26268,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/transportation/cherry_chest_boat": {
-    "criteria": {
-      "has_boat": "2024-05-21 14:24:34 +0000"
-    },
-    "done": true
-  },
   "enderio:recipes/redstone/resetting_lever_three_hundred_inv_from_prev": {
     "criteria": {
       "has_ingredient": "2024-05-21 13:48:00 +0000"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/uncrafting/wither_skeleton_skull": {
-    "criteria": {
-      "has_withered_rib": "2024-05-21 15:27:48 +0000"
     },
     "done": true
   },
@@ -26363,27 +26280,9 @@
     },
     "done": true
   },
-  "botania:recipes/tools/water_ring": {
-    "criteria": {
-      "has_item": "2024-05-21 16:01:16 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/transportation/skyroot_chest_boat": {
-    "criteria": {
-      "has_boat": "2024-05-21 14:24:34 +0000"
-    },
-    "done": true
-  },
   "enderio:recipes/redstone/resetting_lever_three_hundred": {
     "criteria": {
       "has_ingredient": "2024-05-21 13:48:00 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/jacaranda_chest_boat": {
-    "criteria": {
-      "has_boat": "2024-05-21 14:24:34 +0000"
     },
     "done": true
   },
@@ -26393,87 +26292,9 @@
     },
     "done": true
   },
-  "reliquary:recipes/misc/mercy_cross": {
-    "criteria": {
-      "has_withered_rib": "2024-05-21 15:27:48 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/oak_chest_boat": {
-    "criteria": {
-      "has_boat": "2024-05-21 14:24:34 +0000"
-    },
-    "done": true
-  },
-  "bigreactors:recipes/misc/blasting/graphite_from_charcoal": {
-    "criteria": {
-      "has_item": "2024-05-21 15:15:28 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/umbran_chest_boat": {
-    "criteria": {
-      "has_boat": "2024-05-21 14:24:34 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/transportation/redwood_chest_boat": {
-    "criteria": {
-      "has_boat": "2024-05-21 14:24:34 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/nature_staff": {
-    "criteria": {
-      "has_zanite": "2024-05-21 15:56:20 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/food/moa_egg_cake": {
-    "criteria": {
-      "has_moa_egg": "2024-05-21 15:56:19 +0000"
-    },
-    "done": true
-  },
-  "undergarden:recipes/transportation/smogstem_chest_boat": {
-    "criteria": {
-      "has_boat": "2024-05-21 14:24:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
-    "criteria": {
-      "has_cod": "2024-05-21 13:49:38 +0000"
-    },
-    "done": true
-  },
-  "undergarden:undergarden/enter_undergarden": {
-    "criteria": {
-      "enter_undergarden": "2024-05-21 16:01:29 +0000"
-    },
-    "done": true
-  },
   "enderio:recipes/redstone/resetting_lever_thirty": {
     "criteria": {
       "has_ingredient": "2024-05-21 13:48:00 +0000"
-    },
-    "done": true
-  },
-  "oceansdelight:recipes/oceansdelight/stuffed_cod": {
-    "criteria": {
-      "has_cod": "2024-05-21 13:49:38 +0000"
-    },
-    "done": true
-  },
-  "twilightforest:recipes/transportation/mining_chest_boat": {
-    "criteria": {
-      "has_boat": "2024-05-21 14:24:34 +0000"
-    },
-    "done": true
-  },
-  "apotheosis:enchanting/60ench": {
-    "criteria": {
-      "enchanted_item": "2024-05-21 16:13:17 +0000"
     },
     "done": true
   },
@@ -26489,15 +26310,225 @@
     },
     "done": true
   },
-  "aether:recipes/combat/wood_zanite_vanilla_shield": {
+  "enderio:recipes/redstone/resetting_lever_five_from_inv": {
     "criteria": {
-      "has_zanite_gemstone": "2024-05-21 15:56:20 +0000"
+      "has_ingredient": "2024-05-21 13:48:00 +0000"
     },
     "done": true
   },
-  "croptopia:recipes/chocolate_milkshake": {
+  "enderio:recipes/redstone/resetting_lever_ten_inv_from_prev": {
     "criteria": {
-      "has_vanilla_ice_cream": "2024-05-21 15:29:02 +0000"
+      "has_ingredient": "2024-05-21 13:48:00 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_ten": {
+    "criteria": {
+      "has_ingredient": "2024-05-21 13:48:00 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_ten_from_prev": {
+    "criteria": {
+      "has_ingredient": "2024-05-21 13:48:00 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_thirty_from_prev": {
+    "criteria": {
+      "has_ingredient": "2024-05-21 13:48:00 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_three_hundred_inv_from_base": {
+    "criteria": {
+      "has_ingredient": "2024-05-21 13:48:00 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_three_hundred_from_inv": {
+    "criteria": {
+      "has_ingredient": "2024-05-21 13:48:00 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_sixty_inv_from_base": {
+    "criteria": {
+      "has_ingredient": "2024-05-21 13:48:00 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_sixty_from_prev": {
+    "criteria": {
+      "has_ingredient": "2024-05-21 13:48:00 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/switch_track_lever": {
+    "criteria": {
+      "has_lever": "2024-05-21 13:48:00 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_sixty": {
+    "criteria": {
+      "has_ingredient": "2024-05-21 13:48:00 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_sixty_inv_from_prev": {
+    "criteria": {
+      "has_ingredient": "2024-05-21 13:48:00 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_sixty_inv": {
+    "criteria": {
+      "has_ingredient": "2024-05-21 13:48:00 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_thirty_inv_from_prev": {
+    "criteria": {
+      "has_ingredient": "2024-05-21 13:48:00 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/redstone/resetting_lever_ten_from_inv": {
+    "criteria": {
+      "has_ingredient": "2024-05-21 13:48:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2024-05-21 13:49:38 +0000"
+    },
+    "done": true
+  },
+  "oceansdelight:recipes/oceansdelight/stuffed_cod": {
+    "criteria": {
+      "has_cod": "2024-05-21 13:49:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_grill_cooking": {
+    "criteria": {
+      "has_cod": "2024-05-21 13:49:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2024-05-21 13:49:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2024-05-21 13:49:38 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/cooked_cod": {
+    "criteria": {
+      "has_the_recipe": "2024-05-21 13:49:38 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fish_stew": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-21 13:49:38 +0000"
+    },
+    "done": true
+  },
+  "nethersdelight:recipes/misc/soul_compost_from_hoglin_hide": {
+    "criteria": {
+      "has_soil": "2024-05-21 14:11:06 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/soul_soil_1x": {
+    "criteria": {
+      "has_soul_soil": "2024-05-21 14:11:06 +0000"
+    },
+    "done": true
+  },
+  "nethersdelight:recipes/misc/soul_compost_from_warped_roots": {
+    "criteria": {
+      "has_soil": "2024-05-21 14:11:06 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/fir_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-21 14:24:34 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/transportation/grongle_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-21 14:24:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-21 14:24:34 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/time_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-21 14:24:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-21 14:24:34 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/transportation/skyroot_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-21 14:24:34 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/jacaranda_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-21 14:24:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-21 14:24:34 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/umbran_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-21 14:24:34 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/redwood_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-21 14:24:34 +0000"
+    },
+    "done": true
+  },
+  "undergarden:recipes/transportation/smogstem_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-21 14:24:34 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/transportation/mining_chest_boat": {
+    "criteria": {
+      "has_boat": "2024-05-21 14:24:34 +0000"
     },
     "done": true
   },
@@ -26531,63 +26562,9 @@
     },
     "done": true
   },
-  "enderio:recipes/redstone/resetting_lever_five_from_inv": {
-    "criteria": {
-      "has_ingredient": "2024-05-21 13:48:00 +0000"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_ten_inv_from_prev": {
-    "criteria": {
-      "has_ingredient": "2024-05-21 13:48:00 +0000"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_ten": {
-    "criteria": {
-      "has_ingredient": "2024-05-21 13:48:00 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/zanite_leggings": {
-    "criteria": {
-      "has_zanite": "2024-05-21 15:56:20 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/mangrove_chest_boat": {
     "criteria": {
       "has_boat": "2024-05-21 14:24:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_cod_from_grill_cooking": {
-    "criteria": {
-      "has_cod": "2024-05-21 13:49:38 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/cold_parachute": {
-    "criteria": {
-      "has_cold_aercloud": "2024-05-21 15:54:07 +0000"
-    },
-    "done": true
-  },
-  "lost_aether_content:recipes/combat/zanite_shield": {
-    "criteria": {
-      "has_zanite_gemstone": "2024-05-21 15:56:20 +0000"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_ten_from_prev": {
-    "criteria": {
-      "has_ingredient": "2024-05-21 13:48:00 +0000"
-    },
-    "done": true
-  },
-  "aether:zanite": {
-    "criteria": {
-      "zanite": "2024-05-21 15:56:20 +0000"
     },
     "done": true
   },
@@ -26609,82 +26586,15 @@
     },
     "done": true
   },
-  "enderio:recipes/redstone/resetting_lever_thirty_from_prev": {
-    "criteria": {
-      "has_ingredient": "2024-05-21 13:48:00 +0000"
-    },
-    "done": true
-  },
-  "undergarden:undergarden/all_undergarden_biomes": {
-    "criteria": {
-      "undergarden:forgotten_field": "2024-05-21 16:01:30 +0000",
-      "undergarden:ancient_sea": "2024-05-21 16:04:25 +0000"
-    },
-    "done": false
-  },
-  "botania:recipes/decorations/prism": {
-    "criteria": {
-      "has_item": "2024-05-21 15:28:44 +0000"
-    },
-    "done": true
-  },
-  "aether:enter_aether": {
-    "criteria": {
-      "enter_aether": "2024-05-21 15:36:24 +0000"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_three_hundred_inv_from_base": {
-    "criteria": {
-      "has_ingredient": "2024-05-21 13:48:00 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_cod": {
-    "criteria": {
-      "has_cod": "2024-05-21 13:49:38 +0000"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_three_hundred_from_inv": {
-    "criteria": {
-      "has_ingredient": "2024-05-21 13:48:00 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/food/cooked_cod_from_smoking": {
-    "criteria": {
-      "has_cod": "2024-05-21 13:49:38 +0000"
-    },
-    "done": true
-  },
   "utilitix:recipes/misc/oak_shulker_boat": {
     "criteria": {
       "criterion17": "2024-05-21 14:24:34 +0000"
     },
     "done": true
   },
-  "lost_aether_content:platinum_dungeon": {
-    "criteria": {
-      "kill_boss": "2024-05-21 15:53:21 +0000"
-    },
-    "done": true
-  },
   "biomesoplenty:recipes/transportation/palm_chest_boat": {
     "criteria": {
       "has_boat": "2024-05-21 14:24:34 +0000"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/mob_charm_fragments/wither_skeleton": {
-    "criteria": {
-      "has_withered_rib": "2024-05-21 15:27:48 +0000"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/cooked_cod": {
-    "criteria": {
-      "has_the_recipe": "2024-05-21 13:49:38 +0000"
     },
     "done": true
   },
@@ -26700,30 +26610,6 @@
     },
     "done": true
   },
-  "aether:recipes/combat/zanite_helmet": {
-    "criteria": {
-      "has_zanite": "2024-05-21 15:56:20 +0000"
-    },
-    "done": true
-  },
-  "apotheosis:enchanting/deepshelf": {
-    "criteria": {
-      "deepshelf": "2024-05-21 16:13:35 +0000"
-    },
-    "done": true
-  },
-  "delightful:recipes/knives/zanite_knife": {
-    "criteria": {
-      "has_gems/zanite": "2024-05-21 15:56:20 +0000"
-    },
-    "done": true
-  },
-  "lost_aether_content:recipes/incubation/brown_moa_incubation": {
-    "criteria": {
-      "has_brown_moa_egg": "2024-05-21 15:56:19 +0000"
-    },
-    "done": true
-  },
   "twilightforest:recipes/transportation/canopy_chest_boat": {
     "criteria": {
       "has_boat": "2024-05-21 14:24:34 +0000"
@@ -26736,45 +26622,9 @@
     },
     "done": true
   },
-  "aether:recipes/combat/skyroot_zanite_vanilla_shield": {
-    "criteria": {
-      "has_zanite_gemstone": "2024-05-21 15:56:20 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/birch_chest_boat": {
     "criteria": {
       "has_boat": "2024-05-21 14:24:34 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/zanite_pendant": {
-    "criteria": {
-      "has_zanite": "2024-05-21 15:56:20 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/zanite_shovel": {
-    "criteria": {
-      "has_zanite": "2024-05-21 15:56:20 +0000"
-    },
-    "done": true
-  },
-  "bigreactors:recipes/misc/smelting/graphite_from_charcoal": {
-    "criteria": {
-      "has_item": "2024-05-21 15:15:28 +0000"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_sixty_inv_from_base": {
-    "criteria": {
-      "has_ingredient": "2024-05-21 13:48:00 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/zanite_sword": {
-    "criteria": {
-      "has_zanite": "2024-05-21 15:56:20 +0000"
     },
     "done": true
   },
@@ -26784,81 +26634,9 @@
     },
     "done": true
   },
-  "aether:recipes/tools/zanite_axe": {
-    "criteria": {
-      "has_zanite": "2024-05-21 15:56:20 +0000"
-    },
-    "done": true
-  },
   "twilightforest:recipes/transportation/mangrove_chest_boat": {
     "criteria": {
       "has_boat": "2024-05-21 14:24:34 +0000"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_sixty_from_prev": {
-    "criteria": {
-      "has_ingredient": "2024-05-21 13:48:00 +0000"
-    },
-    "done": true
-  },
-  "railcraft:recipes/misc/switch_track_lever": {
-    "criteria": {
-      "has_lever": "2024-05-21 13:48:00 +0000"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_sixty": {
-    "criteria": {
-      "has_ingredient": "2024-05-21 13:48:00 +0000"
-    },
-    "done": true
-  },
-  "securitycraft:recipes/misc/crystal_quartz_item": {
-    "criteria": {
-      "has_prismarine_crystals": "2024-05-21 15:28:44 +0000"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_sixty_inv_from_prev": {
-    "criteria": {
-      "has_ingredient": "2024-05-21 13:48:00 +0000"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_sixty_inv": {
-    "criteria": {
-      "has_ingredient": "2024-05-21 13:48:00 +0000"
-    },
-    "done": true
-  },
-  "twilightdelight:recipes/frozen/obsidian": {
-    "criteria": {
-      "has_magma_block": "2024-05-21 16:22:26 +0000"
-    },
-    "done": true
-  },
-  "productivebees:husbandry/advanced_beehive/expansion_box/hive_upgrades": {
-    "criteria": {
-      "get_item": "2024-05-21 15:12:51 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/sea_lantern": {
-    "criteria": {
-      "has_prismarine_crystals": "2024-05-21 15:28:45 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/zanite_pickaxe": {
-    "criteria": {
-      "has_zanite": "2024-05-21 15:56:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/dragon_egg": {
-    "criteria": {
-      "dragon_egg": "2024-05-21 15:27:49 +0000"
     },
     "done": true
   },
@@ -26868,45 +26646,9 @@
     },
     "done": true
   },
-  "aether:recipes/combat/zanite_gloves": {
-    "criteria": {
-      "has_zanite": "2024-05-21 15:56:20 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/building_blocks/blue_aercloud_freezing": {
-    "criteria": {
-      "has_cold_aercloud": "2024-05-21 15:54:07 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/transportation/jungle_chest_boat": {
     "criteria": {
       "has_boat": "2024-05-21 14:24:34 +0000"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_thirty_inv_from_prev": {
-    "criteria": {
-      "has_ingredient": "2024-05-21 13:48:00 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/conduit": {
-    "criteria": {
-      "has_nautilus_shell": "2024-05-21 16:01:08 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/zanite_hoe": {
-    "criteria": {
-      "has_zanite": "2024-05-21 15:56:20 +0000"
-    },
-    "done": true
-  },
-  "aether:the_aether": {
-    "criteria": {
-      "the_aether": "2024-05-21 15:36:24 +0000"
     },
     "done": true
   },
@@ -26922,33 +26664,111 @@
     },
     "done": true
   },
-  "allthecompressed:recipes/building_blocks/compress/soul_soil_1x": {
-    "criteria": {
-      "has_soul_soil": "2024-05-21 14:11:06 +0000"
-    },
-    "done": true
-  },
-  "nethersdelight:recipes/misc/soul_compost_from_warped_roots": {
-    "criteria": {
-      "has_soil": "2024-05-21 14:11:06 +0000"
-    },
-    "done": true
-  },
-  "enderio:recipes/redstone/resetting_lever_ten_from_inv": {
-    "criteria": {
-      "has_ingredient": "2024-05-21 13:48:00 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/fish_stew": {
-    "criteria": {
-      "has_any_ingredient": "2024-05-21 13:49:38 +0000"
-    },
-    "done": true
-  },
   "biomesoplenty:recipes/transportation/dead_chest_boat": {
     "criteria": {
       "has_boat": "2024-05-21 14:24:34 +0000"
+    },
+    "done": true
+  },
+  "productivebees:husbandry/advanced_beehive/expansion_box/hive_upgrades": {
+    "criteria": {
+      "get_item": "2024-05-21 15:12:51 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/tiny_charcoal_to_tiny": {
+    "criteria": {
+      "criterion0": "2024-05-21 15:15:28 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/misc/blasting/graphite_from_charcoal": {
+    "criteria": {
+      "has_item": "2024-05-21 15:15:28 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/misc/smelting/graphite_from_charcoal": {
+    "criteria": {
+      "has_item": "2024-05-21 15:15:28 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/wither_skeleton_skull": {
+    "criteria": {
+      "has_withered_rib": "2024-05-21 15:27:48 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mercy_cross": {
+    "criteria": {
+      "has_withered_rib": "2024-05-21 15:27:48 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/wither_skeleton": {
+    "criteria": {
+      "has_withered_rib": "2024-05-21 15:27:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2024-05-21 15:27:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/prism": {
+    "criteria": {
+      "has_item": "2024-05-21 15:28:44 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/crystal_quartz_item": {
+    "criteria": {
+      "has_prismarine_crystals": "2024-05-21 15:28:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sea_lantern": {
+    "criteria": {
+      "has_prismarine_crystals": "2024-05-21 15:28:45 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/chocolate_milkshake": {
+    "criteria": {
+      "has_vanilla_ice_cream": "2024-05-21 15:29:02 +0000"
+    },
+    "done": true
+  },
+  "aether:enter_aether": {
+    "criteria": {
+      "enter_aether": "2024-05-21 15:36:24 +0000"
+    },
+    "done": true
+  },
+  "aether:the_aether": {
+    "criteria": {
+      "the_aether": "2024-05-21 15:36:24 +0000"
+    },
+    "done": true
+  },
+  "lost_aether_content:platinum_dungeon": {
+    "criteria": {
+      "kill_boss": "2024-05-21 15:53:21 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/cold_parachute": {
+    "criteria": {
+      "has_cold_aercloud": "2024-05-21 15:54:07 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/blue_aercloud_freezing": {
+    "criteria": {
+      "has_cold_aercloud": "2024-05-21 15:54:07 +0000"
     },
     "done": true
   },
@@ -26958,9 +26778,640 @@
     },
     "done": true
   },
+  "aether:recipes/food/skyroot_milk_bucket_moa_egg_cake": {
+    "criteria": {
+      "has_moa_egg": "2024-05-21 15:56:19 +0000"
+    },
+    "done": true
+  },
+  "aether:obtain_egg": {
+    "criteria": {
+      "moa_egg": "2024-05-21 15:56:19 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/food/moa_egg_cake": {
+    "criteria": {
+      "has_moa_egg": "2024-05-21 15:56:19 +0000"
+    },
+    "done": true
+  },
+  "lost_aether_content:recipes/incubation/brown_moa_incubation": {
+    "criteria": {
+      "has_brown_moa_egg": "2024-05-21 15:56:19 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_boots": {
+    "criteria": {
+      "has_zanite": "2024-05-21 15:56:20 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_chestplate": {
+    "criteria": {
+      "has_zanite": "2024-05-21 15:56:20 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/zanite_block": {
+    "criteria": {
+      "has_zanite_gemstone": "2024-05-21 15:56:20 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/nature_staff": {
+    "criteria": {
+      "has_zanite": "2024-05-21 15:56:20 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/wood_zanite_vanilla_shield": {
+    "criteria": {
+      "has_zanite_gemstone": "2024-05-21 15:56:20 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_leggings": {
+    "criteria": {
+      "has_zanite": "2024-05-21 15:56:20 +0000"
+    },
+    "done": true
+  },
+  "lost_aether_content:recipes/combat/zanite_shield": {
+    "criteria": {
+      "has_zanite_gemstone": "2024-05-21 15:56:20 +0000"
+    },
+    "done": true
+  },
+  "aether:zanite": {
+    "criteria": {
+      "zanite": "2024-05-21 15:56:20 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_helmet": {
+    "criteria": {
+      "has_zanite": "2024-05-21 15:56:20 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/zanite_knife": {
+    "criteria": {
+      "has_gems/zanite": "2024-05-21 15:56:20 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/skyroot_zanite_vanilla_shield": {
+    "criteria": {
+      "has_zanite_gemstone": "2024-05-21 15:56:20 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_pendant": {
+    "criteria": {
+      "has_zanite": "2024-05-21 15:56:20 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/zanite_shovel": {
+    "criteria": {
+      "has_zanite": "2024-05-21 15:56:20 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_sword": {
+    "criteria": {
+      "has_zanite": "2024-05-21 15:56:20 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/zanite_axe": {
+    "criteria": {
+      "has_zanite": "2024-05-21 15:56:20 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/zanite_pickaxe": {
+    "criteria": {
+      "has_zanite": "2024-05-21 15:56:20 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/zanite_gloves": {
+    "criteria": {
+      "has_zanite": "2024-05-21 15:56:20 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/zanite_hoe": {
+    "criteria": {
+      "has_zanite": "2024-05-21 15:56:20 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/combat/zanite_ring": {
     "criteria": {
       "has_zanite": "2024-05-21 15:56:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2024-05-21 16:01:08 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/water_ring": {
+    "criteria": {
+      "has_item": "2024-05-21 16:01:16 +0000"
+    },
+    "done": true
+  },
+  "undergarden:undergarden/enter_undergarden": {
+    "criteria": {
+      "enter_undergarden": "2024-05-21 16:01:29 +0000"
+    },
+    "done": true
+  },
+  "undergarden:undergarden/all_undergarden_biomes": {
+    "criteria": {
+      "undergarden:forgotten_field": "2024-05-21 16:01:30 +0000",
+      "undergarden:ancient_sea": "2024-05-21 16:04:25 +0000"
+    },
+    "done": false
+  },
+  "apotheosis:enchanting/upgrade_seashelf": {
+    "criteria": {
+      "heart": "2024-05-21 16:06:53 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/60ench": {
+    "criteria": {
+      "enchanted_item": "2024-05-21 16:13:17 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/deepshelf": {
+    "criteria": {
+      "deepshelf": "2024-05-21 16:13:35 +0000"
+    },
+    "done": true
+  },
+  "twilightdelight:recipes/frozen/obsidian": {
+    "criteria": {
+      "has_magma_block": "2024-05-21 16:22:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2024-05-24 14:29:11 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/netherite_trapdoor": {
+    "criteria": {
+      "has_netherite_scrap": "2024-05-24 14:30:40 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/polished_bloodstone": {
+    "criteria": {
+      "has_item": "2024-05-24 16:11:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-05-24 16:48:34 +0000"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/dark_nether_star": {
+    "criteria": {
+      "has_nether_star": "2024-05-24 14:06:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2024-05-24 14:15:24 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/netherite_scrap": {
+    "criteria": {
+      "has_the_recipe": "2024-05-24 14:29:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/beacon": {
+    "criteria": {
+      "has_nether_star": "2024-05-24 14:06:47 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/netherite_door": {
+    "criteria": {
+      "has_netherite_scrap": "2024-05-24 14:30:40 +0000"
+    },
+    "done": true
+  },
+  "aether:blue_aercloud": {
+    "criteria": {
+      "blue_aercloud": "2024-05-24 16:17:24 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/cacophonium": {
+    "criteria": {
+      "has_item": "2024-05-24 11:45:04 +0000"
+    },
+    "done": true
+  },
+  "allthetweaks:recipes/misc/nether_star_block": {
+    "criteria": {
+      "has_nether_star": "2024-05-24 14:06:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spyglass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-05-24 16:48:34 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/smokestack_woodburner": {
+    "criteria": {
+      "has_item": "2024-05-24 11:57:48 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/polished_bloodstone_stonecutting": {
+    "criteria": {
+      "has_item": "2024-05-24 16:11:31 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/pork_and_beans": {
+    "criteria": {
+      "has_pork": "2024-05-24 14:15:24 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/carnitas": {
+    "criteria": {
+      "has_porkchop": "2024-05-24 14:15:24 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/honey_cookie": {
+    "criteria": {
+      "has_honey_bottle": "2024-05-24 11:43:01 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/zinc_dust_from_raw": {
+    "criteria": {
+      "has_raw_zinc": "2024-05-24 14:34:33 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_bacon": {
+    "criteria": {
+      "has_porkchop": "2024-05-24 14:15:24 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/amethyst_block": {
+    "criteria": {
+      "has_the_recipe": "2024-05-24 16:48:34 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/decorations/stove": {
+    "criteria": {
+      "has_campfire": "2024-05-24 11:57:48 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/netherite_ingot": {
+    "criteria": {
+      "has_the_recipe": "2024-05-24 14:30:40 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/bloodstone_wall": {
+    "criteria": {
+      "has_item": "2024-05-24 16:11:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2024-05-24 14:15:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2024-05-24 16:48:34 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/tools/codebreaker": {
+    "criteria": {
+      "has_nether_star": "2024-05-24 14:06:47 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/bloodstone_wall_stonecutting": {
+    "criteria": {
+      "has_item": "2024-05-24 16:11:32 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/bloodstone_slab": {
+    "criteria": {
+      "has_item": "2024-05-24 16:11:31 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/bloodstone_stairs_stonecutting": {
+    "criteria": {
+      "has_item": "2024-05-24 16:11:31 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/smokestack_diesel": {
+    "criteria": {
+      "has_item": "2024-05-24 11:57:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2024-05-24 16:48:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2024-05-24 14:15:30 +0000"
+    },
+    "done": true
+  },
+  "constructionwand:recipes/tools/infinity_wand": {
+    "criteria": {
+      "has_item": "2024-05-24 14:06:47 +0000"
+    },
+    "done": true
+  },
+  "chimes:recipes/decorations/amethyst_chimes": {
+    "criteria": {
+      "has_planks": "2024-05-24 16:48:34 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/smokestack_oilburner": {
+    "criteria": {
+      "has_item": "2024-05-24 11:57:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_grill_cooking": {
+    "criteria": {
+      "has_porkchop": "2024-05-24 14:15:24 +0000"
+    },
+    "done": true
+  },
+  "productivebees:husbandry/bee_cage/nest_locator": {
+    "criteria": {
+      "get_item": "2024-05-24 11:45:16 +0000"
+    },
+    "done": true
+  },
+  "productivebees:husbandry/advanced_beehive": {
+    "criteria": {
+      "get_hive": "2024-05-24 11:58:26 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/noodle_soup": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-24 14:15:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2024-05-24 14:15:24 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/smokestack_caboosestyle": {
+    "criteria": {
+      "has_item": "2024-05-24 11:57:48 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/aquaculture/nether_star_hook": {
+    "criteria": {
+      "has_items": "2024-05-24 14:06:47 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/zinc_ingot_from_raw": {
+    "criteria": {
+      "has_item": "2024-05-24 14:34:33 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/paper_lanterns/dandelion_paper_lantern": {
+    "criteria": {
+      "has_item": "2024-05-24 11:43:43 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/snow_block": {
+    "criteria": {
+      "has_the_recipe": "2024-05-24 14:15:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2024-05-24 14:30:40 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/smokestack_coalburner": {
+    "criteria": {
+      "has_item": "2024-05-24 11:57:48 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/mead": {
+    "criteria": {
+      "has_honey": "2024-05-24 11:43:01 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/snow": {
+    "criteria": {
+      "has_the_recipe": "2024-05-24 14:15:30 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/cooked_porkchop": {
+    "criteria": {
+      "has_the_recipe": "2024-05-24 14:15:24 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_tin_from_block": {
+    "criteria": {
+      "has_item": "2024-05-24 16:23:20 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/zinc_ingot_from_raw_blasting": {
+    "criteria": {
+      "has_item": "2024-05-24 14:34:33 +0000"
+    },
+    "done": true
+  },
+  "productivebees:husbandry/bee_cage": {
+    "criteria": {
+      "get_item": "2024-05-24 11:44:37 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/smokestack_long": {
+    "criteria": {
+      "has_item": "2024-05-24 11:57:48 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2024-05-24 16:48:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2024-05-24 14:29:11 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pumpkin_soup": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-24 14:15:24 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/smokestack_streamlined": {
+    "criteria": {
+      "has_item": "2024-05-24 11:57:48 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/honey_block": {
+    "criteria": {
+      "has_the_recipe": "2024-05-24 11:43:01 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/tin_dust_from_raw_block": {
+    "criteria": {
+      "has_raw_tin_block": "2024-05-24 16:23:20 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/kvasir_mead": {
+    "criteria": {
+      "criterion1": "2024-05-24 11:43:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop": {
+    "criteria": {
+      "has_porkchop": "2024-05-24 14:15:24 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/polished_bloodstone_bricks_from_bloodstone_stonecutting": {
+    "criteria": {
+      "has_item": "2024-05-24 16:11:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2024-05-24 11:43:43 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_zinc_from_block": {
+    "criteria": {
+      "has_item": "2024-05-24 16:11:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2024-05-24 11:43:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2024-05-24 11:43:01 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/zinc_dust_from_raw_block": {
+    "criteria": {
+      "has_raw_zinc_block": "2024-05-24 16:11:31 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/bloodstone_stairs": {
+    "criteria": {
+      "has_item": "2024-05-24 16:11:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_rose_bush": {
+    "criteria": {
+      "has_rose_bush": "2024-05-24 11:41:14 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_zinc_block": {
+    "criteria": {
+      "has_raw_TagKey[minecraft:item / forge:raw_materials/zinc]": "2024-05-24 14:34:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2024-05-24 14:29:11 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/bloodstone_slab_stonecutting": {
+    "criteria": {
+      "has_item": "2024-05-24 16:11:31 +0000"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/clibano_combustion/netherite_scrap_from_clibano_combusting": {
+    "criteria": {
+      "has_item": "2024-05-24 14:29:11 +0000"
     },
     "done": true
   },
