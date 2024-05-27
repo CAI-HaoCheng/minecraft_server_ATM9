@@ -4495,6 +4495,7 @@
       "cooked_mutton": "2024-05-21 16:28:36 +0000",
       "sweet_berries": "2024-05-01 15:30:58 +0000",
       "cooked_beef": "2024-05-01 14:37:24 +0000",
+      "chorus_fruit": "2024-05-27 13:14:23 +0000",
       "baked_potato": "2024-05-02 13:07:24 +0000",
       "apple": "2024-05-01 15:17:01 +0000",
       "cooked_cod": "2024-05-01 15:52:09 +0000",
@@ -4876,7 +4877,9 @@
       "minecraft:witch": "2024-05-23 12:14:01 +0000",
       "minecraft:wither_skeleton": "2024-05-08 14:43:32 +0000",
       "minecraft:husk": "2024-05-02 06:49:32 +0000",
+      "minecraft:ender_dragon": "2024-05-27 13:19:11 +0000",
       "minecraft:cave_spider": "2024-05-08 08:17:19 +0000",
+      "minecraft:enderman": "2024-05-27 13:07:00 +0000",
       "minecraft:zombie": "2024-05-01 14:39:19 +0000",
       "quark:foxhound": "2024-05-03 15:33:00 +0000",
       "minecraft:drowned": "2024-05-01 15:43:34 +0000",
@@ -5314,6 +5317,7 @@
       "minecraft:river": "2024-05-01 14:51:58 +0000",
       "minecraft:swamp": "2024-05-03 08:10:40 +0000",
       "minecraft:forest": "2024-05-01 14:39:26 +0000",
+      "minecraft:lush_caves": "2024-05-27 13:05:04 +0000",
       "minecraft:ocean": "2024-05-01 15:19:44 +0000",
       "minecraft:old_growth_birch_forest": "2024-05-01 15:18:48 +0000",
       "minecraft:deep_dark": "2024-05-04 13:54:37 +0000",
@@ -38885,15 +38889,105 @@
     },
     "done": true
   },
-  "botania:recipes/decorations/lens_magnet": {
+  "naturesaura:get_book": {
     "criteria": {
-      "has_item": "2024-05-26 14:23:24 +0000"
+      "book": "2024-05-26 12:48:58 +0000"
+    },
+    "done": true
+  },
+  "naturesaura:root": {
+    "criteria": {
+      "book": "2024-05-26 12:48:58 +0000"
     },
     "done": true
   },
   "forbidden_arcanus:recipes/misc/stellarite_block_from_stellarite_piece": {
     "criteria": {
       "has_stellarite_piece": "2024-05-26 12:49:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_breath": {
+    "criteria": {
+      "dragon_breath": "2024-05-26 12:49:03 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/upgrade_endshelf": {
+    "criteria": {
+      "draconic": "2024-05-26 12:49:03 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/blaze_block_1x": {
+    "criteria": {
+      "has_blaze_block": "2024-05-26 13:40:25 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/blazing_crystal_block_1x": {
+    "criteria": {
+      "has_blazing_crystal_block": "2024-05-26 13:42:35 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/blast_furnace/blasting_shears": {
+    "criteria": {
+      "has_shears": "2024-05-26 13:48:54 +0000"
+    },
+    "done": true
+  },
+  "buildinggadgets2:recipes/misc/gadget_cut_paste": {
+    "criteria": {
+      "has_shear": "2024-05-26 13:48:54 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/water_rod": {
+    "criteria": {
+      "has_item": "2024-05-26 14:08:56 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/dreamwood_planks": {
+    "criteria": {
+      "has_item": "2024-05-26 14:18:25 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/placeholder": {
+    "criteria": {
+      "has_dreamwood": "2024-05-26 14:18:25 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/glimmering_dreamwood_log": {
+    "criteria": {
+      "has_item": "2024-05-26 14:18:25 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/dreamwood_twig": {
+    "criteria": {
+      "has_item": "2024-05-26 14:18:25 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/dreamwood": {
+    "criteria": {
+      "has_log": "2024-05-26 14:18:25 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/clip": {
+    "criteria": {
+      "has_item": "2024-05-26 14:18:25 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/lens_magnet": {
+    "criteria": {
+      "has_item": "2024-05-26 14:23:24 +0000"
     },
     "done": true
   },
@@ -38906,12 +39000,6 @@
   "botania:recipes/decorations/lens_gravity": {
     "criteria": {
       "has_item": "2024-05-26 14:23:24 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/building_blocks/dreamwood_planks": {
-    "criteria": {
-      "has_item": "2024-05-26 14:18:25 +0000"
     },
     "done": true
   },
@@ -38930,12 +39018,6 @@
   "botania:recipes/decorations/lens_explosive": {
     "criteria": {
       "has_item": "2024-05-26 14:23:24 +0000"
-    },
-    "done": true
-  },
-  "naturesaura:get_book": {
-    "criteria": {
-      "book": "2024-05-26 12:48:58 +0000"
     },
     "done": true
   },
@@ -38963,39 +39045,15 @@
     },
     "done": true
   },
-  "railcraft:recipes/blast_furnace/blasting_shears": {
-    "criteria": {
-      "has_shears": "2024-05-26 13:48:54 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/decorations/lens_damage": {
     "criteria": {
       "has_item": "2024-05-26 14:23:24 +0000"
     },
     "done": true
   },
-  "botania:recipes/decorations/pink_floating_flower": {
-    "criteria": {
-      "has_item": "2024-05-26 15:04:11 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/decorations/lens_piston": {
     "criteria": {
       "has_item": "2024-05-26 14:23:24 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/placeholder": {
-    "criteria": {
-      "has_dreamwood": "2024-05-26 14:18:25 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/floating_entropinnyum": {
-    "criteria": {
-      "has_item": "2024-05-26 15:02:58 +0000"
     },
     "done": true
   },
@@ -39011,39 +39069,9 @@
     },
     "done": true
   },
-  "allthecompressed:recipes/building_blocks/compress/blaze_block_1x": {
-    "criteria": {
-      "has_blaze_block": "2024-05-26 13:40:25 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/decorations/lens_efficiency": {
     "criteria": {
       "has_item": "2024-05-26 14:23:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:end/dragon_breath": {
-    "criteria": {
-      "dragon_breath": "2024-05-26 12:49:03 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/water_rod": {
-    "criteria": {
-      "has_item": "2024-05-26 14:08:56 +0000"
-    },
-    "done": true
-  },
-  "immersiveengineering:recipes/misc/crafting/coke_to_coal_coke": {
-    "criteria": {
-      "has_coke": "2024-05-26 14:23:53 +0000"
-    },
-    "done": true
-  },
-  "buildinggadgets2:recipes/misc/gadget_cut_paste": {
-    "criteria": {
-      "has_shear": "2024-05-26 13:48:54 +0000"
     },
     "done": true
   },
@@ -39053,57 +39081,9 @@
     },
     "done": true
   },
-  "botania:recipes/building_blocks/glimmering_dreamwood_log": {
-    "criteria": {
-      "has_item": "2024-05-26 14:18:25 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/dreamwood_twig": {
-    "criteria": {
-      "has_item": "2024-05-26 14:18:25 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/building_blocks/dreamwood": {
-    "criteria": {
-      "has_log": "2024-05-26 14:18:25 +0000"
-    },
-    "done": true
-  },
   "botania:recipes/decorations/lens_light_alt": {
     "criteria": {
       "has_item": "2024-05-26 14:23:24 +0000"
-    },
-    "done": true
-  },
-  "naturesaura:root": {
-    "criteria": {
-      "book": "2024-05-26 12:48:58 +0000"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/blazing_crystal_block_1x": {
-    "criteria": {
-      "has_blazing_crystal_block": "2024-05-26 13:42:35 +0000"
-    },
-    "done": true
-  },
-  "immersiveengineering:recipes/misc/crafting/coal_coke_to_coke": {
-    "criteria": {
-      "has_coal_coke": "2024-05-26 14:23:53 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/clip": {
-    "criteria": {
-      "has_item": "2024-05-26 14:18:25 +0000"
-    },
-    "done": true
-  },
-  "apotheosis:enchanting/upgrade_endshelf": {
-    "criteria": {
-      "draconic": "2024-05-26 12:49:03 +0000"
     },
     "done": true
   },
@@ -39119,9 +39099,333 @@
     },
     "done": true
   },
+  "immersiveengineering:recipes/misc/crafting/coke_to_coal_coke": {
+    "criteria": {
+      "has_coke": "2024-05-26 14:23:53 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/coal_coke_to_coke": {
+    "criteria": {
+      "has_coal_coke": "2024-05-26 14:23:53 +0000"
+    },
+    "done": true
+  },
   "aether:recipes/tools/wooden_shovel_repairing": {
     "criteria": {
       "has_wooden_shovel": "2024-05-26 14:57:27 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/floating_entropinnyum": {
+    "criteria": {
+      "has_item": "2024-05-26 15:02:58 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/pink_floating_flower": {
+    "criteria": {
+      "has_item": "2024-05-26 15:04:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold_betterstrongholds": "2024-05-27 13:05:04 +0000"
+    },
+    "done": true
+  },
+  "aiotbotania:recipes/tools/terra_shovel": {
+    "criteria": {
+      "has_material": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/elf_glass_pane": {
+    "criteria": {
+      "has_item": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/terra_pick": {
+    "criteria": {
+      "has_item": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-05-27 13:14:52 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/aura_ring_greater": {
+    "criteria": {
+      "has_item": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "botania:main/terrasteel_pickup": {
+    "criteria": {
+      "terrasteel": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "usefulrailroads:recipes/fuel/teleport_rail/chorus_fruit": {
+    "criteria": {
+      "has_ingredient": "2024-05-27 13:14:17 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/end_stone_bricks_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-05-27 13:14:52 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/glimmering_dreamwood": {
+    "criteria": {
+      "has_item": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/terraform_rod": {
+    "criteria": {
+      "has_item": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-05-27 13:05:39 +0000"
+    },
+    "done": true
+  },
+  "silentgear:the_end": {
+    "criteria": {
+      "entered_the_end": "2024-05-27 13:05:39 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_end_stone_bricks_bridge": {
+    "criteria": {
+      "has_planks": "2024-05-27 13:14:52 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/terra_axe": {
+    "criteria": {
+      "has_item": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/flask": {
+    "criteria": {
+      "has_item": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/terrasteel_block": {
+    "criteria": {
+      "has_item": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:mythicbotany/root": {
+    "criteria": {
+      "inventory_changed": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2024-05-27 13:19:11 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/draco_arcanus_knife": {
+    "criteria": {
+      "has_dragon_scale": "2024-05-27 13:19:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-05-27 13:14:52 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/star_sword": {
+    "criteria": {
+      "has_terrasteel": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/natura_pylon": {
+    "criteria": {
+      "has_alt_item": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-05-27 13:14:52 +0000"
+    },
+    "done": true
+  },
+  "aiotbotania:recipes/tools/terra_hoe": {
+    "criteria": {
+      "has_material": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/sapphire_dust_from_gem": {
+    "criteria": {
+      "has_sapphire_gem": "2024-05-27 13:03:04 +0000"
+    },
+    "done": true
+  },
+  "botania:main/terrasteel_pickup_lexicon": {
+    "criteria": {
+      "terrasteel": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/thorn_chakram": {
+    "criteria": {
+      "has_item": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/popped_chorus_fruit": {
+    "criteria": {
+      "has_the_recipe": "2024-05-27 13:14:17 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/thunder_sword": {
+    "criteria": {
+      "has_terrasteel": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/end_stone_brick_slab": {
+    "criteria": {
+      "has_the_recipe": "2024-05-27 13:14:52 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/sapphire_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:gems/sapphire]_ingot": "2024-05-27 13:03:04 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/end_stone_bricks_bridge": {
+    "criteria": {
+      "has_planks": "2024-05-27 13:14:52 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/end_stone_bricks_bridge_stair": {
+    "criteria": {
+      "has_planks": "2024-05-27 13:14:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-05-27 13:05:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-05-27 13:14:52 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/alfheim_portal": {
+    "criteria": {
+      "has_item": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/dreamwood_wall": {
+    "criteria": {
+      "has_item": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/dreamwood_stairs": {
+    "criteria": {
+      "has_item": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-05-27 13:14:52 +0000"
+    },
+    "done": true
+  },
+  "ends_delight:root": {
+    "criteria": {
+      "the_end": "2024-05-27 13:05:39 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/dreamwood_slab": {
+    "criteria": {
+      "has_item": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/terra_sword": {
+    "criteria": {
+      "has_item": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/respawn_dragon": {
+    "criteria": {
+      "summoned_dragon": "2024-05-27 13:16:01 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/slab_recombine/dreamwood": {
+    "criteria": {
+      "has_item": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/terra_knife": {
+    "criteria": {
+      "has_ingots/terrasteel": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/mana_ring_greater": {
+    "criteria": {
+      "has_item": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2024-05-27 13:14:17 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/conversions/terrasteel_block_deconstruct": {
+    "criteria": {
+      "has_item": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-05-27 13:14:52 +0000"
     },
     "done": true
   },

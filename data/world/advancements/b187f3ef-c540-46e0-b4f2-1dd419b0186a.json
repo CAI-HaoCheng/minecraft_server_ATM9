@@ -323,6 +323,7 @@
       "snowy_fir_clearing": "2024-05-25 09:49:31 +0000",
       "glowing_grotto": "2024-05-26 10:17:45 +0000",
       "undergrowth": "2024-05-11 15:23:31 +0000",
+      "tropics": "2024-05-27 15:16:36 +0000",
       "rainforest": "2024-05-25 09:10:25 +0000",
       "ominous_woods": "2024-05-03 14:03:15 +0000"
     },
@@ -5389,6 +5390,7 @@
       "cooked_beef": "2024-05-01 14:49:22 +0000",
       "baked_potato": "2024-05-04 14:41:56 +0000",
       "apple": "2024-05-01 14:45:27 +0000",
+      "suspicious_stew": "2024-05-27 14:29:40 +0000",
       "melon_slice": "2024-05-04 17:01:59 +0000",
       "cooked_chicken": "2024-05-10 15:20:49 +0000",
       "cooked_salmon": "2024-05-26 08:45:09 +0000",
@@ -17002,11 +17004,17 @@
   },
   "mythicbotany:mythicbotany/all_runes": {
     "criteria": {
+      "inventory_changed13": "2024-05-27 12:18:00 +0000",
       "inventory_changed12": "2024-05-05 14:29:40 +0000",
+      "inventory_changed16": "2024-05-27 12:18:01 +0000",
+      "inventory_changed15": "2024-05-27 12:18:27 +0000",
       "inventory_changed14": "2024-05-05 14:19:35 +0000",
       "inventory_changed": "2024-05-19 04:17:33 +0000",
+      "inventory_changed8": "2024-05-27 12:31:38 +0000",
       "inventory_changed5": "2024-05-05 14:25:09 +0000",
+      "inventory_changed6": "2024-05-27 12:27:33 +0000",
       "inventory_changed3": "2024-05-19 04:29:00 +0000",
+      "inventory_changed4": "2024-05-27 12:18:01 +0000",
       "inventory_changed9": "2024-05-19 04:24:29 +0000"
     },
     "done": false
@@ -24803,7 +24811,8 @@
   },
   "repurposed_structures:pyramids": {
     "criteria": {
-      "in_pyramid_nether": "2024-05-11 15:38:05 +0000"
+      "in_pyramid_nether": "2024-05-11 15:38:05 +0000",
+      "in_pyramid_jungle": "2024-05-27 14:16:43 +0000"
     },
     "done": false
   },
@@ -25260,7 +25269,8 @@
   },
   "repurposed_structures:mansions": {
     "criteria": {
-      "in_mansion_oak": "2024-05-18 15:10:41 +0000"
+      "in_mansion_oak": "2024-05-18 15:10:41 +0000",
+      "in_mansion_desert": "2024-05-27 14:59:13 +0000"
     },
     "done": false
   },
@@ -26275,13 +26285,15 @@
   },
   "croptopia:gather_all": {
     "criteria": {
+      "olive_seed": "2024-05-27 14:21:02 +0000",
       "grape_seed": "2024-05-19 14:23:59 +0000"
     },
     "done": false
   },
   "repurposed_structures:outposts": {
     "criteria": {
-      "in_outpost_nether_brick": "2024-05-19 14:43:37 +0000"
+      "in_outpost_nether_brick": "2024-05-19 14:43:37 +0000",
+      "in_outpost_desert": "2024-05-27 14:29:17 +0000"
     },
     "done": false
   },
@@ -29658,27 +29670,51 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/light_gray_stained_glass": {
+  "mekanism:logistical_sorter": {
     "criteria": {
-      "has_glass": "2024-05-26 15:02:04 +0000"
+      "logistical_sorter": "2024-05-26 14:08:19 +0000"
     },
     "done": true
   },
-  "botania:recipes/misc/livingwood_wall": {
+  "croptopia:salt": {
     "criteria": {
-      "has_item": "2024-05-26 14:39:49 +0000"
+      "salt": "2024-05-26 14:19:57 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/green_stained_glass": {
+  "croptopia:recipes/sushi": {
     "criteria": {
-      "has_glass": "2024-05-26 15:02:04 +0000"
+      "has_rice": "2024-05-26 14:22:10 +0000"
     },
     "done": true
   },
-  "botania:recipes/building_blocks/livingwood_slab": {
+  "farmersdelight:main/get_fd_seed": {
     "criteria": {
-      "has_item": "2024-05-26 14:39:49 +0000"
+      "rice": "2024-05-26 14:22:10 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/steamed_rice": {
+    "criteria": {
+      "has_rice": "2024-05-26 14:22:10 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/rice_bag": {
+    "criteria": {
+      "has_rice": "2024-05-26 14:22:10 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/cooked_rice": {
+    "criteria": {
+      "has_rice": "2024-05-26 14:22:10 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/grass_block_1x": {
+    "criteria": {
+      "has_grass_block": "2024-05-26 14:33:34 +0000"
     },
     "done": true
   },
@@ -29688,9 +29724,165 @@
     },
     "done": true
   },
-  "botania:recipes/misc/bifrost_pane": {
+  "botania:recipes/decorations/fabulous_pool_upgrade": {
     "criteria": {
-      "has_item": "2024-05-26 15:03:56 +0000"
+      "has_alt_item": "2024-05-26 14:35:15 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/shimmerrock": {
+    "criteria": {
+      "has_alt_item": "2024-05-26 14:35:15 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/bifrost_perm": {
+    "criteria": {
+      "has_item": "2024-05-26 14:35:15 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/shimmerwood_planks": {
+    "criteria": {
+      "has_alt_item": "2024-05-26 14:35:15 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/livingwood_wall": {
+    "criteria": {
+      "has_item": "2024-05-26 14:39:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/livingwood_slab": {
+    "criteria": {
+      "has_item": "2024-05-26 14:39:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/slab_recombine/livingwood": {
+    "criteria": {
+      "has_item": "2024-05-26 14:39:49 +0000"
+    },
+    "done": true
+  },
+  "aiotbotania:recipes/tools/livingwood_sword": {
+    "criteria": {
+      "has_material": "2024-05-26 14:39:49 +0000"
+    },
+    "done": true
+  },
+  "aiotbotania:recipes/tools/livingwood_pickaxe": {
+    "criteria": {
+      "has_material": "2024-05-26 14:39:49 +0000"
+    },
+    "done": true
+  },
+  "aiotbotania:recipes/tools/livingwood_hoe": {
+    "criteria": {
+      "has_material": "2024-05-26 14:39:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/livingwood_stairs": {
+    "criteria": {
+      "has_item": "2024-05-26 14:39:49 +0000"
+    },
+    "done": true
+  },
+  "aiotbotania:recipes/tools/livingwood_axe": {
+    "criteria": {
+      "has_material": "2024-05-26 14:39:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/glimmering_livingwood": {
+    "criteria": {
+      "has_item": "2024-05-26 14:39:49 +0000"
+    },
+    "done": true
+  },
+  "aiotbotania:recipes/tools/livingwood_shovel": {
+    "criteria": {
+      "has_material": "2024-05-26 14:39:49 +0000"
+    },
+    "done": true
+  },
+  "aiotbotania:recipes/tools/livingwood_shears": {
+    "criteria": {
+      "has_material": "2024-05-26 14:39:49 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/coke_to_coal_coke": {
+    "criteria": {
+      "has_coke": "2024-05-26 14:40:57 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/coal_coke_to_coke": {
+    "criteria": {
+      "has_coal_coke": "2024-05-26 14:40:57 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/glimmering_dreamwood": {
+    "criteria": {
+      "has_item": "2024-05-26 14:41:39 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/dreamwood_wall": {
+    "criteria": {
+      "has_item": "2024-05-26 14:41:39 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/dreamwood_stairs": {
+    "criteria": {
+      "has_item": "2024-05-26 14:41:39 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/dreamwood_slab": {
+    "criteria": {
+      "has_item": "2024-05-26 14:41:39 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/slab_recombine/dreamwood": {
+    "criteria": {
+      "has_item": "2024-05-26 14:41:39 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/mana_collector": {
+    "criteria": {
+      "criterion0": "2024-05-26 14:41:57 +0000"
+    },
+    "done": true
+  },
+  "nethersdelight:recipes/food/warped_moldy_meat": {
+    "criteria": {
+      "has_sirloin": "2024-05-26 14:54:24 +0000"
+    },
+    "done": true
+  },
+  "croptopia:gather_jungle": {
+    "criteria": {
+      "rice_seed": "2024-05-26 14:55:05 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/light_gray_stained_glass": {
+    "criteria": {
+      "has_glass": "2024-05-26 15:02:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/green_stained_glass": {
+    "criteria": {
+      "has_glass": "2024-05-26 15:02:04 +0000"
     },
     "done": true
   },
@@ -29724,33 +29916,9 @@
     },
     "done": true
   },
-  "botania:recipes/decorations/fabulous_pool_upgrade": {
-    "criteria": {
-      "has_alt_item": "2024-05-26 14:35:15 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/black_stained_glass": {
     "criteria": {
       "has_glass": "2024-05-26 15:02:04 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/glow_berry_custard": {
-    "criteria": {
-      "has_any_ingredient": "2024-05-26 15:15:02 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/elf_glass_pane": {
-    "criteria": {
-      "has_item": "2024-05-26 15:02:45 +0000"
-    },
-    "done": true
-  },
-  "croptopia:mortar_and_pestle": {
-    "criteria": {
-      "mortar_and_pestle": "2024-05-26 15:14:35 +0000"
     },
     "done": true
   },
@@ -29760,81 +29928,9 @@
     },
     "done": true
   },
-  "croptopia:recipes/misc/mashed_potatoes": {
-    "criteria": {
-      "has_milk": "2024-05-26 15:15:02 +0000"
-    },
-    "done": true
-  },
   "mcwwindows:recipes/mosaic_glass": {
     "criteria": {
       "has_wood": "2024-05-26 15:02:04 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/building_blocks/slab_recombine/livingwood": {
-    "criteria": {
-      "has_item": "2024-05-26 14:39:49 +0000"
-    },
-    "done": true
-  },
-  "aiotbotania:recipes/tools/livingwood_sword": {
-    "criteria": {
-      "has_material": "2024-05-26 14:39:49 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/paprika": {
-    "criteria": {
-      "has_mortar_and_pestle": "2024-05-26 15:14:35 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/sushi": {
-    "criteria": {
-      "has_rice": "2024-05-26 14:22:10 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/hot_cocoa": {
-    "criteria": {
-      "has_any_ingredient": "2024-05-26 15:15:02 +0000"
-    },
-    "done": true
-  },
-  "croptopia:gather_jungle": {
-    "criteria": {
-      "rice_seed": "2024-05-26 14:55:05 +0000"
-    },
-    "done": false
-  },
-  "aiotbotania:recipes/tools/livingwood_pickaxe": {
-    "criteria": {
-      "has_material": "2024-05-26 14:39:49 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/building_blocks/glimmering_dreamwood": {
-    "criteria": {
-      "has_item": "2024-05-26 14:41:39 +0000"
-    },
-    "done": true
-  },
-  "croptopia:salt": {
-    "criteria": {
-      "salt": "2024-05-26 14:19:57 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/get_fd_seed": {
-    "criteria": {
-      "rice": "2024-05-26 14:22:10 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/flask": {
-    "criteria": {
-      "has_item": "2024-05-26 15:02:45 +0000"
     },
     "done": true
   },
@@ -29844,45 +29940,15 @@
     },
     "done": true
   },
-  "croptopia:recipes/steamed_rice": {
-    "criteria": {
-      "has_rice": "2024-05-26 14:22:10 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/brown_stained_glass": {
     "criteria": {
       "has_glass": "2024-05-26 15:02:04 +0000"
     },
     "done": true
   },
-  "botania:recipes/building_blocks/shimmerrock": {
-    "criteria": {
-      "has_alt_item": "2024-05-26 14:35:15 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/building_blocks/rice_bag": {
-    "criteria": {
-      "has_rice": "2024-05-26 14:22:10 +0000"
-    },
-    "done": true
-  },
-  "aiotbotania:recipes/tools/livingwood_hoe": {
-    "criteria": {
-      "has_material": "2024-05-26 14:39:49 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/light_blue_stained_glass": {
     "criteria": {
       "has_glass": "2024-05-26 15:02:04 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/building_blocks/livingwood_stairs": {
-    "criteria": {
-      "has_item": "2024-05-26 14:39:49 +0000"
     },
     "done": true
   },
@@ -29916,27 +29982,9 @@
     },
     "done": true
   },
-  "croptopia:recipes/churros": {
-    "criteria": {
-      "has_milk": "2024-05-26 15:15:02 +0000"
-    },
-    "done": true
-  },
   "littlelogistics:recipes/transportation/fluid_barge": {
     "criteria": {
       "has_item": "2024-05-26 15:02:04 +0000"
-    },
-    "done": true
-  },
-  "immersiveengineering:recipes/misc/crafting/coke_to_coal_coke": {
-    "criteria": {
-      "has_coke": "2024-05-26 14:40:57 +0000"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/grass_block_1x": {
-    "criteria": {
-      "has_grass_block": "2024-05-26 14:33:34 +0000"
     },
     "done": true
   },
@@ -29952,21 +30000,9 @@
     },
     "done": true
   },
-  "aiotbotania:recipes/tools/livingwood_axe": {
-    "criteria": {
-      "has_material": "2024-05-26 14:39:49 +0000"
-    },
-    "done": true
-  },
   "forbidden_arcanus:recipes/building_blocks/deorum_glass": {
     "criteria": {
       "has_glass": "2024-05-26 15:02:04 +0000"
-    },
-    "done": true
-  },
-  "mekanism:logistical_sorter": {
-    "criteria": {
-      "logistical_sorter": "2024-05-26 14:08:19 +0000"
     },
     "done": true
   },
@@ -29982,51 +30018,9 @@
     },
     "done": true
   },
-  "croptopia:recipes/oatmeal": {
-    "criteria": {
-      "has_milk": "2024-05-26 15:15:02 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/red_stained_glass": {
     "criteria": {
       "has_glass": "2024-05-26 15:02:04 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/dreamwood_wall": {
-    "criteria": {
-      "has_item": "2024-05-26 14:41:39 +0000"
-    },
-    "done": true
-  },
-  "croptopia:recipes/shaped_milk_bottle": {
-    "criteria": {
-      "has_milk": "2024-05-26 15:15:02 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/building_blocks/dreamwood_stairs": {
-    "criteria": {
-      "has_item": "2024-05-26 14:41:39 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/building_blocks/glimmering_livingwood": {
-    "criteria": {
-      "has_item": "2024-05-26 14:39:49 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/building_blocks/dreamwood_slab": {
-    "criteria": {
-      "has_item": "2024-05-26 14:41:39 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/decorations/bifrost_perm": {
-    "criteria": {
-      "has_item": "2024-05-26 14:35:15 +0000"
     },
     "done": true
   },
@@ -30039,36 +30033,6 @@
   "minecraft:recipes/building_blocks/lime_stained_glass": {
     "criteria": {
       "has_glass": "2024-05-26 15:02:04 +0000"
-    },
-    "done": true
-  },
-  "mythicbotany:recipes/misc/mana_collector": {
-    "criteria": {
-      "criterion0": "2024-05-26 14:41:57 +0000"
-    },
-    "done": true
-  },
-  "aiotbotania:recipes/tools/livingwood_shovel": {
-    "criteria": {
-      "has_material": "2024-05-26 14:39:49 +0000"
-    },
-    "done": true
-  },
-  "immersiveengineering:recipes/misc/crafting/coal_coke_to_coke": {
-    "criteria": {
-      "has_coal_coke": "2024-05-26 14:40:57 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/building_blocks/slab_recombine/dreamwood": {
-    "criteria": {
-      "has_item": "2024-05-26 14:41:39 +0000"
-    },
-    "done": true
-  },
-  "nethersdelight:recipes/food/warped_moldy_meat": {
-    "criteria": {
-      "has_sirloin": "2024-05-26 14:54:24 +0000"
     },
     "done": true
   },
@@ -30090,33 +30054,15 @@
     },
     "done": true
   },
-  "aiotbotania:recipes/tools/livingwood_shears": {
-    "criteria": {
-      "has_material": "2024-05-26 14:39:49 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cyan_stained_glass": {
     "criteria": {
       "has_glass": "2024-05-26 15:02:04 +0000"
     },
     "done": true
   },
-  "botania:recipes/building_blocks/shimmerwood_planks": {
-    "criteria": {
-      "has_alt_item": "2024-05-26 14:35:15 +0000"
-    },
-    "done": true
-  },
   "rftoolsbuilder:recipes/rftoolsbuilder/red_shield_template_block": {
     "criteria": {
       "glass": "2024-05-26 15:02:04 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/food/milk_bottle": {
-    "criteria": {
-      "has_milk_bucket": "2024-05-26 15:15:02 +0000"
     },
     "done": true
   },
@@ -30132,9 +30078,472 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/cooking/cooked_rice": {
+  "botania:recipes/misc/elf_glass_pane": {
     "criteria": {
-      "has_rice": "2024-05-26 14:22:10 +0000"
+      "has_item": "2024-05-26 15:02:45 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/flask": {
+    "criteria": {
+      "has_item": "2024-05-26 15:02:45 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/bifrost_pane": {
+    "criteria": {
+      "has_item": "2024-05-26 15:03:56 +0000"
+    },
+    "done": true
+  },
+  "croptopia:mortar_and_pestle": {
+    "criteria": {
+      "mortar_and_pestle": "2024-05-26 15:14:35 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/paprika": {
+    "criteria": {
+      "has_mortar_and_pestle": "2024-05-26 15:14:35 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/glow_berry_custard": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-26 15:15:02 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/misc/mashed_potatoes": {
+    "criteria": {
+      "has_milk": "2024-05-26 15:15:02 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/hot_cocoa": {
+    "criteria": {
+      "has_any_ingredient": "2024-05-26 15:15:02 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/churros": {
+    "criteria": {
+      "has_milk": "2024-05-26 15:15:02 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/oatmeal": {
+    "criteria": {
+      "has_milk": "2024-05-26 15:15:02 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_milk_bottle": {
+    "criteria": {
+      "has_milk": "2024-05-26 15:15:02 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/milk_bottle": {
+    "criteria": {
+      "has_milk_bucket": "2024-05-26 15:15:02 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:under_pressure": {
+    "criteria": {
+      "has_compressor": "2024-05-27 11:44:32 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/allthemodium_knife": {
+    "criteria": {
+      "has_plates/allthemodium": "2024-05-27 11:44:52 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/allthemodium_pickaxe": {
+    "criteria": {
+      "has_allthemodium_rod": "2024-05-27 11:47:15 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/allthemodium_axe": {
+    "criteria": {
+      "has_allthemodium_rod": "2024-05-27 11:47:15 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/allthemodium_sword": {
+    "criteria": {
+      "has_allthemodium_rod": "2024-05-27 11:47:15 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/allthemodium_shovel": {
+    "criteria": {
+      "has_allthemodium_rod": "2024-05-27 11:47:15 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/allthemodium_hoe": {
+    "criteria": {
+      "has_allthemodium_rod": "2024-05-27 11:47:15 +0000"
+    },
+    "done": true
+  },
+  "botania:main/gaia_guardian_kill": {
+    "criteria": {
+      "guardian": "2024-05-27 12:12:46 +0000"
+    },
+    "done": true
+  },
+  "botania:challenge/gaia_guardian_hardmode": {
+    "criteria": {
+      "guardian": "2024-05-27 12:17:59 +0000"
+    },
+    "done": true
+  },
+  "botania:challenge/odin_ring": {
+    "criteria": {
+      "ring": "2024-05-27 12:18:34 +0000"
+    },
+    "done": true
+  },
+  "botania:main/bauble_wear": {
+    "criteria": {
+      "code_triggered": "2024-05-27 12:18:36 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/vibranium_dust": {
+    "criteria": {
+      "has_vibranium": "2024-05-27 12:19:49 +0000"
+    },
+    "done": true
+  },
+  "botania:challenge/flugel_eye": {
+    "criteria": {
+      "eye": "2024-05-27 12:23:17 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/almost_unkillable": {
+    "criteria": {
+      "coded_trigger": "2024-05-27 12:27:17 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/holy_cloak": {
+    "criteria": {
+      "has_item": "2024-05-27 12:27:22 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/diva_charm": {
+    "criteria": {
+      "has_item": "2024-05-27 12:27:22 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/flighttiara_0": {
+    "criteria": {
+      "has_item": "2024-05-27 12:27:22 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/super_travel_belt": {
+    "criteria": {
+      "has_item": "2024-05-27 12:27:22 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/mana_bomb": {
+    "criteria": {
+      "has_item": "2024-05-27 12:27:22 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/astrolabe": {
+    "criteria": {
+      "has_item": "2024-05-27 12:27:22 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/laputa_shard": {
+    "criteria": {
+      "has_item": "2024-05-27 12:27:22 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/unholy_cloak": {
+    "criteria": {
+      "has_item": "2024-05-27 12:27:22 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/gaia_spreader": {
+    "criteria": {
+      "has_item": "2024-05-27 12:27:22 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/missile_rod": {
+    "criteria": {
+      "has_item": "2024-05-27 12:27:22 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/gaia_ingot": {
+    "criteria": {
+      "has_item": "2024-05-27 12:27:22 +0000"
+    },
+    "done": true
+  },
+  "appbot:recipes/misc/mana_cell_housing": {
+    "criteria": {
+      "has_life_essence": "2024-05-27 12:27:22 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/spawner_mover": {
+    "criteria": {
+      "has_item": "2024-05-27 12:27:22 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/black_hole_talisman": {
+    "criteria": {
+      "has_item": "2024-05-27 12:27:22 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/balance_cloak": {
+    "criteria": {
+      "has_item": "2024-05-27 12:27:22 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/super_cloud_pendant": {
+    "criteria": {
+      "has_alt_item": "2024-05-27 12:27:22 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/super_lava_pendant": {
+    "criteria": {
+      "has_item": "2024-05-27 12:27:22 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_equip": {
+    "criteria": {
+      "requirement": "2024-05-27 12:27:42 +0000"
+    },
+    "done": true
+  },
+  "botania:challenge/thor_ring": {
+    "criteria": {
+      "ring": "2024-05-27 12:28:06 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/max_rectified": {
+    "criteria": {
+      "enchanted_item": "2024-05-27 12:30:08 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/80ench": {
+    "criteria": {
+      "enchanted_item": "2024-05-27 12:30:08 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/100ench": {
+    "criteria": {
+      "enchanted_item": "2024-05-27 12:30:08 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/arcana50": {
+    "criteria": {
+      "enchanted_item": "2024-05-27 12:30:08 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/quanta50": {
+    "criteria": {
+      "enchanted_item": "2024-05-27 12:30:08 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/max_stats": {
+    "criteria": {
+      "enchanted_item": "2024-05-27 12:30:08 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/arcana100": {
+    "criteria": {
+      "enchanted_item": "2024-05-27 12:30:08 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/quanta100": {
+    "criteria": {
+      "enchanted_item": "2024-05-27 12:30:08 +0000"
+    },
+    "done": true
+  },
+  "botania:challenge/loki_ring": {
+    "criteria": {
+      "ring": "2024-05-27 12:31:51 +0000"
+    },
+    "done": true
+  },
+  "botania:challenge/infinite_fruit": {
+    "criteria": {
+      "fruit": "2024-05-27 12:38:26 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/vibranium_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/vibranium]_ingot": "2024-05-27 12:50:53 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/vibranium_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/vibranium]_ingot": "2024-05-27 12:50:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/vibranium_spell_book_smithing": {
+    "criteria": {
+      "allthewizardgearhas_ingots/vibranium_ingot": "2024-05-27 12:50:53 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/vibranium_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2024-05-27 12:50:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/vibranium_mage_boots_smithing": {
+    "criteria": {
+      "allthewizardgearhas_ingots/vibranium_ingot": "2024-05-27 12:50:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/vibranium_mage_leggings_smithing": {
+    "criteria": {
+      "allthewizardgearhas_ingots/vibranium_ingot": "2024-05-27 12:50:53 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/vibranium_dust_from_ingot": {
+    "criteria": {
+      "has_vibranium_ingot": "2024-05-27 12:50:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/vibranium_mage_chestplate_smithing": {
+    "criteria": {
+      "allthewizardgearhas_ingots/vibranium_ingot": "2024-05-27 12:50:53 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/vibranium_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/vibranium]_ingot": "2024-05-27 12:50:53 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/vibranium_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/vibranium]_ingot": "2024-05-27 12:50:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/vibranium_mage_helmet_smithing": {
+    "criteria": {
+      "allthewizardgearhas_ingots/vibranium_ingot": "2024-05-27 12:50:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/creeper_banner_pattern": {
+    "criteria": {
+      "has_creeper_head": "2024-05-27 14:20:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/obtain_sniffer_egg": {
+    "criteria": {
+      "obtain_sniffer_egg": "2024-05-27 15:15:55 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/refined_obsidian_knife": {
+    "criteria": {
+      "has_ingots/refined_obsidian": "2024-05-27 15:28:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2024-05-27 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2024-05-27 14:49:09 +0000",
+      "ocean_ruin_warm": "2024-05-27 14:49:01 +0000"
+    },
+    "done": true
+  },
+  "croptopia:gather_savanna": {
+    "criteria": {
+      "olive_seed": "2024-05-27 14:21:02 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template": {
+    "criteria": {
+      "has_vex_armor_trim_smithing_template": "2024-05-27 14:20:32 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_grindstone": {
+    "criteria": {
+      "has_stone_slab": "2024-05-27 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:husbandry/sus_stew": {
+    "criteria": {
+      "stew": "2024-05-27 14:29:40 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:find_cursed_pyramid": {
+    "criteria": {
+      "pyramid": "2024-05-27 14:30:13 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/player_detector": {
+    "criteria": {
+      "has_stone_slab": "2024-05-27 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-05-27 14:20:32 +0000"
     },
     "done": true
   },
