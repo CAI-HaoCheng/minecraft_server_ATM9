@@ -2318,10 +2318,11 @@
   "lootr:social": {
     "criteria": {
       "opened_barrel": "2024-05-02 14:31:59 +0000",
+      "opened_shulker": "2024-06-02 14:58:40 +0000",
       "opened_chest": "2024-05-01 14:36:20 +0000",
       "opened_cart": "2024-05-11 15:24:31 +0000"
     },
-    "done": false
+    "done": true
   },
   "littlelogistics:recipes/transportation/seater_car": {
     "criteria": {
@@ -4605,6 +4606,7 @@
   },
   "repurposed_structures:temples": {
     "criteria": {
+      "in_temple_nether_wasteland": "2024-06-03 15:01:10 +0000",
       "in_temple_taiga": "2024-05-01 14:43:53 +0000"
     },
     "done": false
@@ -5390,8 +5392,11 @@
       "cooked_beef": "2024-05-01 14:49:22 +0000",
       "baked_potato": "2024-05-04 14:41:56 +0000",
       "apple": "2024-05-01 14:45:27 +0000",
+      "cooked_cod": "2024-06-04 13:12:06 +0000",
+      "supplementaries:candy": "2024-06-04 13:04:26 +0000",
       "suspicious_stew": "2024-05-27 14:29:40 +0000",
       "melon_slice": "2024-05-04 17:01:59 +0000",
+      "cooked_rabbit": "2024-06-02 15:52:01 +0000",
       "cooked_chicken": "2024-05-10 15:20:49 +0000",
       "cooked_salmon": "2024-05-26 08:45:09 +0000",
       "carrot": "2024-05-10 15:44:07 +0000"
@@ -7617,14 +7622,17 @@
       "minecraft:witch": "2024-05-02 14:26:10 +0000",
       "minecraft:wither_skeleton": "2024-05-05 14:54:35 +0000",
       "minecraft:husk": "2024-05-04 16:02:08 +0000",
+      "minecraft:shulker": "2024-06-02 15:08:37 +0000",
       "minecraft:cave_spider": "2024-05-02 14:30:13 +0000",
       "minecraft:piglin": "2024-05-11 15:22:17 +0000",
       "minecraft:silverfish": "2024-05-25 06:43:48 +0000",
       "minecraft:stray": "2024-05-25 11:49:33 +0000",
       "minecraft:enderman": "2024-05-26 10:24:33 +0000",
+      "minecraft:endermite": "2024-06-02 14:58:49 +0000",
       "minecraft:vex": "2024-05-18 15:14:53 +0000",
       "minecraft:zombie": "2024-05-02 14:16:16 +0000",
-      "quark:foxhound": "2024-05-08 14:19:09 +0000"
+      "quark:foxhound": "2024-05-08 14:19:09 +0000",
+      "minecraft:drowned": "2024-06-04 14:06:11 +0000"
     },
     "done": false
   },
@@ -24799,6 +24807,7 @@
   },
   "repurposed_structures:mineshafts": {
     "criteria": {
+      "in_mineshaft_end": "2024-06-03 15:22:02 +0000",
       "in_mineshaft_nether": "2024-05-11 15:24:24 +0000"
     },
     "done": false
@@ -30474,9 +30483,64 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2024-05-27 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/decorations/skyroot_grindstone": {
+    "criteria": {
+      "has_stone_slab": "2024-05-27 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/player_detector": {
+    "criteria": {
+      "has_stone_slab": "2024-05-27 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template": {
+    "criteria": {
+      "has_vex_armor_trim_smithing_template": "2024-05-27 14:20:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/vex_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-05-27 14:20:32 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/creeper_banner_pattern": {
     "criteria": {
       "has_creeper_head": "2024-05-27 14:20:52 +0000"
+    },
+    "done": true
+  },
+  "croptopia:gather_savanna": {
+    "criteria": {
+      "olive_seed": "2024-05-27 14:21:02 +0000"
+    },
+    "done": false
+  },
+  "supplementaries:husbandry/sus_stew": {
+    "criteria": {
+      "stew": "2024-05-27 14:29:40 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:find_cursed_pyramid": {
+    "criteria": {
+      "pyramid": "2024-05-27 14:30:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2024-05-27 14:49:09 +0000",
+      "ocean_ruin_warm": "2024-05-27 14:49:01 +0000"
     },
     "done": true
   },
@@ -30492,58 +30556,381 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/grindstone": {
+  "repurposed_structures:shipwrecks": {
     "criteria": {
-      "has_stone_slab": "2024-05-27 14:19:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/salvage_sherd": {
-    "criteria": {
-      "has_sherd": "2024-05-27 14:49:09 +0000",
-      "ocean_ruin_warm": "2024-05-27 14:49:01 +0000"
-    },
-    "done": true
-  },
-  "croptopia:gather_savanna": {
-    "criteria": {
-      "olive_seed": "2024-05-27 14:21:02 +0000"
+      "in_shipwreck_end": "2024-06-02 14:53:01 +0000"
     },
     "done": false
   },
-  "minecraft:recipes/misc/vex_armor_trim_smithing_template": {
+  "silentgear:recipes/misc/raw_azure_silver_block": {
     "criteria": {
-      "has_vex_armor_trim_smithing_template": "2024-05-27 14:20:32 +0000"
+      "has_item": "2024-06-02 14:57:25 +0000"
     },
     "done": true
   },
-  "aether:recipes/decorations/skyroot_grindstone": {
+  "silentgear:recipes/misc/azure_silver_raw_ore_smelting": {
     "criteria": {
-      "has_stone_slab": "2024-05-27 14:19:35 +0000"
+      "has_item": "2024-06-02 14:57:25 +0000"
     },
     "done": true
   },
-  "supplementaries:husbandry/sus_stew": {
+  "silentgear:recipes/misc/azure_silver_raw_ore_blasting": {
     "criteria": {
-      "stew": "2024-05-27 14:29:40 +0000"
+      "has_item": "2024-06-02 14:57:25 +0000"
     },
     "done": true
   },
-  "cataclysm:find_cursed_pyramid": {
+  "silentgear:azure_silver": {
     "criteria": {
-      "pyramid": "2024-05-27 14:30:13 +0000"
+      "get_ore": "2024-06-02 14:57:25 +0000"
+    },
+    "done": false
+  },
+  "occultism:recipes/crushing/crushing/azure_silver_dust_from_raw": {
+    "criteria": {
+      "has_raw_azure_silver": "2024-06-02 14:57:25 +0000"
     },
     "done": true
   },
-  "railcraft:recipes/misc/player_detector": {
+  "silentgear:recipes/misc/raw_azure_silver_from_block": {
     "criteria": {
-      "has_stone_slab": "2024-05-27 14:19:35 +0000"
+      "has_item": "2024-06-02 14:57:25 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/vex_armor_trim_smithing_template_smithing_trim": {
+  "lootr:1shulker": {
     "criteria": {
-      "has_smithing_trim_template": "2024-05-27 14:20:32 +0000"
+      "opened_shulker": "2024-06-02 14:58:40 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/netherite_shovel_repairing": {
+    "criteria": {
+      "has_netherite_shovel": "2024-06-02 15:03:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2024-06-02 15:04:42 +0000"
+    },
+    "done": true
+  },
+  "usefulrailroads:recipes/fuel/teleport_rail/chorus_fruit": {
+    "criteria": {
+      "has_ingredient": "2024-06-02 15:09:42 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/popped_chorus_fruit": {
+    "criteria": {
+      "has_the_recipe": "2024-06-02 15:09:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/popped_chorus_fruit": {
+    "criteria": {
+      "has_chorus_fruit": "2024-06-02 15:09:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2024-06-03 12:30:20 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/cooked_mutton": {
+    "criteria": {
+      "has_the_recipe": "2024-06-03 12:30:20 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pasta_with_mutton_chop": {
+    "criteria": {
+      "has_any_ingredient": "2024-06-03 12:30:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_grill_cooking": {
+    "criteria": {
+      "has_mutton": "2024-06-03 12:30:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2024-06-03 12:30:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2024-06-03 12:30:20 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/mana_ring_greatest_smithing": {
+    "criteria": {
+      "has_item0": "2024-06-03 13:45:16 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/crime_in_town": {
+    "criteria": {
+      "coded_trigger": "2024-06-03 14:10:23 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:ruins": {
+    "criteria": {
+      "in_ruins_nether": "2024-06-03 14:28:35 +0000"
+    },
+    "done": false
+  },
+  "minecraft:nether/distract_piglin": {
+    "criteria": {
+      "distract_piglin": "2024-06-03 14:44:56 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/mythic": {
+    "criteria": {
+      "sword": "2024-06-03 15:06:44 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/acacia_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-03 15:15:05 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/bamboo_shulker_raft_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-03 15:15:05 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/dark_oak_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-03 15:15:05 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/spruce_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-03 15:15:05 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/mangrove_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-03 15:15:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2024-06-03 15:15:05 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/oak_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-03 15:15:05 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/cherry_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-03 15:15:05 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2024-06-03 15:15:05 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/jungle_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-03 15:15:05 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/birch_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-03 15:15:05 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_purple_pane1": {
+    "criteria": {
+      "recipe_condition": "2024-06-03 15:22:26 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/slice_map": {
+    "criteria": {
+      "has_map": "2024-06-03 15:31:45 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/speed_up_belt": {
+    "criteria": {
+      "has_item": "2024-06-03 15:31:45 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/unobtainium_dust": {
+    "criteria": {
+      "has_unobtainium": "2024-06-03 15:40:10 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/vibranium_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-06-03 15:44:56 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/vibranium_block_1x": {
+    "criteria": {
+      "has_vibranium_block": "2024-06-03 15:44:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/unobtainium_mage_chestplate_smithing": {
+    "criteria": {
+      "allthewizardgearhas_ingots/unobtainium_ingot": "2024-06-03 15:50:09 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/unobtainium]_ingot": "2024-06-03 15:50:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/unobtainium_spell_book_smithing": {
+    "criteria": {
+      "allthewizardgearhas_ingots/unobtainium_ingot": "2024-06-03 15:50:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/unobtainium_mage_leggings_smithing": {
+    "criteria": {
+      "allthewizardgearhas_ingots/unobtainium_ingot": "2024-06-03 15:50:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/unobtainium_mage_helmet_smithing": {
+    "criteria": {
+      "allthewizardgearhas_ingots/unobtainium_ingot": "2024-06-03 15:50:09 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/unobtainium_dust_from_ingot": {
+    "criteria": {
+      "has_unobtainium_ingot": "2024-06-03 15:50:09 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/unobtainium]_ingot": "2024-06-03 15:50:09 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/unobtainium]_ingot": "2024-06-03 15:50:09 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/unobtainium]_ingot": "2024-06-03 15:50:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/unobtainium_mage_boots_smithing": {
+    "criteria": {
+      "allthewizardgearhas_ingots/unobtainium_ingot": "2024-06-03 15:50:09 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2024-06-03 15:50:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-06-04 14:45:36 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/obsidian_from_bucket_freezing": {
+    "criteria": {
+      "has_lava_bucket": "2024-06-04 14:45:36 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/unobtainium_block_1x": {
+    "criteria": {
+      "has_unobtainium_block": "2024-06-04 12:53:44 +0000"
+    },
+    "done": true
+  },
+  "usefulrailroads:recipes/fuel/teleport_rail/chorus_flower": {
+    "criteria": {
+      "has_ingredient": "2024-06-04 12:32:03 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/wax_block_1x": {
+    "criteria": {
+      "has_wax_block": "2024-06-04 13:02:43 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-06-04 12:53:44 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/reinforced/activefluidport_forge": {
+    "criteria": {
+      "has_item2": "2024-06-04 14:45:36 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/turbine/basic/activefluidport_forge": {
+    "criteria": {
+      "has_item2": "2024-06-04 14:45:36 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/turbine/reinforced/activefluidport_forge": {
+    "criteria": {
+      "has_item2": "2024-06-04 14:45:36 +0000"
+    },
+    "done": true
+  },
+  "botania:challenge/king_key": {
+    "criteria": {
+      "key": "2024-06-04 14:40:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/respawn_dragon": {
+    "criteria": {
+      "summoned_dragon": "2024-06-04 12:42:40 +0000"
     },
     "done": true
   },

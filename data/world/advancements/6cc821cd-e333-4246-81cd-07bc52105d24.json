@@ -4865,6 +4865,7 @@
       "minecraft:pillager": "2024-05-03 08:47:49 +0000",
       "minecraft:blaze": "2024-05-09 08:50:05 +0000",
       "minecraft:skeleton": "2024-05-01 14:59:23 +0000",
+      "minecraft:ravager": "2024-06-04 15:30:19 +0000",
       "minecraft:ghast": "2024-05-07 14:48:10 +0000",
       "minecraft:vindicator": "2024-05-18 15:10:31 +0000",
       "minecraft:magma_cube": "2024-05-07 14:30:34 +0000",
@@ -4880,6 +4881,7 @@
       "minecraft:ender_dragon": "2024-05-27 13:19:11 +0000",
       "minecraft:cave_spider": "2024-05-08 08:17:19 +0000",
       "minecraft:enderman": "2024-05-27 13:07:00 +0000",
+      "minecraft:vex": "2024-06-04 15:34:11 +0000",
       "minecraft:zombie": "2024-05-01 14:39:19 +0000",
       "quark:foxhound": "2024-05-03 15:33:00 +0000",
       "minecraft:drowned": "2024-05-01 15:43:34 +0000",
@@ -30397,11 +30399,15 @@
   "mythicbotany:mythicbotany/all_runes": {
     "criteria": {
       "inventory_changed12": "2024-05-26 14:12:33 +0000",
+      "inventory_changed10": "2024-06-04 14:54:47 +0000",
       "inventory_changed16": "2024-05-26 15:01:58 +0000",
       "inventory_changed15": "2024-05-26 15:01:04 +0000",
       "inventory_changed14": "2024-05-26 14:08:56 +0000",
+      "inventory_changed": "2024-06-04 14:54:47 +0000",
+      "inventory_changed8": "2024-06-04 14:40:01 +0000",
       "inventory_changed5": "2024-05-05 14:28:20 +0000",
       "inventory_changed3": "2024-05-11 09:22:49 +0000",
+      "inventory_changed4": "2024-06-03 14:36:42 +0000",
       "inventory_changed9": "2024-05-19 13:56:01 +0000"
     },
     "done": false
@@ -39426,6 +39432,1182 @@
   "botania:recipes/misc/conversions/terrasteel_block_deconstruct": {
     "criteria": {
       "has_item": "2024-05-27 13:25:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2024-06-02 14:43:52 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:shipwrecks": {
+    "criteria": {
+      "in_shipwreck_end": "2024-06-02 14:46:37 +0000"
+    },
+    "done": false
+  },
+  "botania:challenge/gaia_guardian_hardmode": {
+    "criteria": {
+      "guardian": "2024-06-03 14:36:18 +0000"
+    },
+    "done": true
+  },
+  "botania:main/gaia_guardian_kill": {
+    "criteria": {
+      "guardian": "2024-06-03 14:36:18 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/holy_cloak": {
+    "criteria": {
+      "has_item": "2024-06-03 14:36:42 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/diva_charm": {
+    "criteria": {
+      "has_item": "2024-06-03 14:36:42 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/flighttiara_0": {
+    "criteria": {
+      "has_item": "2024-06-03 14:36:42 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/super_travel_belt": {
+    "criteria": {
+      "has_item": "2024-06-03 14:36:42 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/mana_bomb": {
+    "criteria": {
+      "has_item": "2024-06-03 14:36:42 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/astrolabe": {
+    "criteria": {
+      "has_item": "2024-06-03 14:36:42 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/laputa_shard": {
+    "criteria": {
+      "has_item": "2024-06-03 14:36:42 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/unholy_cloak": {
+    "criteria": {
+      "has_item": "2024-06-03 14:36:42 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/gaia_spreader": {
+    "criteria": {
+      "has_item": "2024-06-03 14:36:42 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/missile_rod": {
+    "criteria": {
+      "has_item": "2024-06-03 14:36:42 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/gaia_ingot": {
+    "criteria": {
+      "has_item": "2024-06-03 14:36:42 +0000"
+    },
+    "done": true
+  },
+  "appbot:recipes/misc/mana_cell_housing": {
+    "criteria": {
+      "has_life_essence": "2024-06-03 14:36:42 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/spawner_mover": {
+    "criteria": {
+      "has_item": "2024-06-03 14:36:42 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/black_hole_talisman": {
+    "criteria": {
+      "has_item": "2024-06-03 14:36:42 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/balance_cloak": {
+    "criteria": {
+      "has_item": "2024-06-03 14:36:42 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/super_cloud_pendant": {
+    "criteria": {
+      "has_alt_item": "2024-06-03 14:36:42 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/super_lava_pendant": {
+    "criteria": {
+      "has_item": "2024-06-03 14:36:42 +0000"
+    },
+    "done": true
+  },
+  "botania:challenge/loki_ring": {
+    "criteria": {
+      "ring": "2024-06-03 14:36:48 +0000"
+    },
+    "done": true
+  },
+  "aiotbotania:recipes/tools/elementium_aiot": {
+    "criteria": {
+      "has_sword": "2024-06-03 14:44:02 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/max_rectified": {
+    "criteria": {
+      "enchanted_item": "2024-06-03 14:50:50 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/80ench": {
+    "criteria": {
+      "enchanted_item": "2024-06-03 14:50:50 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/100ench": {
+    "criteria": {
+      "enchanted_item": "2024-06-03 14:50:50 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/arcana50": {
+    "criteria": {
+      "enchanted_item": "2024-06-03 14:50:50 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/quanta50": {
+    "criteria": {
+      "enchanted_item": "2024-06-03 14:50:50 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/60ench": {
+    "criteria": {
+      "enchanted_item": "2024-06-03 14:50:50 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/max_stats": {
+    "criteria": {
+      "enchanted_item": "2024-06-03 14:50:50 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/arcana100": {
+    "criteria": {
+      "enchanted_item": "2024-06-03 14:50:50 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:enchanting/quanta100": {
+    "criteria": {
+      "enchanted_item": "2024-06-03 14:50:50 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/vibranium_dust": {
+    "criteria": {
+      "has_vibranium": "2024-06-03 14:56:55 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/advanced_charged_porter": {
+    "criteria": {
+      "porter": "2024-06-03 14:57:09 +0000"
+    },
+    "done": true
+  },
+  "eidolon:pewter_ingot": {
+    "criteria": {
+      "has_pewter_ingot": "2024-06-03 15:05:49 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/pewter_dust_from_ingot": {
+    "criteria": {
+      "has_pewter_ingot": "2024-06-03 15:05:49 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/cloud_pendant": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/rope_warped_bridge": {
+    "criteria": {
+      "has_planks": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/sign_post_warped": {
+    "criteria": {
+      "has_the_recipe": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/tables/warped_table": {
+    "criteria": {
+      "has_bamboo": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_iron": {
+    "criteria": {
+      "requirement": "2024-06-04 16:29:06 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_googly_eyes": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_table": {
+    "criteria": {
+      "has_warped_table": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_blue_butterfly": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_nightstand": {
+    "criteria": {
+      "has_warped_nightstand": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/acacia_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-04 13:46:45 +0000"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_light_gray": {
+    "criteria": {
+      "has_light_gray_wool": "2024-06-04 15:10:24 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_fancy_bed": {
+    "criteria": {
+      "has_warped_fancy_bed": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/bamboo_shulker_raft_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-04 13:46:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/unobtainium_mage_chestplate_smithing": {
+    "criteria": {
+      "allthewizardgearhas_ingots/unobtainium_ingot": "2024-06-04 13:30:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_stairs": {
+    "criteria": {
+      "has_planks": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/stack_upgrade_tier_2_from_tier_1_plus": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-04 14:56:53 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/lumium_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/lumium]_ingot": "2024-06-04 15:42:18 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/keep_ivy": {
+    "criteria": {
+      "has_item": "2024-06-04 16:03:30 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_aquatic_life": {
+    "criteria": {
+      "has_magic_scroll": "2024-06-04 15:15:48 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_couch": {
+    "criteria": {
+      "has_warped_couch": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_lusitanic_shield": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/unobtainium]_ingot": "2024-06-04 13:30:46 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/cobweb": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/red_string": {
+    "criteria": {
+      "has_item": "2024-06-04 16:03:30 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/tables/warped_table_slab": {
+    "criteria": {
+      "has_bamboo": "2024-06-04 16:27:47 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/lumium_dust_from_ingot": {
+    "criteria": {
+      "has_lumium_ingot": "2024-06-04 15:42:18 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_hyper_plus": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "botania:challenge/odin_ring": {
+    "criteria": {
+      "ring": "2024-06-04 14:54:54 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/signalum_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2024-06-04 15:54:51 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_evoker": {
+    "criteria": {
+      "requirement": "2024-06-04 15:34:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2024-06-04 15:35:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_door": {
+    "criteria": {
+      "has_planks": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/dark_oak_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-04 13:46:45 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/staff_root": {
+    "criteria": {
+      "requirement": "2024-06-04 16:13:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/warped_slab": {
+    "criteria": {
+      "has_planks": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/wither_skeleton_skull": {
+    "criteria": {
+      "has_withered_rib": "2024-06-04 15:02:43 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/signalum_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/signalum]_ingot": "2024-06-04 15:54:51 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mercy_cross": {
+    "criteria": {
+      "has_withered_rib": "2024-06-04 15:02:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/voluntary_exile": {
+    "criteria": {
+      "voluntary_exile": "2024-06-04 15:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/stack_upgrade_tier_3": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-04 14:57:02 +0000"
+    },
+    "done": true
+  },
+  "botania:main/ender_air_make": {
+    "criteria": {
+      "air": "2024-06-04 16:03:30 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/signalum_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/signalum]_ingot": "2024-06-04 15:54:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2024-06-04 15:10:24 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_cat_ears": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "botania:challenge/thor_ring": {
+    "criteria": {
+      "ring": "2024-06-04 15:02:49 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_bench": {
+    "criteria": {
+      "has_warped_bench": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/unobtainium_spell_book_smithing": {
+    "criteria": {
+      "allthewizardgearhas_ingots/unobtainium_ingot": "2024-06-04 13:30:46 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_red_glasses": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_botanist_emblem": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/root": {
+    "criteria": {
+      "inscription_table": "2024-06-04 16:27:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_eyepatch": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_side_table": {
+    "criteria": {
+      "has_warped_side_table": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/warped_planks": {
+    "criteria": {
+      "has_planks": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "twilightforest:recipes/decorations/wood/warped_banister": {
+    "criteria": {
+      "has_item": "2024-06-04 16:27:47 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_four_leaf_clover": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/warped_barrel": {
+    "criteria": {
+      "has_warped_plank": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/warped_log_bridge_middle": {
+    "criteria": {
+      "has_planks": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/spruce_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-04 13:46:45 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_pillar_trim": {
+    "criteria": {
+      "has_warped_pillar_trim": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_corner_trim": {
+    "criteria": {
+      "has_warped_corner_trim": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/mangrove_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-04 13:46:45 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_devil_horns": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_groucho_glasses": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_puffy_scarf": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/manaweave_cloth": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/lumium_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2024-06-04 15:42:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/unobtainium_mage_leggings_smithing": {
+    "criteria": {
+      "allthewizardgearhas_ingots/unobtainium_ingot": "2024-06-04 13:30:46 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_alien_antenna": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_shelf": {
+    "criteria": {
+      "has_warped_shelf": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/village_defender": {
+    "criteria": {
+      "coded_trigger": "2024-06-04 14:54:08 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_polka_dotted_bows": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/warped_fence": {
+    "criteria": {
+      "has_planks": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_kamui_eye": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_cupboard": {
+    "criteria": {
+      "has_warped_cupboard": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_clock_eye": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/red_string_alt": {
+    "criteria": {
+      "has_item": "2024-06-04 16:03:30 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_ancient_mask": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/tornado_rod": {
+    "criteria": {
+      "has_item": "2024-06-04 14:54:47 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/spawner_claw": {
+    "criteria": {
+      "has_item": "2024-06-04 16:03:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_button": {
+    "criteria": {
+      "has_planks": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/warped/warped_blossom_trapdoor": {
+    "criteria": {
+      "has_plankss": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/warped_chest": {
+    "criteria": {
+      "has_warped_plank": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "comforts:hammock_light_gray": {
+    "criteria": {
+      "has_light_gray_wool": "2024-06-04 15:10:24 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/mana_ring_greatest_smithing": {
+    "criteria": {
+      "has_item0": "2024-06-04 15:05:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/unobtainium_mage_helmet_smithing": {
+    "criteria": {
+      "allthewizardgearhas_ingots/unobtainium_ingot": "2024-06-04 13:30:46 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_black_bowtie": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/corporea_spark": {
+    "criteria": {
+      "has_item": "2024-06-04 16:03:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2024-06-04 15:10:24 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/signalum_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/signalum]_ingot": "2024-06-04 15:54:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2024-06-04 13:46:45 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/make_inscription_table": {
+    "criteria": {
+      "inscription_table": "2024-06-04 16:27:55 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/aether_tune_enchanting": {
+    "criteria": {
+      "has_disc": "2024-06-04 15:02:38 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/signalum_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/signalum]_ingot": "2024-06-04 15:54:51 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/warped_limited_barrel_1": {
+    "criteria": {
+      "has_warped_plank": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/warped_limited_barrel_4": {
+    "criteria": {
+      "has_warped_plank": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/warped_limited_barrel_3": {
+    "criteria": {
+      "has_warped_plank": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/warped_limited_barrel_2": {
+    "criteria": {
+      "has_warped_plank": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_chair": {
+    "criteria": {
+      "has_warped_chair": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/warped_sign": {
+    "criteria": {
+      "has_planks": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_dining_bench": {
+    "criteria": {
+      "has_warped_dining_bench": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/make_arcane_anvil": {
+    "criteria": {
+      "arcane_anvil": "2024-06-04 16:30:16 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_pink_flower_bud": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_devil_tail": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/oak_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-04 13:46:45 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/light_gray_sofa": {
+    "criteria": {
+      "has_wool": "2024-06-04 15:10:24 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_black_tie": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_thinking_hand": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_witch_pin": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_red_ribbons": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/warped_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/wither_skeleton": {
+    "criteria": {
+      "has_withered_rib": "2024-06-04 15:02:43 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/signalum_dust_from_ingot": {
+    "criteria": {
+      "has_signalum_ingot": "2024-06-04 15:54:51 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/bellows": {
+    "criteria": {
+      "has_item": "2024-06-04 14:54:47 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/appliances/clipboard_clear": {
+    "criteria": {
+      "has_item": "2024-06-04 14:26:11 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/unobtainium_dust_from_ingot": {
+    "criteria": {
+      "has_unobtainium_ingot": "2024-06-04 13:30:46 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_unicorn_horn": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/lumium_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/lumium]_ingot": "2024-06-04 15:42:18 +0000"
+    },
+    "done": true
+  },
+  "botania:challenge/king_key": {
+    "criteria": {
+      "key": "2024-06-04 14:40:10 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/cherry_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-04 13:46:45 +0000"
+    },
+    "done": true
+  },
+  "trashcans:trash_can": {
+    "criteria": {
+      "has_liquid_trash_can": "2024-06-04 16:19:57 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/light_gray_flag": {
+    "criteria": {
+      "has_light_gray_flag": "2024-06-04 15:10:24 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_drawer": {
+    "criteria": {
+      "has_warped_drawer": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/unobtainium]_ingot": "2024-06-04 13:30:46 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2024-06-04 13:46:45 +0000"
+    },
+    "done": true
+  },
+  "mcwpaths:recipes/warped": {
+    "criteria": {
+      "has_wood": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/light_gray_cushion": {
+    "criteria": {
+      "has_light_gray_cushion": "2024-06-04 15:10:24 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_eerie_mask": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:make_inscription_table": {
+    "criteria": {
+      "inscription_table": "2024-06-04 16:27:55 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/spectral_platform": {
+    "criteria": {
+      "has_item": "2024-06-04 16:19:38 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_questgiver_mark": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_thick_eyebrows": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_orange_shades": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/unobtainium]_ingot": "2024-06-04 13:30:46 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/skydirt_rod": {
+    "criteria": {
+      "has_item": "2024-06-04 16:19:38 +0000"
+    },
+    "done": true
+  },
+  "botania:challenge/flugel_eye": {
+    "criteria": {
+      "eye": "2024-06-04 14:47:31 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/sign_post_warped": {
+    "criteria": {
+      "has_planks": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/light_gray_sheet": {
+    "criteria": {
+      "has_light_gray_sheet": "2024-06-04 15:10:24 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/warped_rail_bridge": {
+    "criteria": {
+      "has_planks": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/lumium_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/lumium]_ingot": "2024-06-04 15:42:18 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/unobtainium]_ingot": "2024-06-04 13:30:46 +0000"
+    },
+    "done": true
+  },
+  "mythicbotany:recipes/misc/mana_collector": {
+    "criteria": {
+      "criterion1": "2024-06-04 14:36:20 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_desk": {
+    "criteria": {
+      "has_warped_desk": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2024-06-04 15:10:24 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/warped_window": {
+    "criteria": {
+      "has_ingredient": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/warped_counter": {
+    "criteria": {
+      "has_warped_counter": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/jungle_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-04 13:46:45 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/birch_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-04 13:46:45 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/pixie_ring": {
+    "criteria": {
+      "has_item": "2024-06-04 16:19:38 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/slingshot": {
+    "criteria": {
+      "has_item": "2024-06-04 14:54:47 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_engineer_goggles": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_anaglyph_glasses": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/warped_chain": {
+    "criteria": {
+      "recipe_condition": "2024-06-04 16:27:46 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/lumium_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/lumium]_ingot": "2024-06-04 15:42:18 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_tiny_potato_mask": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/unobtainium_mage_boots_smithing": {
+    "criteria": {
+      "allthewizardgearhas_ingots/unobtainium_ingot": "2024-06-04 13:30:46 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/cosmetic_wicked_eyepatch": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/lens_warp": {
+    "criteria": {
+      "has_item": "2024-06-04 16:19:38 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2024-06-04 13:30:46 +0000"
     },
     "done": true
   },

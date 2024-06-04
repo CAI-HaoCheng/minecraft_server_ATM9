@@ -104,10 +104,11 @@
   "lootr:social": {
     "criteria": {
       "opened_barrel": "2024-05-01 15:29:16 +0000",
+      "opened_shulker": "2024-06-03 15:43:12 +0000",
       "opened_chest": "2024-05-01 14:42:29 +0000",
       "opened_cart": "2024-05-26 11:30:52 +0000"
     },
-    "done": false
+    "done": true
   },
   "mcwfences:recipes/jungle": {
     "criteria": {
@@ -5221,6 +5222,7 @@
       "minecraft:wither_skeleton": "2024-05-08 14:41:14 +0000",
       "minecraft:husk": "2024-05-19 02:33:25 +0000",
       "minecraft:ender_dragon": "2024-05-26 10:31:11 +0000",
+      "minecraft:shulker": "2024-06-03 15:15:03 +0000",
       "minecraft:cave_spider": "2024-05-03 15:17:25 +0000",
       "quark:wraith": "2024-05-19 14:54:33 +0000",
       "minecraft:piglin": "2024-05-03 15:32:43 +0000",
@@ -26573,7 +26575,9 @@
       "inventory_changed14": "2024-05-21 14:12:18 +0000",
       "inventory_changed": "2024-05-21 14:12:18 +0000",
       "inventory_changed7": "2024-05-27 12:22:43 +0000",
+      "inventory_changed8": "2024-06-04 14:54:45 +0000",
       "inventory_changed5": "2024-05-21 14:12:18 +0000",
+      "inventory_changed6": "2024-06-03 14:43:55 +0000",
       "inventory_changed3": "2024-05-18 14:35:02 +0000",
       "inventory_changed4": "2024-05-27 12:22:49 +0000",
       "inventory_changed2": "2024-05-26 14:46:48 +0000",
@@ -35572,6 +35576,828 @@
   "delightful:recipes/knives/draco_arcanus_knife": {
     "criteria": {
       "has_dragon_scale": "2024-05-28 11:49:32 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/redstone_alloy_grinding_ball": {
+    "criteria": {
+      "has_ingredient": "2024-06-02 14:41:21 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/redstone_alloy_nugget_to_ingot": {
+    "criteria": {
+      "has_ingredient": "2024-06-02 14:41:21 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/redstone_filter_base": {
+    "criteria": {
+      "has_ingredient": "2024-06-02 14:41:21 +0000"
+    },
+    "done": true
+  },
+  "enderio:recipes/misc/redstone_alloy_nugget": {
+    "criteria": {
+      "has_ingredient": "2024-06-02 14:41:21 +0000"
+    },
+    "done": true
+  },
+  "eidolon:root": {
+    "criteria": {
+      "eidolon:ars_ecclesia": "2024-06-02 15:30:28 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/pattern_providers_interface_part": {
+    "criteria": {
+      "has_pattern_provider": "2024-06-02 15:39:38 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/terminals_pattern_access": {
+    "criteria": {
+      "has_pattern_provider": "2024-06-02 15:39:38 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/network/mega_pattern_provider": {
+    "criteria": {
+      "has_pattern_provider": "2024-06-02 15:39:38 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/terminals_pattern_encoding": {
+    "criteria": {
+      "has_crafting_terminal": "2024-06-02 15:42:15 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/crafting_terminal": {
+    "criteria": {
+      "certus": "2024-06-02 15:42:15 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/pattern_encoding_terminal": {
+    "criteria": {
+      "certus": "2024-06-02 15:42:18 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/crafting/patterns_blank": {
+    "criteria": {
+      "has_pattern_encoding_terminal": "2024-06-02 15:42:18 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/crafting/cpu_crafting_monitor": {
+    "criteria": {
+      "has_crafting_unit": "2024-06-02 15:54:33 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/crafting/cpu_crafting_accelerator": {
+    "criteria": {
+      "has_crafting_unit": "2024-06-02 15:54:33 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/crafting/4k_cpu_crafting_storage": {
+    "criteria": {
+      "has_crafting_unit": "2024-06-02 15:54:33 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/crafting/256k_cpu_crafting_storage": {
+    "criteria": {
+      "has_crafting_unit": "2024-06-02 15:54:33 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/crafting/16k_cpu_crafting_storage": {
+    "criteria": {
+      "has_crafting_unit": "2024-06-02 15:54:33 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/crafting/64k_cpu_crafting_storage": {
+    "criteria": {
+      "has_crafting_unit": "2024-06-02 15:54:33 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/crafting/1k_cpu_crafting_storage": {
+    "criteria": {
+      "has_crafting_unit": "2024-06-02 15:54:33 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/crafting_cpu": {
+    "criteria": {
+      "cu": "2024-06-02 15:54:33 +0000"
+    },
+    "done": true
+  },
+  "eidolon:pewter_ingot": {
+    "criteria": {
+      "has_pewter_ingot": "2024-06-02 16:03:10 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/pewter_dust_from_ingot": {
+    "criteria": {
+      "has_pewter_ingot": "2024-06-02 16:03:10 +0000"
+    },
+    "done": true
+  },
+  "integrateddynamics:root": {
+    "criteria": {
+      "criteria_0": "2024-06-02 16:04:09 +0000"
+    },
+    "done": true
+  },
+  "integrateddynamics:meneglin_basics/squeezing": {
+    "criteria": {
+      "criteria_0": "2024-06-02 16:04:09 +0000"
+    },
+    "done": true
+  },
+  "integrateddynamics:meneglin_basics/meneglin_discovery": {
+    "criteria": {
+      "criteria_0": "2024-06-02 16:06:17 +0000"
+    },
+    "done": true
+  },
+  "integrateddynamics:meneglin_basics/drying": {
+    "criteria": {
+      "criteria_0": "2024-06-02 16:11:45 +0000"
+    },
+    "done": true
+  },
+  "integrateddynamics:meneglin_basics/menril_production": {
+    "criteria": {
+      "criteria_0": "2024-06-02 16:12:04 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cells/item_storage_cell_64k": {
+    "criteria": {
+      "has_cell_component_64k": "2024-06-02 17:02:52 +0000"
+    },
+    "done": true
+  },
+  "appmek:recipes/misc/chemical_storage_cell_64k": {
+    "criteria": {
+      "has_cell_component_64k": "2024-06-02 17:02:52 +0000"
+    },
+    "done": true
+  },
+  "appbot:recipes/misc/mana_storage_cell_64k": {
+    "criteria": {
+      "has_cell_component_64k": "2024-06-02 17:02:52 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cells/fluid_storage_cell_64k_storage": {
+    "criteria": {
+      "has_cell_component_64k": "2024-06-02 17:02:52 +0000"
+    },
+    "done": true
+  },
+  "ae2additions:recipes/misc/components/super/64k": {
+    "criteria": {
+      "has_item": "2024-06-02 17:02:52 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cells/item_storage_cell_64k_storage": {
+    "criteria": {
+      "has_cell_component_64k": "2024-06-02 17:02:52 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cells/fluid_storage_cell_64k": {
+    "criteria": {
+      "has_cell_component_64k": "2024-06-02 17:02:52 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cells/item_storage_components_cell_256k_part": {
+    "criteria": {
+      "has_cell_component_64k": "2024-06-02 17:02:52 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/ioport": {
+    "criteria": {
+      "certus": "2024-06-02 17:03:28 +0000"
+    },
+    "done": true
+  },
+  "expatternprovider:recipes/misc/ex_io_port": {
+    "criteria": {
+      "has_item": "2024-06-02 17:03:28 +0000"
+    },
+    "done": true
+  },
+  "mekanism:factory": {
+    "criteria": {
+      "factory": "2024-06-02 17:08:12 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shield_block4": {
+    "criteria": {
+      "machine_frame": "2024-06-03 11:47:22 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shield_block1": {
+    "criteria": {
+      "machine_frame": "2024-06-03 11:47:22 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsbase/spawner": {
+    "criteria": {
+      "machine_frame": "2024-06-03 11:47:22 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/dialing_device": {
+    "criteria": {
+      "frame": "2024-06-03 11:47:22 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/matter_booster": {
+    "criteria": {
+      "frame": "2024-06-03 11:47:22 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/space_chamber_controller": {
+    "criteria": {
+      "machine_frame": "2024-06-03 11:47:22 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/builder": {
+    "criteria": {
+      "machine_frame": "2024-06-03 11:47:22 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsbase/matter_beamer": {
+    "criteria": {
+      "machine_frame": "2024-06-03 11:47:22 +0000"
+    },
+    "done": true
+  },
+  "xnet:recipes/xnet/router": {
+    "criteria": {
+      "frame": "2024-06-03 11:47:22 +0000"
+    },
+    "done": true
+  },
+  "xnet:recipes/xnet/redstone_proxy": {
+    "criteria": {
+      "frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/mover_control": {
+    "criteria": {
+      "machine_frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/mover_controller": {
+    "criteria": {
+      "machine_frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/matter_receiver": {
+    "criteria": {
+      "frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolscontrol:recipes/rftoolscontrol/tank": {
+    "criteria": {
+      "frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/mover_control4": {
+    "criteria": {
+      "machine_frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/mover_control3": {
+    "criteria": {
+      "machine_frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/mover_control2": {
+    "criteria": {
+      "machine_frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolspower:recipes/rftoolspower/endergenic": {
+    "criteria": {
+      "frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shield_block2": {
+    "criteria": {
+      "machine_frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shield_block3": {
+    "criteria": {
+      "machine_frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolsstorage:recipes/rftoolsstorage/storage_scanner": {
+    "criteria": {
+      "frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolscontrol:recipes/rftoolscontrol/programmer": {
+    "criteria": {
+      "frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/vehicle_builder": {
+    "criteria": {
+      "machine_frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolspower:recipes/rftoolspower/pearl_injector": {
+    "criteria": {
+      "frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/screen_controller": {
+    "criteria": {
+      "frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/mover": {
+    "criteria": {
+      "machine_frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/mover_status": {
+    "criteria": {
+      "machine_frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/tank": {
+    "criteria": {
+      "frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolspower:recipes/rftoolspower/blazing_generator": {
+    "criteria": {
+      "frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolspower:recipes/rftoolspower/blazing_infuser": {
+    "criteria": {
+      "frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "xnet:recipes/xnet/controller": {
+    "criteria": {
+      "frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolspower:recipes/rftoolspower/blazing_agitator": {
+    "criteria": {
+      "frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/destination_analyzer": {
+    "criteria": {
+      "frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolscontrol:recipes/rftoolscontrol/workbench": {
+    "criteria": {
+      "frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/mover_control_back": {
+    "criteria": {
+      "machine_frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/space_chamber": {
+    "criteria": {
+      "machine_frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/syringe": {
+    "criteria": {
+      "machine_frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/crafter1": {
+    "criteria": {
+      "machine_frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "xnet:recipes/xnet/wireless_router": {
+    "criteria": {
+      "frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolsstorage:recipes/rftoolsstorage/modular_storage": {
+    "criteria": {
+      "frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/matter_transmitter": {
+    "criteria": {
+      "frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/environmental_controller": {
+    "criteria": {
+      "machine_frame": "2024-06-03 11:47:23 +0000"
+    },
+    "done": true
+  },
+  "rftoolspower:recipes/rftoolspower/coalgenerator": {
+    "criteria": {
+      "frame": "2024-06-03 11:47:29 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/compass": {
+    "criteria": {
+      "compass": "2024-06-03 11:50:30 +0000"
+    },
+    "done": true
+  },
+  "expatternprovider:recipes/misc/ex_inscriber": {
+    "criteria": {
+      "has_item": "2024-06-03 11:54:20 +0000"
+    },
+    "done": true
+  },
+  "mekanism:energy_cube": {
+    "criteria": {
+      "basic_energy_cube": "2024-06-03 12:01:34 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/interfaces_interface_alt": {
+    "criteria": {
+      "has_cable_interface": "2024-06-03 12:45:09 +0000"
+    },
+    "done": true
+  },
+  "itemcollectors:recipes/misc/advanced_collector": {
+    "criteria": {
+      "recipe_condition": "2024-06-03 13:41:10 +0000"
+    },
+    "done": true
+  },
+  "aiotbotania:recipes/tools/elementium_aiot": {
+    "criteria": {
+      "has_sword": "2024-06-03 14:36:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2024-06-03 15:16:20 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/acacia_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-03 15:17:06 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/bamboo_shulker_raft_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-03 15:17:06 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/dark_oak_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-03 15:17:06 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/spruce_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-03 15:17:06 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/mangrove_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-03 15:17:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2024-06-03 15:17:06 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/oak_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-03 15:17:06 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/cherry_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-03 15:17:06 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/shulker_box": {
+    "criteria": {
+      "has_shulker_shell": "2024-06-03 15:17:06 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/jungle_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-03 15:17:06 +0000"
+    },
+    "done": true
+  },
+  "utilitix:recipes/misc/birch_shulker_boat_with_shell": {
+    "criteria": {
+      "criterion0": "2024-06-03 15:17:06 +0000"
+    },
+    "done": true
+  },
+  "ars_elemental:summon_strider": {
+    "criteria": {
+      "summon_strider": "2024-06-03 15:33:21 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/unobtainium_dust": {
+    "criteria": {
+      "has_unobtainium": "2024-06-03 15:40:17 +0000"
+    },
+    "done": true
+  },
+  "lootr:1shulker": {
+    "criteria": {
+      "opened_shulker": "2024-06-03 15:43:12 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/enderium_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/enderium]_ingot": "2024-06-03 15:50:36 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/enderium_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/enderium]_ingot": "2024-06-03 15:50:36 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/enderium_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2024-06-03 15:50:36 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/enderium_dust_from_ingot": {
+    "criteria": {
+      "has_enderium_ingot": "2024-06-03 15:50:36 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/enderium_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/enderium]_ingot": "2024-06-03 15:50:36 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/enderium_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/enderium]_ingot": "2024-06-03 15:50:36 +0000"
+    },
+    "done": true
+  },
+  "aeinfinitybooster:recipes/misc/dimension_card": {
+    "criteria": {
+      "has_item": "2024-06-03 15:51:01 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/solid_fueled_firebox": {
+    "criteria": {
+      "has_fire_charge": "2024-06-03 15:52:56 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/vibranium_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-06-03 15:59:50 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/vibranium_block_1x": {
+    "criteria": {
+      "has_vibranium_block": "2024-06-03 15:59:50 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/glimmering_dreamwood_log": {
+    "criteria": {
+      "has_item": "2024-06-03 16:12:52 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/building_blocks/dreamwood": {
+    "criteria": {
+      "has_log": "2024-06-03 16:12:52 +0000"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/purifying_soap": {
+    "criteria": {
+      "has_item": "2024-06-03 17:19:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/unobtainium_mage_chestplate_smithing": {
+    "criteria": {
+      "allthewizardgearhas_ingots/unobtainium_ingot": "2024-06-04 11:43:39 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/unobtainium]_ingot": "2024-06-04 11:43:39 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/toggle_bus_alt": {
+    "criteria": {
+      "has_inverted_toggle_bus": "2024-06-04 14:31:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/unobtainium_spell_book_smithing": {
+    "criteria": {
+      "allthewizardgearhas_ingots/unobtainium_ingot": "2024-06-04 11:43:39 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/toggle_bus_inverted_alt": {
+    "criteria": {
+      "has_toggle_bus": "2024-06-04 14:31:28 +0000"
+    },
+    "done": true
+  },
+  "expatternprovider:recipes/misc/ex_molecular_assembler": {
+    "criteria": {
+      "has_item": "2024-06-04 15:59:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/unobtainium_mage_leggings_smithing": {
+    "criteria": {
+      "allthewizardgearhas_ingots/unobtainium_ingot": "2024-06-04 11:43:39 +0000"
+    },
+    "done": true
+  },
+  "aether:read_lore": {
+    "criteria": {
+      "lore_book_entry": "2024-06-04 12:37:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/unobtainium_mage_helmet_smithing": {
+    "criteria": {
+      "allthewizardgearhas_ingots/unobtainium_ingot": "2024-06-04 11:43:39 +0000"
+    },
+    "done": true
+  },
+  "naturesaura:end_flower": {
+    "criteria": {
+      "materials": "2024-06-04 12:49:42 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/unobtainium_dust_from_ingot": {
+    "criteria": {
+      "has_unobtainium_ingot": "2024-06-04 11:43:39 +0000"
+    },
+    "done": true
+  },
+  "expatternprovider:recipes/misc/epa": {
+    "criteria": {
+      "has_item": "2024-06-04 15:56:05 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/unobtainium]_ingot": "2024-06-04 11:43:39 +0000"
+    },
+    "done": true
+  },
+  "expatternprovider:recipes/misc/epa_upgrade": {
+    "criteria": {
+      "has_item": "2024-06-04 15:55:41 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/unobtainium]_ingot": "2024-06-04 11:43:39 +0000"
+    },
+    "done": true
+  },
+  "expatternprovider:recipes/misc/wireless_ex_pat": {
+    "criteria": {
+      "has_item": "2024-06-04 15:56:05 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/unobtainium]_ingot": "2024-06-04 11:43:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/respawn_dragon": {
+    "criteria": {
+      "summoned_dragon": "2024-06-04 12:42:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2024-06-04 12:46:32 +0000"
+    },
+    "done": true
+  },
+  "expatternprovider:recipes/misc/epp_upgrade": {
+    "criteria": {
+      "has_item": "2024-06-04 15:54:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/unobtainium_mage_boots_smithing": {
+    "criteria": {
+      "allthewizardgearhas_ingots/unobtainium_ingot": "2024-06-04 11:43:39 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2024-06-04 11:43:39 +0000"
     },
     "done": true
   },
