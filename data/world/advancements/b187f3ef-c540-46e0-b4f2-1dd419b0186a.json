@@ -5395,6 +5395,7 @@
       "cooked_cod": "2024-06-04 13:12:06 +0000",
       "supplementaries:candy": "2024-06-04 13:04:26 +0000",
       "suspicious_stew": "2024-05-27 14:29:40 +0000",
+      "glow_berries": "2024-06-05 14:08:34 +0000",
       "melon_slice": "2024-05-04 17:01:59 +0000",
       "cooked_rabbit": "2024-06-02 15:52:01 +0000",
       "cooked_chicken": "2024-05-10 15:20:49 +0000",
@@ -7610,6 +7611,7 @@
       "minecraft:ravager": "2024-05-25 11:06:44 +0000",
       "minecraft:ghast": "2024-05-08 14:21:58 +0000",
       "minecraft:hoglin": "2024-05-25 10:22:04 +0000",
+      "minecraft:guardian": "2024-06-05 13:50:24 +0000",
       "minecraft:vindicator": "2024-05-18 15:12:22 +0000",
       "minecraft:magma_cube": "2024-05-08 14:12:06 +0000",
       "minecraft:spider": "2024-05-02 14:03:07 +0000",
@@ -7622,6 +7624,7 @@
       "minecraft:witch": "2024-05-02 14:26:10 +0000",
       "minecraft:wither_skeleton": "2024-05-05 14:54:35 +0000",
       "minecraft:husk": "2024-05-04 16:02:08 +0000",
+      "minecraft:ender_dragon": "2024-06-05 12:28:43 +0000",
       "minecraft:shulker": "2024-06-02 15:08:37 +0000",
       "minecraft:cave_spider": "2024-05-02 14:30:13 +0000",
       "minecraft:piglin": "2024-05-11 15:22:17 +0000",
@@ -30868,15 +30871,15 @@
     },
     "done": true
   },
-  "minecraft:story/lava_bucket": {
+  "usefulrailroads:recipes/fuel/teleport_rail/chorus_flower": {
     "criteria": {
-      "lava_bucket": "2024-06-04 14:45:36 +0000"
+      "has_ingredient": "2024-06-04 12:32:03 +0000"
     },
     "done": true
   },
-  "aether:recipes/building_blocks/obsidian_from_bucket_freezing": {
+  "minecraft:end/respawn_dragon": {
     "criteria": {
-      "has_lava_bucket": "2024-06-04 14:45:36 +0000"
+      "summoned_dragon": "2024-06-04 12:42:40 +0000"
     },
     "done": true
   },
@@ -30886,9 +30889,9 @@
     },
     "done": true
   },
-  "usefulrailroads:recipes/fuel/teleport_rail/chorus_flower": {
+  "allthemodium:recipes/misc/unobtainium_ingot_from_block": {
     "criteria": {
-      "has_ingredient": "2024-06-04 12:32:03 +0000"
+      "has_item": "2024-06-04 12:53:44 +0000"
     },
     "done": true
   },
@@ -30898,9 +30901,21 @@
     },
     "done": true
   },
-  "allthemodium:recipes/misc/unobtainium_ingot_from_block": {
+  "botania:challenge/king_key": {
     "criteria": {
-      "has_item": "2024-06-04 12:53:44 +0000"
+      "key": "2024-06-04 14:40:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2024-06-04 14:45:36 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/building_blocks/obsidian_from_bucket_freezing": {
+    "criteria": {
+      "has_lava_bucket": "2024-06-04 14:45:36 +0000"
     },
     "done": true
   },
@@ -30922,15 +30937,411 @@
     },
     "done": true
   },
-  "botania:challenge/king_key": {
+  "minecraft:end/kill_dragon": {
     "criteria": {
-      "key": "2024-06-04 14:40:13 +0000"
+      "killed_dragon": "2024-06-05 12:28:43 +0000"
     },
     "done": true
   },
-  "minecraft:end/respawn_dragon": {
+  "reliquary:recipes/misc/uncrafting/redstone": {
     "criteria": {
-      "summoned_dragon": "2024-06-04 12:42:40 +0000"
+      "has_witch_hat": "2024-06-05 12:34:42 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/sugar": {
+    "criteria": {
+      "has_witch_hat": "2024-06-05 12:34:42 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/witch": {
+    "criteria": {
+      "has_witch_hat": "2024-06-05 12:34:42 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/glowstone_dust": {
+    "criteria": {
+      "has_witch_hat": "2024-06-05 12:34:42 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/gunpowder_witch_hat": {
+    "criteria": {
+      "has_witch_hat": "2024-06-05 12:34:42 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/stick": {
+    "criteria": {
+      "has_witch_hat": "2024-06-05 12:34:42 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/glass_bottle": {
+    "criteria": {
+      "has_witch_hat": "2024-06-05 12:34:42 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/dark_prismarine": {
+    "criteria": {
+      "has_the_recipe": "2024-06-05 13:51:25 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_black_picket_fence": {
+    "criteria": {
+      "has_dye": "2024-06-05 13:46:29 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_black2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-05 13:46:29 +0000"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_light_gray": {
+    "criteria": {
+      "has_light_gray_wool": "2024-06-05 13:47:05 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/purified_ink": {
+    "criteria": {
+      "has_black_dye": "2024-06-05 13:46:29 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/tinted_borderless_glass_light_gray2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-05 13:46:54 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/prismarine": {
+    "criteria": {
+      "has_the_recipe": "2024-06-05 13:51:25 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/small_light_gray_industrial_lamp": {
+    "criteria": {
+      "has_small_light_gray_industrial_lamp": "2024-06-05 13:46:54 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/food/cooking/glow_jelly_bottle": {
+    "criteria": {
+      "has_glow_berries": "2024-06-05 14:08:31 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candle_holders/candle_holder_light_gray_dye": {
+    "criteria": {
+      "forge:dyes/light_gray": "2024-06-05 13:46:54 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_light_gray2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-05 13:46:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_gray_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-06-05 13:46:54 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_covered_black": {
+    "criteria": {
+      "has_dyes/black": "2024-06-05 13:46:29 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_light_gray_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-05 13:46:54 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/sponge": {
+    "criteria": {
+      "has_the_recipe": "2024-06-05 14:05:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2024-06-05 13:47:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_gray_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-06-05 13:46:54 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_black_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-05 13:46:29 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/prismarine_bricks": {
+    "criteria": {
+      "has_the_recipe": "2024-06-05 13:51:25 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_light_gray_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-05 13:46:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2024-06-05 13:51:25 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_covered_light_gray": {
+    "criteria": {
+      "has_dyes/black": "2024-06-05 13:46:54 +0000"
+    },
+    "done": true
+  },
+  "mcwlights:recipes/sea_lantern_slab": {
+    "criteria": {
+      "has_wood": "2024-06-05 14:05:17 +0000"
+    },
+    "done": true
+  },
+  "sfm:recipes/redstone/labelgun": {
+    "criteria": {
+      "has_ink": "2024-06-05 13:46:29 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reprocessor/controller": {
+    "criteria": {
+      "has_item2": "2024-06-05 13:51:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_gray_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-06-05 13:46:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-06-05 13:51:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_light_gray_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-06-05 13:46:54 +0000"
+    },
+    "done": true
+  },
+  "comforts:hammock_light_gray": {
+    "criteria": {
+      "has_light_gray_wool": "2024-06-05 13:47:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-06-05 13:46:29 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_smart_light_gray": {
+    "criteria": {
+      "has_dyes/black": "2024-06-05 13:46:54 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/small_black_industrial_lamp": {
+    "criteria": {
+      "has_small_black_industrial_lamp": "2024-06-05 13:46:29 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_light_gray_picket_fence": {
+    "criteria": {
+      "has_dye": "2024-06-05 13:46:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_candle": {
+    "criteria": {
+      "has_light_gray_dye": "2024-06-05 13:46:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2024-06-05 13:47:05 +0000"
+    },
+    "done": true
+  },
+  "naturalist:recipes/naturalist/glow_goop": {
+    "criteria": {
+      "has_glow_berries": "2024-06-05 14:08:31 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_black": {
+    "criteria": {
+      "has_dyes/black": "2024-06-05 13:46:29 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_black_picket_gate": {
+    "criteria": {
+      "has_dye": "2024-06-05 13:46:29 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/light_gray_sofa": {
+    "criteria": {
+      "has_wool": "2024-06-05 13:47:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-06-05 13:51:25 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/black_industrial_lamp": {
+    "criteria": {
+      "has_black_industrial_lamp": "2024-06-05 13:46:29 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_light_gray_picket_gate": {
+    "criteria": {
+      "has_dye": "2024-06-05 13:46:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-06-05 13:46:29 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_light_gray": {
+    "criteria": {
+      "has_dyes/black": "2024-06-05 13:46:54 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_black_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-05 13:46:29 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_smart_black": {
+    "criteria": {
+      "has_dyes/black": "2024-06-05 13:46:29 +0000"
+    },
+    "done": true
+  },
+  "mcwwindows:recipes/one_way_glass": {
+    "criteria": {
+      "has_wood": "2024-06-05 13:46:29 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/light_gray_flag": {
+    "criteria": {
+      "has_light_gray_flag": "2024-06-05 13:47:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_candle": {
+    "criteria": {
+      "has_black_dye": "2024-06-05 13:46:29 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/light_gray_cushion": {
+    "criteria": {
+      "has_light_gray_cushion": "2024-06-05 13:47:05 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_illager_corsair_or_illager_galley": {
+    "criteria": {
+      "location0": "2024-06-05 14:01:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-06-05 13:46:29 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/tinted_borderless_glass_black2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-05 13:46:29 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/light_gray_sheet": {
+    "criteria": {
+      "has_light_gray_sheet": "2024-06-05 13:47:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sponge": {
+    "criteria": {
+      "has_wet_sponge": "2024-06-05 14:05:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2024-06-05 13:47:05 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candle_holders/candle_holder_black_dye": {
+    "criteria": {
+      "forge:dyes/black": "2024-06-05 13:46:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_black_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-06-05 13:46:29 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/bone_meal_from_seashells": {
+    "criteria": {
+      "has_item": "2024-06-05 14:05:13 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/light_gray_industrial_lamp": {
+    "criteria": {
+      "has_light_gray_industrial_lamp": "2024-06-05 13:46:54 +0000"
     },
     "done": true
   },

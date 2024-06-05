@@ -97,12 +97,15 @@
       "rocky_shrubland": "2024-05-01 15:16:03 +0000",
       "erupting_inferno": "2024-05-04 13:50:11 +0000",
       "highland": "2024-05-01 14:35:03 +0000",
+      "jade_cliffs": "2024-06-05 17:16:15 +0000",
       "clover_patch": "2024-05-23 12:01:30 +0000",
       "mystic_grove": "2024-05-03 09:15:59 +0000",
+      "maple_woods": "2024-06-05 17:18:34 +0000",
       "crystalline_chasm": "2024-05-04 13:53:42 +0000",
       "orchard": "2024-05-01 15:26:39 +0000",
       "field": "2024-05-03 08:13:40 +0000",
       "lavender_forest": "2024-05-23 12:08:43 +0000",
+      "moor": "2024-06-05 17:16:34 +0000",
       "coniferous_forest": "2024-05-01 14:30:52 +0000",
       "spider_nest": "2024-05-02 06:30:20 +0000",
       "forested_field": "2024-05-03 08:33:35 +0000",
@@ -113,6 +116,7 @@
       "dune_beach": "2024-05-01 15:27:34 +0000",
       "seasonal_forest": "2024-06-05 08:45:36 +0000",
       "dead_forest": "2024-06-05 09:06:54 +0000",
+      "pasture": "2024-06-05 17:08:20 +0000",
       "lavender_field": "2024-05-23 12:07:34 +0000",
       "fir_clearing": "2024-05-01 14:33:48 +0000",
       "grassland": "2024-05-01 15:19:31 +0000",
@@ -4512,8 +4516,13 @@
       "bread": "2024-05-01 15:26:06 +0000",
       "golden_apple": "2024-05-21 16:35:57 +0000",
       "rotten_flesh": "2024-06-05 09:20:45 +0000",
+      "cookie": "2024-06-05 17:18:28 +0000",
+      "dried_kelp": "2024-06-05 13:51:11 +0000",
       "melon_slice": "2024-05-01 15:21:03 +0000",
-      "cooked_chicken": "2024-05-02 14:34:20 +0000"
+      "beetroot": "2024-06-05 17:10:41 +0000",
+      "cooked_chicken": "2024-05-02 14:34:20 +0000",
+      "cod": "2024-06-05 13:54:26 +0000",
+      "carrot": "2024-06-05 15:50:33 +0000"
     },
     "done": false
   },
@@ -4878,6 +4887,7 @@
       "minecraft:skeleton": "2024-05-01 14:59:23 +0000",
       "minecraft:ravager": "2024-06-04 15:30:19 +0000",
       "minecraft:ghast": "2024-05-07 14:48:10 +0000",
+      "minecraft:guardian": "2024-06-05 13:48:32 +0000",
       "minecraft:vindicator": "2024-05-18 15:10:31 +0000",
       "minecraft:magma_cube": "2024-05-07 14:30:34 +0000",
       "minecraft:spider": "2024-05-01 14:59:46 +0000",
@@ -4890,6 +4900,7 @@
       "minecraft:wither_skeleton": "2024-05-08 14:43:32 +0000",
       "minecraft:husk": "2024-05-02 06:49:32 +0000",
       "minecraft:ender_dragon": "2024-05-27 13:19:11 +0000",
+      "minecraft:shulker": "2024-06-05 16:39:15 +0000",
       "minecraft:cave_spider": "2024-05-08 08:17:19 +0000",
       "minecraft:enderman": "2024-05-27 13:07:00 +0000",
       "minecraft:vex": "2024-06-04 15:34:11 +0000",
@@ -5335,6 +5346,7 @@
       "minecraft:snowy_plains": "2024-06-05 08:58:04 +0000",
       "minecraft:stony_shore": "2024-06-05 08:44:31 +0000",
       "minecraft:swamp": "2024-05-03 08:10:40 +0000",
+      "minecraft:grove": "2024-06-05 17:17:30 +0000",
       "minecraft:jagged_peaks": "2024-06-05 09:06:48 +0000",
       "minecraft:cold_ocean": "2024-06-05 08:41:17 +0000",
       "minecraft:forest": "2024-05-01 14:39:26 +0000",
@@ -17249,7 +17261,8 @@
   },
   "silentgear:swords": {
     "criteria": {
-      "sword": "2024-05-02 05:17:49 +0000"
+      "sword": "2024-05-02 05:17:49 +0000",
+      "katana": "2024-06-05 15:35:24 +0000"
     },
     "done": false
   },
@@ -30423,7 +30436,9 @@
   },
   "mythicbotany:mythicbotany/all_runes": {
     "criteria": {
+      "inventory_changed13": "2024-06-05 16:16:27 +0000",
       "inventory_changed12": "2024-05-26 14:12:33 +0000",
+      "inventory_changed11": "2024-06-05 16:20:09 +0000",
       "inventory_changed10": "2024-06-04 14:54:47 +0000",
       "inventory_changed16": "2024-05-26 15:01:58 +0000",
       "inventory_changed15": "2024-05-26 15:01:04 +0000",
@@ -30433,6 +30448,7 @@
       "inventory_changed5": "2024-05-05 14:28:20 +0000",
       "inventory_changed3": "2024-05-11 09:22:49 +0000",
       "inventory_changed4": "2024-06-03 14:36:42 +0000",
+      "inventory_changed2": "2024-06-05 16:16:27 +0000",
       "inventory_changed9": "2024-05-19 13:56:01 +0000"
     },
     "done": false
@@ -40638,6 +40654,30 @@
     },
     "done": true
   },
+  "silentgear:recipes/misc/golden_nether_banana": {
+    "criteria": {
+      "has_item": "2024-06-05 07:08:55 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/glittery_dust": {
+    "criteria": {
+      "has_item": "2024-06-05 07:08:55 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_rotten": {
+    "criteria": {
+      "requirement": "2024-06-05 07:08:55 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:warp_scroll": {
+    "criteria": {
+      "has_warp_scroll": "2024-06-05 07:23:29 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/diamond_smithing_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2024-06-05 07:42:12 +0000"
@@ -40659,12 +40699,6 @@
   "minecraft:recipes/tools/coal_smithing_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2024-06-05 07:42:12 +0000"
-    },
-    "done": true
-  },
-  "totw_modded:derelict_grass_tower": {
-    "criteria": {
-      "derelict_grass": "2024-06-05 08:42:40 +0000"
     },
     "done": true
   },
@@ -40707,12 +40741,6 @@
   "minecraft:recipes/tools/wither_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-06-05 07:42:12 +0000"
-    },
-    "done": true
-  },
-  "dungeons_arise:find_lighthouse": {
-    "criteria": {
-      "location0": "2024-06-05 08:39:21 +0000"
     },
     "done": true
   },
@@ -40767,12 +40795,6 @@
   "minecraft:recipes/tools/redstone_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-06-05 07:42:12 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/golden_nether_banana": {
-    "criteria": {
-      "has_item": "2024-06-05 07:08:55 +0000"
     },
     "done": true
   },
@@ -40866,12 +40888,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/respawn_anchor": {
-    "criteria": {
-      "has_obsidian": "2024-06-05 08:17:58 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/standard_smithing_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2024-06-05 07:42:12 +0000"
@@ -40902,18 +40918,6 @@
     },
     "done": true
   },
-  "ars_nouveau:warp_scroll": {
-    "criteria": {
-      "has_warp_scroll": "2024-06-05 07:23:29 +0000"
-    },
-    "done": true
-  },
-  "repurposed_structures:monuments": {
-    "criteria": {
-      "in_monument_icy": "2024-06-05 08:43:52 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/tools/snow_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-06-05 07:42:12 +0000"
@@ -40932,21 +40936,9 @@
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/advanced_feeding_upgrade": {
-    "criteria": {
-      "has_feeding_upgrade": "2024-06-05 08:04:56 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/bookshelf_smithing_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2024-06-05 07:42:12 +0000"
-    },
-    "done": true
-  },
-  "irons_spellbooks:irons_spellbooks/make_scroll_forge": {
-    "criteria": {
-      "scroll_forge": "2024-06-05 08:18:47 +0000"
     },
     "done": true
   },
@@ -41064,12 +41056,6 @@
     },
     "done": true
   },
-  "silentgear:recipes/misc/glittery_dust": {
-    "criteria": {
-      "has_item": "2024-06-05 07:08:55 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/hay_smithing_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2024-06-05 07:42:12 +0000"
@@ -41112,12 +41098,6 @@
     },
     "done": true
   },
-  "minecraft:nether/obtain_crying_obsidian": {
-    "criteria": {
-      "crying_obsidian": "2024-06-05 08:17:58 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/horse_smithing_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2024-06-05 07:42:12 +0000"
@@ -41148,21 +41128,9 @@
     },
     "done": true
   },
-  "irons_spellbooks:irons_spellbooks/spell_book_rotten": {
-    "criteria": {
-      "requirement": "2024-06-05 07:08:55 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/enderman_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-06-05 07:42:12 +0000"
-    },
-    "done": true
-  },
-  "totw_modded:regular_tower": {
-    "criteria": {
-      "regular": "2024-06-05 08:37:39 +0000"
     },
     "done": true
   },
@@ -41223,6 +41191,331 @@
   "minecraft:recipes/tools/ocelot_smithing_iron": {
     "criteria": {
       "has_iron_tier_upgrade": "2024-06-05 07:42:12 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/advanced_feeding_upgrade": {
+    "criteria": {
+      "has_feeding_upgrade": "2024-06-05 08:04:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/respawn_anchor": {
+    "criteria": {
+      "has_obsidian": "2024-06-05 08:17:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_crying_obsidian": {
+    "criteria": {
+      "crying_obsidian": "2024-06-05 08:17:58 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/make_scroll_forge": {
+    "criteria": {
+      "scroll_forge": "2024-06-05 08:18:47 +0000"
+    },
+    "done": true
+  },
+  "totw_modded:regular_tower": {
+    "criteria": {
+      "regular": "2024-06-05 08:37:39 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_lighthouse": {
+    "criteria": {
+      "location0": "2024-06-05 08:39:21 +0000"
+    },
+    "done": true
+  },
+  "totw_modded:derelict_grass_tower": {
+    "criteria": {
+      "derelict_grass": "2024-06-05 08:42:40 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:monuments": {
+    "criteria": {
+      "in_monument_icy": "2024-06-05 08:43:52 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/redstone/polished_blackstone_button": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/dark_prismarine": {
+    "criteria": {
+      "has_the_recipe": "2024-06-05 14:06:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/creeper_banner_pattern": {
+    "criteria": {
+      "has_creeper_head": "2024-06-05 17:07:21 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/prismarine": {
+    "criteria": {
+      "has_the_recipe": "2024-06-05 14:06:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "silentgear:blueprint_book": {
+    "criteria": {
+      "get_item": "2024-06-05 14:31:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/netherite_helmet_repairing": {
+    "criteria": {
+      "has_netherite_helmet": "2024-06-05 16:39:16 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/wide_plate_upgrade": {
+    "criteria": {
+      "has_item": "2024-06-05 14:46:09 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_abandoned_temple": {
+    "criteria": {
+      "location0": "2024-06-05 17:19:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:affix/mythic": {
+    "criteria": {
+      "sword": "2024-06-05 16:02:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/polished_blackstone_pressure_plate": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_diving_helmet_from_netherite": {
+    "criteria": {
+      "has_item": "2024-06-05 16:39:16 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/advanced_upgrade_base": {
+    "criteria": {
+      "has_item": "2024-06-05 14:46:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "silentgear:material_grader": {
+    "criteria": {
+      "get_catalyst": "2024-06-05 14:49:10 +0000",
+      "get_grader": "2024-06-05 14:46:40 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/prismarine_bricks": {
+    "criteria": {
+      "has_the_recipe": "2024-06-05 14:06:26 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/ice_pendant_from_freezing": {
+    "criteria": {
+      "has_pendant": "2024-06-05 16:07:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine_bricks": {
+    "criteria": {
+      "has_prismarine_shard": "2024-06-05 14:06:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/blazing_dust": {
+    "criteria": {
+      "has_item": "2024-06-05 14:50:13 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reprocessor/controller": {
+    "criteria": {
+      "has_item2": "2024-06-05 14:06:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dark_prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-06-05 14:06:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2024-06-05 17:30:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/road_maker_upgrade": {
+    "criteria": {
+      "has_item": "2024-06-05 14:46:09 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/mob_charm": {
+    "criteria": {
+      "has_mob_charm_fragment": "2024-06-05 17:00:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/prismarine": {
+    "criteria": {
+      "has_prismarine_shard": "2024-06-05 14:06:26 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/red_card_upgrade": {
+    "criteria": {
+      "has_item": "2024-06-05 14:46:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/exchange_rod": {
+    "criteria": {
+      "has_item": "2024-06-05 16:20:09 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/polished_blackstone_bricks": {
+    "criteria": {
+      "has_the_recipe": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/polished_blackstone_slab": {
+    "criteria": {
+      "has_the_recipe": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/campfire/marshmallow_stick": {
+    "criteria": {
+      "has_marshmallow_stick": "2024-06-05 14:04:47 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_illager_corsair_or_illager_galley": {
+    "criteria": {
+      "location0": "2024-06-05 13:45:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "silentgear:tip_upgrade": {
+    "criteria": {
+      "get_item": "2024-06-05 15:36:40 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_belt": {
+    "criteria": {
+      "has_mob_charm_fragment": "2024-06-05 17:00:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "silentgear:grader_catalyst_2": {
+    "criteria": {
+      "get_item": "2024-06-05 14:50:23 +0000"
+    },
+    "done": true
+  },
+  "botania:challenge/infinite_fruit": {
+    "criteria": {
+      "fruit": "2024-06-05 15:57:12 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/spoon_upgrade": {
+    "criteria": {
+      "has_item": "2024-06-05 14:46:09 +0000"
     },
     "done": true
   },
