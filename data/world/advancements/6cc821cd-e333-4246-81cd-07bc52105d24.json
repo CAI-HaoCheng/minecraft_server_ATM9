@@ -4520,8 +4520,10 @@
       "dried_kelp": "2024-06-05 13:51:11 +0000",
       "melon_slice": "2024-05-01 15:21:03 +0000",
       "beetroot": "2024-06-05 17:10:41 +0000",
+      "cooked_rabbit": "2024-06-06 08:11:03 +0000",
       "cooked_chicken": "2024-05-02 14:34:20 +0000",
       "cod": "2024-06-05 13:54:26 +0000",
+      "cooked_salmon": "2024-06-06 08:42:34 +0000",
       "carrot": "2024-06-05 15:50:33 +0000"
     },
     "done": false
@@ -5351,11 +5353,13 @@
       "minecraft:cold_ocean": "2024-06-05 08:41:17 +0000",
       "minecraft:forest": "2024-05-01 14:39:26 +0000",
       "minecraft:lush_caves": "2024-05-27 13:05:04 +0000",
+      "minecraft:deep_cold_ocean": "2024-06-06 08:35:03 +0000",
       "minecraft:ice_spikes": "2024-06-05 08:43:39 +0000",
       "minecraft:frozen_ocean": "2024-06-05 08:58:21 +0000",
       "minecraft:deep_frozen_ocean": "2024-06-05 08:58:29 +0000",
       "minecraft:ocean": "2024-05-01 15:19:44 +0000",
       "minecraft:snowy_beach": "2024-06-05 08:44:53 +0000",
+      "minecraft:flower_forest": "2024-06-06 08:38:11 +0000",
       "minecraft:frozen_peaks": "2024-06-05 09:05:20 +0000",
       "minecraft:old_growth_birch_forest": "2024-05-01 15:18:48 +0000",
       "minecraft:deep_dark": "2024-05-04 13:54:37 +0000",
@@ -12433,6 +12437,7 @@
       "sea_lettuce": "2024-05-01 15:41:33 +0000",
       "hamburger": "2024-05-10 03:07:26 +0000",
       "fried_chicken": "2024-05-25 08:59:47 +0000",
+      "beef_stew": "2024-06-06 08:03:01 +0000",
       "cooked_shrimp": "2024-05-01 15:44:50 +0000",
       "fish_and_chips": "2024-05-14 14:01:51 +0000",
       "anchovy": "2024-05-01 15:50:25 +0000",
@@ -41242,9 +41247,15 @@
     },
     "done": false
   },
-  "minecraft:recipes/redstone/polished_blackstone_button": {
+  "dungeons_arise:find_illager_corsair_or_illager_galley": {
     "criteria": {
-      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+      "location0": "2024-06-05 13:45:12 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/campfire/marshmallow_stick": {
+    "criteria": {
+      "has_marshmallow_stick": "2024-06-05 14:04:47 +0000"
     },
     "done": true
   },
@@ -41254,100 +41265,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/creeper_banner_pattern": {
-    "criteria": {
-      "has_creeper_head": "2024-06-05 17:07:21 +0000"
-    },
-    "done": true
-  },
   "alchemistry:recipes/dissolver/prismarine": {
     "criteria": {
       "has_the_recipe": "2024-06-05 14:06:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_polished_blackstone_stonecutting": {
-    "criteria": {
-      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
-    },
-    "done": true
-  },
-  "silentgear:blueprint_book": {
-    "criteria": {
-      "get_item": "2024-06-05 14:31:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_stonecutting": {
-    "criteria": {
-      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/combat/netherite_helmet_repairing": {
-    "criteria": {
-      "has_netherite_helmet": "2024-06-05 16:39:16 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/wide_plate_upgrade": {
-    "criteria": {
-      "has_item": "2024-06-05 14:46:09 +0000"
-    },
-    "done": true
-  },
-  "dungeons_arise:find_abandoned_temple": {
-    "criteria": {
-      "location0": "2024-06-05 17:19:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_polished_blackstone_stonecutting": {
-    "criteria": {
-      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
-    },
-    "done": true
-  },
-  "apotheosis:affix/mythic": {
-    "criteria": {
-      "sword": "2024-06-05 16:02:00 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/polished_blackstone_pressure_plate": {
-    "criteria": {
-      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/polished_blackstone_wall": {
-    "criteria": {
-      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/combat/crafting/appliances/netherite_diving_helmet_from_netherite": {
-    "criteria": {
-      "has_item": "2024-06-05 16:39:16 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/advanced_upgrade_base": {
-    "criteria": {
-      "has_item": "2024-06-05 14:46:09 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_blackstone_stairs": {
-    "criteria": {
-      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
-    },
-    "done": true
-  },
-  "silentgear:material_grader": {
-    "criteria": {
-      "get_catalyst": "2024-06-05 14:49:10 +0000",
-      "get_grader": "2024-06-05 14:46:40 +0000"
     },
     "done": true
   },
@@ -41357,33 +41277,9 @@
     },
     "done": true
   },
-  "aether:recipes/misc/ice_pendant_from_freezing": {
-    "criteria": {
-      "has_pendant": "2024-06-05 16:07:47 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/prismarine_bricks": {
     "criteria": {
       "has_prismarine_shard": "2024-06-05 14:06:26 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_polished_blackstone_stonecutting": {
-    "criteria": {
-      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_stonecutting": {
-    "criteria": {
-      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/blazing_dust": {
-    "criteria": {
-      "has_item": "2024-06-05 14:50:13 +0000"
     },
     "done": true
   },
@@ -41399,15 +41295,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/recovery_compass": {
+  "minecraft:recipes/building_blocks/prismarine": {
     "criteria": {
-      "has_echo_shard": "2024-06-05 17:30:32 +0000"
+      "has_prismarine_shard": "2024-06-05 14:06:26 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_stonecutting": {
+  "silentgear:blueprint_book": {
     "criteria": {
-      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+      "get_item": "2024-06-05 14:31:14 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/wide_plate_upgrade": {
+    "criteria": {
+      "has_item": "2024-06-05 14:46:09 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/advanced_upgrade_base": {
+    "criteria": {
+      "has_item": "2024-06-05 14:46:09 +0000"
     },
     "done": true
   },
@@ -41417,9 +41325,94 @@
     },
     "done": true
   },
-  "reliquary:recipes/mob_charm": {
+  "silentgear:recipes/misc/red_card_upgrade": {
     "criteria": {
-      "has_mob_charm_fragment": "2024-06-05 17:00:24 +0000"
+      "has_item": "2024-06-05 14:46:09 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/spoon_upgrade": {
+    "criteria": {
+      "has_item": "2024-06-05 14:46:09 +0000"
+    },
+    "done": true
+  },
+  "silentgear:material_grader": {
+    "criteria": {
+      "get_catalyst": "2024-06-05 14:49:10 +0000",
+      "get_grader": "2024-06-05 14:46:40 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/blazing_dust": {
+    "criteria": {
+      "has_item": "2024-06-05 14:50:13 +0000"
+    },
+    "done": true
+  },
+  "silentgear:grader_catalyst_2": {
+    "criteria": {
+      "get_item": "2024-06-05 14:50:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/polished_blackstone_button": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_bricks_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_slab_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/polished_blackstone_pressure_plate": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_stairs": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_slab_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_blackstone_brick_stairs_from_polished_blackstone_stonecutting": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
     },
     "done": true
   },
@@ -41429,27 +41422,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/prismarine": {
-    "criteria": {
-      "has_prismarine_shard": "2024-06-05 14:06:26 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/red_card_upgrade": {
-    "criteria": {
-      "has_item": "2024-06-05 14:46:09 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_blackstone_bricks": {
     "criteria": {
       "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/tools/exchange_rod": {
-    "criteria": {
-      "has_item": "2024-06-05 16:20:09 +0000"
     },
     "done": true
   },
@@ -41465,19 +41440,13 @@
     },
     "done": true
   },
-  "delightful:recipes/campfire/marshmallow_stick": {
-    "criteria": {
-      "has_marshmallow_stick": "2024-06-05 14:04:47 +0000"
-    },
-    "done": true
-  },
-  "dungeons_arise:find_illager_corsair_or_illager_galley": {
-    "criteria": {
-      "location0": "2024-06-05 13:45:12 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_blackstone_slab": {
+    "criteria": {
+      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_wall_from_polished_blackstone_stonecutting": {
     "criteria": {
       "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
     },
@@ -41489,33 +41458,491 @@
     },
     "done": true
   },
-  "reliquary:recipes/misc/mob_charm_belt": {
-    "criteria": {
-      "has_mob_charm_fragment": "2024-06-05 17:00:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/polished_blackstone_wall_from_polished_blackstone_stonecutting": {
-    "criteria": {
-      "has_polished_blackstone": "2024-06-05 15:25:58 +0000"
-    },
-    "done": true
-  },
-  "silentgear:grader_catalyst_2": {
-    "criteria": {
-      "get_item": "2024-06-05 14:50:23 +0000"
-    },
-    "done": true
-  },
   "botania:challenge/infinite_fruit": {
     "criteria": {
       "fruit": "2024-06-05 15:57:12 +0000"
     },
     "done": true
   },
-  "silentgear:recipes/misc/spoon_upgrade": {
+  "apotheosis:affix/mythic": {
     "criteria": {
-      "has_item": "2024-06-05 14:46:09 +0000"
+      "sword": "2024-06-05 16:02:00 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/misc/ice_pendant_from_freezing": {
+    "criteria": {
+      "has_pendant": "2024-06-05 16:07:47 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/tools/exchange_rod": {
+    "criteria": {
+      "has_item": "2024-06-05 16:20:09 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/netherite_helmet_repairing": {
+    "criteria": {
+      "has_netherite_helmet": "2024-06-05 16:39:16 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/combat/crafting/appliances/netherite_diving_helmet_from_netherite": {
+    "criteria": {
+      "has_item": "2024-06-05 16:39:16 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/mob_charm": {
+    "criteria": {
+      "has_mob_charm_fragment": "2024-06-05 17:00:24 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_belt": {
+    "criteria": {
+      "has_mob_charm_fragment": "2024-06-05 17:00:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/creeper_banner_pattern": {
+    "criteria": {
+      "has_creeper_head": "2024-06-05 17:07:21 +0000"
+    },
+    "done": true
+  },
+  "dungeons_arise:find_abandoned_temple": {
+    "criteria": {
+      "location0": "2024-06-05 17:19:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/recovery_compass": {
+    "criteria": {
+      "has_echo_shard": "2024-06-05 17:30:32 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/sinew_fiber": {
+    "criteria": {
+      "has_item": "2024-06-06 07:58:24 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/tools/ventium_bucket": {
+    "criteria": {
+      "has_item": "2024-06-06 09:08:33 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/lunar_stone_hoe": {
+    "criteria": {
+      "has_resource": "2024-06-06 08:55:22 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/lunar_stonebrick_slab": {
+    "criteria": {
+      "has_item": "2024-06-06 08:51:21 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:archmage_spell_book": {
+    "criteria": {
+      "has_archmage_spell_book": "2024-06-06 07:58:07 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/tools/zeal_lighter": {
+    "criteria": {
+      "has_item": "2024-06-06 09:08:33 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/lunar_stonebrick_stairs_stonecutting_lunar_stonebrick": {
+    "criteria": {
+      "has_item": "2024-06-06 08:51:21 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/lunar_cobblestone_slab_stonecutting_lunar_cobblestone": {
+    "criteria": {
+      "has_item": "2024-06-06 08:55:22 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:keys": {
+    "criteria": {
+      "obtain_key": "2024-06-06 09:05:07 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/misc/ventium_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2024-06-06 09:08:33 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_unstable_intangibility": {
+    "criteria": {
+      "has_magic_scroll": "2024-06-06 07:24:27 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/lunar_cobblestone_stairs_stonecutting_lunar_cobblestone": {
+    "criteria": {
+      "has_item": "2024-06-06 08:55:22 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/lunar_stone_sword": {
+    "criteria": {
+      "has_resource": "2024-06-06 08:55:22 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/redstone/moonstone_pressure_plate": {
+    "criteria": {
+      "has_item": "2024-06-06 09:08:33 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:everdawn/enter": {
+    "criteria": {
+      "enter_everdawn": "2024-06-06 08:51:46 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/ventium_block": {
+    "criteria": {
+      "has_item": "2024-06-06 09:08:33 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/food/rabbit_stew_from_toadstool": {
+    "criteria": {
+      "has_cooked_rabbit": "2024-06-06 08:02:30 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/combat/bluebright_spear": {
+    "criteria": {
+      "has_item": "2024-06-06 09:08:33 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:root": {
+    "criteria": {
+      "enter_everdawn": "2024-06-06 08:51:46 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:wilden_explosion": {
+    "criteria": {
+      "wilden_explosion": "2024-06-06 07:57:10 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:find_sunken_city": {
+    "criteria": {
+      "factory": "2024-06-06 08:19:57 +0000"
+    },
+    "done": true
+  },
+  "ars_nouveau:wilden_tribute": {
+    "criteria": {
+      "has_wilden_tribute": "2024-06-06 07:57:47 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/moonstone_block_from_moonstone": {
+    "criteria": {
+      "has_item": "2024-06-06 08:51:21 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/combat/comet_spear": {
+    "criteria": {
+      "has_item": "2024-06-06 09:08:33 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/lunar_stonebrick_stairs": {
+    "criteria": {
+      "has_item": "2024-06-06 08:51:21 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/lunar_stone_shovel": {
+    "criteria": {
+      "has_resource": "2024-06-06 08:55:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2024-06-06 08:02:30 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/combat/golden_boots_repairing": {
+    "criteria": {
+      "has_golden_boots": "2024-06-06 07:30:05 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:thinking_with_portals": {
+    "criteria": {
+      "enter_everdawn": "2024-06-06 08:51:46 +0000"
+    },
+    "done": false
+  },
+  "blue_skies:everdawn/kill_alchemist": {
+    "criteria": {
+      "kill_alchemist": "2024-06-06 09:08:22 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/combat/maple_spear": {
+    "criteria": {
+      "has_item": "2024-06-06 09:08:33 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/combat/frostbright_spear": {
+    "criteria": {
+      "has_item": "2024-06-06 09:08:33 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/lunar_stone_pickaxe": {
+    "criteria": {
+      "has_resource": "2024-06-06 08:55:22 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/combat/starlit_spear": {
+    "criteria": {
+      "has_item": "2024-06-06 09:08:33 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/lunar_stone_from_smelting_lunar_cobblestone": {
+    "criteria": {
+      "has_item": "2024-06-06 08:55:22 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/anvil_compat": {
+    "criteria": {
+      "has_item": "2024-06-06 09:08:33 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_purification": {
+    "criteria": {
+      "has_magic_scroll": "2024-06-06 07:25:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2024-06-06 08:02:30 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/combat/dusk_spear": {
+    "criteria": {
+      "has_item": "2024-06-06 09:08:33 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/misc/moonstone_from_smelting_everdawn_moonstone_ore": {
+    "criteria": {
+      "has_item": "2024-06-06 08:55:42 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/tool_box": {
+    "criteria": {
+      "has_item": "2024-06-06 09:08:33 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/furnace_compat": {
+    "criteria": {
+      "has_item": "2024-06-06 08:55:22 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/blast_furnace/blasting_iron_door": {
+    "criteria": {
+      "has_iron_door": "2024-06-06 06:47:51 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/combat/lunar_spear": {
+    "criteria": {
+      "has_item": "2024-06-06 09:08:33 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/misc/thwarted_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2024-06-06 09:08:34 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/lunar_stonebrick_wall": {
+    "criteria": {
+      "has_item": "2024-06-06 08:51:21 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/misc/moonstone_from_shard": {
+    "criteria": {
+      "has_item": "2024-06-06 09:08:33 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/food/cooked_monitor_tail_from_smoking_monitor_tail": {
+    "criteria": {
+      "has_item": "2024-06-06 08:52:45 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:get_moonstone_shard": {
+    "criteria": {
+      "obtain_moonstone_shard": "2024-06-06 09:08:33 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:everbright/get_ventium": {
+    "criteria": {
+      "obtain_material": "2024-06-06 09:08:33 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/chiseled_lunar_stonebrick_stonecutting_lunar_stonebrick": {
+    "criteria": {
+      "has_item": "2024-06-06 08:51:21 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/lunar_cobblestone_slab": {
+    "criteria": {
+      "has_item": "2024-06-06 08:55:22 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:everdawn/kill_bug": {
+    "criteria": {
+      "kill_emberback": "2024-06-06 08:52:28 +0000",
+      "kill_nyctofly": "2024-06-06 08:53:02 +0000",
+      "kill_venom_spider": "2024-06-06 08:55:47 +0000"
+    },
+    "done": false
+  },
+  "blue_skies:recipes/building_blocks/lunar_stonebrick_slab_stonecutting_lunar_stonebrick": {
+    "criteria": {
+      "has_item": "2024-06-06 08:51:21 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/dried_sinew": {
+    "criteria": {
+      "has_item": "2024-06-06 07:58:24 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/food/cooked_monitor_tail_from_campfire_cooking_monitor_tail": {
+    "criteria": {
+      "has_item": "2024-06-06 08:52:45 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/lunar_cobblestone_stairs": {
+    "criteria": {
+      "has_item": "2024-06-06 08:55:22 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:progression/unlock_everdawn_blinding_key_trade": {
+    "criteria": {
+      "click_keystone": "2024-06-06 09:06:49 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/cracked_lunar_stonebrick_from_smelting_lunar_stonebrick": {
+    "criteria": {
+      "has_item": "2024-06-06 08:51:21 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/misc/moonstone_from_blasting_everdawn_moonstone_ore": {
+    "criteria": {
+      "has_item": "2024-06-06 08:55:42 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/lunar_cobblestone_wall": {
+    "criteria": {
+      "has_item": "2024-06-06 08:55:22 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/use_frost_resistance": {
+    "criteria": {
+      "has_magic_scroll": "2024-06-06 07:25:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/conduit": {
+    "criteria": {
+      "has_nautilus_shell": "2024-06-06 08:35:33 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/blue_skies_tools/lunar_stone_axe": {
+    "criteria": {
+      "has_resource": "2024-06-06 08:55:22 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/tools/ventium_shears": {
+    "criteria": {
+      "has_item": "2024-06-06 09:08:33 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:enter_blinding_dungeon": {
+    "criteria": {
+      "entered_everdawn_blinding_dungeon": "2024-06-06 09:04:30 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/lunar_stonebrick_wall_stonecutting_lunar_stonebrick": {
+    "criteria": {
+      "has_item": "2024-06-06 08:51:21 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/building_blocks/lunar_cobblestone_wall_stonecutting_lunar_cobblestone": {
+    "criteria": {
+      "has_item": "2024-06-06 08:55:22 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/redstone/lunar_lever": {
+    "criteria": {
+      "has_item": "2024-06-06 08:55:22 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:recipes/food/cooked_monitor_tail_from_smelting_monitor_tail": {
+    "criteria": {
+      "has_item": "2024-06-06 08:52:45 +0000"
     },
     "done": true
   },
