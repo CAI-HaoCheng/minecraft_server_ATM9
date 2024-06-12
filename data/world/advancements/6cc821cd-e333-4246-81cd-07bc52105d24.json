@@ -4914,6 +4914,7 @@
       "minecraft:cave_spider": "2024-05-08 08:17:19 +0000",
       "minecraft:enderman": "2024-05-27 13:07:00 +0000",
       "minecraft:silverfish": "2024-06-07 14:49:05 +0000",
+      "minecraft:stray": "2024-06-09 14:59:57 +0000",
       "minecraft:endermite": "2024-06-06 13:29:21 +0000",
       "minecraft:vex": "2024-06-04 15:34:11 +0000",
       "minecraft:zombie": "2024-05-01 14:39:19 +0000",
@@ -5368,6 +5369,7 @@
       "minecraft:deep_cold_ocean": "2024-06-06 08:35:03 +0000",
       "minecraft:ice_spikes": "2024-06-05 08:43:39 +0000",
       "minecraft:frozen_ocean": "2024-06-05 08:58:21 +0000",
+      "minecraft:desert": "2024-06-11 13:29:08 +0000",
       "minecraft:deep_frozen_ocean": "2024-06-05 08:58:29 +0000",
       "minecraft:ocean": "2024-05-01 15:19:44 +0000",
       "minecraft:jungle": "2024-06-07 08:29:59 +0000",
@@ -12465,6 +12467,7 @@
       "tuna": "2024-05-01 15:49:08 +0000",
       "glowing_calamari": "2024-05-12 12:49:07 +0000",
       "oyster": "2024-05-01 15:44:50 +0000",
+      "fruit_salad": "2024-06-09 13:56:33 +0000",
       "crab": "2024-05-01 15:45:54 +0000"
     },
     "done": false
@@ -42680,6 +42683,18 @@
     },
     "done": true
   },
+  "occultism:recipes/spirit_fire/spirit_fire/book_of_binding_empty": {
+    "criteria": {
+      "has_writable_book": "2024-06-08 14:22:46 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/logbook": {
+    "criteria": {
+      "has_writable_book": "2024-06-08 14:22:46 +0000"
+    },
+    "done": true
+  },
   "allthemodium:recipes/misc/allthemodium_pickaxe": {
     "criteria": {
       "has_allthemodium_rod": "2024-06-08 15:01:15 +0000"
@@ -42689,18 +42704,6 @@
   "allthemodium:recipes/misc/allthemodium_axe": {
     "criteria": {
       "has_allthemodium_rod": "2024-06-08 15:01:15 +0000"
-    },
-    "done": true
-  },
-  "occultism:recipes/spirit_fire/spirit_fire/book_of_binding_empty": {
-    "criteria": {
-      "has_writable_book": "2024-06-08 14:22:46 +0000"
-    },
-    "done": true
-  },
-  "cataclysm:kill_ignis": {
-    "criteria": {
-      "ignis": "2024-06-08 15:13:21 +0000"
     },
     "done": true
   },
@@ -42716,9 +42719,9 @@
     },
     "done": true
   },
-  "mekanism:disassembler": {
+  "allthemodium:recipes/misc/allthemodium_hoe": {
     "criteria": {
-      "atomic_disassembler": "2024-06-08 15:01:54 +0000"
+      "has_allthemodium_rod": "2024-06-08 15:01:15 +0000"
     },
     "done": true
   },
@@ -42728,15 +42731,321 @@
     },
     "done": true
   },
-  "railcraft:recipes/misc/logbook": {
+  "mekanism:disassembler": {
     "criteria": {
-      "has_writable_book": "2024-06-08 14:22:46 +0000"
+      "atomic_disassembler": "2024-06-08 15:01:54 +0000"
     },
     "done": true
   },
-  "allthemodium:recipes/misc/allthemodium_hoe": {
+  "cataclysm:kill_ignis": {
     "criteria": {
-      "has_allthemodium_rod": "2024-06-08 15:01:15 +0000"
+      "ignis": "2024-06-08 15:13:21 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/bricks/chiseled_bricks": {
+    "criteria": {
+      "has_item": "2024-06-09 12:59:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2024-06-09 12:59:14 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_bricks_bridge": {
+    "criteria": {
+      "has_planks": "2024-06-09 12:59:14 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/bricks/chiseled_bricks_stonecutting": {
+    "criteria": {
+      "has_item": "2024-06-09 12:59:14 +0000"
+    },
+    "done": true
+  },
+  "mcwpaths:recipes/brick": {
+    "criteria": {
+      "has_wood": "2024-06-09 12:59:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2024-06-09 12:59:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_bricks": "2024-06-09 12:59:14 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/bricks/cracked_bricks": {
+    "criteria": {
+      "has_item": "2024-06-09 12:59:14 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/brick_bridge": {
+    "criteria": {
+      "has_planks": "2024-06-09 12:59:14 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/bricks_corner_trim": {
+    "criteria": {
+      "has_bricks_corner_trim": "2024-06-09 12:59:14 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/brick_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-06-09 12:59:14 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/brick_slab": {
+    "criteria": {
+      "has_the_recipe": "2024-06-09 12:59:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab_from_bricks_stonecutting": {
+    "criteria": {
+      "has_bricks": "2024-06-09 12:59:14 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/bricks/mixed_bricks_stonecutting": {
+    "criteria": {
+      "has_item": "2024-06-09 12:59:14 +0000"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/bricks": {
+    "criteria": {
+      "has_planks": "2024-06-09 12:59:14 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/bricks_pillar_trim": {
+    "criteria": {
+      "has_bricks_pillar_trim": "2024-06-09 12:59:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall": {
+    "criteria": {
+      "has_bricks": "2024-06-09 12:59:14 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/bricks/mixed_bricks": {
+    "criteria": {
+      "has_item": "2024-06-09 12:59:14 +0000"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/bricks_chain": {
+    "criteria": {
+      "recipe_condition": "2024-06-09 12:59:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_bricks": "2024-06-09 12:59:14 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_pump": {
+    "criteria": {
+      "shape_card": "2024-06-09 12:59:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_liquid": {
+    "criteria": {
+      "shape_card": "2024-06-09 12:59:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_clear_fortune": {
+    "criteria": {
+      "shape_card": "2024-06-09 12:59:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_fortune": {
+    "criteria": {
+      "shape_card": "2024-06-09 12:59:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_silk_dirt": {
+    "criteria": {
+      "shape_card": "2024-06-09 12:59:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_clear_silk": {
+    "criteria": {
+      "shape_card": "2024-06-09 12:59:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_pump_clear": {
+    "criteria": {
+      "shape_card": "2024-06-09 12:59:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_silk": {
+    "criteria": {
+      "shape_card": "2024-06-09 12:59:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_dirt": {
+    "criteria": {
+      "shape_card": "2024-06-09 12:59:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_clear": {
+    "criteria": {
+      "shape_card": "2024-06-09 12:59:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_void": {
+    "criteria": {
+      "shape_card": "2024-06-09 12:59:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_fortune_dirt": {
+    "criteria": {
+      "shape_card": "2024-06-09 12:59:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry": {
+    "criteria": {
+      "shape_card": "2024-06-09 12:59:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_pump_dirt": {
+    "criteria": {
+      "shape_card": "2024-06-09 12:59:17 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/oak_hedge": {
+    "criteria": {
+      "has_leaves": "2024-06-09 14:02:56 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_dust_from_ore_crushing": {
+    "criteria": {
+      "has_item": "2024-06-11 13:04:45 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_ingot_from_raw_blasting": {
+    "criteria": {
+      "has_item": "2024-06-11 13:04:45 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:find_ancient_factory": {
+    "criteria": {
+      "factory": "2024-06-11 13:42:39 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:tier_3_rocket": {
+    "criteria": {
+      "has_tier_3_rocket": "2024-06-11 13:14:13 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/raw_unobtainium_block": {
+    "criteria": {
+      "has_raw_unobtainium": "2024-06-11 13:04:45 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/redstone/red_string_interceptor": {
+    "criteria": {
+      "has_base_block": "2024-06-11 13:24:38 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_ingot": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:nuggets/unobtainium]_nugget": "2024-06-11 13:04:30 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/gold_to_netherite_tier_upgrade": {
+    "criteria": {
+      "has_gold_to_diamond_tier_upgrade": "2024-06-11 13:15:10 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/unobtainium_dust": {
+    "criteria": {
+      "has_unobtainium": "2024-06-11 13:15:10 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/unobtainium_dust_from_raw": {
+    "criteria": {
+      "has_raw_unobtainium": "2024-06-11 13:04:45 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:mars": {
+    "criteria": {
+      "entered_mars": "2024-06-11 12:58:35 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_ingot_from_raw_smelting": {
+    "criteria": {
+      "has_item": "2024-06-11 13:04:45 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:kill_remnant": {
+    "criteria": {
+      "ignis": "2024-06-11 13:38:56 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/misc/keypad_item": {
+    "criteria": {
+      "has_stone_button": "2024-06-11 13:24:38 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:find_cursed_pyramid": {
+    "criteria": {
+      "pyramid": "2024-06-11 13:29:08 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:moon": {
+    "criteria": {
+      "entered_moon": "2024-06-11 13:13:27 +0000"
     },
     "done": true
   },
