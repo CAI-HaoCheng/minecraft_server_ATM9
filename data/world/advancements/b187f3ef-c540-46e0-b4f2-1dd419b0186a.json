@@ -34349,27 +34349,117 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/coal_smithing_gold": {
+  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
     "criteria": {
-      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
+      "has_moss_block": "2024-06-12 14:14:14 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/spider_smithing_diamond": {
+  "minecraft:recipes/decorations/moss_carpet": {
     "criteria": {
-      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
+      "has_moss_block": "2024-06-12 14:14:14 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/quartz_smithing_gold": {
+  "alchemistry:recipes/dissolver/moss_carpet": {
     "criteria": {
-      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
+      "has_the_recipe": "2024-06-12 14:14:14 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/standard_smithing_diamond": {
+  "twigs:recipes/cobblestone_bricks/mossy_cobblestone_bricks_from_moss": {
     "criteria": {
-      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
+      "has_item": "2024-06-12 14:14:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2024-06-12 14:14:14 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/moss_block_1x": {
+    "criteria": {
+      "has_moss_block": "2024-06-12 14:14:14 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/bricks/mossy_bricks_from_moss_block": {
+    "criteria": {
+      "has_item": "2024-06-12 14:14:14 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/building_blocks/reinforced_mossy_stone_bricks_from_vanilla_moss": {
+    "criteria": {
+      "has_moss": "2024-06-12 14:14:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-06-12 14:29:53 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/end_stone_bricks_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-06-12 14:29:53 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_end_stone_bricks_bridge": {
+    "criteria": {
+      "has_planks": "2024-06-12 14:29:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-06-12 14:29:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
+    "criteria": {
+      "has_end_stone_brick": "2024-06-12 14:29:53 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/end_stone_brick_slab": {
+    "criteria": {
+      "has_the_recipe": "2024-06-12 14:29:53 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/end_stone_bricks_bridge": {
+    "criteria": {
+      "has_planks": "2024-06-12 14:29:53 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/end_stone_bricks_bridge_stair": {
+    "criteria": {
+      "has_planks": "2024-06-12 14:29:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-06-12 14:29:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-06-12 14:29:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_stone_brick_wall": {
+    "criteria": {
+      "has_end_stone_bricks": "2024-06-12 14:29:53 +0000"
     },
     "done": true
   },
@@ -34379,51 +34469,81 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/purpur_stairs": {
+    "criteria": {
+      "has_purpur_block": "2024-06-12 14:31:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-12 14:31:35 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/purpur_slab": {
+    "criteria": {
+      "has_the_recipe": "2024-06-12 14:31:35 +0000"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/purpur_chain": {
+    "criteria": {
+      "recipe_condition": "2024-06-12 14:31:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2024-06-12 14:31:35 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/purpur_pillar": {
+    "criteria": {
+      "has_the_recipe": "2024-06-12 14:31:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-12 14:31:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2024-06-12 14:31:35 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:find_ruined_citadel": {
+    "criteria": {
+      "citadel": "2024-06-12 14:34:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spider_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/standard_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/chicken_smithing_diamond": {
     "criteria": {
       "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/tools/diamond_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/fox_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wither_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
-    },
-    "done": true
-  },
-  "railcraft:recipes/misc/silver_nugget": {
-    "criteria": {
-      "has_silver_ingot": "2024-06-12 14:44:10 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/ocelot_smithing_diamond": {
     "criteria": {
       "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mossy_stone_bricks_from_moss_block": {
-    "criteria": {
-      "has_moss_block": "2024-06-12 14:14:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/netherite_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
     },
     "done": true
   },
@@ -34439,33 +34559,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/villager_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/cactus_smithing_diamond": {
     "criteria": {
       "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/emerald_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/end_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
-    },
-    "done": true
-  },
-  "railcraft:recipes/misc/silver_block_from_silver_ingot": {
-    "criteria": {
-      "has_silver_ingot": "2024-06-12 14:44:10 +0000"
     },
     "done": true
   },
@@ -34481,24 +34577,6 @@
     },
     "done": true
   },
-  "cataclysm:kill_ender_golem": {
-    "criteria": {
-      "endergolem": "2024-06-12 14:47:18 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/redstone_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_stairs": {
-    "criteria": {
-      "has_purpur_block": "2024-06-12 14:31:35 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/emerald_smithing_diamond": {
     "criteria": {
       "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
@@ -34511,33 +34589,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/pumpkin_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/quartz_smithing_diamond": {
     "criteria": {
       "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab_from_end_stone_brick_stonecutting": {
-    "criteria": {
-      "has_end_stone_brick": "2024-06-12 14:29:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/skeleton_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/magma_cube_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
     },
     "done": true
   },
@@ -34547,27 +34601,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/moss_carpet": {
-    "criteria": {
-      "has_moss_block": "2024-06-12 14:14:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/chicken_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/nether_smithing_diamond": {
     "criteria": {
       "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/cactus_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
     },
     "done": true
   },
@@ -34589,27 +34625,9 @@
     },
     "done": true
   },
-  "mcwbridges:recipes/end_stone_bricks_bridge_pier": {
-    "criteria": {
-      "has_planks": "2024-06-12 14:29:53 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/coal_smithing_diamond": {
     "criteria": {
       "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-06-12 14:31:35 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/netherite_axe_repairing": {
-    "criteria": {
-      "has_netherite_axe": "2024-06-12 15:01:02 +0000"
     },
     "done": true
   },
@@ -34619,39 +34637,9 @@
     },
     "done": true
   },
-  "alchemistry:recipes/dissolver/purpur_slab": {
-    "criteria": {
-      "has_the_recipe": "2024-06-12 14:31:35 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/horse_smithing_diamond": {
     "criteria": {
       "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/balustrade_end_stone_bricks_bridge": {
-    "criteria": {
-      "has_planks": "2024-06-12 14:29:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/spider_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/lapis_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/dragon_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
     },
     "done": true
   },
@@ -34697,27 +34685,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/snow_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/fox_smithing_diamond": {
     "criteria": {
       "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_stone_brick_wall_from_end_stone_brick_stonecutting": {
-    "criteria": {
-      "has_end_stone_brick": "2024-06-12 14:29:53 +0000"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/moss_carpet": {
-    "criteria": {
-      "has_the_recipe": "2024-06-12 14:14:14 +0000"
     },
     "done": true
   },
@@ -34733,24 +34703,6 @@
     },
     "done": true
   },
-  "additionallanterns:recipes/misc/purpur_chain": {
-    "criteria": {
-      "recipe_condition": "2024-06-12 14:31:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/creeper_smithing_gold": {
-    "criteria": {
-      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
-    },
-    "done": true
-  },
-  "twigs:recipes/cobblestone_bricks/mossy_cobblestone_bricks_from_moss": {
-    "criteria": {
-      "has_item": "2024-06-12 14:14:14 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/netherite_smithing_diamond": {
     "criteria": {
       "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
@@ -34763,15 +34715,189 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/end_stone_brick_stairs_from_end_stone_brick_stonecutting": {
-    "criteria": {
-      "has_end_stone_brick": "2024-06-12 14:29:53 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/hay_smithing_diamond": {
     "criteria": {
       "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/cow_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/skeleton_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/pig_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wither_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/snow_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/iron_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/squid_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wolf_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/dragon_smithing_diamond": {
+    "criteria": {
+      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/coal_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/quartz_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/diamond_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fox_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/wither_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/netherite_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/villager_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/emerald_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/end_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/redstone_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/pumpkin_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/skeleton_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/magma_cube_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/chicken_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/cactus_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/spider_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lapis_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/dragon_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/snow_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/creeper_smithing_gold": {
+    "criteria": {
+      "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
     },
     "done": true
   },
@@ -34793,12 +34919,6 @@
     },
     "done": true
   },
-  "cataclysm:find_ruined_citadel": {
-    "criteria": {
-      "citadel": "2024-06-12 14:34:55 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/standard_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
@@ -34811,45 +34931,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/cow_smithing_diamond": {
-    "criteria": {
-      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/iron_golem_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/purpur_pillar": {
-    "criteria": {
-      "has_purpur_block": "2024-06-12 14:31:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/skeleton_smithing_diamond": {
-    "criteria": {
-      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/pig_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/pig_smithing_diamond": {
-    "criteria": {
-      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/end_stone_brick_slab": {
-    "criteria": {
-      "has_the_recipe": "2024-06-12 14:29:53 +0000"
     },
     "done": true
   },
@@ -34871,48 +34961,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mossy_cobblestone_from_moss_block": {
-    "criteria": {
-      "has_moss_block": "2024-06-12 14:14:14 +0000"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/end_stone_bricks_bridge": {
-    "criteria": {
-      "has_planks": "2024-06-12 14:29:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/wither_smithing_diamond": {
-    "criteria": {
-      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/end_stone_bricks_bridge_stair": {
-    "criteria": {
-      "has_planks": "2024-06-12 14:29:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_slab": {
-    "criteria": {
-      "has_end_stone_bricks": "2024-06-12 14:29:53 +0000"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/moss_block_1x": {
-    "criteria": {
-      "has_moss_block": "2024-06-12 14:14:14 +0000"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/purpur_pillar": {
-    "criteria": {
-      "has_the_recipe": "2024-06-12 14:31:35 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/hay_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
@@ -34931,39 +34979,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
-    "criteria": {
-      "has_purpur_block": "2024-06-12 14:31:35 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/end_stone_brick_stairs": {
-    "criteria": {
-      "has_end_stone_bricks": "2024-06-12 14:29:53 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/horse_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/snow_smithing_diamond": {
-    "criteria": {
-      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/diamond_smithing_diamond": {
-    "criteria": {
-      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
-    },
-    "done": true
-  },
-  "twigs:recipes/bricks/mossy_bricks_from_moss_block": {
-    "criteria": {
-      "has_item": "2024-06-12 14:14:14 +0000"
     },
     "done": true
   },
@@ -34973,21 +34991,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/iron_smithing_diamond": {
-    "criteria": {
-      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/cow_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/squid_smithing_diamond": {
-    "criteria": {
-      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
     },
     "done": true
   },
@@ -35003,12 +35009,6 @@
     },
     "done": true
   },
-  "securitycraft:recipes/building_blocks/reinforced_mossy_stone_bricks_from_vanilla_moss": {
-    "criteria": {
-      "has_moss": "2024-06-12 14:14:14 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/ocelot_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
@@ -35021,27 +35021,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/tools/wolf_smithing_diamond": {
-    "criteria": {
-      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/end_stone_brick_wall": {
-    "criteria": {
-      "has_end_stone_bricks": "2024-06-12 14:29:53 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/tools/gold_smithing_gold": {
     "criteria": {
       "has_gold_tier_upgrade": "2024-06-12 14:42:05 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/tools/dragon_smithing_diamond": {
-    "criteria": {
-      "has_diamond_tier_upgrade": "2024-06-12 14:38:54 +0000"
     },
     "done": true
   },
@@ -35057,9 +35039,135 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+  "railcraft:recipes/misc/silver_nugget": {
     "criteria": {
-      "has_purpur_block": "2024-06-12 14:31:35 +0000"
+      "has_silver_ingot": "2024-06-12 14:44:10 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/silver_block_from_silver_ingot": {
+    "criteria": {
+      "has_silver_ingot": "2024-06-12 14:44:10 +0000"
+    },
+    "done": true
+  },
+  "cataclysm:kill_ender_golem": {
+    "criteria": {
+      "endergolem": "2024-06-12 14:47:18 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/netherite_axe_repairing": {
+    "criteria": {
+      "has_netherite_axe": "2024-06-12 15:01:02 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/redwood_planks": {
+    "criteria": {
+      "has_logs": "2024-06-13 13:08:19 +0000"
+    },
+    "done": true
+  },
+  "naturalist:recipes/naturalist/limestone": {
+    "criteria": {
+      "has_shell": "2024-06-13 13:11:51 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/stonecutting/polished_conglomerate_from_conglomerate_stonecutting": {
+    "criteria": {
+      "has_polished_conglomerate": "2024-06-13 13:03:42 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/redwood_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-06-13 13:08:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "minecraft:sniffer": "2024-06-13 12:53:12 +0000"
+    },
+    "done": false
+  },
+  "enderio:recipes/building_blocks/silent_oak_pressure_plate": {
+    "criteria": {
+      "has_ingredient": "2024-06-13 13:08:54 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/redwood_stairs": {
+    "criteria": {
+      "has_planks": "2024-06-13 13:08:32 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/redwood_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-06-13 13:08:32 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/redwood_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-06-13 13:08:32 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/redwood_fence": {
+    "criteria": {
+      "has_planks": "2024-06-13 13:08:32 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/decorations/biomesoplenty/sign_post_redwood": {
+    "criteria": {
+      "has_planks": "2024-06-13 13:08:32 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/redwood_wood": {
+    "criteria": {
+      "has_log": "2024-06-13 13:08:19 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/redwood_button": {
+    "criteria": {
+      "has_planks": "2024-06-13 13:08:32 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/redwood_sign": {
+    "criteria": {
+      "has_redwood_planks": "2024-06-13 13:08:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred": "2024-06-13 12:53:12 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/polished_conglomerate": {
+    "criteria": {
+      "has_polished_conglomerate": "2024-06-13 13:03:42 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/redwood_door": {
+    "criteria": {
+      "has_planks": "2024-06-13 13:08:32 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/redwood_slab": {
+    "criteria": {
+      "has_planks": "2024-06-13 13:08:32 +0000"
     },
     "done": true
   },
