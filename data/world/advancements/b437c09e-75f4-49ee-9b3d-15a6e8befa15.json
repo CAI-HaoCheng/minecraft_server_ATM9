@@ -39716,18 +39716,6 @@
     },
     "done": true
   },
-  "cataclysm:kill_ender_golem": {
-    "criteria": {
-      "endergolem": "2024-06-12 14:44:50 +0000"
-    },
-    "done": true
-  },
-  "cataclysm:find_ruined_citadel": {
-    "criteria": {
-      "citadel": "2024-06-12 14:35:08 +0000"
-    },
-    "done": true
-  },
   "utilitix:recipes/misc/tiny_charcoal_from_tiny": {
     "criteria": {
       "criterion0": "2024-06-12 12:44:10 +0000",
@@ -39741,11 +39729,23 @@
     },
     "done": true
   },
+  "cataclysm:find_ruined_citadel": {
+    "criteria": {
+      "citadel": "2024-06-12 14:35:08 +0000"
+    },
+    "done": true
+  },
   "repurposed_structures:mineshafts": {
     "criteria": {
       "in_mineshaft_end": "2024-06-12 14:37:00 +0000"
     },
     "done": false
+  },
+  "cataclysm:kill_ender_golem": {
+    "criteria": {
+      "endergolem": "2024-06-12 14:44:50 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }
