@@ -1,19 +1,22 @@
-GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
-    event.create('apiary_i')
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
+GTCEuStartupEvents.registry('gtceu:recipe_type', allthemods => {
+    allthemods.create('apiary_i')
         .category('apiary_i')
         .setEUIO('in')
         .setMaxIOSize(6, 6, 1, 0)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.SCIENCE)
     
-    event.create('apiary_ii')
+    allthemods.create('apiary_ii')
         .category('apiary_ii')
         .setEUIO('in')
         .setMaxIOSize(6, 15, 1, 0)
         .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
         .setSound(GTSoundEntries.SCIENCE)
     
-    event.create('comb_processor')
+    allthemods.create('comb_processor')
         .category('comb_processor')
         .setEUIO('in')
         .setMaxIOSize(6, 6, 0, 1)
@@ -21,14 +24,13 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         .setSound(GTSoundEntries.MIXER)
 })
 
-GTCEuStartupEvents.registry('gtceu:machine', event => {
-    event.create('apiary_i', 'multiblock')
+GTCEuStartupEvents.registry('gtceu:machine', allthemods => {
+    allthemods.create('apiary_i', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('apiary_i')
         .appearanceBlock(GTBlocks.CASING_STAINLESS_CLEAN)
         .tooltips(Component.translatable("kubejs.apiary_i.tooltip.bee_eater"))
-        .recipeModifier(GTRecipeModifiers.PARALLEL_HATCH.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK, GTRecipeModifiers.ELECTRIC_OVERCLOCK))
-        //.recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK)])
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK)])
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('  CCC  ', '  CCC  ', '  CCC  ', '  CCC  ', '  CCC  ', '  CCC  ')
             .aisle(' CCCCC ', ' CMMMC ', ' CW#WC ', ' CW#WC ', ' CWWWC ', ' CCCCC ')
@@ -53,14 +55,12 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         )
         .workableCasingRenderer('gtceu:block/casings/solid/machine_casing_clean_stainless_steel', 'gtceu:block/multiblock/implosion_compressor', false)
 
-    event.create('apiary_ii', 'multiblock')
+    allthemods.create('apiary_ii', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('apiary_ii')
         .appearanceBlock(GTBlocks.CASING_TITANIUM_STABLE)
         .tooltips(Component.translatable("kubejs.apiary_ii.tooltip.bee_requirements"))
-        // .recipeModifier(GTRecipeModifiers.PARALLEL_HATCH.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK, GTRecipeModifiers.ELECTRIC_OVERCLOCK))
-        // .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK)])
-        //.recipeModifiers(GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK))
+        .recipeModifier(GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK))
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('  CCC  ', '  CCC  ', '  CCC  ', '  CCC  ', '  CCC  ', '  CCC  ')
             .aisle(' CCCCC ', ' CMMMC ', ' CW#WC ', ' CW#WC ', ' CWWWC ', ' CCCCC ')
@@ -74,7 +74,6 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .where('C', Predicates.blocks(GTBlocks.CASING_TITANIUM_STABLE.get()).setMinGlobalLimited(74)
                 .or(Predicates.autoAbilities(definition.getRecipeTypes()))
                 .or(Predicates.abilities(PartAbility.MAINTENANCE).setExactLimit(1))
-                // .or(Predicates.abilities(PartAbility.PARALLEL_HATCH).setMaxGlobalLimited(1))
             )
             .where('O', Predicates.abilities(PartAbility.MUFFLER)
                 .setExactLimit(1)
@@ -85,12 +84,11 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         )
         .workableCasingRenderer('gtceu:block/casings/solid/machine_casing_stable_titanium', 'gtceu:block/multiblock/implosion_compressor', false)
 
-    event.create('comb_processor', 'multiblock')
+    allthemods.create('comb_processor', 'multiblock')
         .rotationState(RotationState.NON_Y_AXIS)
         .recipeType('comb_processor')
         .appearanceBlock(GTBlocks.CASING_STEEL_SOLID)
-        .recipeModifier(GTRecipeModifiers.PARALLEL_HATCH.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK, GTRecipeModifiers.ELECTRIC_OVERCLOCK))
-        //.recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK)])
+        .recipeModifiers([GTRecipeModifiers.PARALLEL_HATCH, GTRecipeModifiers.ELECTRIC_OVERCLOCK.apply(OverclockingLogic.NON_PERFECT_OVERCLOCK)])
         .pattern(definition => FactoryBlockPattern.start()
             .aisle('   CCC   ', '         ', '    S    ', '   SSS   ', '  SSSSS  ', '  SSSSS  ', '  SSSSS  ', '         ', '         ', '         ', '         ', '         ')
             .aisle('  CFFFC  ', '   SSS   ', '  SS SS  ', ' SS   SS ', ' S     S ', ' S     S ', ' S     S ', '         ', '         ', '         ', '         ', '         ')
@@ -125,3 +123,6 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         )
         .workableCasingRenderer('gtceu:block/casings/solid/machine_casing_solid_steel', 'gtceu:block/multiblock/implosion_compressor', false)
 })
+
+// This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+// As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.

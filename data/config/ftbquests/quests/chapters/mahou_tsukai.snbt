@@ -1,3 +1,6 @@
+## This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+## As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
+
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
@@ -5,7 +8,7 @@
 	group: "22FB35B0FEF1343D"
 	icon: "mahoutsukai:mahoujin_projector"
 	id: "44E9C52B25D280CB"
-	order_index: 2
+	order_index: 3
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -174,48 +177,6 @@
 			y: -11.05d
 		}
 		{
-			description: [
-				"Then you go looking for faeries. You cast fae sight, find a nexus line, follow that to a sufficiently large (3 circles) nexus which you can only see while under the influence of fae sight. Then you stand in the middle of the nexus and wait for faeries to spawn."
-				"Once you have fae essence, the book unlocks higher tier rituals, and the famed weapons everyone's been gaga over. "
-			]
-			id: "5F902D645E3C2F5B"
-			rewards: [
-				{
-					count: 8
-					id: "69E89D8D10018532"
-					item: "mahoutsukai:fae_essence"
-					type: "item"
-				}
-				{
-					id: "6B4B355800194864"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-			]
-			subtitle: "Fae sight? WHY ARE THERE SQUIGGLES IN THE AIR"
-			tasks: [
-				{
-					id: "6620A59F49D63DA6"
-					item: {
-						Count: 1b
-						ForgeCaps: {
-							Parent: { }
-						}
-						id: "mahoutsukai:scroll_fay_sight"
-					}
-					type: "item"
-				}
-				{
-					count: 4L
-					id: "1C0C3AEB36648B14"
-					item: "mahoutsukai:fae_essence"
-					type: "item"
-				}
-			]
-			x: -1.5d
-			y: -0.5d
-		}
-		{
 			dependencies: ["5E598F78BFC0F0F6"]
 			description: ["{atm9.quest.mahou.desc.mana}"]
 			hide: true
@@ -262,11 +223,9 @@
 			shape: "diamond"
 			size: 1.3d
 			tasks: [{
-				id: "70C746566932CE35"
-				observe_type: 0
-				timer: 0L
-				to_observe: "mahoutsukai:murky_water"
-				type: "observation"
+				id: "3908B10D15C459CA"
+				item: "mahoutsukai:murky_bucket"
+				type: "item"
 			}]
 			title: "{atm9.quest.mahou.lake}"
 			x: -0.65d
@@ -841,3 +800,6 @@
 	subtitle: []
 	title: "{atm9.chapters.49.title}"
 }
+
+## This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 9.
+## As all AllTheMods packs are licensed under All Rights Reserved, this file is not allowed to be used in any public packs not released by the AllTheMods Team, without explicit permission.
