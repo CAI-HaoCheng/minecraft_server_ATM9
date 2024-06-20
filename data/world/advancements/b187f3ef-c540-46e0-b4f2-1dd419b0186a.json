@@ -35982,21 +35982,45 @@
     },
     "done": true
   },
-  "delightful:recipes/knives/invar_knife": {
+  "create:copper_casing": {
     "criteria": {
-      "has_ingots/invar": "2024-06-19 14:56:29 +0000"
+      "0": "2024-06-19 11:56:43 +0000"
     },
     "done": true
   },
-  "cfm:recipes/decorations/acacia_table": {
+  "create:recipes/misc/crafting/kinetics/copper_door": {
     "criteria": {
-      "has_log": "2024-06-19 11:57:15 +0000"
+      "has_item": "2024-06-19 11:56:48 +0000"
     },
     "done": true
   },
-  "delightful:recipes/campfire/roasted_acorn": {
+  "create:recipes/misc/crafting/kinetics/portable_fluid_interface": {
     "criteria": {
-      "roasted_acorn": "2024-06-19 12:09:27 +0000"
+      "has_item": "2024-06-19 11:56:48 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/printer": {
+    "criteria": {
+      "has_item": "2024-06-19 11:56:48 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:recipes/disenchanter": {
+    "criteria": {
+      "has_item": "2024-06-19 11:56:48 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/item_drain": {
+    "criteria": {
+      "has_item": "2024-06-19 11:56:48 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/spout": {
+    "criteria": {
+      "has_item": "2024-06-19 11:56:48 +0000"
     },
     "done": true
   },
@@ -36006,51 +36030,15 @@
     },
     "done": true
   },
-  "cfm:recipes/decorations/stripped_acacia_bedside_cabinet": {
-    "criteria": {
-      "has_planks": "2024-06-19 11:57:15 +0000"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/invar_plate": {
-    "criteria": {
-      "has_TagKey[minecraft:item / forge:ingots/invar]_ingot": "2024-06-19 14:56:29 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/acacia_bedside_cabinet": {
-    "criteria": {
-      "has_log": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/mechanical_piston": {
-    "criteria": {
-      "has_item": "2024-06-19 11:57:27 +0000"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/speedometer": {
     "criteria": {
       "has_item": "2024-06-19 11:57:04 +0000"
     },
     "done": true
   },
-  "create:recipes/misc/crafting/kinetics/mechanical_roller": {
-    "criteria": {
-      "has_item": "2024-06-19 11:57:27 +0000"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/white_sail": {
     "criteria": {
       "has_item": "2024-06-19 11:57:04 +0000"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/acacia/acacia_classic_trapdoor": {
-    "criteria": {
-      "has_logs": "2024-06-19 11:57:16 +0000"
     },
     "done": true
   },
@@ -36072,75 +36060,15 @@
     },
     "done": true
   },
-  "cfm:recipes/decorations/stripped_acacia_desk": {
-    "criteria": {
-      "has_planks": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/water_wheel": {
     "criteria": {
       "has_item": "2024-06-19 11:57:04 +0000"
     },
     "done": true
   },
-  "cfm:recipes/decorations/acacia_upgraded_fence": {
-    "criteria": {
-      "has_log": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/stripped_acacia_coffee_table": {
-    "criteria": {
-      "has_planks": "2024-06-19 11:57:15 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/acacia_blinds": {
-    "criteria": {
-      "has_log": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/clutch": {
-    "criteria": {
-      "has_item": "2024-06-19 11:57:26 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/depot": {
-    "criteria": {
-      "has_item": "2024-06-19 11:57:27 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/acacia_desk_cabinet": {
-    "criteria": {
-      "has_log": "2024-06-19 11:57:15 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/stripped_acacia_crate": {
-    "criteria": {
-      "has_planks": "2024-06-19 11:57:15 +0000"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/invar_gear": {
-    "criteria": {
-      "has_TagKey[minecraft:item / forge:ingots/invar]_ingot": "2024-06-19 14:56:29 +0000"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/radial_chassis": {
     "criteria": {
       "has_item": "2024-06-19 11:57:04 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/copper_door": {
-    "criteria": {
-      "has_item": "2024-06-19 11:56:48 +0000"
     },
     "done": true
   },
@@ -36162,18 +36090,6 @@
     },
     "done": true
   },
-  "mcwtrpdoors:recipes/print_tropical": {
-    "criteria": {
-      "has_logs": "2024-06-19 11:57:15 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/acacia_coffee_table": {
-    "criteria": {
-      "has_log": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
   "create:recipes/decorations/andesite_ladder_from_andesite_alloy_stonecutting": {
     "criteria": {
       "has_andesite_alloy": "2024-06-19 11:57:04 +0000"
@@ -36186,81 +36102,9 @@
     },
     "done": true
   },
-  "mcwtrpdoors:recipes/acacia/acacia_four_panel_trapdoor": {
-    "criteria": {
-      "has_logs": "2024-06-19 11:57:15 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/gearshift": {
-    "criteria": {
-      "has_item": "2024-06-19 11:57:27 +0000"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/acacia/acacia_mystic_trapdoor": {
-    "criteria": {
-      "has_logs": "2024-06-19 11:57:15 +0000"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/tin_dust_from_raw": {
-    "criteria": {
-      "has_raw_tin": "2024-06-19 12:21:26 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/andesite_door": {
-    "criteria": {
-      "has_item": "2024-06-19 11:57:27 +0000"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/invar_dust_from_ingot": {
-    "criteria": {
-      "has_invar_ingot": "2024-06-19 14:56:29 +0000"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/acacia/acacia_ranch_trapdoor": {
-    "criteria": {
-      "has_logs": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/raw_tin_block": {
-    "criteria": {
-      "has_raw_TagKey[minecraft:item / forge:raw_materials/tin]": "2024-06-19 12:21:26 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/acacia_kitchen_counter": {
-    "criteria": {
-      "has_log": "2024-06-19 11:57:15 +0000"
-    },
-    "done": true
-  },
-  "utilitarian:recipes/misc/utility/acacia_logs_to_pressure_plates": {
-    "criteria": {
-      "has_log": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/curiosities/minecart_coupling": {
     "criteria": {
       "has_item": "2024-06-19 11:57:04 +0000"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/tin_ingot_from_raw": {
-    "criteria": {
-      "has_item": "2024-06-19 12:21:26 +0000"
-    },
-    "done": true
-  },
-  "delightful:recipes/smelting/roasted_acorn": {
-    "criteria": {
-      "roasted_acorn": "2024-06-19 12:09:27 +0000"
     },
     "done": true
   },
@@ -36270,57 +36114,9 @@
     },
     "done": true
   },
-  "mcwroofs:recipes/acacia": {
-    "criteria": {
-      "has_planks": "2024-06-19 11:57:15 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/stripped_acacia_table": {
-    "criteria": {
-      "has_planks": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
-  "delightful:recipes/smoking/roasted_acorn": {
-    "criteria": {
-      "roasted_acorn": "2024-06-19 12:09:27 +0000"
-    },
-    "done": true
-  },
   "littlecontraptions:recipes/transportation/contraption_barge": {
     "criteria": {
       "has_item": "2024-06-19 11:57:04 +0000"
-    },
-    "done": true
-  },
-  "create:copper_casing": {
-    "criteria": {
-      "0": "2024-06-19 11:56:43 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/acacia_planks": {
-    "criteria": {
-      "has_log": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/acacia_chair": {
-    "criteria": {
-      "has_log": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
-  "mcwfurnitures:recipes/acacia": {
-    "criteria": {
-      "has_wood": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/portable_fluid_interface": {
-    "criteria": {
-      "has_item": "2024-06-19 11:56:48 +0000"
     },
     "done": true
   },
@@ -36330,45 +36126,9 @@
     },
     "done": true
   },
-  "create_enchantment_industry:recipes/printer": {
-    "criteria": {
-      "has_item": "2024-06-19 11:56:48 +0000"
-    },
-    "done": true
-  },
-  "mcwdoors:recipes/acacia": {
-    "criteria": {
-      "has_wood": "2024-06-19 11:57:15 +0000"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/large_cogwheel_from_little": {
     "criteria": {
       "has_item": "2024-06-19 11:57:04 +0000"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/acacia/acacia_barn_trapdoor": {
-    "criteria": {
-      "has_logs": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/acacia/acacia_beach_trapdoor": {
-    "criteria": {
-      "has_logs": "2024-06-19 11:57:15 +0000"
-    },
-    "done": true
-  },
-  "create_enchantment_industry:recipes/disenchanter": {
-    "criteria": {
-      "has_item": "2024-06-19 11:56:48 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/acacia_park_bench": {
-    "criteria": {
-      "has_log": "2024-06-19 11:57:16 +0000"
     },
     "done": true
   },
@@ -36378,57 +36138,9 @@
     },
     "done": true
   },
-  "allthecompressed:recipes/building_blocks/compress/acacia_log_1x": {
-    "criteria": {
-      "has_acacia_log": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/acacia/acacia_glass_trapdoor": {
-    "criteria": {
-      "has_logs": "2024-06-19 11:57:15 +0000"
-    },
-    "done": true
-  },
-  "create:andesite_casing": {
-    "criteria": {
-      "0": "2024-06-19 11:57:23 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/mechanical_bearing": {
-    "criteria": {
-      "has_item": "2024-06-19 11:57:26 +0000"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/windmill_bearing": {
     "criteria": {
       "has_item": "2024-06-19 11:57:04 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/acacia_upgraded_gate": {
-    "criteria": {
-      "has_log": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/item_drain": {
-    "criteria": {
-      "has_item": "2024-06-19 11:56:48 +0000"
-    },
-    "done": true
-  },
-  "utilitarian:recipes/misc/utility/acacia_logs_to_stairs": {
-    "criteria": {
-      "has_log": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
-  "mcwbridges:recipes/acacia_bridge_pier": {
-    "criteria": {
-      "has_planks": "2024-06-19 11:57:16 +0000"
     },
     "done": true
   },
@@ -36438,33 +36150,9 @@
     },
     "done": true
   },
-  "alltheores:recipes/misc/invar_rod": {
-    "criteria": {
-      "has_TagKey[minecraft:item / forge:ingots/invar]_ingot": "2024-06-19 14:56:29 +0000"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/gantry_shaft": {
     "criteria": {
       "has_item": "2024-06-19 11:57:04 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/spout": {
-    "criteria": {
-      "has_item": "2024-06-19 11:56:48 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/acacia_desk": {
-    "criteria": {
-      "has_log": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/portable_storage_interface": {
-    "criteria": {
-      "has_item": "2024-06-19 11:57:27 +0000"
     },
     "done": true
   },
@@ -36474,69 +36162,15 @@
     },
     "done": true
   },
-  "mcwtrpdoors:recipes/acacia/acacia_barred_trapdoor": {
-    "criteria": {
-      "has_logs": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/mechanical_plough": {
-    "criteria": {
-      "has_item": "2024-06-19 11:57:26 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/mechanical_harvester": {
-    "criteria": {
-      "has_item": "2024-06-19 11:57:27 +0000"
-    },
-    "done": true
-  },
-  "railways:recipes/misc/crafting/track_switch_andesite": {
-    "criteria": {
-      "has_item": "2024-06-19 11:57:27 +0000"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/silver_nugget_from_ingot": {
-    "criteria": {
-      "has_item": "2024-06-19 14:46:45 +0000"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/metal_girder": {
     "criteria": {
       "has_item": "2024-06-19 11:57:04 +0000"
     },
     "done": true
   },
-  "alltheores:recipes/misc/invar_nugget_from_ingot": {
-    "criteria": {
-      "has_item": "2024-06-19 14:56:29 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/encased_chain_drive": {
-    "criteria": {
-      "has_item": "2024-06-19 11:57:27 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/stripped_acacia_cabinet": {
-    "criteria": {
-      "has_log": "2024-06-19 11:57:15 +0000"
-    },
-    "done": true
-  },
   "create:recipes/decorations/andesite_scaffolding_from_andesite_alloy_stonecutting": {
     "criteria": {
       "has_andesite_alloy": "2024-06-19 11:57:04 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/gantry_carriage": {
-    "criteria": {
-      "has_item": "2024-06-19 11:57:26 +0000"
     },
     "done": true
   },
@@ -36549,18 +36183,6 @@
   "create:recipes/misc/crafting/kinetics/shaft": {
     "criteria": {
       "has_item": "2024-06-19 11:57:04 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/stripped_acacia_desk_cabinet": {
-    "criteria": {
-      "has_planks": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
-  "utilitarian:recipes/misc/utility/acacia_logs_to_doors": {
-    "criteria": {
-      "has_log": "2024-06-19 11:57:16 +0000"
     },
     "done": true
   },
@@ -36588,81 +36210,9 @@
     },
     "done": true
   },
-  "mcwtrpdoors:recipes/acacia/acacia_bark_trapdoor": {
-    "criteria": {
-      "has_logs": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/stripped_acacia_park_bench": {
-    "criteria": {
-      "has_log": "2024-06-19 11:57:15 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/stripped_acacia_kitchen_counter": {
-    "criteria": {
-      "has_log": "2024-06-19 11:57:15 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/stripped_acacia_chair": {
-    "criteria": {
-      "has_planks": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/acacia_cabinet": {
-    "criteria": {
-      "has_log": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
-  "utilitarian:recipes/misc/utility/acacia_logs_to_boats": {
-    "criteria": {
-      "has_log": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/mechanical_press": {
-    "criteria": {
-      "has_item": "2024-06-19 11:57:27 +0000"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/rope_pulley": {
     "criteria": {
       "has_item": "2024-06-19 11:57:04 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/weighted_ejector": {
-    "criteria": {
-      "has_item": "2024-06-19 11:57:26 +0000"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/acacia/acacia_paper_trapdoor": {
-    "criteria": {
-      "has_logs": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/mechanical_drill": {
-    "criteria": {
-      "has_item": "2024-06-19 11:57:27 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/acacia_wood": {
-    "criteria": {
-      "has_log": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/acacia/acacia_swamp_trapdoor": {
-    "criteria": {
-      "has_logs": "2024-06-19 11:57:15 +0000"
     },
     "done": true
   },
@@ -36681,42 +36231,6 @@
   "create:recipes/misc/crafting/appliances/clipboard": {
     "criteria": {
       "has_item": "2024-06-19 11:57:04 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/millstone": {
-    "criteria": {
-      "has_item": "2024-06-19 11:57:26 +0000"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/acacia/acacia_cottage_trapdoor": {
-    "criteria": {
-      "has_logs": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/acacia_crate": {
-    "criteria": {
-      "has_log": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/mechanical_saw": {
-    "criteria": {
-      "has_item": "2024-06-19 11:57:27 +0000"
-    },
-    "done": true
-  },
-  "utilitarian:recipes/misc/utility/acacia_logs_to_trapdoors": {
-    "criteria": {
-      "has_log": "2024-06-19 11:57:15 +0000"
-    },
-    "done": true
-  },
-  "mcwtrpdoors:recipes/acacia/acacia_barrel_trapdoor": {
-    "criteria": {
-      "has_logs": "2024-06-19 11:57:16 +0000"
     },
     "done": true
   },
@@ -36744,12 +36258,6 @@
     },
     "done": true
   },
-  "utilitarian:recipes/misc/utility/acacia_logs_to_slabs": {
-    "criteria": {
-      "has_log": "2024-06-19 11:57:16 +0000"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/logistics/andesite_tunnel": {
     "criteria": {
       "has_item": "2024-06-19 11:57:04 +0000"
@@ -36759,12 +36267,6 @@
   "create:recipes/misc/crafting/logistics/andesite_funnel": {
     "criteria": {
       "has_item": "2024-06-19 11:57:04 +0000"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/tin_ingot_from_raw_blasting": {
-    "criteria": {
-      "has_item": "2024-06-19 12:21:26 +0000"
     },
     "done": true
   },
@@ -36780,21 +36282,555 @@
     },
     "done": true
   },
-  "alltheores:recipes/misc/invar_block": {
-    "criteria": {
-      "has_TagKey[minecraft:item / forge:ingots/invar]_ingot": "2024-06-19 14:56:29 +0000"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/metal_bracket": {
     "criteria": {
       "has_item": "2024-06-19 11:57:04 +0000"
     },
     "done": true
   },
+  "cfm:recipes/decorations/acacia_table": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:15 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_bedside_cabinet": {
+    "criteria": {
+      "has_planks": "2024-06-19 11:57:15 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_coffee_table": {
+    "criteria": {
+      "has_planks": "2024-06-19 11:57:15 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_desk_cabinet": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:15 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_crate": {
+    "criteria": {
+      "has_planks": "2024-06-19 11:57:15 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/print_tropical": {
+    "criteria": {
+      "has_logs": "2024-06-19 11:57:15 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_four_panel_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-06-19 11:57:15 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_mystic_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-06-19 11:57:15 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_kitchen_counter": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:15 +0000"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/acacia": {
+    "criteria": {
+      "has_planks": "2024-06-19 11:57:15 +0000"
+    },
+    "done": true
+  },
+  "mcwdoors:recipes/acacia": {
+    "criteria": {
+      "has_wood": "2024-06-19 11:57:15 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_beach_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-06-19 11:57:15 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_glass_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-06-19 11:57:15 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_cabinet": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:15 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_park_bench": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:15 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_kitchen_counter": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:15 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_swamp_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-06-19 11:57:15 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/acacia_logs_to_trapdoors": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:15 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_bedside_cabinet": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_classic_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_desk": {
+    "criteria": {
+      "has_planks": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_upgraded_fence": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_blinds": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_coffee_table": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_ranch_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/acacia_logs_to_pressure_plates": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_table": {
+    "criteria": {
+      "has_planks": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_planks": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_chair": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "mcwfurnitures:recipes/acacia": {
+    "criteria": {
+      "has_wood": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_barn_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_park_bench": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/acacia_log_1x": {
+    "criteria": {
+      "has_acacia_log": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_upgraded_gate": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/acacia_logs_to_stairs": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/acacia_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_desk": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_barred_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_desk_cabinet": {
+    "criteria": {
+      "has_planks": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/acacia_logs_to_doors": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_bark_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/stripped_acacia_chair": {
+    "criteria": {
+      "has_planks": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_cabinet": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/acacia_logs_to_boats": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_paper_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/acacia_wood": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_cottage_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/acacia_crate": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "mcwtrpdoors:recipes/acacia/acacia_barrel_trapdoor": {
+    "criteria": {
+      "has_logs": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/utility/acacia_logs_to_slabs": {
+    "criteria": {
+      "has_log": "2024-06-19 11:57:16 +0000"
+    },
+    "done": true
+  },
+  "create:andesite_casing": {
+    "criteria": {
+      "0": "2024-06-19 11:57:23 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/clutch": {
+    "criteria": {
+      "has_item": "2024-06-19 11:57:26 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_bearing": {
+    "criteria": {
+      "has_item": "2024-06-19 11:57:26 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_plough": {
+    "criteria": {
+      "has_item": "2024-06-19 11:57:26 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/gantry_carriage": {
+    "criteria": {
+      "has_item": "2024-06-19 11:57:26 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/weighted_ejector": {
+    "criteria": {
+      "has_item": "2024-06-19 11:57:26 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/millstone": {
+    "criteria": {
+      "has_item": "2024-06-19 11:57:26 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_piston": {
+    "criteria": {
+      "has_item": "2024-06-19 11:57:27 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_roller": {
+    "criteria": {
+      "has_item": "2024-06-19 11:57:27 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/depot": {
+    "criteria": {
+      "has_item": "2024-06-19 11:57:27 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/gearshift": {
+    "criteria": {
+      "has_item": "2024-06-19 11:57:27 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/andesite_door": {
+    "criteria": {
+      "has_item": "2024-06-19 11:57:27 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/portable_storage_interface": {
+    "criteria": {
+      "has_item": "2024-06-19 11:57:27 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_harvester": {
+    "criteria": {
+      "has_item": "2024-06-19 11:57:27 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/track_switch_andesite": {
+    "criteria": {
+      "has_item": "2024-06-19 11:57:27 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/encased_chain_drive": {
+    "criteria": {
+      "has_item": "2024-06-19 11:57:27 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_press": {
+    "criteria": {
+      "has_item": "2024-06-19 11:57:27 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_drill": {
+    "criteria": {
+      "has_item": "2024-06-19 11:57:27 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/kinetics/mechanical_saw": {
+    "criteria": {
+      "has_item": "2024-06-19 11:57:27 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/campfire/roasted_acorn": {
+    "criteria": {
+      "roasted_acorn": "2024-06-19 12:09:27 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/smelting/roasted_acorn": {
+    "criteria": {
+      "roasted_acorn": "2024-06-19 12:09:27 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/smoking/roasted_acorn": {
+    "criteria": {
+      "roasted_acorn": "2024-06-19 12:09:27 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/tin_dust_from_raw": {
+    "criteria": {
+      "has_raw_tin": "2024-06-19 12:21:26 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_tin_block": {
+    "criteria": {
+      "has_raw_TagKey[minecraft:item / forge:raw_materials/tin]": "2024-06-19 12:21:26 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/tin_ingot_from_raw": {
+    "criteria": {
+      "has_item": "2024-06-19 12:21:26 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/tin_ingot_from_raw_blasting": {
+    "criteria": {
+      "has_item": "2024-06-19 12:21:26 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/silver_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2024-06-19 14:46:45 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/invar_knife": {
+    "criteria": {
+      "has_ingots/invar": "2024-06-19 14:56:29 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/invar_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/invar]_ingot": "2024-06-19 14:56:29 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/invar_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/invar]_ingot": "2024-06-19 14:56:29 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/invar_dust_from_ingot": {
+    "criteria": {
+      "has_invar_ingot": "2024-06-19 14:56:29 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/invar_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/invar]_ingot": "2024-06-19 14:56:29 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/invar_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2024-06-19 14:56:29 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/invar_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/invar]_ingot": "2024-06-19 14:56:29 +0000"
+    },
+    "done": true
+  },
   "railcraft:recipes/misc/invar_gear": {
     "criteria": {
       "has_material": "2024-06-19 14:56:29 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/iron_ingot_from_dust": {
+    "criteria": {
+      "has_item": "2024-06-20 12:54:33 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/apatite_dust": {
+    "criteria": {
+      "has_apatite": "2024-06-20 14:13:40 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/iron_ingot_from_dust_blasting": {
+    "criteria": {
+      "has_item": "2024-06-20 12:54:33 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/platinum_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2024-06-20 12:40:54 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/blasting/iron_ingot_from_dust": {
+    "criteria": {
+      "has_iron_dust": "2024-06-20 12:54:33 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/smelting/iron_ingot_from_dust": {
+    "criteria": {
+      "has_iron_dust": "2024-06-20 12:54:33 +0000"
     },
     "done": true
   },
