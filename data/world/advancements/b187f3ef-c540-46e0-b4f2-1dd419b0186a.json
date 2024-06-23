@@ -299,6 +299,7 @@
       "field": "2024-05-04 14:03:26 +0000",
       "orchard": "2024-05-18 15:09:09 +0000",
       "lavender_forest": "2024-05-26 06:58:18 +0000",
+      "moor": "2024-06-23 14:07:22 +0000",
       "mediterranean_forest": "2024-05-25 09:11:17 +0000",
       "coniferous_forest": "2024-05-01 14:30:13 +0000",
       "spider_nest": "2024-05-02 14:01:32 +0000",
@@ -316,6 +317,7 @@
       "volcano": "2024-05-25 09:14:04 +0000",
       "rocky_rainforest": "2024-05-25 09:10:19 +0000",
       "pasture": "2024-05-26 06:59:30 +0000",
+      "volcanic_plains": "2024-06-23 14:11:35 +0000",
       "lavender_field": "2024-05-25 15:07:41 +0000",
       "fir_clearing": "2024-05-25 02:17:52 +0000",
       "grassland": "2024-05-25 07:31:32 +0000",
@@ -415,6 +417,7 @@
       "minecraft:cherry_grove": "2024-05-24 11:35:59 +0000",
       "minecraft:sunflower_plains": "2024-05-25 11:37:55 +0000",
       "minecraft:birch_forest": "2024-05-25 07:45:51 +0000",
+      "minecraft:bamboo_jungle": "2024-06-23 14:20:55 +0000",
       "minecraft:badlands": "2024-05-25 10:17:27 +0000",
       "minecraft:savanna_plateau": "2024-05-25 10:00:45 +0000",
       "minecraft:beach": "2024-05-03 13:57:37 +0000",
@@ -26012,14 +26015,19 @@
   },
   "croptopia:gather_forest": {
     "criteria": {
+      "blackberry_seed": "2024-06-23 14:34:26 +0000",
       "grape_seed": "2024-05-19 14:23:59 +0000"
     },
     "done": false
   },
   "croptopia:gather_all": {
     "criteria": {
+      "vanilla_seeds": "2024-06-23 14:34:26 +0000",
       "olive_seed": "2024-05-27 14:21:02 +0000",
-      "grape_seed": "2024-05-19 14:23:59 +0000"
+      "grape_seed": "2024-05-19 14:23:59 +0000",
+      "greenonion_seed": "2024-06-23 14:34:26 +0000",
+      "blackberry_seed": "2024-06-23 14:34:26 +0000",
+      "currant_seed": "2024-06-23 14:34:26 +0000"
     },
     "done": false
   },
@@ -29598,6 +29606,8 @@
   },
   "croptopia:gather_jungle": {
     "criteria": {
+      "greenonion_seed": "2024-06-23 14:34:26 +0000",
+      "vanilla_seeds": "2024-06-23 14:34:26 +0000",
       "rice_seed": "2024-05-26 14:55:05 +0000"
     },
     "done": false
@@ -36798,27 +36808,21 @@
     },
     "done": true
   },
+  "alltheores:recipes/misc/platinum_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2024-06-20 12:40:54 +0000"
+    },
+    "done": true
+  },
   "alltheores:recipes/misc/iron_ingot_from_dust": {
     "criteria": {
       "has_item": "2024-06-20 12:54:33 +0000"
     },
     "done": true
   },
-  "occultism:recipes/crushing/crushing/apatite_dust": {
-    "criteria": {
-      "has_apatite": "2024-06-20 14:13:40 +0000"
-    },
-    "done": true
-  },
   "alltheores:recipes/misc/iron_ingot_from_dust_blasting": {
     "criteria": {
       "has_item": "2024-06-20 12:54:33 +0000"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/platinum_nugget_from_ingot": {
-    "criteria": {
-      "has_item": "2024-06-20 12:40:54 +0000"
     },
     "done": true
   },
@@ -36833,6 +36837,114 @@
       "has_iron_dust": "2024-06-20 12:54:33 +0000"
     },
     "done": true
+  },
+  "occultism:recipes/crushing/crushing/apatite_dust": {
+    "criteria": {
+      "has_apatite": "2024-06-20 14:13:40 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/misc/deconstruction_certus_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2024-06-22 15:57:41 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/block_cutter/slabs/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2024-06-22 15:57:41 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/shaped/walls/quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2024-06-22 15:57:41 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/shaped/slabs/quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2024-06-22 15:57:41 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/decorative/cut_quartz_block_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2024-06-22 15:57:41 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/decorative/cut_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2024-06-22 15:57:41 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/block_cutter/walls/quartz_wall": {
+    "criteria": {
+      "has_quartz_block": "2024-06-22 15:57:41 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/shaped/stairs/quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2024-06-22 15:57:41 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/block_cutter/stairs/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2024-06-22 15:57:41 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/horse": {
+    "criteria": {
+      "has_leather": "2024-06-22 16:25:13 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/blasting_salt": {
+    "criteria": {
+      "has_water": "2024-06-23 14:49:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2024-06-23 14:03:16 +0000"
+    },
+    "done": true
+  },
+  "croptopia:gather_swamp": {
+    "criteria": {
+      "currant_seed": "2024-06-23 14:34:26 +0000"
+    },
+    "done": false
+  },
+  "structurecompass:recipes/tools/structure_compass": {
+    "criteria": {
+      "has_compass": "2024-06-23 14:03:16 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/salt_from_water_bottle": {
+    "criteria": {
+      "has_water_bottle": "2024-06-23 14:49:42 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/food/salt_from_smoking_water_bottle": {
+    "criteria": {
+      "has_water_bottle": "2024-06-23 14:49:42 +0000"
+    },
+    "done": true
+  },
+  "silentgear:overworld_plants": {
+    "criteria": {
+      "fluffy_seeds": "2024-06-23 14:34:51 +0000"
+    },
+    "done": false
   },
   "DataVersion": 3465
 }

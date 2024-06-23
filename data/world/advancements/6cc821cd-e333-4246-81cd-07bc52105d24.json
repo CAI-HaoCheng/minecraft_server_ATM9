@@ -120,8 +120,10 @@
       "dune_beach": "2024-05-01 15:27:34 +0000",
       "seasonal_forest": "2024-06-05 08:45:36 +0000",
       "dead_forest": "2024-06-05 09:06:54 +0000",
+      "volcano": "2024-06-23 14:12:54 +0000",
       "pasture": "2024-06-05 17:08:20 +0000",
       "rocky_rainforest": "2024-06-07 08:23:36 +0000",
+      "volcanic_plains": "2024-06-23 14:15:21 +0000",
       "lavender_field": "2024-05-23 12:07:34 +0000",
       "fir_clearing": "2024-05-01 14:33:48 +0000",
       "grassland": "2024-05-01 15:19:31 +0000",
@@ -43137,6 +43139,78 @@
   "ad_astra:recipes/misc/smelting/iron_ingot_from_smelting_moon_iron_ore": {
     "criteria": {
       "has_iron_ingot": "2024-06-18 14:41:54 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/unobtainium_block_1x": {
+    "criteria": {
+      "has_unobtainium_block": "2024-06-23 15:40:39 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-06-23 15:40:39 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/allthemodium_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-06-23 15:40:43 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/bread_from_smoking": {
+    "criteria": {
+      "has_dough": "2024-06-23 13:32:58 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/basic/casing": {
+    "criteria": {
+      "has_item": "2024-06-23 15:46:18 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/graphite_dust_from_ingot": {
+    "criteria": {
+      "has_graphite_ingot": "2024-06-23 15:46:18 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/vibranium_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-06-23 15:40:50 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/dumplings": {
+    "criteria": {
+      "has_any_ingredient": "2024-06-23 13:32:58 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/vibranium_block_1x": {
+    "criteria": {
+      "has_vibranium_block": "2024-06-23 15:40:50 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/misc/crafting/graphite_component_to_storage": {
+    "criteria": {
+      "has_item": "2024-06-23 15:46:18 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/allthemodium_block_1x": {
+    "criteria": {
+      "has_allthemodium_block": "2024-06-23 15:40:43 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/bread_from_smelting": {
+    "criteria": {
+      "has_dough": "2024-06-23 13:32:58 +0000"
     },
     "done": true
   },
