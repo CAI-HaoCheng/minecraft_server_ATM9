@@ -36904,13 +36904,13 @@
     },
     "done": true
   },
-  "croptopia:recipes/blasting_salt": {
+  "minecraft:recipes/misc/map": {
     "criteria": {
-      "has_water": "2024-06-23 14:49:42 +0000"
+      "has_compass": "2024-06-23 14:03:16 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/map": {
+  "structurecompass:recipes/tools/structure_compass": {
     "criteria": {
       "has_compass": "2024-06-23 14:03:16 +0000"
     },
@@ -36922,9 +36922,15 @@
     },
     "done": false
   },
-  "structurecompass:recipes/tools/structure_compass": {
+  "silentgear:overworld_plants": {
     "criteria": {
-      "has_compass": "2024-06-23 14:03:16 +0000"
+      "fluffy_seeds": "2024-06-23 14:34:51 +0000"
+    },
+    "done": false
+  },
+  "croptopia:recipes/blasting_salt": {
+    "criteria": {
+      "has_water": "2024-06-23 14:49:42 +0000"
     },
     "done": true
   },
@@ -36940,11 +36946,923 @@
     },
     "done": true
   },
-  "silentgear:overworld_plants": {
+  "alltheores:recipes/misc/raw_silver_block": {
     "criteria": {
-      "fluffy_seeds": "2024-06-23 14:34:51 +0000"
+      "has_raw_TagKey[minecraft:item / forge:raw_materials/silver]": "2024-06-24 14:05:03 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite": {
+    "criteria": {
+      "has_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/yellow_candle": {
+    "criteria": {
+      "has_yellow_dye": "2024-06-24 14:12:06 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/maroon_dye": {
+    "criteria": {
+      "has_black_dye": "2024-06-24 12:38:43 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/green_industrial_lamp": {
+    "criteria": {
+      "has_green_industrial_lamp": "2024-06-24 14:10:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/book_of_binding_foliot": {
+    "criteria": {
+      "has_taboo_book": "2024-06-24 12:37:40 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/conifer_dye": {
+    "criteria": {
+      "has_yellow_dye": "2024-06-24 14:12:06 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candle_holders/candle_holder_yellow_dye": {
+    "criteria": {
+      "forge:dyes/yellow": "2024-06-24 14:12:06 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/diorite_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_diorite_brick_wall_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_diorite_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/wine_dye": {
+    "criteria": {
+      "has_black_dye": "2024-06-24 12:38:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab": {
+    "criteria": {
+      "has_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/spring_green_candle": {
+    "criteria": {
+      "has_candle": "2024-06-24 13:11:24 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/yellow_plate": {
+    "criteria": {
+      "has_yellow_plate": "2024-06-24 14:12:06 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_diorite_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_yellow2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-24 14:12:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-06-24 14:12:06 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/book_of_binding_djinni_from_empty": {
+    "criteria": {
+      "has_empty_binding": "2024-06-24 12:38:52 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/silver_ingot_from_raw_blasting": {
+    "criteria": {
+      "has_item": "2024-06-24 14:05:03 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_diorite_slab_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/fluorescent_candle": {
+    "criteria": {
+      "has_candle": "2024-06-24 13:11:24 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/honey_dye": {
+    "criteria": {
+      "has_yellow_dye": "2024-06-24 14:12:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/green_candle": {
+    "criteria": {
+      "has_green_dye": "2024-06-24 14:10:52 +0000"
+    },
+    "done": true
+  },
+  "mcwpaths:recipes/diorite": {
+    "criteria": {
+      "has_wood": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/diorite_chain": {
+    "criteria": {
+      "recipe_condition": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/diorite_corner_trim": {
+    "criteria": {
+      "has_diorite_corner_trim": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/small_green_industrial_lamp": {
+    "criteria": {
+      "has_small_green_industrial_lamp": "2024-06-24 14:10:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-06-24 14:10:52 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/chalk_gold_impure": {
+    "criteria": {
+      "has_chalk_white": "2024-06-24 12:52:39 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/book_of_calling_djinni_manage_machine": {
+    "criteria": {
+      "has_book_of_binding_bound_djinni": "2024-06-24 14:12:50 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/lenses": {
+    "criteria": {
+      "has_spirit_attuned_gem": "2024-06-24 12:41:18 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/book_of_binding_empty": {
+    "criteria": {
+      "has_taboo_book": "2024-06-24 12:37:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/persimmon_candle": {
+    "criteria": {
+      "has_candle": "2024-06-24 13:11:24 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/spirit_campfire": {
+    "criteria": {
+      "has_datura": "2024-06-24 12:28:11 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_trade/spirit_trade/otherworld_sapling": {
+    "criteria": {
+      "has_otherworld_sapling_natural": "2024-06-24 12:42:25 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/chalk_gold": {
+    "criteria": {
+      "has_chalk_gold_impure": "2024-06-24 12:58:45 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/icy_blue_candle": {
+    "criteria": {
+      "has_candle": "2024-06-24 13:11:24 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/book_of_binding_foliot_from_empty": {
+    "criteria": {
+      "has_empty_binding": "2024-06-24 12:38:52 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/yellow_bowl": {
+    "criteria": {
+      "has_yellow_bowl": "2024-06-24 14:12:06 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/yellow_industrial_lamp": {
+    "criteria": {
+      "has_yellow_industrial_lamp": "2024-06-24 14:12:06 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/spirit_attuned_pickaxe_head": {
+    "criteria": {
+      "has_spirit_attuned_gem": "2024-06-24 12:41:18 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_green_picket_fence": {
+    "criteria": {
+      "has_dye": "2024-06-24 14:10:52 +0000"
+    },
+    "done": true
+  },
+  "mcwroofs:recipes/diorite": {
+    "criteria": {
+      "has_planks": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_green_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-24 14:10:52 +0000"
+    },
+    "done": true
+  },
+  "occultism:occultism/summon_foliot_crusher": {
+    "criteria": {
+      "summon_foliot_crusher": "2024-06-24 14:05:34 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/tools/crafting/otherstone_tablet": {
+    "criteria": {
+      "has_otherstone_slab": "2024-06-24 14:20:30 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/lavender_candle": {
+    "criteria": {
+      "has_candle": "2024-06-24 13:11:24 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/building_blocks/crafting/sacrificial_bowl": {
+    "criteria": {
+      "has_otherstone": "2024-06-24 12:44:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite_stairs": {
+    "criteria": {
+      "has_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/datura": {
+    "criteria": {
+      "has_datura": "2024-06-24 12:28:11 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_diorite_brick_slab_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/cherenkov_candle": {
+    "criteria": {
+      "has_candle": "2024-06-24 13:11:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-06-24 14:12:06 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_yellow_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-24 14:12:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_stairs_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_covered_yellow": {
+    "criteria": {
+      "has_dyes/black": "2024-06-24 14:12:06 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/diorite_bridge_pier": {
+    "criteria": {
+      "has_planks": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/yellow_crockery_combo": {
+    "criteria": {
+      "has_yellow_crockery_combo": "2024-06-24 14:12:06 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/book_of_binding_marid": {
+    "criteria": {
+      "has_taboo_book": "2024-06-24 12:37:40 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/book_of_calling_foliot_cleaner": {
+    "criteria": {
+      "has_book_of_binding_bound_foliot": "2024-06-24 12:53:08 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/book_of_calling_foliot_lumberjack": {
+    "criteria": {
+      "has_book_of_binding_bound_foliot": "2024-06-24 12:53:08 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_diorite_wall_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/diorite_bridge": {
+    "criteria": {
+      "has_planks": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_smart_green": {
+    "criteria": {
+      "has_dyes/black": "2024-06-24 14:10:52 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/polished_diorite": {
+    "criteria": {
+      "has_the_recipe": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/building_blocks/crafting/otherstone_slab": {
+    "criteria": {
+      "has_otherstone": "2024-06-24 12:44:09 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/enderman": {
+    "criteria": {
+      "has_ender_pearl": "2024-06-24 14:23:54 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/chalk_white": {
+    "criteria": {
+      "has_chalk_white_impure": "2024-06-24 12:52:48 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_yellow_picket_gate": {
+    "criteria": {
+      "has_dye": "2024-06-24 14:12:06 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_yellow_picket_fence": {
+    "criteria": {
+      "has_dye": "2024-06-24 14:12:06 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_diorite_brick_slab_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/aquamarine_candle": {
+    "criteria": {
+      "has_candle": "2024-06-24 13:11:24 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/maroon_candle": {
+    "criteria": {
+      "has_candle": "2024-06-24 13:11:24 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_yellow": {
+    "criteria": {
+      "has_dyes/black": "2024-06-24 14:12:06 +0000"
+    },
+    "done": true
+  },
+  "domum_ornamentum:recipes/tools/green_cactus_extra": {
+    "criteria": {
+      "has_dye": "2024-06-24 14:10:52 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/layered_diorite_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_diorite_wall_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_green2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-24 14:10:52 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/raw_silver_block": {
+    "criteria": {
+      "has_raw_silver": "2024-06-24 14:05:03 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/diorite_bridge_stair": {
+    "criteria": {
+      "has_planks": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall": {
+    "criteria": {
+      "has_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-06-24 14:10:52 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/building_blocks/crafting/otherstone_pedestal": {
+    "criteria": {
+      "has_otherstone": "2024-06-24 12:44:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/diorite_wall_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/ultramarine_candle": {
+    "criteria": {
+      "has_candle": "2024-06-24 13:11:24 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/book_of_binding_djinni": {
+    "criteria": {
+      "has_taboo_book": "2024-06-24 12:37:40 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_diorite_slab_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "mcwbridges:recipes/balustrade_diorite_bridge": {
+    "criteria": {
+      "has_planks": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/otherworld_ashes": {
+    "criteria": {
+      "has_otherworld_log": "2024-06-24 12:43:03 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/otherstone_frame": {
+    "criteria": {
+      "has_otherstone": "2024-06-24 12:44:09 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/tinted_borderless_glass_yellow2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-24 14:12:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/andesite": {
+    "criteria": {
+      "has_stone": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_diorite_brick_stairs_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_green_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-06-24 14:10:52 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/tools/crafting/divination_rod": {
+    "criteria": {
+      "has_spirit_attuned_gem": "2024-06-24 12:41:18 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/decorations/crafting/spirit_torch": {
+    "criteria": {
+      "has_datura": "2024-06-24 12:28:11 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/chalk_white_impure": {
+    "criteria": {
+      "has_ashes": "2024-06-24 12:48:21 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/book_of_binding_afrit": {
+    "criteria": {
+      "has_taboo_book": "2024-06-24 12:37:40 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_green_picket_gate": {
+    "criteria": {
+      "has_dye": "2024-06-24 14:10:52 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/honey_candle": {
+    "criteria": {
+      "has_candle": "2024-06-24 13:11:24 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_diorite_brick_stairs_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/conifer_candle": {
+    "criteria": {
+      "has_candle": "2024-06-24 13:11:24 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/book_of_binding_afrit_from_empty": {
+    "criteria": {
+      "has_taboo_book": "2024-06-24 12:38:52 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_green_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-24 14:10:52 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/silver_dust_from_raw": {
+    "criteria": {
+      "has_raw_silver": "2024-06-24 14:05:03 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_smart_yellow": {
+    "criteria": {
+      "has_dyes/black": "2024-06-24 14:12:06 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/golden_sacrificial_bowl": {
+    "criteria": {
+      "has_sacrificial_bowl": "2024-06-24 12:46:11 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/smelting/silver_ingot_from_raw": {
+    "criteria": {
+      "has_raw_silver": "2024-06-24 14:05:03 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bubblegum_candle": {
+    "criteria": {
+      "has_candle": "2024-06-24 13:11:24 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/book_of_binding_bound_foliot": {
+    "criteria": {
+      "has_book_of_binding_foliot": "2024-06-24 12:39:11 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/peach_candle": {
+    "criteria": {
+      "has_candle": "2024-06-24 13:11:24 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/silver_ingot_from_raw": {
+    "criteria": {
+      "has_item": "2024-06-24 14:05:03 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/food/crafting/demons_dream_essence_from_fruit": {
+    "criteria": {
+      "has_datura": "2024-06-24 12:28:11 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/chalk_red_impure": {
+    "criteria": {
+      "has_chalk_white": "2024-06-24 12:52:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_yellow_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-06-24 14:12:06 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/blasting/silver_ingot_from_raw": {
+    "criteria": {
+      "has_raw_silver": "2024-06-24 14:05:03 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/wine_candle": {
+    "criteria": {
+      "has_candle": "2024-06-24 13:11:24 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/cake": {
+    "criteria": {
+      "has_egg": "2024-06-24 12:43:29 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_diorite_stairs_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "aquaculture:recipes/aquaculture/tackle_box": {
+    "criteria": {
+      "has_items": "2024-06-24 14:10:52 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_green": {
+    "criteria": {
+      "has_dyes/black": "2024-06-24 14:10:52 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_diorite_bricks_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_diorite_brick_wall_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_diorite_bricks_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/amber_candle": {
+    "criteria": {
+      "has_candle": "2024-06-24 13:11:24 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/diorite_pillar_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/book_of_binding_marid_from_empty": {
+    "criteria": {
+      "has_empty_binding": "2024-06-24 12:38:52 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candle_holders/candle_holder_green_dye": {
+    "criteria": {
+      "forge:dyes/green": "2024-06-24 14:10:52 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/tinted_borderless_glass_green2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-24 14:10:52 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/mint_candle": {
+    "criteria": {
+      "has_candle": "2024-06-24 13:11:24 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_diorite_stairs_from_stone_types_diorite_stonecutting": {
+    "criteria": {
+      "has_stone_types_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/small_yellow_industrial_lamp": {
+    "criteria": {
+      "has_small_yellow_industrial_lamp": "2024-06-24 14:12:06 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_yellow_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-24 14:12:06 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/book_of_calling_foliot_transport_items": {
+    "criteria": {
+      "has_book_of_binding_bound_foliot": "2024-06-24 12:53:08 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/smelting/burnt_otherstone": {
+    "criteria": {
+      "has_otherstone": "2024-06-24 12:44:09 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_black_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-06-24 12:38:43 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/rose_candle": {
+    "criteria": {
+      "has_candle": "2024-06-24 13:11:24 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/yellow_cup": {
+    "criteria": {
+      "has_yellow_cup": "2024-06-24 14:12:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_diorite_slab_from_diorite_stonecutting": {
+    "criteria": {
+      "has_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_green_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-06-24 14:10:52 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/diorite_1x": {
+    "criteria": {
+      "has_diorite": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/diorite_pillar_trim": {
+    "criteria": {
+      "has_diorite_pillar_trim": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/navy_candle": {
+    "criteria": {
+      "has_candle": "2024-06-24 13:11:24 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_covered_green": {
+    "criteria": {
+      "has_dyes/black": "2024-06-24 14:10:52 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/spirit_attuned_crystal": {
+    "criteria": {
+      "has_spirit_attuned_gem": "2024-06-24 12:41:18 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/andesite": {
+    "criteria": {
+      "has_the_recipe": "2024-06-24 14:19:35 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/chalk_purple_impure": {
+    "criteria": {
+      "has_chalk_white": "2024-06-24 12:52:39 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_yellow_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-06-24 14:12:06 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/mint_dye": {
+    "criteria": {
+      "has_green_dye": "2024-06-24 14:10:52 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }

@@ -43142,6 +43142,24 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/bread_from_smoking": {
+    "criteria": {
+      "has_dough": "2024-06-23 13:32:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/dumplings": {
+    "criteria": {
+      "has_any_ingredient": "2024-06-23 13:32:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/bread_from_smelting": {
+    "criteria": {
+      "has_dough": "2024-06-23 13:32:58 +0000"
+    },
+    "done": true
+  },
   "allthecompressed:recipes/building_blocks/compress/unobtainium_block_1x": {
     "criteria": {
       "has_unobtainium_block": "2024-06-23 15:40:39 +0000"
@@ -43160,9 +43178,21 @@
     },
     "done": true
   },
-  "farmersdelight:recipes/food/bread_from_smoking": {
+  "allthecompressed:recipes/building_blocks/compress/allthemodium_block_1x": {
     "criteria": {
-      "has_dough": "2024-06-23 13:32:58 +0000"
+      "has_allthemodium_block": "2024-06-23 15:40:43 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/vibranium_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-06-23 15:40:50 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/vibranium_block_1x": {
+    "criteria": {
+      "has_vibranium_block": "2024-06-23 15:40:50 +0000"
     },
     "done": true
   },
@@ -43178,39 +43208,27 @@
     },
     "done": true
   },
-  "allthemodium:recipes/misc/vibranium_ingot_from_block": {
-    "criteria": {
-      "has_item": "2024-06-23 15:40:50 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/dumplings": {
-    "criteria": {
-      "has_any_ingredient": "2024-06-23 13:32:58 +0000"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/vibranium_block_1x": {
-    "criteria": {
-      "has_vibranium_block": "2024-06-23 15:40:50 +0000"
-    },
-    "done": true
-  },
   "bigreactors:recipes/misc/crafting/graphite_component_to_storage": {
     "criteria": {
       "has_item": "2024-06-23 15:46:18 +0000"
     },
     "done": true
   },
-  "allthecompressed:recipes/building_blocks/compress/allthemodium_block_1x": {
+  "delightful:recipes/campfire/roasted_acorn": {
     "criteria": {
-      "has_allthemodium_block": "2024-06-23 15:40:43 +0000"
+      "roasted_acorn": "2024-06-24 14:09:08 +0000"
     },
     "done": true
   },
-  "farmersdelight:recipes/food/bread_from_smelting": {
+  "delightful:recipes/smelting/roasted_acorn": {
     "criteria": {
-      "has_dough": "2024-06-23 13:32:58 +0000"
+      "roasted_acorn": "2024-06-24 14:09:08 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/smoking/roasted_acorn": {
+    "criteria": {
+      "roasted_acorn": "2024-06-24 14:09:08 +0000"
     },
     "done": true
   },
