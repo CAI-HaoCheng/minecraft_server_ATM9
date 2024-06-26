@@ -7632,6 +7632,7 @@
       "minecraft:ender_dragon": "2024-06-05 12:28:43 +0000",
       "minecraft:shulker": "2024-06-02 15:08:37 +0000",
       "minecraft:cave_spider": "2024-05-02 14:30:13 +0000",
+      "quark:wraith": "2024-06-26 13:20:17 +0000",
       "minecraft:piglin": "2024-05-11 15:22:17 +0000",
       "minecraft:silverfish": "2024-05-25 06:43:48 +0000",
       "minecraft:stray": "2024-05-25 11:49:33 +0000",
@@ -37871,99 +37872,129 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/ghast": {
-    "criteria": {
-      "has_ghast_tear": "2024-06-25 14:21:19 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/petal_pink_double": {
-    "criteria": {
-      "has_alt_item": "2024-06-25 12:21:48 +0000"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/iesnium_dust": {
-    "criteria": {
-      "has_iesnium": "2024-06-25 13:38:19 +0000"
-    },
-    "done": true
-  },
-  "occultism:recipes/misc/crafting/book_of_binding_bound_afrit": {
-    "criteria": {
-      "has_book_of_binding_afrit": "2024-06-25 13:54:02 +0000"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/cyan_industrial_lamp": {
-    "criteria": {
-      "has_cyan_industrial_lamp": "2024-06-25 12:20:34 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/glass_cyan": {
-    "criteria": {
-      "has_dyes/black": "2024-06-25 12:20:34 +0000"
-    },
-    "done": true
-  },
-  "occultism:recipes/spirit_fire/spirit_fire/chalk_purple": {
-    "criteria": {
-      "has_chalk_purple_impure": "2024-06-25 12:41:34 +0000"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/scratched_glass_cyan_pane2": {
-    "criteria": {
-      "recipe_condition2": "2024-06-25 12:20:34 +0000"
-    },
-    "done": true
-  },
-  "occultism:recipes/tools/crafting/goggles": {
-    "criteria": {
-      "has_infused_lenses": "2024-06-25 12:37:57 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/conversions/pink_petal_block_deconstruct": {
-    "criteria": {
-      "has_item": "2024-06-25 12:21:48 +0000"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/scratched_glass_cyan2": {
-    "criteria": {
-      "recipe_condition2": "2024-06-25 12:20:34 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_lime_bed": {
     "criteria": {
       "has_needed_dye": "2024-06-25 12:19:11 +0000"
     },
     "done": true
   },
-  "occultism:occultism/summon_wild_afrit": {
+  "connectedglass:recipes/misc/scratched_glass_lime_pane2": {
     "criteria": {
-      "summon_wild_afrit": "2024-06-25 14:00:44 +0000"
+      "recipe_condition2": "2024-06-25 12:19:11 +0000"
     },
     "done": true
   },
-  "ad_astra:recipes/misc/small_pink_industrial_lamp": {
+  "connectedglass:recipes/misc/borderless_glass_lime_pane2": {
     "criteria": {
-      "has_small_pink_industrial_lamp": "2024-06-25 12:20:14 +0000"
+      "recipe_condition2": "2024-06-25 12:19:11 +0000"
     },
     "done": true
   },
-  "connectedglass:recipes/misc/borderless_glass_cyan_pane2": {
+  "cfm:recipes/decorations/dye_lime_picket_fence": {
     "criteria": {
-      "recipe_condition2": "2024-06-25 12:20:34 +0000"
+      "has_dye": "2024-06-25 12:19:11 +0000"
     },
     "done": true
   },
-  "botania:recipes/decorations/pink_petal_block": {
+  "minecraft:recipes/building_blocks/dye_lime_carpet": {
     "criteria": {
-      "has_item": "2024-06-25 12:21:48 +0000"
+      "has_needed_dye": "2024-06-25 12:19:11 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_lime_picket_gate": {
+    "criteria": {
+      "has_dye": "2024-06-25 12:19:11 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_covered_lime": {
+    "criteria": {
+      "has_dyes/black": "2024-06-25 12:19:11 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_smart_lime": {
+    "criteria": {
+      "has_dyes/black": "2024-06-25 12:19:11 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/tinted_borderless_glass_lime2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-25 12:19:11 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candle_holders/candle_holder_lime_dye": {
+    "criteria": {
+      "forge:dyes/lime": "2024-06-25 12:19:11 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/lime_industrial_lamp": {
+    "criteria": {
+      "has_lime_industrial_lamp": "2024-06-25 12:19:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_lime_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-06-25 12:19:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/lime_candle": {
+    "criteria": {
+      "has_lime_dye": "2024-06-25 12:19:11 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_lime2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-25 12:19:11 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_lime": {
+    "criteria": {
+      "has_dyes/black": "2024-06-25 12:19:11 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_lime_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-06-25 12:19:11 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/dye_black": {
+    "criteria": {
+      "has_the_recipe": "2024-06-25 12:19:21 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_purple_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-06-25 12:19:29 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/lavender_dye": {
+    "criteria": {
+      "has_purple_dye": "2024-06-25 12:19:29 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_orange": {
+    "criteria": {
+      "has_item": "2024-06-25 12:19:59 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/orange_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-06-25 12:19:59 +0000"
     },
     "done": true
   },
@@ -37973,9 +38004,39 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_cyan_carpet": {
+  "dyenamics:recipes/misc/amber_dye": {
     "criteria": {
-      "has_needed_dye": "2024-06-25 12:20:34 +0000"
+      "has_orange_dye": "2024-06-25 12:20:03 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_orange_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-06-25 12:20:03 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/persimmon_dye": {
+    "criteria": {
+      "has_orange_dye": "2024-06-25 12:20:03 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/peach_dye": {
+    "criteria": {
+      "has_orange_dye": "2024-06-25 12:20:03 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/dye_pink": {
+    "criteria": {
+      "has_the_recipe": "2024-06-25 12:20:13 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/small_pink_industrial_lamp": {
+    "criteria": {
+      "has_small_pink_industrial_lamp": "2024-06-25 12:20:14 +0000"
     },
     "done": true
   },
@@ -38003,18 +38064,6 @@
     },
     "done": true
   },
-  "connectedglass:recipes/misc/scratched_glass_lime_pane2": {
-    "criteria": {
-      "recipe_condition2": "2024-06-25 12:19:11 +0000"
-    },
-    "done": true
-  },
-  "alchemistry:recipes/dissolver/smooth_basalt": {
-    "criteria": {
-      "has_the_recipe": "2024-06-25 13:26:14 +0000"
-    },
-    "done": true
-  },
   "connectedglass:recipes/misc/tinted_borderless_glass_pink2": {
     "criteria": {
       "recipe_condition2": "2024-06-25 12:20:14 +0000"
@@ -38027,15 +38076,105 @@
     },
     "done": true
   },
-  "occultism:recipes/misc/crafting/book_of_binding_bound_djinni": {
+  "ae2:recipes/misc/network/cables/dense_covered_pink": {
     "criteria": {
-      "has_book_of_binding_djinni": "2024-06-25 12:24:10 +0000"
+      "has_dyes/black": "2024-06-25 12:20:14 +0000"
     },
     "done": true
   },
-  "allthecompressed:recipes/building_blocks/compress/basalt_1x": {
+  "supplementaries:recipes/candle_holders/candle_holder_pink_dye": {
     "criteria": {
-      "has_basalt": "2024-06-25 13:26:14 +0000"
+      "forge:dyes/pink": "2024-06-25 12:20:14 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/dense_smart_pink": {
+    "criteria": {
+      "has_dyes/black": "2024-06-25 12:20:14 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_pink2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-25 12:20:14 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_pink_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-06-25 12:20:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-06-25 12:20:14 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_pink": {
+    "criteria": {
+      "has_dyes/black": "2024-06-25 12:20:14 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_pink_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-25 12:20:14 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_pink_picket_fence": {
+    "criteria": {
+      "has_dye": "2024-06-25 12:20:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-06-25 12:20:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-06-25 12:20:14 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/cyan_industrial_lamp": {
+    "criteria": {
+      "has_cyan_industrial_lamp": "2024-06-25 12:20:34 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/cables/glass_cyan": {
+    "criteria": {
+      "has_dyes/black": "2024-06-25 12:20:34 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_cyan_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-25 12:20:34 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_cyan2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-25 12:20:34 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_cyan_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-25 12:20:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_cyan_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-06-25 12:20:34 +0000"
     },
     "done": true
   },
@@ -38051,99 +38190,9 @@
     },
     "done": true
   },
-  "ae2:recipes/misc/network/cables/dense_covered_pink": {
-    "criteria": {
-      "has_dyes/black": "2024-06-25 12:20:14 +0000"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/borderless_glass_lime_pane2": {
-    "criteria": {
-      "recipe_condition2": "2024-06-25 12:19:11 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_basalt": {
-    "criteria": {
-      "has_basalt": "2024-06-25 13:26:14 +0000"
-    },
-    "done": true
-  },
-  "occultism:recipes/misc/crafting/iesnium_ingot_from_block": {
-    "criteria": {
-      "has_iesnium_block": "2024-06-25 14:06:29 +0000"
-    },
-    "done": true
-  },
-  "dyenamics:recipes/misc/amber_dye": {
-    "criteria": {
-      "has_orange_dye": "2024-06-25 12:20:03 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/dye_lime_picket_fence": {
-    "criteria": {
-      "has_dye": "2024-06-25 12:19:11 +0000"
-    },
-    "done": true
-  },
   "cfm:recipes/decorations/dye_cyan_picket_gate": {
     "criteria": {
       "has_dye": "2024-06-25 12:20:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_basalt": {
-    "criteria": {
-      "has_basalt": "2024-06-25 13:26:14 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/candle_holders/candle_holder_pink_dye": {
-    "criteria": {
-      "forge:dyes/pink": "2024-06-25 12:20:14 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/building_blocks/dye_purple_sleeping_bag": {
-    "criteria": {
-      "has_needed_dye": "2024-06-25 12:19:29 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/dense_smart_pink": {
-    "criteria": {
-      "has_dyes/black": "2024-06-25 12:20:14 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/conversions/orange_petal_block_deconstruct": {
-    "criteria": {
-      "has_item": "2024-06-25 12:21:44 +0000"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/scratched_glass_pink2": {
-    "criteria": {
-      "recipe_condition2": "2024-06-25 12:20:14 +0000"
-    },
-    "done": true
-  },
-  "dyenamics:recipes/misc/lavender_dye": {
-    "criteria": {
-      "has_purple_dye": "2024-06-25 12:19:29 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/building_blocks/dye_pink_sleeping_bag": {
-    "criteria": {
-      "has_needed_dye": "2024-06-25 12:20:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_lime_carpet": {
-    "criteria": {
-      "has_needed_dye": "2024-06-25 12:19:11 +0000"
     },
     "done": true
   },
@@ -38153,39 +38202,9 @@
     },
     "done": true
   },
-  "botania:recipes/decorations/orange_petal_block": {
-    "criteria": {
-      "has_item": "2024-06-25 12:21:44 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/petal_orange": {
-    "criteria": {
-      "has_item": "2024-06-25 12:19:59 +0000"
-    },
-    "done": true
-  },
   "ad_astra:recipes/misc/small_cyan_industrial_lamp": {
     "criteria": {
       "has_small_cyan_industrial_lamp": "2024-06-25 12:20:34 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/building_blocks/dye_orange_sleeping_bag": {
-    "criteria": {
-      "has_needed_dye": "2024-06-25 12:20:03 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/dye_lime_picket_gate": {
-    "criteria": {
-      "has_dye": "2024-06-25 12:19:11 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/dense_covered_lime": {
-    "criteria": {
-      "has_dyes/black": "2024-06-25 12:19:11 +0000"
     },
     "done": true
   },
@@ -38195,51 +38214,9 @@
     },
     "done": true
   },
-  "botania:recipes/misc/dye_black": {
-    "criteria": {
-      "has_the_recipe": "2024-06-25 12:19:21 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/dense_smart_lime": {
-    "criteria": {
-      "has_dyes/black": "2024-06-25 12:19:11 +0000"
-    },
-    "done": true
-  },
-  "occultism:occultism/craft_infused_pickaxe": {
-    "criteria": {
-      "craft_infused_pickaxe": "2024-06-25 12:50:34 +0000"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/tinted_borderless_glass_lime2": {
-    "criteria": {
-      "recipe_condition2": "2024-06-25 12:19:11 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/candle_holders/candle_holder_lime_dye": {
-    "criteria": {
-      "forge:dyes/lime": "2024-06-25 12:19:11 +0000"
-    },
-    "done": true
-  },
-  "botania:recipes/misc/petal_orange_double": {
-    "criteria": {
-      "has_alt_item": "2024-06-25 12:21:44 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_cyan_wool": {
     "criteria": {
       "has_needed_dye": "2024-06-25 12:20:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_pink_wool": {
-    "criteria": {
-      "has_needed_dye": "2024-06-25 12:20:14 +0000"
     },
     "done": true
   },
@@ -38249,33 +38226,9 @@
     },
     "done": true
   },
-  "ad_astra:recipes/misc/lime_industrial_lamp": {
-    "criteria": {
-      "has_lime_industrial_lamp": "2024-06-25 12:19:11 +0000"
-    },
-    "done": true
-  },
   "cfm:recipes/decorations/dye_cyan_picket_fence": {
     "criteria": {
       "has_dye": "2024-06-25 12:20:34 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
-    "criteria": {
-      "has_basalt": "2024-06-25 13:26:14 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/blaze": {
-    "criteria": {
-      "has_blaze_rod": "2024-06-25 13:25:09 +0000"
-    },
-    "done": true
-  },
-  "occultism:recipes/spirit_fire/spirit_fire/chalk_red": {
-    "criteria": {
-      "has_chalk_red_impure": "2024-06-25 15:05:08 +0000"
     },
     "done": true
   },
@@ -38285,87 +38238,51 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_lime_wool": {
-    "criteria": {
-      "has_needed_dye": "2024-06-25 12:19:11 +0000"
-    },
-    "done": true
-  },
-  "occultism:recipes/misc/crafting/book_of_binding_bound_marid": {
-    "criteria": {
-      "has_book_of_binding_marid": "2024-06-25 14:07:23 +0000"
-    },
-    "done": true
-  },
-  "ae2:recipes/misc/network/cables/glass_pink": {
-    "criteria": {
-      "has_dyes/black": "2024-06-25 12:20:14 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/lime_candle": {
-    "criteria": {
-      "has_lime_dye": "2024-06-25 12:19:11 +0000"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/scratched_glass_pink_pane2": {
-    "criteria": {
-      "recipe_condition2": "2024-06-25 12:20:14 +0000"
-    },
-    "done": true
-  },
   "ae2:recipes/misc/network/cables/dense_smart_cyan": {
     "criteria": {
       "has_dyes/black": "2024-06-25 12:20:34 +0000"
     },
     "done": true
   },
-  "connectedglass:recipes/misc/scratched_glass_lime2": {
+  "botania:recipes/misc/conversions/orange_petal_block_deconstruct": {
     "criteria": {
-      "recipe_condition2": "2024-06-25 12:19:11 +0000"
+      "has_item": "2024-06-25 12:21:44 +0000"
     },
     "done": true
   },
-  "ae2:recipes/misc/network/cables/glass_lime": {
+  "botania:recipes/decorations/orange_petal_block": {
     "criteria": {
-      "has_dyes/black": "2024-06-25 12:19:11 +0000"
+      "has_item": "2024-06-25 12:21:44 +0000"
     },
     "done": true
   },
-  "cfm:recipes/decorations/dye_pink_picket_fence": {
+  "botania:recipes/misc/petal_orange_double": {
     "criteria": {
-      "has_dye": "2024-06-25 12:20:14 +0000"
+      "has_alt_item": "2024-06-25 12:21:44 +0000"
     },
     "done": true
   },
-  "botania:recipes/decorations/orange_shiny_flower": {
+  "botania:recipes/misc/petal_pink_double": {
     "criteria": {
-      "has_item": "2024-06-25 12:19:59 +0000"
+      "has_alt_item": "2024-06-25 12:21:48 +0000"
     },
     "done": true
   },
-  "dyenamics:recipes/misc/persimmon_dye": {
+  "botania:recipes/misc/conversions/pink_petal_block_deconstruct": {
     "criteria": {
-      "has_orange_dye": "2024-06-25 12:20:03 +0000"
+      "has_item": "2024-06-25 12:21:48 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_pink_bed": {
+  "botania:recipes/decorations/pink_petal_block": {
     "criteria": {
-      "has_needed_dye": "2024-06-25 12:20:14 +0000"
+      "has_item": "2024-06-25 12:21:48 +0000"
     },
     "done": true
   },
-  "occultism:occultism/summon_marid_crusher": {
+  "occultism:recipes/misc/crafting/book_of_binding_bound_djinni": {
     "criteria": {
-      "summon_marid_crusher": "2024-06-25 15:08:47 +0000"
-    },
-    "done": true
-  },
-  "additionallanterns:recipes/misc/basalt_chain": {
-    "criteria": {
-      "recipe_condition": "2024-06-25 13:26:14 +0000"
+      "has_book_of_binding_djinni": "2024-06-25 12:24:10 +0000"
     },
     "done": true
   },
@@ -38375,27 +38292,75 @@
     },
     "done": true
   },
-  "dyenamics:recipes/misc/peach_dye": {
+  "occultism:recipes/tools/crafting/goggles": {
     "criteria": {
-      "has_orange_dye": "2024-06-25 12:20:03 +0000"
+      "has_infused_lenses": "2024-06-25 12:37:57 +0000"
     },
     "done": true
   },
-  "botania:recipes/misc/dye_pink": {
+  "occultism:recipes/spirit_fire/spirit_fire/chalk_purple": {
     "criteria": {
-      "has_the_recipe": "2024-06-25 12:20:13 +0000"
+      "has_chalk_purple_impure": "2024-06-25 12:41:34 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_pink_carpet": {
+  "occultism:occultism/craft_infused_pickaxe": {
     "criteria": {
-      "has_needed_dye": "2024-06-25 12:20:14 +0000"
+      "craft_infused_pickaxe": "2024-06-25 12:50:34 +0000"
     },
     "done": true
   },
-  "travelersbackpack:recipes/building_blocks/dye_lime_sleeping_bag": {
+  "travelersbackpack:recipes/misc/blaze": {
     "criteria": {
-      "has_needed_dye": "2024-06-25 12:19:11 +0000"
+      "has_blaze_rod": "2024-06-25 13:25:09 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/smooth_basalt": {
+    "criteria": {
+      "has_the_recipe": "2024-06-25 13:26:14 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/basalt_1x": {
+    "criteria": {
+      "has_basalt": "2024-06-25 13:26:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_basalt": {
+    "criteria": {
+      "has_basalt": "2024-06-25 13:26:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt": {
+    "criteria": {
+      "has_basalt": "2024-06-25 13:26:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
+    "criteria": {
+      "has_basalt": "2024-06-25 13:26:14 +0000"
+    },
+    "done": true
+  },
+  "additionallanterns:recipes/misc/basalt_chain": {
+    "criteria": {
+      "recipe_condition": "2024-06-25 13:26:14 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/polished_basalt": {
+    "criteria": {
+      "has_the_recipe": "2024-06-25 13:26:14 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/iesnium_dust": {
+    "criteria": {
+      "has_iesnium": "2024-06-25 13:38:19 +0000"
     },
     "done": true
   },
@@ -38411,9 +38376,627 @@
     },
     "done": true
   },
-  "alchemistry:recipes/dissolver/polished_basalt": {
+  "occultism:recipes/misc/crafting/book_of_binding_bound_afrit": {
     "criteria": {
-      "has_the_recipe": "2024-06-25 13:26:14 +0000"
+      "has_book_of_binding_afrit": "2024-06-25 13:54:02 +0000"
+    },
+    "done": true
+  },
+  "occultism:occultism/summon_wild_afrit": {
+    "criteria": {
+      "summon_wild_afrit": "2024-06-25 14:00:44 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/iesnium_ingot_from_block": {
+    "criteria": {
+      "has_iesnium_block": "2024-06-25 14:06:29 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/book_of_binding_bound_marid": {
+    "criteria": {
+      "has_book_of_binding_marid": "2024-06-25 14:07:23 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/ghast": {
+    "criteria": {
+      "has_ghast_tear": "2024-06-25 14:21:19 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/spirit_fire/spirit_fire/chalk_red": {
+    "criteria": {
+      "has_chalk_red_impure": "2024-06-25 15:05:08 +0000"
+    },
+    "done": true
+  },
+  "occultism:occultism/summon_marid_crusher": {
+    "criteria": {
+      "summon_marid_crusher": "2024-06-25 15:08:47 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/deeps/deepslate_coal_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/glowstone": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/iolite_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/morganite_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/xpetrified_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/inferium_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/sulfur_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/arcane_crystal": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/niter_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/runic_stone": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/certus_quartz_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/basic_resources/netherrack": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:occultism/craft_miner_foliot_unspecialized": {
+    "criteria": {
+      "craft_miner_foliot_unspecialized": "2024-06-26 13:37:44 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/master/iesnium_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/copper_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/nether_quartz_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/sapphire_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/amethyst_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/tanzanite_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/malachite_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/uranium_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/gold_smithing": {
+    "criteria": {
+      "has_gold": "2024-06-26 14:06:11 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/dimensional_shard_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/cobalt_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/master/ancient_debris": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/blaze_smithing": {
+    "criteria": {
+      "has_blaze": "2024-06-26 14:05:42 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/onyx_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/basic_resources/andesite": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:occultism/craft_miner_marid_master": {
+    "criteria": {
+      "craft_miner_marid_master": "2024-06-26 13:54:23 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/zinc_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/blasting/iesnium_ingot_from_dust": {
+    "criteria": {
+      "has_iesnium_dust": "2024-06-26 13:30:54 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/nether_gold_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/cinnabar_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/otherstone": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/basic_resources/mossy_stone_bricks": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/gold_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/deeps/deepslate_redstone_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/peridot_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/basic_resources/granite": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/platinum_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/thorium_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/basic_resources/diorite": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/basic_resources/stone": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/iron_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/topaz_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/electrotine_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/deeps/deepslate_copper_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/osmium_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/tungsten_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/beryl_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/lead_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/indicolite_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/redstone_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/nickel_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/magma_block": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/lapis_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/obsidian": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/salt_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/deeps/deepslate_diamond_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/amber_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/aquamarine_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/coal_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/mithril_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:occultism/craft_miner_afrit_deeps": {
+    "criteria": {
+      "craft_miner_afrit_deeps": "2024-06-26 13:49:04 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/ardite_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/cobalt_dust": {
+    "criteria": {
+      "has_cobalt": "2024-06-26 14:34:38 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/heliodor_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/basic_resources/mossy_cobblestone": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/prosperity_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/peridot_dust": {
+    "criteria": {
+      "has_peridot": "2024-06-26 14:14:38 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/garnet_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/agate_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/diamond_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/deeps/deepslate_lapis_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/gravel": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:occultism/craft_miner_djinni_ores": {
+    "criteria": {
+      "craft_miner_djinni_ores": "2024-06-26 13:40:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/deeps/deepslate_emerald_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/emerald_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/ruby_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/smelting/iesnium_ingot_from_dust": {
+    "criteria": {
+      "has_iesnium_dust": "2024-06-26 13:30:54 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/debug_wand": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/silver_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/sky_stone_block": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/aluminum_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/boron_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/deeps/deepslate_iron_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/deeps/deepslate_gold_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/certus_quartz_dust": {
+    "criteria": {
+      "has_certus_quartz": "2024-06-26 13:55:57 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/basic_resources/end_stone": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/magnesium_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/clay": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/opal_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:occultism/craft_dimensional_mineshaft": {
+    "criteria": {
+      "craft_dimensional_mineshaft": "2024-06-26 13:34:51 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/deeps/deepslate_silver_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/tin_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/lithium_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/miner/miner/ores/draconium_ore": {
+    "criteria": {
+      "has_miner": "2024-06-26 13:34:30 +0000"
     },
     "done": true
   },

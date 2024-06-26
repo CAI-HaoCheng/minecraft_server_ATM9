@@ -40727,12 +40727,6 @@
     },
     "done": true
   },
-  "occultism:recipes/misc/crafting/iesnium_ingot_from_block": {
-    "criteria": {
-      "has_iesnium_block": "2024-06-25 14:34:43 +0000"
-    },
-    "done": true
-  },
   "handcrafted:recipes/misc/yellow_sheet": {
     "criteria": {
       "has_yellow_sheet": "2024-06-25 14:04:03 +0000"
@@ -40754,6 +40748,18 @@
   "minecraft:recipes/decorations/yellow_banner": {
     "criteria": {
       "has_yellow_wool": "2024-06-25 14:04:03 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/iesnium_ingot_from_block": {
+    "criteria": {
+      "has_iesnium_block": "2024-06-25 14:34:43 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/squid": {
+    "criteria": {
+      "has_ink_sac": "2024-06-26 14:16:47 +0000"
     },
     "done": true
   },

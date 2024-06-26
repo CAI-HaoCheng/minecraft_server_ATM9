@@ -43232,5 +43232,11 @@
     },
     "done": true
   },
+  "darkutils:adventure/faster_than_lightning": {
+    "criteria": {
+      "get_plate": "2024-06-26 14:11:37 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
