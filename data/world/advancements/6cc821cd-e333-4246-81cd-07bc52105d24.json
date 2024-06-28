@@ -43238,5 +43238,11 @@
     },
     "done": true
   },
+  "tombstone:adventure/use_preservation": {
+    "criteria": {
+      "has_magic_scroll": "2024-06-28 14:22:41 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

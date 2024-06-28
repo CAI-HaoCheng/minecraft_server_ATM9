@@ -38418,6 +38418,18 @@
     },
     "done": true
   },
+  "occultism:recipes/misc/blasting/iesnium_ingot_from_dust": {
+    "criteria": {
+      "has_iesnium_dust": "2024-06-26 13:30:54 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/smelting/iesnium_ingot_from_dust": {
+    "criteria": {
+      "has_iesnium_dust": "2024-06-26 13:30:54 +0000"
+    },
+    "done": true
+  },
   "occultism:recipes/miner/miner/deeps/deepslate_coal_ore": {
     "criteria": {
       "has_miner": "2024-06-26 13:34:30 +0000"
@@ -38490,12 +38502,6 @@
     },
     "done": true
   },
-  "occultism:occultism/craft_miner_foliot_unspecialized": {
-    "criteria": {
-      "craft_miner_foliot_unspecialized": "2024-06-26 13:37:44 +0000"
-    },
-    "done": true
-  },
   "occultism:recipes/miner/miner/master/iesnium_ore": {
     "criteria": {
       "has_miner": "2024-06-26 13:34:30 +0000"
@@ -38544,12 +38550,6 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/gold_smithing": {
-    "criteria": {
-      "has_gold": "2024-06-26 14:06:11 +0000"
-    },
-    "done": true
-  },
   "occultism:recipes/miner/miner/ores/dimensional_shard_ore": {
     "criteria": {
       "has_miner": "2024-06-26 13:34:30 +0000"
@@ -38568,12 +38568,6 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/blaze_smithing": {
-    "criteria": {
-      "has_blaze": "2024-06-26 14:05:42 +0000"
-    },
-    "done": true
-  },
   "occultism:recipes/miner/miner/ores/onyx_ore": {
     "criteria": {
       "has_miner": "2024-06-26 13:34:30 +0000"
@@ -38586,21 +38580,9 @@
     },
     "done": true
   },
-  "occultism:occultism/craft_miner_marid_master": {
-    "criteria": {
-      "craft_miner_marid_master": "2024-06-26 13:54:23 +0000"
-    },
-    "done": true
-  },
   "occultism:recipes/miner/miner/ores/zinc_ore": {
     "criteria": {
       "has_miner": "2024-06-26 13:34:30 +0000"
-    },
-    "done": true
-  },
-  "occultism:recipes/misc/blasting/iesnium_ingot_from_dust": {
-    "criteria": {
-      "has_iesnium_dust": "2024-06-26 13:30:54 +0000"
     },
     "done": true
   },
@@ -38796,21 +38778,9 @@
     },
     "done": true
   },
-  "occultism:occultism/craft_miner_afrit_deeps": {
-    "criteria": {
-      "craft_miner_afrit_deeps": "2024-06-26 13:49:04 +0000"
-    },
-    "done": true
-  },
   "occultism:recipes/miner/miner/ores/ardite_ore": {
     "criteria": {
       "has_miner": "2024-06-26 13:34:30 +0000"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/cobalt_dust": {
-    "criteria": {
-      "has_cobalt": "2024-06-26 14:34:38 +0000"
     },
     "done": true
   },
@@ -38829,12 +38799,6 @@
   "occultism:recipes/miner/miner/ores/prosperity_ore": {
     "criteria": {
       "has_miner": "2024-06-26 13:34:30 +0000"
-    },
-    "done": true
-  },
-  "occultism:recipes/crushing/crushing/peridot_dust": {
-    "criteria": {
-      "has_peridot": "2024-06-26 14:14:38 +0000"
     },
     "done": true
   },
@@ -38868,12 +38832,6 @@
     },
     "done": true
   },
-  "occultism:occultism/craft_miner_djinni_ores": {
-    "criteria": {
-      "craft_miner_djinni_ores": "2024-06-26 13:40:30 +0000"
-    },
-    "done": true
-  },
   "occultism:recipes/miner/miner/deeps/deepslate_emerald_ore": {
     "criteria": {
       "has_miner": "2024-06-26 13:34:30 +0000"
@@ -38889,12 +38847,6 @@
   "occultism:recipes/miner/miner/ores/ruby_ore": {
     "criteria": {
       "has_miner": "2024-06-26 13:34:30 +0000"
-    },
-    "done": true
-  },
-  "occultism:recipes/misc/smelting/iesnium_ingot_from_dust": {
-    "criteria": {
-      "has_iesnium_dust": "2024-06-26 13:30:54 +0000"
     },
     "done": true
   },
@@ -38940,12 +38892,6 @@
     },
     "done": true
   },
-  "occultism:recipes/crushing/crushing/certus_quartz_dust": {
-    "criteria": {
-      "has_certus_quartz": "2024-06-26 13:55:57 +0000"
-    },
-    "done": true
-  },
   "occultism:recipes/miner/miner/basic_resources/end_stone": {
     "criteria": {
       "has_miner": "2024-06-26 13:34:30 +0000"
@@ -38970,12 +38916,6 @@
     },
     "done": true
   },
-  "occultism:occultism/craft_dimensional_mineshaft": {
-    "criteria": {
-      "craft_dimensional_mineshaft": "2024-06-26 13:34:51 +0000"
-    },
-    "done": true
-  },
   "occultism:recipes/miner/miner/deeps/deepslate_silver_ore": {
     "criteria": {
       "has_miner": "2024-06-26 13:34:30 +0000"
@@ -38997,6 +38937,66 @@
   "occultism:recipes/miner/miner/ores/draconium_ore": {
     "criteria": {
       "has_miner": "2024-06-26 13:34:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:occultism/craft_dimensional_mineshaft": {
+    "criteria": {
+      "craft_dimensional_mineshaft": "2024-06-26 13:34:51 +0000"
+    },
+    "done": true
+  },
+  "occultism:occultism/craft_miner_foliot_unspecialized": {
+    "criteria": {
+      "craft_miner_foliot_unspecialized": "2024-06-26 13:37:44 +0000"
+    },
+    "done": true
+  },
+  "occultism:occultism/craft_miner_djinni_ores": {
+    "criteria": {
+      "craft_miner_djinni_ores": "2024-06-26 13:40:30 +0000"
+    },
+    "done": true
+  },
+  "occultism:occultism/craft_miner_afrit_deeps": {
+    "criteria": {
+      "craft_miner_afrit_deeps": "2024-06-26 13:49:04 +0000"
+    },
+    "done": true
+  },
+  "occultism:occultism/craft_miner_marid_master": {
+    "criteria": {
+      "craft_miner_marid_master": "2024-06-26 13:54:23 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/certus_quartz_dust": {
+    "criteria": {
+      "has_certus_quartz": "2024-06-26 13:55:57 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/blaze_smithing": {
+    "criteria": {
+      "has_blaze": "2024-06-26 14:05:42 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/gold_smithing": {
+    "criteria": {
+      "has_gold": "2024-06-26 14:06:11 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/peridot_dust": {
+    "criteria": {
+      "has_peridot": "2024-06-26 14:14:38 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/cobalt_dust": {
+    "criteria": {
+      "has_cobalt": "2024-06-26 14:34:38 +0000"
     },
     "done": true
   },
