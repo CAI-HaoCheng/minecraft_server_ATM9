@@ -43244,5 +43244,89 @@
     },
     "done": true
   },
+  "immersiveengineering:recipes/misc/smelting/slag_glass": {
+    "criteria": {
+      "has_slag": "2024-06-29 14:17:34 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:multiblocks/mb_fermenter": {
+    "criteria": {
+      "form_multiblock": "2024-06-29 14:40:29 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/basic/solidaccessport": {
+    "criteria": {
+      "has_item": "2024-06-29 14:43:02 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/basic/controller_ingots_yellorium": {
+    "criteria": {
+      "has_item": "2024-06-29 14:43:02 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/basic/glass": {
+    "criteria": {
+      "has_item": "2024-06-29 14:43:02 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/basic/redstoneport": {
+    "criteria": {
+      "has_item": "2024-06-29 14:43:02 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/quartz": {
+    "criteria": {
+      "has_quartz": "2024-06-29 14:43:02 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/basic/controlrod": {
+    "criteria": {
+      "has_item": "2024-06-29 14:43:02 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/crafting/spirit_campfire": {
+    "criteria": {
+      "has_datura": "2024-06-29 14:43:06 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/datura": {
+    "criteria": {
+      "has_datura": "2024-06-29 14:43:06 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/decorations/crafting/spirit_torch": {
+    "criteria": {
+      "has_datura": "2024-06-29 14:43:06 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/food/crafting/demons_dream_essence_from_fruit": {
+    "criteria": {
+      "has_datura": "2024-06-29 14:43:06 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/hay": {
+    "criteria": {
+      "has_wheat": "2024-06-29 14:44:32 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/melon": {
+    "criteria": {
+      "has_melon_slice": "2024-06-29 14:59:19 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
