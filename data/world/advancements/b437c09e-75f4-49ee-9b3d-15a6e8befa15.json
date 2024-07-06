@@ -5224,6 +5224,7 @@
       "minecraft:creeper": "2024-05-03 15:00:42 +0000",
       "minecraft:wither": "2024-05-22 15:40:12 +0000",
       "minecraft:evoker": "2024-05-01 15:43:25 +0000",
+      "minecraft:slime": "2024-07-06 15:51:58 +0000",
       "minecraft:phantom": "2024-05-04 14:25:40 +0000",
       "minecraft:zombified_piglin": "2024-05-14 15:08:02 +0000",
       "minecraft:witch": "2024-05-01 15:51:01 +0000",
@@ -6407,13 +6408,17 @@
       "forested_field": "2024-05-27 15:13:23 +0000",
       "redwood_forest": "2024-05-01 15:26:39 +0000",
       "visceral_heap": "2024-05-03 15:29:26 +0000",
+      "seasonal_orchard": "2024-07-06 06:30:34 +0000",
       "dune_beach": "2024-05-01 15:27:28 +0000",
       "seasonal_forest": "2024-05-01 16:30:45 +0000",
       "auroral_garden": "2024-06-10 04:29:04 +0000",
       "volcano": "2024-06-23 14:12:28 +0000",
       "rocky_rainforest": "2024-05-26 11:22:56 +0000",
+      "pasture": "2024-07-06 06:21:55 +0000",
+      "lavender_field": "2024-07-06 06:20:32 +0000",
       "fir_clearing": "2024-05-26 12:17:45 +0000",
       "grassland": "2024-05-01 15:14:50 +0000",
+      "prairie": "2024-07-06 06:21:49 +0000",
       "glowing_grotto": "2024-06-10 04:35:41 +0000",
       "tropics": "2024-05-27 15:13:43 +0000",
       "rainforest": "2024-05-26 11:23:01 +0000",
@@ -6434,6 +6439,8 @@
       "minecraft:taiga": "2024-05-01 16:44:54 +0000",
       "minecraft:deep_ocean": "2024-05-19 14:20:25 +0000",
       "minecraft:cherry_grove": "2024-05-01 16:27:54 +0000",
+      "minecraft:sunflower_plains": "2024-07-06 06:22:06 +0000",
+      "minecraft:birch_forest": "2024-07-06 06:22:50 +0000",
       "minecraft:savanna_plateau": "2024-05-26 11:24:59 +0000",
       "minecraft:beach": "2024-05-01 15:14:51 +0000",
       "minecraft:dark_forest": "2024-05-26 11:22:25 +0000",
@@ -6452,9 +6459,11 @@
       "minecraft:ocean": "2024-05-01 15:15:28 +0000",
       "minecraft:warm_ocean": "2024-05-25 10:26:41 +0000",
       "minecraft:deep_lukewarm_ocean": "2024-05-27 15:13:53 +0000",
+      "minecraft:flower_forest": "2024-07-06 06:21:26 +0000",
       "minecraft:old_growth_birch_forest": "2024-05-01 15:13:54 +0000",
       "minecraft:deep_dark": "2024-05-03 15:17:43 +0000",
       "minecraft:meadow": "2024-06-10 04:23:52 +0000",
+      "minecraft:windswept_gravelly_hills": "2024-07-06 06:30:11 +0000",
       "minecraft:savanna": "2024-05-26 11:24:26 +0000",
       "minecraft:plains": "2024-05-04 14:50:42 +0000"
     },
@@ -41069,111 +41078,9 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/building_blocks/dye_light_gray_sleeping_bag": {
-    "criteria": {
-      "has_needed_dye": "2024-06-30 12:48:51 +0000"
-    },
-    "done": true
-  },
-  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_pump": {
-    "criteria": {
-      "shape_card": "2024-06-30 07:45:57 +0000"
-    },
-    "done": true
-  },
-  "dyenamics:recipes/misc/bed/honey_bed_frm_white_bed": {
-    "criteria": {
-      "has_white_bed": "2024-06-30 07:26:44 +0000"
-    },
-    "done": true
-  },
-  "twigs:recipes/bloodstone/polished_bloodstone": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:44 +0000"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/cyan_industrial_lamp": {
-    "criteria": {
-      "has_cyan_industrial_lamp": "2024-06-30 12:50:59 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/shears_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/knife_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/standard_smithing": {
-    "criteria": {
-      "has_standard": "2024-06-30 07:26:38 +0000"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/scratched_glass_cyan_pane2": {
-    "criteria": {
-      "recipe_condition2": "2024-06-30 12:50:59 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/tools/cord_blueprint_alt": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/bow_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "dyenamics:recipes/misc/bed/fluorescent_bed_frm_white_bed": {
-    "criteria": {
-      "has_white_bed": "2024-06-30 07:26:44 +0000"
-    },
-    "done": true
-  },
   "immersiveengineering:main/main_root": {
     "criteria": {
       "has_item": "2024-06-30 07:26:07 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/dagger_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/hammer_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/machete_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "delightful:recipes/knives/electrum_knife": {
-    "criteria": {
-      "has_ingots/electrum": "2024-06-30 07:26:19 +0000"
-    },
-    "done": true
-  },
-  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_liquid": {
-    "criteria": {
-      "shape_card": "2024-06-30 07:45:57 +0000"
     },
     "done": true
   },
@@ -41183,21 +41090,9 @@
     },
     "done": true
   },
-  "connectedglass:recipes/misc/scratched_glass_cyan2": {
+  "delightful:recipes/knives/electrum_knife": {
     "criteria": {
-      "recipe_condition2": "2024-06-30 12:50:59 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/sickle_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "dyenamics:recipes/misc/bed/navy_bed_frm_white_bed": {
-    "criteria": {
-      "has_white_bed": "2024-06-30 07:26:44 +0000"
+      "has_ingots/electrum": "2024-06-30 07:26:19 +0000"
     },
     "done": true
   },
@@ -41213,135 +41108,9 @@
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/filter_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_1": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/void_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/binding_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_clear_fortune": {
-    "criteria": {
-      "shape_card": "2024-06-30 07:45:57 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/chipped/botanist_workbench_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
-  "dyenamics:recipes/misc/bed/ultramarine_bed_frm_white_bed": {
-    "criteria": {
-      "has_white_bed": "2024-06-30 07:26:44 +0000"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/borderless_glass_cyan_pane2": {
-    "criteria": {
-      "recipe_condition2": "2024-06-30 12:50:59 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/pump_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/anvil_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
-  "twigs:recipes/bloodstone/polished_bloodstone_stonecutting": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:44 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/chipped/alchemy_bench_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
   "immersiveengineering:recipes/misc/crafting/heavy_engineering": {
     "criteria": {
       "has_electrum_ingot": "2024-06-30 07:26:19 +0000"
-    },
-    "done": true
-  },
-  "dyenamics:recipes/misc/bed/maroon_bed_frm_white_bed": {
-    "criteria": {
-      "has_white_bed": "2024-06-30 07:26:44 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/shovel_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/tools/grip_blueprint_alt": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/saw_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_fortune": {
-    "criteria": {
-      "shape_card": "2024-06-30 07:45:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_cyan_carpet": {
-    "criteria": {
-      "has_needed_dye": "2024-06-30 12:50:59 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/tool_swapper_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
-  "twigs:recipes/bloodstone/bloodstone_wall": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:44 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/deposit_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
     },
     "done": true
   },
@@ -41351,111 +41120,9 @@
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/smelting_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/paxel_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/elytra_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/tools/tip_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "twigs:recipes/bloodstone/bloodstone_wall_stonecutting": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:44 +0000"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/decompress/cobbled_deepslate_2x": {
-    "criteria": {
-      "has_cobbled_deepslate_2x": "2024-06-30 10:45:14 +0000"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/decompress/cobbled_deepslate_1x": {
-    "criteria": {
-      "has_cobbled_deepslate_1x": "2024-06-30 10:44:49 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/stack_upgrade_starter_tier": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
-  "twigs:recipes/bloodstone/bloodstone_slab": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:44 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/chipped/tinkering_table_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
-  "twigs:recipes/bloodstone/bloodstone_stairs_stonecutting": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:44 +0000"
-    },
-    "done": true
-  },
   "alltheores:recipes/misc/electrum_gear": {
     "criteria": {
       "has_TagKey[minecraft:item / forge:ingots/electrum]_ingot": "2024-06-30 07:26:19 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/leggings_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/pickaxe_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "connectedglass:recipes/misc/tinted_borderless_glass_cyan2": {
-    "criteria": {
-      "recipe_condition2": "2024-06-30 12:50:59 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/ring_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_cyan_bed": {
-    "criteria": {
-      "has_needed_dye": "2024-06-30 12:50:59 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/tools/rod_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
     },
     "done": true
   },
@@ -41471,54 +41138,6 @@
     },
     "done": true
   },
-  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_silk_dirt": {
-    "criteria": {
-      "shape_card": "2024-06-30 07:45:57 +0000"
-    },
-    "done": true
-  },
-  "dyenamics:recipes/misc/bed/lavender_bed_frm_white_bed": {
-    "criteria": {
-      "has_white_bed": "2024-06-30 07:26:44 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/refill_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_1_from_starter": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/dye_cyan_picket_gate": {
-    "criteria": {
-      "has_dye": "2024-06-30 12:50:59 +0000"
-    },
-    "done": true
-  },
-  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_clear_silk": {
-    "criteria": {
-      "shape_card": "2024-06-30 07:45:57 +0000"
-    },
-    "done": true
-  },
-  "dyenamics:recipes/misc/bed/wine_bed_frm_white_bed": {
-    "criteria": {
-      "has_white_bed": "2024-06-30 07:26:44 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/inception_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
   "immersiveengineering:recipes/misc/crafting/plate_electrum_hammering": {
     "criteria": {
       "has_electrum_ingot": "2024-06-30 07:26:19 +0000"
@@ -41531,153 +41150,9 @@
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/battery_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/stonecutter_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
-  "silentgear:blueprint_paper": {
-    "criteria": {
-      "get_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
   "alltheores:recipes/misc/electrum_nugget_from_ingot": {
     "criteria": {
       "has_item": "2024-06-30 07:26:19 +0000"
-    },
-    "done": true
-  },
-  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_pump_clear": {
-    "criteria": {
-      "shape_card": "2024-06-30 07:45:57 +0000"
-    },
-    "done": true
-  },
-  "supplementaries:recipes/candle_holders/candle_holder_cyan_dye": {
-    "criteria": {
-      "forge:dyes/cyan": "2024-06-30 12:50:59 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/helmet_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/arrow_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/smoking_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/ring_blueprint_alt": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/shield_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/spear_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/small_cyan_industrial_lamp": {
-    "criteria": {
-      "has_small_cyan_industrial_lamp": "2024-06-30 12:50:59 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/chipped/glassblower_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/sword_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "dyenamics:recipes/misc/bed/amber_bed_frm_white_bed": {
-    "criteria": {
-      "has_white_bed": "2024-06-30 07:26:44 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/bracelet_blueprint_alt": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/blasting_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
-  "dyenamics:recipes/misc/bed/persimmon_bed_frm_white_bed": {
-    "criteria": {
-      "has_white_bed": "2024-06-30 07:26:44 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/building_blocks/dye_cyan_sleeping_bag": {
-    "criteria": {
-      "has_needed_dye": "2024-06-30 12:50:59 +0000"
-    },
-    "done": true
-  },
-  "dyenamics:recipes/misc/bed/cherenkov_bed_frm_white_bed": {
-    "criteria": {
-      "has_white_bed": "2024-06-30 07:26:44 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/tools/cord_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/tank_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/hoe_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/tools/coating_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
     },
     "done": true
   },
@@ -41687,129 +41162,9 @@
     },
     "done": true
   },
-  "silentgear:recipes/tools/grip_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:44 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/crossbow_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "dyenamics:recipes/misc/bed/mint_bed_frm_white_bed": {
-    "criteria": {
-      "has_white_bed": "2024-06-30 07:26:44 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/pig": {
-    "criteria": {
-      "has_porkchop": "2024-06-30 13:01:15 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/tools/lining_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_silk": {
-    "criteria": {
-      "shape_card": "2024-06-30 07:45:57 +0000"
-    },
-    "done": true
-  },
   "immersiveengineering:recipes/misc/crafting/wirecoil_electrum": {
     "criteria": {
       "has_electrum_ingot": "2024-06-30 07:26:19 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_cyan_wool": {
-    "criteria": {
-      "has_needed_dye": "2024-06-30 12:50:59 +0000"
-    },
-    "done": true
-  },
-  "dyenamics:recipes/misc/bed/bubblegum_bed_frm_white_bed": {
-    "criteria": {
-      "has_white_bed": "2024-06-30 07:26:44 +0000"
-    },
-    "done": true
-  },
-  "cfm:recipes/decorations/dye_cyan_picket_fence": {
-    "criteria": {
-      "has_dye": "2024-06-30 12:50:59 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/excavator_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "dyenamics:recipes/misc/bed/conifer_bed_frm_white_bed": {
-    "criteria": {
-      "has_white_bed": "2024-06-30 07:26:44 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/crafting_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
-  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_dirt": {
-    "criteria": {
-      "shape_card": "2024-06-30 07:45:57 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/feeding_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
-  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_clear": {
-    "criteria": {
-      "shape_card": "2024-06-30 07:45:57 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/cyan_candle": {
-    "criteria": {
-      "has_cyan_dye": "2024-06-30 12:50:59 +0000"
-    },
-    "done": true
-  },
-  "twigs:recipes/bloodstone/polished_bloodstone_bricks_from_bloodstone_stonecutting": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:44 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/prospector_hammer_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/tools/fletching_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/chipped/mason_table_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
     },
     "done": true
   },
@@ -41819,15 +41174,27 @@
     },
     "done": true
   },
-  "silentgear:recipes/misc/katana_blueprint": {
+  "alltheores:recipes/misc/electrum_rod": {
     "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
+      "has_TagKey[minecraft:item / forge:ingots/electrum]_ingot": "2024-06-30 07:26:19 +0000"
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/chipped/carpenters_table_upgrade": {
+  "alltheores:recipes/misc/electrum_plate": {
     "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+      "has_TagKey[minecraft:item / forge:ingots/electrum]_ingot": "2024-06-30 07:26:19 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/bee": {
+    "criteria": {
+      "has_honey_bottle": "2024-06-30 07:26:31 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/standard_smithing": {
+    "criteria": {
+      "has_standard": "2024-06-30 07:26:38 +0000"
     },
     "done": true
   },
@@ -41837,21 +41204,135 @@
     },
     "done": true
   },
-  "dyenamics:recipes/misc/bed/aquamarine_bed_frm_white_bed": {
+  "dyenamics:recipes/misc/bed/honey_bed_frm_white_bed": {
     "criteria": {
       "has_white_bed": "2024-06-30 07:26:44 +0000"
     },
     "done": true
   },
-  "silentgear:recipes/misc/jeweler_tools": {
+  "twigs:recipes/bloodstone/polished_bloodstone": {
     "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
+      "has_item": "2024-06-30 07:26:44 +0000"
     },
     "done": true
   },
-  "silentgear:recipes/misc/boots_blueprint": {
+  "dyenamics:recipes/misc/bed/fluorescent_bed_frm_white_bed": {
     "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
+      "has_white_bed": "2024-06-30 07:26:44 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/navy_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-06-30 07:26:44 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/ultramarine_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-06-30 07:26:44 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/polished_bloodstone_stonecutting": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:44 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/maroon_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-06-30 07:26:44 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/bloodstone_wall": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:44 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/bloodstone_wall_stonecutting": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:44 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/bloodstone_slab": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:44 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/bloodstone_stairs_stonecutting": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:44 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/lavender_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-06-30 07:26:44 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/wine_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-06-30 07:26:44 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/amber_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-06-30 07:26:44 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/persimmon_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-06-30 07:26:44 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/cherenkov_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-06-30 07:26:44 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/tools/grip_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:44 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/mint_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-06-30 07:26:44 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/bubblegum_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-06-30 07:26:44 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/conifer_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-06-30 07:26:44 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/bloodstone/polished_bloodstone_bricks_from_bloodstone_stonecutting": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:44 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/aquamarine_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-06-30 07:26:44 +0000"
     },
     "done": true
   },
@@ -41873,24 +41354,6 @@
     },
     "done": true
   },
-  "silentgear:recipes/misc/fishing_rod_blueprint": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/misc/bee": {
-    "criteria": {
-      "has_honey_bottle": "2024-06-30 07:26:31 +0000"
-    },
-    "done": true
-  },
-  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_void": {
-    "criteria": {
-      "shape_card": "2024-06-30 07:45:57 +0000"
-    },
-    "done": true
-  },
   "dyenamics:recipes/misc/bed/peach_bed_frm_white_bed": {
     "criteria": {
       "has_white_bed": "2024-06-30 07:26:44 +0000"
@@ -41903,57 +41366,9 @@
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/pickup_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/jukebox_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
   "twigs:recipes/bloodstone/bloodstone_slab_stonecutting": {
     "criteria": {
       "has_item": "2024-06-30 07:26:44 +0000"
-    },
-    "done": true
-  },
-  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_fortune_dirt": {
-    "criteria": {
-      "shape_card": "2024-06-30 07:45:57 +0000"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/cobbled_deepslate_2x": {
-    "criteria": {
-      "has_cobbled_deepslate_1x": "2024-06-30 10:44:49 +0000"
-    },
-    "done": true
-  },
-  "allthecompressed:recipes/building_blocks/compress/cobbled_deepslate_3x": {
-    "criteria": {
-      "has_cobbled_deepslate_2x": "2024-06-30 10:45:14 +0000"
-    },
-    "done": true
-  },
-  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry": {
-    "criteria": {
-      "shape_card": "2024-06-30 07:45:57 +0000"
-    },
-    "done": true
-  },
-  "sophisticatedbackpacks:recipes/misc/everlasting_upgrade": {
-    "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
-    },
-    "done": true
-  },
-  "silentgear:recipes/misc/binding_blueprint_alt": {
-    "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
     },
     "done": true
   },
@@ -41963,27 +41378,249 @@
     },
     "done": true
   },
-  "silentgear:recipes/misc/bracelet_blueprint": {
+  "silentgear:recipes/misc/shears_blueprint": {
     "criteria": {
       "has_item": "2024-06-30 07:26:45 +0000"
     },
     "done": true
   },
-  "sophisticatedbackpacks:recipes/misc/compacting_upgrade": {
+  "silentgear:recipes/misc/knife_blueprint": {
     "criteria": {
-      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+      "has_item": "2024-06-30 07:26:45 +0000"
     },
     "done": true
   },
-  "alltheores:recipes/misc/electrum_rod": {
+  "silentgear:recipes/tools/cord_blueprint_alt": {
     "criteria": {
-      "has_TagKey[minecraft:item / forge:ingots/electrum]_ingot": "2024-06-30 07:26:19 +0000"
+      "has_item": "2024-06-30 07:26:45 +0000"
     },
     "done": true
   },
-  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_pump_dirt": {
+  "silentgear:recipes/misc/bow_blueprint": {
     "criteria": {
-      "shape_card": "2024-06-30 07:45:57 +0000"
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/dagger_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/hammer_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/machete_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/sickle_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/binding_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/shovel_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/tools/grip_blueprint_alt": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/saw_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/paxel_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/elytra_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/tools/tip_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/leggings_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/pickaxe_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/ring_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/tools/rod_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:blueprint_paper": {
+    "criteria": {
+      "get_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/helmet_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/arrow_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/ring_blueprint_alt": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/shield_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/spear_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/sword_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/bracelet_blueprint_alt": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/tools/cord_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/hoe_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/tools/coating_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/crossbow_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/tools/lining_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/excavator_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/prospector_hammer_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/tools/fletching_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/katana_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/jeweler_tools": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/boots_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/fishing_rod_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/binding_blueprint_alt": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/bracelet_blueprint": {
+    "criteria": {
+      "has_item": "2024-06-30 07:26:45 +0000"
     },
     "done": true
   },
@@ -41999,9 +41636,183 @@
     },
     "done": true
   },
-  "alltheores:recipes/misc/electrum_plate": {
+  "silentgear:recipes/misc/slingshot_blueprint": {
     "criteria": {
-      "has_TagKey[minecraft:item / forge:ingots/electrum]_ingot": "2024-06-30 07:26:19 +0000"
+      "has_item": "2024-06-30 07:26:45 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/filter_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_1": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/void_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/chipped/botanist_workbench_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/pump_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/anvil_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/chipped/alchemy_bench_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/tool_swapper_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/deposit_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/smelting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_starter_tier": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/chipped/tinkering_table_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/refill_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stack_upgrade_tier_1_from_starter": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/inception_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/battery_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/stonecutter_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/smoking_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/chipped/glassblower_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/blasting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/tank_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/crafting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/feeding_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/chipped/mason_table_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/chipped/carpenters_table_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/pickup_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/jukebox_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/everlasting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedbackpacks:recipes/misc/compacting_upgrade": {
+    "criteria": {
+      "has_upgrade_base": "2024-06-30 07:26:56 +0000"
     },
     "done": true
   },
@@ -42011,21 +41822,477 @@
     },
     "done": true
   },
-  "connectedglass:recipes/misc/borderless_glass_cyan2": {
-    "criteria": {
-      "recipe_condition2": "2024-06-30 12:50:59 +0000"
-    },
-    "done": true
-  },
   "sophisticatedbackpacks:recipes/misc/restock_upgrade": {
     "criteria": {
       "has_upgrade_base": "2024-06-30 07:26:56 +0000"
     },
     "done": true
   },
-  "silentgear:recipes/misc/slingshot_blueprint": {
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_pump": {
     "criteria": {
-      "has_item": "2024-06-30 07:26:45 +0000"
+      "shape_card": "2024-06-30 07:45:57 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_liquid": {
+    "criteria": {
+      "shape_card": "2024-06-30 07:45:57 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_clear_fortune": {
+    "criteria": {
+      "shape_card": "2024-06-30 07:45:57 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_fortune": {
+    "criteria": {
+      "shape_card": "2024-06-30 07:45:57 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_silk_dirt": {
+    "criteria": {
+      "shape_card": "2024-06-30 07:45:57 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_clear_silk": {
+    "criteria": {
+      "shape_card": "2024-06-30 07:45:57 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_pump_clear": {
+    "criteria": {
+      "shape_card": "2024-06-30 07:45:57 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_silk": {
+    "criteria": {
+      "shape_card": "2024-06-30 07:45:57 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_dirt": {
+    "criteria": {
+      "shape_card": "2024-06-30 07:45:57 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_clear": {
+    "criteria": {
+      "shape_card": "2024-06-30 07:45:57 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_void": {
+    "criteria": {
+      "shape_card": "2024-06-30 07:45:57 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry_fortune_dirt": {
+    "criteria": {
+      "shape_card": "2024-06-30 07:45:57 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_quarry": {
+    "criteria": {
+      "shape_card": "2024-06-30 07:45:57 +0000"
+    },
+    "done": true
+  },
+  "rftoolsbuilder:recipes/rftoolsbuilder/shape_card_pump_dirt": {
+    "criteria": {
+      "shape_card": "2024-06-30 07:45:57 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/cobbled_deepslate_1x": {
+    "criteria": {
+      "has_cobbled_deepslate_1x": "2024-06-30 10:44:49 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/cobbled_deepslate_2x": {
+    "criteria": {
+      "has_cobbled_deepslate_1x": "2024-06-30 10:44:49 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/cobbled_deepslate_2x": {
+    "criteria": {
+      "has_cobbled_deepslate_2x": "2024-06-30 10:45:14 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/cobbled_deepslate_3x": {
+    "criteria": {
+      "has_cobbled_deepslate_2x": "2024-06-30 10:45:14 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_light_gray_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-06-30 12:48:51 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/cyan_industrial_lamp": {
+    "criteria": {
+      "has_cyan_industrial_lamp": "2024-06-30 12:50:59 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_cyan_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-30 12:50:59 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_cyan2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-30 12:50:59 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_cyan_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-30 12:50:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_cyan_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-06-30 12:50:59 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/tinted_borderless_glass_cyan2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-30 12:50:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_cyan_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-06-30 12:50:59 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_cyan_picket_gate": {
+    "criteria": {
+      "has_dye": "2024-06-30 12:50:59 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candle_holders/candle_holder_cyan_dye": {
+    "criteria": {
+      "forge:dyes/cyan": "2024-06-30 12:50:59 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/small_cyan_industrial_lamp": {
+    "criteria": {
+      "has_small_cyan_industrial_lamp": "2024-06-30 12:50:59 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_cyan_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-06-30 12:50:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_cyan_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-06-30 12:50:59 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_cyan_picket_fence": {
+    "criteria": {
+      "has_dye": "2024-06-30 12:50:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_candle": {
+    "criteria": {
+      "has_cyan_dye": "2024-06-30 12:50:59 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_cyan2": {
+    "criteria": {
+      "recipe_condition2": "2024-06-30 12:50:59 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/pig": {
+    "criteria": {
+      "has_porkchop": "2024-06-30 13:01:15 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/reinforced/casing_recycle": {
+    "criteria": {
+      "has_item": "2024-07-03 14:06:24 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/reinforced/casing_recycle_glass": {
+    "criteria": {
+      "has_item": "2024-07-03 14:09:13 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/reinforced/chargingfe": {
+    "criteria": {
+      "has_item": "2024-07-03 14:10:35 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/printer": {
+    "criteria": {
+      "has_computer": "2024-07-03 14:42:23 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/wireless_modem_advanced": {
+    "criteria": {
+      "has_computer": "2024-07-03 14:42:23 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/speaker": {
+    "criteria": {
+      "has_computer": "2024-07-03 14:42:23 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/monitor_advanced": {
+    "criteria": {
+      "has_computer": "2024-07-03 14:42:23 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/disk_drive": {
+    "criteria": {
+      "has_computer": "2024-07-03 14:42:23 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/wired_modem": {
+    "criteria": {
+      "has_computer": "2024-07-03 14:42:23 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/wireless_modem_normal": {
+    "criteria": {
+      "has_computer": "2024-07-03 14:42:23 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/monitor_normal": {
+    "criteria": {
+      "has_computer": "2024-07-03 14:42:23 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/cable": {
+    "criteria": {
+      "has_computer": "2024-07-03 14:42:23 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/decorations/skull_dan200": {
+    "criteria": {
+      "has_computer": "2024-07-03 14:42:23 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/wired_modem_full_from": {
+    "criteria": {
+      "has_modem": "2024-07-03 15:19:16 +0000"
+    },
+    "done": true
+  },
+  "computercraft:recipes/redstone/wired_modem_full_to": {
+    "criteria": {
+      "has_modem": "2024-07-03 15:19:16 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/turbine/basic/shaft": {
+    "criteria": {
+      "has_item": "2024-07-03 16:04:57 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/turbine/basic/blade": {
+    "criteria": {
+      "has_item": "2024-07-03 16:04:57 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/misc/crafting/cyanite_component_to_storage": {
+    "criteria": {
+      "has_item": "2024-07-03 16:04:57 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/turbine/basic/casing": {
+    "criteria": {
+      "has_item": "2024-07-03 16:04:57 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/misc/crafting/cyanite_storage_to_component": {
+    "criteria": {
+      "has_item": "2024-07-04 13:19:15 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/turbine/reinforced/controller": {
+    "criteria": {
+      "has_item2": "2024-07-04 13:19:15 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/turbine/basic/controller": {
+    "criteria": {
+      "has_item2": "2024-07-04 13:19:15 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/yellow_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-07-04 13:19:19 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_yellow": {
+    "criteria": {
+      "has_item": "2024-07-04 13:19:19 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/decorations/pink_shiny_flower": {
+    "criteria": {
+      "has_item": "2024-07-04 13:19:20 +0000"
+    },
+    "done": true
+  },
+  "botania:recipes/misc/petal_pink": {
+    "criteria": {
+      "has_item": "2024-07-04 13:19:20 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/smelting/diamond_from_smelting_mars_diamond_ore": {
+    "criteria": {
+      "has_diamond": "2024-07-06 06:11:14 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/blasting/diamond_from_blasting_mars_diamond_ore": {
+    "criteria": {
+      "has_diamond": "2024-07-06 06:11:14 +0000"
+    },
+    "done": true
+  },
+  "industrialforegoing:recipes/misc/laser_lens_green_recolor": {
+    "criteria": {
+      "has_the_recipe": "2024-07-06 06:19:00 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_lime_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-07-06 06:34:01 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/steel_anvil": {
+    "criteria": {
+      "has_steel_block": "2024-07-06 09:22:16 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/steel_block_1x": {
+    "criteria": {
+      "has_steel_block": "2024-07-06 09:22:16 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/compressing/compressing/steel_plate_from_compressing_steel_blocks": {
+    "criteria": {
+      "has_item": "2024-07-06 09:22:16 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/steel_ingot_from_block": {
+    "criteria": {
+      "has_item": "2024-07-06 09:22:16 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/steel_spike_maul": {
+    "criteria": {
+      "has_steel_block": "2024-07-06 09:22:16 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reactor/basic/fuelrod_ingots_yellorium": {
+    "criteria": {
+      "has_item": "2024-07-06 09:36:43 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/misc/crafting/yellorium_ingot_to_nugget": {
+    "criteria": {
+      "has_item": "2024-07-06 09:36:43 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/fluidizer/casing": {
+    "criteria": {
+      "has_item": "2024-07-06 09:36:43 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/misc/crafting/yellorium_component_to_storage": {
+    "criteria": {
+      "has_item": "2024-07-06 09:36:43 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/uranium_ingot": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:nuggets/uranium]_nugget": "2024-07-06 09:36:57 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/magma_cube": {
+    "criteria": {
+      "has_magma_cream": "2024-07-06 15:55:24 +0000"
+    },
+    "done": true
+  },
+  "evilcraft:second_age": {
+    "criteria": {
+      "criteria_0": "2024-07-06 15:15:38 +0000"
+    },
+    "done": true
+  },
+  "evilcraft:first_age": {
+    "criteria": {
+      "criteria_0": "2024-07-06 15:14:46 +0000"
     },
     "done": true
   },

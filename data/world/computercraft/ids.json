@@ -1,3 +1,5 @@
 {
-  "computer": 2
+  "computer": 4,
+  "peripheral.computer": 0,
+  "peripheral.monitor": 0
 }

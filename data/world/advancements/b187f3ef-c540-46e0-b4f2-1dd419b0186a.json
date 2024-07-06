@@ -7623,6 +7623,7 @@
       "minecraft:piglin_brute": "2024-05-26 08:04:09 +0000",
       "minecraft:creeper": "2024-05-04 16:39:22 +0000",
       "minecraft:evoker": "2024-05-25 11:07:34 +0000",
+      "minecraft:slime": "2024-07-06 15:51:39 +0000",
       "quark:forgotten": "2024-05-25 06:35:00 +0000",
       "minecraft:phantom": "2024-05-04 15:31:22 +0000",
       "minecraft:zombified_piglin": "2024-05-03 14:44:38 +0000",
@@ -24556,7 +24557,8 @@
   "repurposed_structures:pyramids": {
     "criteria": {
       "in_pyramid_nether": "2024-05-11 15:38:05 +0000",
-      "in_pyramid_jungle": "2024-05-27 14:16:43 +0000"
+      "in_pyramid_jungle": "2024-05-27 14:16:43 +0000",
+      "in_pyramid_flower_forest": "2024-07-04 14:58:17 +0000"
     },
     "done": false
   },
@@ -39171,6 +39173,294 @@
   "alltheores:recipes/misc/aluminum_ingot_from_raw": {
     "criteria": {
       "has_item": "2024-06-30 08:15:48 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/ruby_dust": {
+    "criteria": {
+      "has_ruby": "2024-07-04 12:07:43 +0000"
+    },
+    "done": true
+  },
+  "deeperdarker:main/enter_otherside": {
+    "criteria": {
+      "otherside": "2024-07-04 14:43:01 +0000"
+    },
+    "done": true
+  },
+  "deeperdarker:main/explore_otherside": {
+    "criteria": {
+      "echoing_forest": "2024-07-04 14:43:01 +0000"
+    },
+    "done": false
+  },
+  "dungeons_arise:find_abandoned_temple": {
+    "criteria": {
+      "location0": "2024-07-04 14:48:17 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/spider_eye": {
+    "criteria": {
+      "has_chelicerae": "2024-07-04 15:00:24 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/cave_spider": {
+    "criteria": {
+      "has_chelicerae": "2024-07-04 15:00:24 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/string": {
+    "criteria": {
+      "has_chelicerae": "2024-07-04 15:00:24 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/spider": {
+    "criteria": {
+      "has_chelicerae": "2024-07-04 15:00:24 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/honey_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-07-04 15:00:52 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/fluorescent_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-07-04 15:00:52 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/navy_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-07-04 15:00:52 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/ultramarine_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-07-04 15:00:52 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/maroon_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-07-04 15:00:52 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/lavender_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-07-04 15:00:52 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/wine_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-07-04 15:00:52 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/amber_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-07-04 15:00:52 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/persimmon_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-07-04 15:00:52 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/cherenkov_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-07-04 15:00:52 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/mint_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-07-04 15:00:52 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/bubblegum_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-07-04 15:00:52 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/conifer_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-07-04 15:00:52 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/aquamarine_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-07-04 15:00:52 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/icy_blue_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-07-04 15:00:52 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/spring_green_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-07-04 15:00:52 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/peach_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-07-04 15:00:52 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bed/rose_bed_frm_white_bed": {
+    "criteria": {
+      "has_white_bed": "2024-07-04 15:00:52 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:root": {
+    "criteria": {
+      "enter_everbright": "2024-07-04 15:02:46 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:everbright/enter": {
+    "criteria": {
+      "enter_everbright": "2024-07-04 15:02:46 +0000"
+    },
+    "done": true
+  },
+  "blue_skies:thinking_with_portals": {
+    "criteria": {
+      "enter_everbright": "2024-07-04 15:02:46 +0000"
+    },
+    "done": false
+  },
+  "supplementaries:adventure/way_sign": {
+    "criteria": {
+      "bastion": "2024-07-06 09:15:42 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/infernal_claws": {
+    "criteria": {
+      "has_infernal_claw": "2024-07-06 15:54:18 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/rod_of_lyssa": {
+    "criteria": {
+      "has_infernal_claw": "2024-07-06 15:54:18 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/mob_charm_fragments/slime": {
+    "criteria": {
+      "has_slime_pearl": "2024-07-06 15:10:14 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/fertile_essence": {
+    "criteria": {
+      "has_slime_pearl": "2024-07-06 15:10:14 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/blast_furnace/blasting_iron_hoe": {
+    "criteria": {
+      "has_iron_hoe": "2024-07-06 16:28:29 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/hero_medallion": {
+    "criteria": {
+      "has_infernal_tear": "2024-07-06 15:54:26 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/sojourner_staff": {
+    "criteria": {
+      "has_void_tear": "2024-07-06 15:27:16 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/iron_hoe_repairing": {
+    "criteria": {
+      "has_iron_hoe": "2024-07-06 16:28:29 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/steel_ingot_from_dust": {
+    "criteria": {
+      "has_item": "2024-07-06 16:17:08 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/end": {
+    "criteria": {
+      "has_ender_eye": "2024-07-06 15:16:08 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/blast_furnace/blasting_iron_door": {
+    "criteria": {
+      "has_iron_door": "2024-07-06 15:22:21 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/steel_ingot_from_dust_blasting": {
+    "criteria": {
+      "has_item": "2024-07-06 16:17:08 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/infernal_tear": {
+    "criteria": {
+      "has_infernal_claw": "2024-07-06 15:54:18 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/uncrafting/slime_ball": {
+    "criteria": {
+      "has_slime_pearl": "2024-07-06 15:10:14 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/emperor_chalice": {
+    "criteria": {
+      "has_void_tear": "2024-07-06 15:27:16 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/glacial_staff": {
+    "criteria": {
+      "has_void_tear": "2024-07-06 15:27:16 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/infernal_claw": {
+    "criteria": {
+      "has_slime_pearl": "2024-07-06 15:10:14 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/harvest_rod": {
+    "criteria": {
+      "has_void_tear": "2024-07-06 15:27:16 +0000"
     },
     "done": true
   },

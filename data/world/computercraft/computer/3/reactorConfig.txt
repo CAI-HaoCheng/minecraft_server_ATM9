@@ -1,0 +1,17 @@
+true
+7440000
+27836.153966635
+90
+30
+100
+true
+Energy Buffer
+4
+Control Level
+27
+Temperatures
+50
+nil
+73
+nil
+96
