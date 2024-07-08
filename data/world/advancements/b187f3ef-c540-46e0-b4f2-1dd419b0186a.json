@@ -39356,18 +39356,6 @@
     },
     "done": true
   },
-  "reliquary:recipes/misc/infernal_claws": {
-    "criteria": {
-      "has_infernal_claw": "2024-07-06 15:54:18 +0000"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/rod_of_lyssa": {
-    "criteria": {
-      "has_infernal_claw": "2024-07-06 15:54:18 +0000"
-    },
-    "done": true
-  },
   "reliquary:recipes/misc/mob_charm_fragments/slime": {
     "criteria": {
       "has_slime_pearl": "2024-07-06 15:10:14 +0000"
@@ -39380,33 +39368,15 @@
     },
     "done": true
   },
-  "railcraft:recipes/blast_furnace/blasting_iron_hoe": {
+  "reliquary:recipes/misc/uncrafting/slime_ball": {
     "criteria": {
-      "has_iron_hoe": "2024-07-06 16:28:29 +0000"
+      "has_slime_pearl": "2024-07-06 15:10:14 +0000"
     },
     "done": true
   },
-  "reliquary:recipes/misc/hero_medallion": {
+  "reliquary:recipes/misc/infernal_claw": {
     "criteria": {
-      "has_infernal_tear": "2024-07-06 15:54:26 +0000"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/sojourner_staff": {
-    "criteria": {
-      "has_void_tear": "2024-07-06 15:27:16 +0000"
-    },
-    "done": true
-  },
-  "aether:recipes/tools/iron_hoe_repairing": {
-    "criteria": {
-      "has_iron_hoe": "2024-07-06 16:28:29 +0000"
-    },
-    "done": true
-  },
-  "alltheores:recipes/misc/steel_ingot_from_dust": {
-    "criteria": {
-      "has_item": "2024-07-06 16:17:08 +0000"
+      "has_slime_pearl": "2024-07-06 15:10:14 +0000"
     },
     "done": true
   },
@@ -39422,21 +39392,9 @@
     },
     "done": true
   },
-  "alltheores:recipes/misc/steel_ingot_from_dust_blasting": {
+  "reliquary:recipes/misc/sojourner_staff": {
     "criteria": {
-      "has_item": "2024-07-06 16:17:08 +0000"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/infernal_tear": {
-    "criteria": {
-      "has_infernal_claw": "2024-07-06 15:54:18 +0000"
-    },
-    "done": true
-  },
-  "reliquary:recipes/misc/uncrafting/slime_ball": {
-    "criteria": {
-      "has_slime_pearl": "2024-07-06 15:10:14 +0000"
+      "has_void_tear": "2024-07-06 15:27:16 +0000"
     },
     "done": true
   },
@@ -39452,15 +39410,177 @@
     },
     "done": true
   },
-  "reliquary:recipes/misc/infernal_claw": {
-    "criteria": {
-      "has_slime_pearl": "2024-07-06 15:10:14 +0000"
-    },
-    "done": true
-  },
   "reliquary:recipes/misc/harvest_rod": {
     "criteria": {
       "has_void_tear": "2024-07-06 15:27:16 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/infernal_claws": {
+    "criteria": {
+      "has_infernal_claw": "2024-07-06 15:54:18 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/rod_of_lyssa": {
+    "criteria": {
+      "has_infernal_claw": "2024-07-06 15:54:18 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/infernal_tear": {
+    "criteria": {
+      "has_infernal_claw": "2024-07-06 15:54:18 +0000"
+    },
+    "done": true
+  },
+  "reliquary:recipes/misc/hero_medallion": {
+    "criteria": {
+      "has_infernal_tear": "2024-07-06 15:54:26 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/steel_ingot_from_dust": {
+    "criteria": {
+      "has_item": "2024-07-06 16:17:08 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/steel_ingot_from_dust_blasting": {
+    "criteria": {
+      "has_item": "2024-07-06 16:17:08 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/blast_furnace/blasting_iron_hoe": {
+    "criteria": {
+      "has_iron_hoe": "2024-07-06 16:28:29 +0000"
+    },
+    "done": true
+  },
+  "aether:recipes/tools/iron_hoe_repairing": {
+    "criteria": {
+      "has_iron_hoe": "2024-07-06 16:28:29 +0000"
+    },
+    "done": true
+  },
+  "delightful:recipes/knives/electrum_knife": {
+    "criteria": {
+      "has_ingots/electrum": "2024-07-07 08:38:11 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/generator": {
+    "criteria": {
+      "has_electrum_ingot": "2024-07-07 08:38:11 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/heavy_engineering": {
+    "criteria": {
+      "has_electrum_ingot": "2024-07-07 08:38:11 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/electrum_dust_from_ingot": {
+    "criteria": {
+      "has_electrum_ingot": "2024-07-07 08:38:11 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/electrum_gear": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/electrum]_ingot": "2024-07-07 08:38:11 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/wire_electrum": {
+    "criteria": {
+      "has_electrum_ingot": "2024-07-07 08:38:11 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/plate_electrum_hammering": {
+    "criteria": {
+      "has_electrum_ingot": "2024-07-07 08:38:11 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/connector_mv_relay": {
+    "criteria": {
+      "has_electrum_ingot": "2024-07-07 08:38:11 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/electrum_nugget_from_ingot": {
+    "criteria": {
+      "has_item": "2024-07-07 08:38:11 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/connector_mv": {
+    "criteria": {
+      "has_electrum_ingot": "2024-07-07 08:38:11 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/wirecoil_electrum": {
+    "criteria": {
+      "has_electrum_ingot": "2024-07-07 08:38:11 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/electrum_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/electrum]_ingot": "2024-07-07 08:38:11 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/electrum_rod": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/electrum]_ingot": "2024-07-07 08:38:11 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/electrum_plate": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/electrum]_ingot": "2024-07-07 08:38:11 +0000"
+    },
+    "done": true
+  },
+  "mekanism:chemical_crystallizer": {
+    "criteria": {
+      "chemical_crystallizer": "2024-07-07 11:21:32 +0000"
+    },
+    "done": false
+  },
+  "mekanism:cleaning_gauges": {
+    "criteria": {
+      "use_dropper": "2024-07-07 11:26:48 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_pickup_upgrade_from_backpack_pickup_upgrade": {
+    "criteria": {
+      "has_backpack_upgrade": "2024-07-07 12:17:06 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/graphite_dust": {
+    "criteria": {
+      "has_graphite": "2024-07-08 14:10:03 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/ruby_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:gems/ruby]_ingot": "2024-07-08 14:36:48 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/ruby_dust_from_gem": {
+    "criteria": {
+      "has_ruby_gem": "2024-07-08 14:36:48 +0000"
     },
     "done": true
   },

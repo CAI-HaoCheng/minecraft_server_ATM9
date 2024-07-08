@@ -42278,9 +42278,9 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/magma_cube": {
+  "evilcraft:first_age": {
     "criteria": {
-      "has_magma_cream": "2024-07-06 15:55:24 +0000"
+      "criteria_0": "2024-07-06 15:14:46 +0000"
     },
     "done": true
   },
@@ -42290,9 +42290,855 @@
     },
     "done": true
   },
-  "evilcraft:first_age": {
+  "travelersbackpack:recipes/misc/magma_cube": {
     "criteria": {
-      "criteria_0": "2024-07-06 15:14:46 +0000"
+      "has_magma_cream": "2024-07-06 15:55:24 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/decorations/light_gray_sleeping_bag": {
+    "criteria": {
+      "has_light_gray_wool": "2024-07-07 08:01:33 +0000"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_light_gray": {
+    "criteria": {
+      "has_light_gray_wool": "2024-07-07 08:01:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_bed": {
+    "criteria": {
+      "has_light_gray_wool": "2024-07-07 08:01:33 +0000"
+    },
+    "done": true
+  },
+  "comforts:hammock_light_gray": {
+    "criteria": {
+      "has_light_gray_wool": "2024-07-07 08:01:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_carpet": {
+    "criteria": {
+      "has_light_gray_wool": "2024-07-07 08:01:33 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/light_gray_sofa": {
+    "criteria": {
+      "has_wool": "2024-07-07 08:01:33 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/light_gray_sheet": {
+    "criteria": {
+      "has_light_gray_sheet": "2024-07-07 08:01:33 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_gray_banner": {
+    "criteria": {
+      "has_light_gray_wool": "2024-07-07 08:01:33 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/light_gray_flag": {
+    "criteria": {
+      "has_light_gray_flag": "2024-07-07 08:01:34 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/light_gray_cushion": {
+    "criteria": {
+      "has_light_gray_cushion": "2024-07-07 08:01:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_gray_wool": {
+    "criteria": {
+      "has_needed_dye": "2024-07-07 09:13:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_gray_bed": {
+    "criteria": {
+      "has_needed_dye": "2024-07-07 09:13:13 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_gray2": {
+    "criteria": {
+      "recipe_condition2": "2024-07-07 09:13:13 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/small_gray_industrial_lamp": {
+    "criteria": {
+      "has_small_gray_industrial_lamp": "2024-07-07 09:13:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_candle": {
+    "criteria": {
+      "has_gray_dye": "2024-07-07 09:13:13 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_gray2": {
+    "criteria": {
+      "recipe_condition2": "2024-07-07 09:13:13 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/tinted_borderless_glass_gray2": {
+    "criteria": {
+      "recipe_condition2": "2024-07-07 09:13:13 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_gray_picket_gate": {
+    "criteria": {
+      "has_dye": "2024-07-07 09:13:13 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/dye_gray_picket_fence": {
+    "criteria": {
+      "has_dye": "2024-07-07 09:13:13 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/gray_industrial_lamp": {
+    "criteria": {
+      "has_gray_industrial_lamp": "2024-07-07 09:13:13 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/borderless_glass_gray_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-07-07 09:13:13 +0000"
+    },
+    "done": true
+  },
+  "supplementaries:recipes/candle_holders/candle_holder_gray_dye": {
+    "criteria": {
+      "forge:dyes/gray": "2024-07-07 09:13:13 +0000"
+    },
+    "done": true
+  },
+  "connectedglass:recipes/misc/scratched_glass_gray_pane2": {
+    "criteria": {
+      "recipe_condition2": "2024-07-07 09:13:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_gray_carpet": {
+    "criteria": {
+      "has_needed_dye": "2024-07-07 09:13:13 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_gray_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-07-07 09:13:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cyan_glazed_terracotta": {
+    "criteria": {
+      "has_cyan_terracotta": "2024-07-07 09:14:01 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/cyan_glazed_terracotta": {
+    "criteria": {
+      "has_the_recipe": "2024-07-07 09:14:01 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/nightvision_module": {
+    "criteria": {
+      "template": "2024-07-07 09:38:12 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/speed_module": {
+    "criteria": {
+      "template": "2024-07-07 09:38:12 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/featherfalling_module": {
+    "criteria": {
+      "template": "2024-07-07 09:38:12 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/slowness_module": {
+    "criteria": {
+      "template": "2024-07-07 09:38:12 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/luck_module": {
+    "criteria": {
+      "template": "2024-07-07 09:38:12 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/haste_module": {
+    "criteria": {
+      "template": "2024-07-07 09:38:12 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/weakness_module": {
+    "criteria": {
+      "template": "2024-07-07 09:38:12 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/regeneration_module": {
+    "criteria": {
+      "template": "2024-07-07 09:38:12 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/glowing_module": {
+    "criteria": {
+      "template": "2024-07-07 09:38:12 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/saturation_module": {
+    "criteria": {
+      "template": "2024-07-07 09:38:12 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/poison_module": {
+    "criteria": {
+      "template": "2024-07-07 09:38:12 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/waterbreathing_module": {
+    "criteria": {
+      "template": "2024-07-07 09:41:18 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/hasteplus_module": {
+    "criteria": {
+      "template": "2024-07-07 09:41:18 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/noteleport_module": {
+    "criteria": {
+      "template": "2024-07-07 09:41:18 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/peaceful_module": {
+    "criteria": {
+      "template": "2024-07-07 09:41:18 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/regenerationplus_module": {
+    "criteria": {
+      "template": "2024-07-07 09:41:18 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/featherfallingplus_module": {
+    "criteria": {
+      "template": "2024-07-07 09:41:18 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/blindness_module": {
+    "criteria": {
+      "template": "2024-07-07 09:41:18 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/speedplus_module": {
+    "criteria": {
+      "template": "2024-07-07 09:41:18 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/flight_module": {
+    "criteria": {
+      "template": "2024-07-07 09:41:18 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/saturationplus_module": {
+    "criteria": {
+      "template": "2024-07-07 09:41:18 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/fluid_module": {
+    "criteria": {
+      "has_blank_module": "2024-07-07 12:05:37 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/sender_module_2_x4": {
+    "criteria": {
+      "has_blank_module": "2024-07-07 12:05:37 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/puller_module_2_x4": {
+    "criteria": {
+      "has_blank_module": "2024-07-07 12:05:37 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/extruder_module_2": {
+    "criteria": {
+      "has_blank_module": "2024-07-07 12:05:37 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/energy_output_module": {
+    "criteria": {
+      "has_blank_module": "2024-07-07 12:05:37 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/vacuum_module": {
+    "criteria": {
+      "has_blank_module": "2024-07-07 12:05:37 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/void_module": {
+    "criteria": {
+      "has_blank_module": "2024-07-07 12:05:37 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/detector_module": {
+    "criteria": {
+      "has_blank_module": "2024-07-07 12:05:37 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/flinger_module": {
+    "criteria": {
+      "has_blank_module": "2024-07-07 12:05:37 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/puller_module_1": {
+    "criteria": {
+      "has_blank_module": "2024-07-07 12:05:37 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/puller_module_2": {
+    "criteria": {
+      "has_blank_module": "2024-07-07 12:05:37 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/energy_distributor_module": {
+    "criteria": {
+      "has_blank_module": "2024-07-07 12:05:37 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/distributor_module": {
+    "criteria": {
+      "has_blank_module": "2024-07-07 12:05:37 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/augment_core": {
+    "criteria": {
+      "has_blank_module": "2024-07-07 12:05:37 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/dropper_module": {
+    "criteria": {
+      "has_blank_module": "2024-07-07 12:05:37 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/sender_module_1": {
+    "criteria": {
+      "has_blank_module": "2024-07-07 12:05:37 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/sender_module_3": {
+    "criteria": {
+      "has_blank_module": "2024-07-07 12:05:37 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/sender_module_2": {
+    "criteria": {
+      "has_blank_module": "2024-07-07 12:05:37 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/player_module": {
+    "criteria": {
+      "has_blank_module": "2024-07-07 12:05:37 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/sender_module_1_alt": {
+    "criteria": {
+      "has_blank_module": "2024-07-07 12:05:37 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/bulk_item_filter": {
+    "criteria": {
+      "has_blank_module": "2024-07-07 12:05:37 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/activator_module": {
+    "criteria": {
+      "has_blank_module": "2024-07-07 12:05:37 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/placer_module": {
+    "criteria": {
+      "has_blank_module": "2024-07-07 12:05:37 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/dye_cherenkov_carpet": {
+    "criteria": {
+      "has_white_carpet": "2024-07-07 12:12:24 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/dye_maroon_carpet": {
+    "criteria": {
+      "has_white_carpet": "2024-07-07 12:12:24 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/dye_fluorescent_carpet": {
+    "criteria": {
+      "has_white_carpet": "2024-07-07 12:12:24 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/dye_lavender_carpet": {
+    "criteria": {
+      "has_white_carpet": "2024-07-07 12:12:24 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/dye_rose_carpet": {
+    "criteria": {
+      "has_white_carpet": "2024-07-07 12:12:24 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/dye_conifer_carpet": {
+    "criteria": {
+      "has_white_carpet": "2024-07-07 12:12:24 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/dye_spring_green_carpet": {
+    "criteria": {
+      "has_white_carpet": "2024-07-07 12:12:24 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/dye_ultramarine_carpet": {
+    "criteria": {
+      "has_white_carpet": "2024-07-07 12:12:24 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/dye_persimmon_carpet": {
+    "criteria": {
+      "has_white_carpet": "2024-07-07 12:12:24 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/dye_aquamarine_carpet": {
+    "criteria": {
+      "has_white_carpet": "2024-07-07 12:12:24 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/dye_honey_carpet": {
+    "criteria": {
+      "has_white_carpet": "2024-07-07 12:12:24 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/dye_icy_blue_carpet": {
+    "criteria": {
+      "has_white_carpet": "2024-07-07 12:12:24 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/dye_navy_carpet": {
+    "criteria": {
+      "has_white_carpet": "2024-07-07 12:12:24 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/dye_amber_carpet": {
+    "criteria": {
+      "has_white_carpet": "2024-07-07 12:12:24 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/dye_peach_carpet": {
+    "criteria": {
+      "has_white_carpet": "2024-07-07 12:12:24 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/dye_mint_carpet": {
+    "criteria": {
+      "has_white_carpet": "2024-07-07 12:12:24 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/dye_wine_carpet": {
+    "criteria": {
+      "has_white_carpet": "2024-07-07 12:12:24 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/dye_bubblegum_carpet": {
+    "criteria": {
+      "has_white_carpet": "2024-07-07 12:12:24 +0000"
+    },
+    "done": true
+  },
+  "railcraft:recipes/misc/routing_detector": {
+    "criteria": {
+      "has_chiseled_quartz_block": "2024-07-07 12:12:48 +0000"
+    },
+    "done": true
+  },
+  "create_enchantment_industry:experimental": {
+    "criteria": {
+      "builtin": "2024-07-07 12:27:59 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/camouflage_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2024-07-07 14:50:55 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/blast_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2024-07-07 14:50:55 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/security_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2024-07-07 14:50:55 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/energy_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2024-07-07 14:50:55 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/muffler_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2024-07-07 14:50:55 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/sync_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2024-07-07 14:50:55 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/stack_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2024-07-07 14:50:55 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/fluid_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2024-07-07 14:50:55 +0000"
+    },
+    "done": true
+  },
+  "modularrouters:recipes/misc/speed_upgrade": {
+    "criteria": {
+      "has_blank_upgrade": "2024-07-07 14:50:55 +0000"
+    },
+    "done": true
+  },
+  "mekanism:purification_chamber": {
+    "criteria": {
+      "purification_chamber": "2024-07-08 12:06:01 +0000"
+    },
+    "done": true
+  },
+  "mekanism:injection_chamber": {
+    "criteria": {
+      "chemical_injection_chamber": "2024-07-08 12:06:15 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/sensor": {
+    "criteria": {
+      "frame": "2024-07-08 12:46:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolspower:recipes/rftoolspower/power_level": {
+    "criteria": {
+      "frame": "2024-07-08 12:46:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolspower:recipes/rftoolspower/power_monitor": {
+    "criteria": {
+      "frame": "2024-07-08 12:46:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/redstone_transmitter": {
+    "criteria": {
+      "frame": "2024-07-08 12:46:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/counter": {
+    "criteria": {
+      "frame": "2024-07-08 12:46:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/digit": {
+    "criteria": {
+      "frame": "2024-07-08 12:46:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/screen": {
+    "criteria": {
+      "base": "2024-07-08 12:46:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/analog": {
+    "criteria": {
+      "frame": "2024-07-08 12:46:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/sequencer": {
+    "criteria": {
+      "frame": "2024-07-08 12:46:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/invchecker": {
+    "criteria": {
+      "frame": "2024-07-08 12:46:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/simple_dialer": {
+    "criteria": {
+      "frame": "2024-07-08 12:46:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/logic": {
+    "criteria": {
+      "frame": "2024-07-08 12:46:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolspower:recipes/rftoolspower/ender_monitor": {
+    "criteria": {
+      "frame": "2024-07-08 12:46:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/timer": {
+    "criteria": {
+      "frame": "2024-07-08 12:46:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/wire": {
+    "criteria": {
+      "frame": "2024-07-08 12:46:17 +0000"
+    },
+    "done": true
+  },
+  "rftoolsutility:recipes/rftoolsutility/redstone_receiver": {
+    "criteria": {
+      "frame": "2024-07-08 12:46:17 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/navy_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-07-08 13:28:30 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/lavender_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-07-08 13:28:30 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/blasting/iron_ingot_from_blasting_mars_iron_ore": {
+    "criteria": {
+      "has_iron_ingot": "2024-07-08 14:15:08 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/conifer_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-07-08 13:28:30 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/amber_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-07-08 13:28:30 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/peach_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-07-08 13:28:30 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/schematics/schematic_table": {
+    "criteria": {
+      "has_item": "2024-07-08 15:26:47 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/mint_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-07-08 13:28:30 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/cherenkov_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-07-08 13:28:30 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/smelting/iron_ingot_from_smelting_mars_iron_ore": {
+    "criteria": {
+      "has_iron_ingot": "2024-07-08 14:15:08 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/bubblegum_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-07-08 13:28:30 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/ultramarine_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-07-08 13:28:30 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/fluorescent_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-07-08 13:28:30 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/persimmon_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-07-08 13:28:30 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/honey_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-07-08 13:28:30 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/wine_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-07-08 13:28:30 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/icy_blue_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-07-08 13:28:30 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/rose_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-07-08 13:28:30 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/aquamarine_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-07-08 13:28:30 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/schematics/schematicannon": {
+    "criteria": {
+      "has_item": "2024-07-08 15:26:47 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/spring_green_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-07-08 13:28:30 +0000"
+    },
+    "done": true
+  },
+  "apotheosis:spawner/modifier": {
+    "criteria": {
+      "modifier": "2024-07-08 14:27:03 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/maroon_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-07-08 13:28:30 +0000"
     },
     "done": true
   },
