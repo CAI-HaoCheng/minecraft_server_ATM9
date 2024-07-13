@@ -43016,12 +43016,6 @@
     },
     "done": true
   },
-  "ad_astra:recipes/misc/blasting/iron_ingot_from_blasting_mars_iron_ore": {
-    "criteria": {
-      "has_iron_ingot": "2024-07-08 14:15:08 +0000"
-    },
-    "done": true
-  },
   "dyenamics:recipes/misc/conifer_terracotta": {
     "criteria": {
       "has_terracotta": "2024-07-08 13:28:30 +0000"
@@ -43040,12 +43034,6 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/schematics/schematic_table": {
-    "criteria": {
-      "has_item": "2024-07-08 15:26:47 +0000"
-    },
-    "done": true
-  },
   "dyenamics:recipes/misc/mint_terracotta": {
     "criteria": {
       "has_terracotta": "2024-07-08 13:28:30 +0000"
@@ -43055,12 +43043,6 @@
   "dyenamics:recipes/misc/cherenkov_terracotta": {
     "criteria": {
       "has_terracotta": "2024-07-08 13:28:30 +0000"
-    },
-    "done": true
-  },
-  "ad_astra:recipes/misc/smelting/iron_ingot_from_smelting_mars_iron_ore": {
-    "criteria": {
-      "has_iron_ingot": "2024-07-08 14:15:08 +0000"
     },
     "done": true
   },
@@ -43118,15 +43100,27 @@
     },
     "done": true
   },
-  "create:recipes/misc/crafting/schematics/schematicannon": {
-    "criteria": {
-      "has_item": "2024-07-08 15:26:47 +0000"
-    },
-    "done": true
-  },
   "dyenamics:recipes/misc/spring_green_terracotta": {
     "criteria": {
       "has_terracotta": "2024-07-08 13:28:30 +0000"
+    },
+    "done": true
+  },
+  "dyenamics:recipes/misc/maroon_terracotta": {
+    "criteria": {
+      "has_terracotta": "2024-07-08 13:28:30 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/blasting/iron_ingot_from_blasting_mars_iron_ore": {
+    "criteria": {
+      "has_iron_ingot": "2024-07-08 14:15:08 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/smelting/iron_ingot_from_smelting_mars_iron_ore": {
+    "criteria": {
+      "has_iron_ingot": "2024-07-08 14:15:08 +0000"
     },
     "done": true
   },
@@ -43136,9 +43130,429 @@
     },
     "done": true
   },
-  "dyenamics:recipes/misc/maroon_terracotta": {
+  "create:recipes/misc/crafting/schematics/schematic_table": {
     "criteria": {
-      "has_terracotta": "2024-07-08 13:28:30 +0000"
+      "has_item": "2024-07-08 15:26:47 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/misc/crafting/schematics/schematicannon": {
+    "criteria": {
+      "has_item": "2024-07-08 15:26:47 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_allthemodium_alloy_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/unobtainium_allthemodium_alloy]_ingot": "2024-07-09 14:12:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/exposed_cut_copper_stairs": {
+    "criteria": {
+      "has_exposed_cut_copper": "2024-07-09 14:17:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/exposed_cut_copper_stairs_from_exposed_cut_copper_stonecutting": {
+    "criteria": {
+      "has_exposed_cut_copper": "2024-07-09 14:17:22 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/copper_pillar/exposed_copper_pillar_from_cut_copper_stonecutting": {
+    "criteria": {
+      "has_cut_copper_slab": "2024-07-09 14:17:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/exposed_cut_copper_slab": {
+    "criteria": {
+      "has_exposed_cut_copper": "2024-07-09 14:17:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_exposed_cut_copper_from_honeycomb": {
+    "criteria": {
+      "has_exposed_cut_copper": "2024-07-09 14:17:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/exposed_cut_copper_slab_from_exposed_cut_copper_stonecutting": {
+    "criteria": {
+      "has_exposed_cut_copper": "2024-07-09 14:17:22 +0000"
+    },
+    "done": true
+  },
+  "alchemistry:recipes/dissolver/exposed_cut_copper_slab": {
+    "criteria": {
+      "has_the_recipe": "2024-07-09 14:17:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2024-07-09 15:01:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab_from_polished_andesite_stonecutting": {
+    "criteria": {
+      "has_polished_andesite": "2024-07-09 15:01:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_stairs": {
+    "criteria": {
+      "has_polished_andesite": "2024-07-09 15:01:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_andesite_slab": {
+    "criteria": {
+      "has_polished_andesite": "2024-07-09 15:01:52 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/blazing_crystal_block_1x": {
+    "criteria": {
+      "has_blazing_crystal_block": "2024-07-09 15:07:02 +0000"
+    },
+    "done": true
+  },
+  "mekanism:playing_with_fire": {
+    "criteria": {
+      "flamethrower": "2024-07-09 16:06:20 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/nitro_crystal_block_2x": {
+    "criteria": {
+      "has_nitro_crystal_block_1x": "2024-07-10 14:12:42 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/nitro_crystal_block_1x": {
+    "criteria": {
+      "has_nitro_crystal_block_1x": "2024-07-10 14:12:42 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/spirited_crystal_block_1x": {
+    "criteria": {
+      "has_spirited_crystal_block_1x": "2024-07-10 14:20:06 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/spirited_crystal_block_2x": {
+    "criteria": {
+      "has_spirited_crystal_block_1x": "2024-07-10 14:20:06 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/niotic_crystal_block_2x": {
+    "criteria": {
+      "has_niotic_crystal_block_1x": "2024-07-10 14:27:26 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/niotic_crystal_block_1x": {
+    "criteria": {
+      "has_niotic_crystal_block_1x": "2024-07-10 14:27:26 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/unobtainium_vibranium_alloy_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/unobtainium_vibranium_alloy]_ingot": "2024-07-10 14:34:43 +0000"
+    },
+    "done": true
+  },
+  "allthemodium:recipes/misc/vibranium_allthemodium_alloy_block": {
+    "criteria": {
+      "has_TagKey[minecraft:item / forge:ingots/vibranium_allthemodium_alloy]_ingot": "2024-07-10 14:41:53 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/obsidian_6x": {
+    "criteria": {
+      "has_obsidian_5x": "2024-07-10 15:00:53 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/obsidian_5x": {
+    "criteria": {
+      "has_obsidian_5x": "2024-07-10 15:00:53 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/obsidian_4x": {
+    "criteria": {
+      "has_obsidian_3x": "2024-07-10 15:00:57 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/obsidian_3x": {
+    "criteria": {
+      "has_obsidian_3x": "2024-07-10 15:00:57 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/obsidian_4x": {
+    "criteria": {
+      "has_the_recipe": "2024-07-10 15:00:57 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/obsidian_3x": {
+    "criteria": {
+      "has_obsidian_2x": "2024-07-10 15:01:00 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/obsidian_2x": {
+    "criteria": {
+      "has_obsidian_2x": "2024-07-10 15:01:00 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/obsidian_2x": {
+    "criteria": {
+      "has_obsidian_1x": "2024-07-10 15:01:02 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/obsidian_1x": {
+    "criteria": {
+      "has_obsidian_1x": "2024-07-10 15:01:02 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/decompress/blazing_crystal_block_1x": {
+    "criteria": {
+      "has_blazing_crystal_block_1x": "2024-07-11 11:44:02 +0000"
+    },
+    "done": true
+  },
+  "allthecompressed:recipes/building_blocks/compress/blazing_crystal_block_2x": {
+    "criteria": {
+      "has_blazing_crystal_block_1x": "2024-07-11 11:44:02 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/standard/fluid_storage_cell_1m": {
+    "criteria": {
+      "has_cell_component_1m": "2024-07-11 11:50:00 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/standard/fluid_storage_cell_1m_with_housing": {
+    "criteria": {
+      "has_cell_component_1m": "2024-07-11 11:50:00 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/cell_component_4m": {
+    "criteria": {
+      "has_cell_component_1m": "2024-07-11 11:50:00 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/standard/item_storage_cell_1m": {
+    "criteria": {
+      "has_cell_component_1m": "2024-07-11 11:50:00 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/crafting/bulk_cell_component": {
+    "criteria": {
+      "has_cell_component_1m": "2024-07-11 11:50:00 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/standard/item_storage_cell_1m_with_housing": {
+    "criteria": {
+      "has_cell_component_1m": "2024-07-11 11:50:00 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/standard/item_storage_cell_256m_with_housing": {
+    "criteria": {
+      "has_mega_item_cell_housing": "2024-07-11 11:50:12 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/standard/item_storage_cell_4m_with_housing": {
+    "criteria": {
+      "has_mega_item_cell_housing": "2024-07-11 11:50:12 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/standard/item_storage_cell_64m_with_housing": {
+    "criteria": {
+      "has_mega_item_cell_housing": "2024-07-11 11:50:12 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/cells/standard/item_storage_cell_16m_with_housing": {
+    "criteria": {
+      "has_mega_item_cell_housing": "2024-07-11 11:50:12 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/raw_azure_silver_block": {
+    "criteria": {
+      "has_item": "2024-07-11 11:52:57 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_silver_raw_ore_smelting": {
+    "criteria": {
+      "has_item": "2024-07-11 11:52:57 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/azure_silver_raw_ore_blasting": {
+    "criteria": {
+      "has_item": "2024-07-11 11:52:57 +0000"
+    },
+    "done": true
+  },
+  "silentgear:azure_silver": {
+    "criteria": {
+      "get_ore": "2024-07-11 11:52:57 +0000"
+    },
+    "done": false
+  },
+  "occultism:recipes/crushing/crushing/azure_silver_dust_from_raw": {
+    "criteria": {
+      "has_raw_azure_silver": "2024-07-11 11:52:57 +0000"
+    },
+    "done": true
+  },
+  "silentgear:recipes/misc/raw_azure_silver_from_block": {
+    "criteria": {
+      "has_item": "2024-07-11 11:52:57 +0000"
+    },
+    "done": true
+  },
+  "mekanism:cleaning_gauges": {
+    "criteria": {
+      "use_dropper": "2024-07-11 15:14:24 +0000"
+    },
+    "done": true
+  },
+  "mekanism:sna": {
+    "criteria": {
+      "solar_neutron_activator": "2024-07-11 15:32:14 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald_from_smelting_emerald_ore": {
+    "criteria": {
+      "has_emerald_ore": "2024-07-12 13:49:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/emerald_from_blasting_emerald_ore": {
+    "criteria": {
+      "has_emerald_ore": "2024-07-12 13:49:00 +0000"
+    },
+    "done": true
+  },
+  "create:haunted_bell": {
+    "criteria": {
+      "0": "2024-07-12 14:13:12 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/building_blocks/reprocessor/glass": {
+    "criteria": {
+      "has_item": "2024-07-12 14:15:21 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/misc/crafting/blutonium_component_to_storage": {
+    "criteria": {
+      "has_item": "2024-07-12 14:36:22 +0000"
+    },
+    "done": true
+  },
+  "bigreactors:recipes/misc/crafting/blutonium_ingot_to_nugget": {
+    "criteria": {
+      "has_item": "2024-07-12 14:36:22 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/iron_to_netherite_tier_upgrade": {
+    "criteria": {
+      "has_iron_to_diamond_tier_upgrade": "2024-07-12 16:24:57 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/fluid_pump": {
+    "criteria": {
+      "has_fluid_pipe": "2024-07-12 16:43:26 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/fluid_sorter": {
+    "criteria": {
+      "has_fluid_pipe": "2024-07-12 16:43:26 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/floodlight": {
+    "criteria": {
+      "has_light_bulb": "2024-07-12 16:43:27 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/cloche": {
+    "criteria": {
+      "has_light_bulb": "2024-07-12 16:43:27 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/electric_lantern": {
+    "criteria": {
+      "has_light_bulb": "2024-07-12 16:43:27 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/ingot_silver_to_storage_silver": {
+    "criteria": {
+      "has_ingot_silver": "2024-07-12 16:43:29 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/storage_silver_to_ingot_silver": {
+    "criteria": {
+      "has_storage_silver": "2024-07-12 16:43:29 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/uranium_ingot_from_raw_blasting": {
+    "criteria": {
+      "has_item": "2024-07-12 17:32:04 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/uranium_ingot_from_raw": {
+    "criteria": {
+      "has_item": "2024-07-12 17:32:04 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/uranium_dust_from_raw": {
+    "criteria": {
+      "has_raw_uranium": "2024-07-12 17:32:04 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/raw_uranium_block": {
+    "criteria": {
+      "has_raw_TagKey[minecraft:item / forge:raw_materials/uranium]": "2024-07-12 17:32:04 +0000"
     },
     "done": true
   },
