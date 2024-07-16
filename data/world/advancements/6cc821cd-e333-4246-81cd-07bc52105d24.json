@@ -12452,6 +12452,7 @@
       "hamburger": "2024-05-10 03:07:26 +0000",
       "fried_chicken": "2024-05-25 08:59:47 +0000",
       "beef_stew": "2024-06-06 08:03:01 +0000",
+      "buttered_toast": "2024-07-14 13:15:04 +0000",
       "cooked_shrimp": "2024-05-01 15:44:50 +0000",
       "fish_and_chips": "2024-05-14 14:01:51 +0000",
       "anchovy": "2024-05-01 15:50:25 +0000",
@@ -44697,45 +44698,15 @@
     },
     "done": true
   },
-  "create:recipes/building_blocks/cut_andesite_brick_slab": {
-    "criteria": {
-      "has_cut_andesite_bricks": "2024-07-12 16:10:51 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/small_andesite_brick_wall": {
-    "criteria": {
-      "has_small_andesite_bricks": "2024-07-12 16:10:58 +0000"
-    },
-    "done": true
-  },
   "chemlib:recipes/misc/uranium_ingot_from_smelting_uranium_dust": {
     "criteria": {
       "has_the_recipe": "2024-07-12 15:14:24 +0000"
     },
     "done": true
   },
-  "create:recipes/building_blocks/small_andesite_brick_stairs": {
-    "criteria": {
-      "has_small_andesite_bricks": "2024-07-12 16:10:58 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_andesite_brick_stairs": {
-    "criteria": {
-      "has_cut_andesite_bricks": "2024-07-12 16:10:51 +0000"
-    },
-    "done": true
-  },
   "occultism:recipes/misc/smelting/iesnium_ingot_from_dust": {
     "criteria": {
       "has_the_recipe": "2024-07-12 15:14:24 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/building_blocks/cut_andesite_brick_wall": {
-    "criteria": {
-      "has_cut_andesite_bricks": "2024-07-12 16:10:51 +0000"
     },
     "done": true
   },
@@ -44751,15 +44722,345 @@
     },
     "done": true
   },
+  "occultism:recipes/misc/smelting/iesnium_ingot": {
+    "criteria": {
+      "has_the_recipe": "2024-07-12 15:14:24 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_andesite_brick_slab": {
+    "criteria": {
+      "has_cut_andesite_bricks": "2024-07-12 16:10:51 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_andesite_brick_stairs": {
+    "criteria": {
+      "has_cut_andesite_bricks": "2024-07-12 16:10:51 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/cut_andesite_brick_wall": {
+    "criteria": {
+      "has_cut_andesite_bricks": "2024-07-12 16:10:51 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_andesite_brick_wall": {
+    "criteria": {
+      "has_small_andesite_bricks": "2024-07-12 16:10:58 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/small_andesite_brick_stairs": {
+    "criteria": {
+      "has_small_andesite_bricks": "2024-07-12 16:10:58 +0000"
+    },
+    "done": true
+  },
   "create:recipes/building_blocks/small_andesite_brick_slab": {
     "criteria": {
       "has_small_andesite_bricks": "2024-07-12 16:10:58 +0000"
     },
     "done": true
   },
-  "occultism:recipes/misc/smelting/iesnium_ingot": {
+  "twigs:recipes/basalt_blocks/polished_basalt_bricks": {
     "criteria": {
-      "has_the_recipe": "2024-07-12 15:14:24 +0000"
+      "has_item": "2024-07-13 14:51:14 +0000"
+    },
+    "done": true
+  },
+  "twigs:recipes/basalt_blocks/polished_basalt_bricks_stonecutting": {
+    "criteria": {
+      "has_item": "2024-07-13 14:51:14 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_andesite_stairs": {
+    "criteria": {
+      "has_polished_cut_andesite": "2024-07-13 15:16:13 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_andesite_slab": {
+    "criteria": {
+      "has_polished_cut_andesite": "2024-07-13 15:16:13 +0000"
+    },
+    "done": true
+  },
+  "create:recipes/building_blocks/polished_cut_andesite_wall": {
+    "criteria": {
+      "has_polished_cut_andesite": "2024-07-13 15:16:13 +0000"
+    },
+    "done": true
+  },
+  "create:clockwork_bearing": {
+    "criteria": {
+      "0": "2024-07-13 17:42:32 +0000"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/smelting/rune_from_smelting": {
+    "criteria": {
+      "has_item": "2024-07-14 07:15:37 +0000"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/blasting/rune_from_blasting": {
+    "criteria": {
+      "has_item": "2024-07-14 07:15:37 +0000"
+    },
+    "done": true
+  },
+  "forbidden_arcanus:recipes/misc/clibano_combustion/rune_from_clibano_combusting": {
+    "criteria": {
+      "has_item": "2024-07-14 07:15:37 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/armor_faraday_helmet": {
+    "criteria": {
+      "has_alu_plate": "2024-07-14 12:24:59 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/armor_faraday_leggings": {
+    "criteria": {
+      "has_alu_plate": "2024-07-14 12:24:59 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/chute_aluminum": {
+    "criteria": {
+      "has_plate": "2024-07-14 12:24:59 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/armor_faraday_boots": {
+    "criteria": {
+      "has_alu_plate": "2024-07-14 12:24:59 +0000"
+    },
+    "done": true
+  },
+  "immersiveengineering:recipes/misc/crafting/armor_faraday_chestplate": {
+    "criteria": {
+      "has_alu_plate": "2024-07-14 12:24:59 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/storage_stack_upgrade_tier_5_from_backpack_stack_upgrade_tier_4": {
+    "criteria": {
+      "has_backpack_stack_upgrade": "2024-07-14 12:42:57 +0000"
+    },
+    "done": true
+  },
+  "tempad:tempad": {
+    "criteria": {
+      "requirement": "2024-07-14 12:43:27 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/advanced_void_upgrade": {
+    "criteria": {
+      "has_void_upgrade": "2024-07-14 12:44:08 +0000"
+    },
+    "done": true
+  },
+  "sophisticatedstorage:recipes/misc/backpack_void_upgrade_from_storage_void_upgrade": {
+    "criteria": {
+      "has_storage_upgrade": "2024-07-14 12:44:08 +0000"
+    },
+    "done": true
+  },
+  "mekanism:quantum_entangloporter": {
+    "criteria": {
+      "quantum_entangloporter": "2024-07-14 12:45:51 +0000"
+    },
+    "done": true
+  },
+  "evilcraft:first_age": {
+    "criteria": {
+      "criteria_0": "2024-07-14 12:48:37 +0000"
+    },
+    "done": true
+  },
+  "croptopia:recipes/shaped_toast_sandwich": {
+    "criteria": {
+      "has_toast": "2024-07-14 13:15:04 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/p2p": {
+    "criteria": {
+      "certus": "2024-07-14 13:44:53 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/end": {
+    "criteria": {
+      "has_ender_eye": "2024-07-15 13:41:59 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/decorations/light_blue_sleeping_bag": {
+    "criteria": {
+      "has_light_blue_wool": "2024-07-15 14:59:17 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/combat/dying_existing_cap_light_blue": {
+    "criteria": {
+      "hasitem": "2024-07-15 14:59:33 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/combat/dying_existing_cap_blue": {
+    "criteria": {
+      "hasitem": "2024-07-15 14:59:33 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/combat/dying_existing_cap_yellow": {
+    "criteria": {
+      "hasitem": "2024-07-15 14:59:33 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/combat/dying_existing_cap_green": {
+    "criteria": {
+      "hasitem": "2024-07-15 14:59:33 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/combat/dying_existing_cap_white": {
+    "criteria": {
+      "hasitem": "2024-07-15 14:59:33 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/misc/crafting/conductor_whistle": {
+    "criteria": {
+      "has_item": "2024-07-15 14:59:33 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/combat/dying_existing_cap_orange": {
+    "criteria": {
+      "hasitem": "2024-07-15 14:59:33 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/combat/dying_existing_cap_purple": {
+    "criteria": {
+      "hasitem": "2024-07-15 14:59:33 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/combat/dying_existing_cap_lime": {
+    "criteria": {
+      "hasitem": "2024-07-15 14:59:33 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/combat/dying_existing_cap_light_gray": {
+    "criteria": {
+      "hasitem": "2024-07-15 14:59:33 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/combat/dying_existing_cap_cyan": {
+    "criteria": {
+      "hasitem": "2024-07-15 14:59:33 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/combat/dying_existing_cap_red": {
+    "criteria": {
+      "hasitem": "2024-07-15 14:59:33 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/combat/dying_existing_cap_pink": {
+    "criteria": {
+      "hasitem": "2024-07-15 14:59:33 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/combat/dying_existing_cap_magenta": {
+    "criteria": {
+      "hasitem": "2024-07-15 14:59:33 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/combat/dying_existing_cap_brown": {
+    "criteria": {
+      "hasitem": "2024-07-15 14:59:33 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/combat/dying_existing_cap_gray": {
+    "criteria": {
+      "hasitem": "2024-07-15 14:59:33 +0000"
+    },
+    "done": true
+  },
+  "railways:recipes/combat/dying_existing_cap_black": {
+    "criteria": {
+      "hasitem": "2024-07-15 14:59:33 +0000"
+    },
+    "done": true
+  },
+  "utilitarian:recipes/misc/snad/soul_snad": {
+    "criteria": {
+      "has_soul_sand": "2024-07-16 15:13:54 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/blocks/pattern_providers_interface_part": {
+    "criteria": {
+      "has_pattern_provider": "2024-07-16 14:16:40 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/parts/terminals_pattern_access": {
+    "criteria": {
+      "has_pattern_provider": "2024-07-16 14:16:40 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/pattern_encoding_terminal": {
+    "criteria": {
+      "certus": "2024-07-16 14:43:49 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/invar_ingot_from_dust": {
+    "criteria": {
+      "has_item": "2024-07-16 15:05:06 +0000"
+    },
+    "done": true
+  },
+  "megacells:recipes/misc/network/mega_pattern_provider": {
+    "criteria": {
+      "has_pattern_provider": "2024-07-16 14:16:40 +0000"
+    },
+    "done": true
+  },
+  "ae2:recipes/misc/network/crafting/patterns_blank": {
+    "criteria": {
+      "has_pattern_encoding_terminal": "2024-07-16 14:43:49 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/invar_ingot_from_dust_blasting": {
+    "criteria": {
+      "has_item": "2024-07-16 15:05:06 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/crushing/crushing/apatite_dust_from_gem": {
+    "criteria": {
+      "has_apatite_gem": "2024-07-16 15:00:58 +0000"
     },
     "done": true
   },
