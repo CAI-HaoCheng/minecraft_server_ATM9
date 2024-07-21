@@ -39908,5 +39908,71 @@
     },
     "done": true
   },
+  "handcrafted:recipes/misc/purple_cushion": {
+    "criteria": {
+      "has_purple_cushion": "2024-07-19 16:40:25 +0000"
+    },
+    "done": true
+  },
+  "comforts:sleeping_bag_purple": {
+    "criteria": {
+      "has_purple_wool": "2024-07-19 16:40:25 +0000"
+    },
+    "done": true
+  },
+  "cfm:recipes/decorations/purple_sofa": {
+    "criteria": {
+      "has_wool": "2024-07-19 16:40:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_bed": {
+    "criteria": {
+      "has_purple_wool": "2024-07-19 16:40:25 +0000"
+    },
+    "done": true
+  },
+  "comforts:hammock_purple": {
+    "criteria": {
+      "has_purple_wool": "2024-07-19 16:40:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_carpet": {
+    "criteria": {
+      "has_purple_wool": "2024-07-19 16:40:25 +0000"
+    },
+    "done": true
+  },
+  "ad_astra:recipes/misc/purple_flag": {
+    "criteria": {
+      "has_purple_flag": "2024-07-19 16:40:25 +0000"
+    },
+    "done": true
+  },
+  "handcrafted:recipes/misc/purple_sheet": {
+    "criteria": {
+      "has_purple_sheet": "2024-07-19 16:40:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/purple_banner": {
+    "criteria": {
+      "has_purple_wool": "2024-07-19 16:40:25 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/decorations/purple_sleeping_bag": {
+    "criteria": {
+      "has_purple_wool": "2024-07-19 16:40:25 +0000"
+    },
+    "done": true
+  },
+  "mekanism:radiation_poisoning": {
+    "criteria": {
+      "poisoned": "2024-07-20 05:07:40 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
