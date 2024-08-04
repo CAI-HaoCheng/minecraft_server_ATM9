@@ -45154,6 +45154,24 @@
     },
     "done": true
   },
+  "create:recipes/misc/crafting/kinetics/mysterious_cuckoo_clock": {
+    "criteria": {
+      "has_item": "2024-07-21 13:57:04 +0000"
+    },
+    "done": true
+  },
+  "create:display_link": {
+    "criteria": {
+      "0": "2024-07-21 13:59:35 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_cyan_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2024-07-21 14:01:10 +0000"
+    },
+    "done": true
+  },
   "computercraft:recipes/redstone/printer": {
     "criteria": {
       "has_computer": "2024-07-21 14:04:28 +0000"
@@ -45196,21 +45214,9 @@
     },
     "done": true
   },
-  "create:display_link": {
-    "criteria": {
-      "0": "2024-07-21 13:59:35 +0000"
-    },
-    "done": true
-  },
   "computercraft:recipes/redstone/turtle_normal": {
     "criteria": {
       "has_computer": "2024-07-21 14:04:28 +0000"
-    },
-    "done": true
-  },
-  "travelersbackpack:recipes/building_blocks/dye_cyan_sleeping_bag": {
-    "criteria": {
-      "has_needed_dye": "2024-07-21 14:01:10 +0000"
     },
     "done": true
   },
@@ -45229,12 +45235,6 @@
   "computercraft:recipes/redstone/turtle_advanced": {
     "criteria": {
       "has_computer": "2024-07-21 14:04:28 +0000"
-    },
-    "done": true
-  },
-  "create:recipes/misc/crafting/kinetics/mysterious_cuckoo_clock": {
-    "criteria": {
-      "has_item": "2024-07-21 13:57:04 +0000"
     },
     "done": true
   },
