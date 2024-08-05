@@ -1,7 +1,7 @@
 {
 	max_claim_chunks: 1000
 	max_force_load_chunks: 125
-	last_login_time: 1721659729128L
+	last_login_time: 1722866363905L
 	chunks: {
 		"minecraft:overworld": [
 			{ x: -12, z: 43, time: 1716472822603L }
@@ -247,12 +247,6 @@
 			max_force_loaded_chunks: 25
 			max_claimed_chunks: 500
 			offline_force_loader: 0b
-		}
-	}
-	prevented_access: {
-		6cc821cd-e333-4246-81cd-07bc52105d24: {
-			name: "darkhome"
-			when: 1721464642475L
 		}
 	}
 }

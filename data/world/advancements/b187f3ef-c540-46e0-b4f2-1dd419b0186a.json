@@ -39974,5 +39974,23 @@
     },
     "done": true
   },
+  "occultism:recipes/misc/blasting/silver_ingot_from_dust": {
+    "criteria": {
+      "has_silver_dust": "2024-08-04 14:31:10 +0000"
+    },
+    "done": true
+  },
+  "occultism:recipes/misc/smelting/silver_ingot_from_dust": {
+    "criteria": {
+      "has_silver_dust": "2024-08-04 14:31:10 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/cake_smithing": {
+    "criteria": {
+      "has_cake": "2024-08-05 14:51:08 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
