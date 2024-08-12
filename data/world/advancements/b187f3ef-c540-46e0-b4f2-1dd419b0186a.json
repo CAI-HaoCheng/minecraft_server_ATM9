@@ -39992,5 +39992,17 @@
     },
     "done": true
   },
+  "alltheores:recipes/misc/electrum_ingot_from_dust": {
+    "criteria": {
+      "has_item": "2024-08-11 10:13:29 +0000"
+    },
+    "done": true
+  },
+  "alltheores:recipes/misc/electrum_ingot_from_dust_blasting": {
+    "criteria": {
+      "has_item": "2024-08-11 10:13:29 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
