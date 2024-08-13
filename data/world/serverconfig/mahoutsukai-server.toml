@@ -60,6 +60,9 @@
 		DRAIN_LIFE_PUNISH_RESIST = 1.8
 		#Entities that won't be considered for the boundary
 		DRAIN_LIFE_ENTITY_BLACKLIST = []
+		#This is how many entities the circle can affect each tick
+		#Range: 0 ~ 100000000
+		DRAIN_LIFE_AFFECTED_LIMIT = 100000
 
 	[boundary.gravity]
 		#This is the mana cost per cycle
@@ -383,6 +386,10 @@
 		POWER_CONSOLIDATION_TIER_UPGRADE_ITEM = ["irons_spellbooks:ender_upgrade_orb"]
 		#Words which are considered unholy by Caliburn and Rhongomyniad
 		UNHOLY_WORDS = ["zomb", "vampir", "demon", "devil", "skele", "lich", "evil", "curse", "undead", "wither"]
+		#Should Caliburn be gated behind fun
+		CALIBURN_FUN_REQUIRED = false
+		#Mandatory fun requirements before you can get caliburn
+		CALIBURN_MANDATORY_FUN_REQUIREMENTS = ["EMRYS_HIT_PHANTOM", "SHOOT_A_SWORD", "SPATIAL_THROW_SOMETHING", "BORROWED_AUTHORITY_PUNCH", "BUTTERFLY_FUTURE_BLOCK_REMOVE", "GEAS_PICKUP_CANCEL", "CREEPER_BINDING_EYES", "CREEPER_POSSESSION", "SWAP_TWO_THINGS"]
 
 	[projection.rhongomyniad]
 		#Rhongomyniad Lake Nerf Factor
@@ -1325,4 +1332,11 @@
 	ARMOR_STANDS_IMMUNE = true
 	#Mahou Resets After Death
 	ONE_LIFE = false
+	#Names of magic circles to have restrictions
+	ACTIVE_MAGIC_CIRCLE_NAMES = ["mahoutsukai:mahoujin_drain_life_barrier"]
+	#How many active circles of one type a caster can have. Requires NAMES config
+	ACTIVE_MAGIC_CIRCLE_LIMITS = [10]
+	#How long before an active circle can be replaced
+	#Range: 0 ~ 10000000
+	ACTIVE_MAGIC_CIRCLE_REPLACEMENT_TIME = 201
 

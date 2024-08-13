@@ -25,8 +25,6 @@ inventoryScannerRange = 2
 maxAlarmRange = 100
 #Allow claiming unowned blocks?
 allowBlockClaim = false
-#Should the sentry/inventory scanner/laser block/etc. ignore players and entities that are invisible?
-respect_invisibility = false
 #Should reinforced blocks' textures be slightly darker than their vanilla counterparts? This does nothing unless force_reinforced_block_tint is set to true.
 reinforced_block_tint = true
 #Set this to true if you want to force the setting of reinforced_block_tint for players.
@@ -71,4 +69,13 @@ sentry_bullet_damage = 2
 sentry_attackable_entities_allowlist = []
 #Add entities to this list that the Sentry currently attacks, but that you want the Sentry to NOT attack. The denylist takes priority over the allowlist.
 sentry_attackable_entities_denylist = []
+#Set this to false to disallow players to activate night vision without having the potion effect when looking through cameras.
+allow_camera_night_vision = true
+#Defines the amount of time in milliseconds that needs to pass between two separate attempts from a player to enter a passcode.
+#Range: 0 ~ 2000
+passcode_check_cooldown = 250
+#Set this to false to disable the log warning that is sent whenever a player tries to enter a passcode while on passcode cooldown.
+passcode_spam_log_warning_enabled = true
+#The warning that is sent into the server log whenever a player tries to enter a passcode while on passcode cooldown. "%1$s" will be replaced with the player's name, "%2$s" with the passcode-protected object's name and "%3$s" with the object's position and dimension.
+passcode_spam_log_warning = "Player \"%1$s\" tried to enter a passcode into \"%2$s\" at position [%3$s] too quickly!"
 

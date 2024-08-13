@@ -35,3 +35,7 @@
 	#Range: 1 ~ 24
 	minimumRedstoneClockTick = 5
 
+["Better sleep"]
+	#Get rid of the "too far away" and "there are monsters nearby" errors when trying to sleep.
+	betterSleepEnabled = true
+

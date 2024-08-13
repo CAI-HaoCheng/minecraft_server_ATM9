@@ -3,7 +3,7 @@
 checkInterval = 10
 #Whether to allow flight using an elytra in a no flight zone
 allowElytraFlight = true
-#Whether to allow flight using a jetpack device in a no flight zone
+#Whether to allow flight using a flying device like a jetpack in a no flight zone
 allowFlyingDevices = true
 #Allow player teleportation in a no flight zone
 allowTeleporting = true
@@ -22,4 +22,14 @@ enablePunishOffenders = false
 zapInterval = 30
 #A list of game stage configurations unlocking flight in a dimension. The format is "checkType,check,game_stage" ex: "dimension,minecraft:the_nether,nether_unlocked" or "biome,minecraft:plains,stage_name"
 dimension_unlocks = []
+#Enable iron jetpacks compatibility.
+enableIronJetpacksCompat = true
+#Enable create jetpack compatibility.
+enableCreateJetpackCompat = true
+#Enable mekanism compatibility.
+enableMekanismCompat = true
+#Enable ad astra compatibility.
+enableAdAstraCompat = true
+#Enable pneumaticraft compatibility.
+enablePneumaticraftCompat = true
 
